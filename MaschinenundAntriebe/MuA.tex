@@ -1,0 +1,129 @@
+\documentclass[a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{textcomp}
+\usepackage[german]{babel}
+\usepackage{amsmath, amssymb}
+
+
+% figure support
+\usepackage{import}
+\usepackage{xifthen}
+\pdfminorversion=7
+\usepackage{pdfpages}
+\usepackage{transparent}
+\newcommand{\incfig}[1]{%
+    \def\svgwidth{\columnwidth}
+    \import{./figures/}{#1.pdf_tex}
+}
+
+\pdfsuppresswarningpagegroup=1
+
+\begin{document}
+\subsection*{18.10.2023}
+
+\section*{Wiederholung der letzten Woche}
+Wendepol hilft dabei, dass die Stromumkehr schneller stattfinden kann.
+weiters: Erregerwicklung, Ankerpolwicklung, \ldots\newline
+Siehe Abb 2.23 zur Verdeutlichung der Wirkung  der Wendepolwicklung.
+Die Zeitspanne die zur Auslegung der Wendeplwicklung notwendig ist, ergibt sich durch die Zeit, beim Wechsel zwischen der 2 kurzgeschlossenen Ankerpolwicklungen.
+Da die Kompensationswicklung auch schon zur Senkung der Flussdichte bei der kommutierung hilft, ist neben einer Kompensationswicklung eine weniger starke Wendepolwicklung notwendig.
+\section*{2.2. Bauformen}
+Heutiger Trend: gestanzte Maschinen. 
+Man beachte Situationen, bei denen bei niedrigen Drehzahlen, hohe Leistungen übertragen werden.
+In solchen Fällen muss ein Zwangslüfter verbaut werden.
+Beispiel: Aufzug der ohne Bremse stillsteht
+Gegenbeispiel: Pumpe, die geringen Fluss fördert
+
+Abb. 2.25: welchen Dauermagnet würdest du erwarten? Ferrit oder Neodym, Eisen Bohr?
+Man stelle sich vor, wie man die Feldlinien schließen muss:
+    wenige Pole -> Verhältnis zwischen Pol-Joch-Länge ist hoch -> nicht stark genug? keine Ahnung hab ich nicht verstanden
+daher muss es Ferrit sein
+
+Abb. 2.26: a) eher Ferritmagnet b) eher Hochenergiemagnet (neodym, eisen bohr)
+
+Abb. 2.27: logisch: eine Schleife muss immer etwa die Breite eines Hauptpols haben
+Anwendungen: Sonderbauform für Fahrräder, Scooter und einige weitere
+
+Abb. 2.28: nur die Wicklung dreht sich
+Vorteil:
+\begin{itemize}
+\item sehr geringes Trägheitsmoment -> sehr hohe Dynamik
+\item wenig Rippelmoment, da die Oberfläche eben ist
+\item kleine Induktivitäten
+\end{itemize}
+
+\subsection*{Magnetkreisauslegung}
+Verdeutlichung am Beispiel Abb. 2.30, siehe S64-S66 im Skriptum. Weiters siehe TUWEL-Aufgaben.
+
+Kennlinie Dauermagnet:
+B-H Kennlinie $B(H)=\frac{\Delta B}{\Delta H}$ 
+Als Analogon kann das Verhalten eines einfachen Stromkreises betrachtet werden: Batterie + Widerstand.
+Kennlinie Batterie:
+U-I Kennlinie:
+$U(I)$ konstante Spannung bis sich  $I$ an  $I_{max}$ annähert.
+ Wenn der Strom steigt, steigt die Spannung, bis der Strom zu groß ist und nicht mehr geliefert werden kann.
+
+ Anwendung des Durchflutungssatzes: $-2.H_{Luft}.\delta_{Luft}=H_{magnet}.\delta_{Magnet}$
+ Quellenfreiheit: $B_{Magnet}.A_{Magnet}=B_{Luft}.A_{Luft}$
+
+ $B_{Luft}=µ_0.H_{Luft}$
+ $H_{Luft}=\frac{B_{Luft}.A_{Magnet}}{µ_0.A{Luft}}$ 
+ Durch einsetzen in den Durchflutungssatz folgt:
+ $\frac{B_{Magnet}}{H_{Magnet}}=-\frac{d_{Magnet}.µ_0.A_{Luft}}{2.A_{Magnet}.\delta_{Luft}}$
+  Man sieht, dass dieses Ergebnis eine negative Steiung hat, während unsere B(H) Kennlinie vom Anfang (siehe auch Abb 2.29) eine positive Steigung hat. Aus dem Schnittpunkt kann ein Arbeitspunkt bestimmt werden.
+Notiz: Die Kennlinie des Dauermagnet muss nicht zwingend linear sein.
+
+\subsection*{2.3.1 Induzierte Spannung}
+Erinnerung: Verbraucherzählpfielsystem (VZPS) - Strom fließt aus der Quelle raus
+
+Nach dem VZPS würde der Schleifenstrom in Abb. 2.32 einen Fluss in die Zeichenebene hinein erzeugen.
+    ->Flüsse in die Zeichenebene hinein (Kreuze) müssen somit positiv und Flüsse aus der Ebene heraus (Punkte) müssen negative gezählt werden.
+Siehe Skriptum S67 und S68 für Rechenschritte. Herleitung gibt uns beschreibt die Flussverkettungsänderung über die Zeit.
+
+\subsection*{2.3.2 Kraft aus einen Leiter}
+Diesmal wird eine Stromquelle an den Klemmen vorgestellt.
+Abb.: Stromquelle als Trafo dargestellt parallel zur Schleife mit Klemmenspannung $U_K$
+
+$\Delta t . P=U_{13}.I.\Delta t$
+$\Delta W = U_{13}.I.\Delta t$
+Wenn die magnetische Arbeit kosntant bleibt, muss die gesamte elektrische Arbeit in mechanische Arbeit umgewandelt werden.
+Aus $\Phi = const$ und $I =const$ folgt  $L=const$ und daher auch  $W_{mag}=L^2.\frac{I}{2}=const$ 
+->$\Delta W=U_{13}.I.\Delta t = W_{mag} + W_{mech} = W_{mech}$
+
+\subsection*{2.3.3 Kraft auf Leiter in Nuten und im Luftspalt}
+siehe Abb. Tafelbild: quelle speist eine Schleife im Rotor, das Rotorfeld schließt sich über den Luftspalt + Anker
+siehe Diagram. Tafelbild: 
+$U=\frac{d\Phi}{dt}$ 
+$I=H.\delta .2$
+ $B=µ_0.H$
+  $\Phi=B.A=B.\frac{r.\pi.l}{2}=µ_0.\frac{I}{2\delta}.\frac{r.\pi.l}{2}=L.I$ 
+  $U=\frac{d\Phi}{dt}=L.\frac{dI}{dt}$ 
+
+$I.u_r=\frac{d\Phi}{dt}.I$ 
+$I.u.dt=I.d\Phi$ 
+$dW=I.d\Phi$
+ $A=L.\frac{I^2}{2}$ 
+ siehe Abbildung: Tafelbild: Diagram -> Joch -> Zoom
+siehe Abbildung: Tafelbild: Überlegungen mit Freilaufdioden
+siehe Abbildung: Tafelbild: Umrechnung auf Drehmoment
+Man beachte, das ist nur die eine Schleife, keine Erregung oder sonst etwas. Daher ist das die magnetische Energie, die die Schleife in diese Anordnung hinein.
+
+Wir sehen: Das Drehmoment ist dort sehr hoch, wo die Energieänderung sehr hoch ist. Man betrachte $M=\frac{\Delta W}{\Delta \gamma}$
+Abb. 2.33 sehr unverständlich erklärt.
+
+\section*{2.3.4 Gesamte an den Klemmen wirksame induzierte Spannung}
+Wurde nicht durchbesprochen aber Gl. 2.29 wurde betont.
+
+\section*{2.3.5  Gesamtes in der Mschine wirksames Drehmoment}
+Gleichung 2.33 ist ebenfalls wichtig.
+
+\section*{Zusammenfassung Gleichungen der GSM}
+\begin{itemize}
+    \item Doppelte Drehzahl -> doppelte Spannung
+    \item doppelter Fluss -> doppelte \ldots
+    /item etc.
+Das ist sehr wichtig.
+\end{itemize}
+\end{document}

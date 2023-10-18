@@ -1,0 +1,68 @@
+# 0. Vorbesprechung
+
+zukünftig von 11:15 bis 12:45
+Übungen immer in der 2. Stunde, Übungstermine folgen in TUWEL
+
+Kapitelzusammenfassung:
+-6: Sehr wichtig, sehr detailreich, mehr informationen als in sonst einer vorlesung, rechenintensiv und prüfungsrelevant
+-7: gegenteil von 6, nicht sehr intensiv und durchlesen sollte eher reichen
+-8: Anwendung aller vorherigen Kapitel
+
+
+# 1. Grundschaltungen
+# 1.1 Transistorgrundschaltungen
+# 1.1.1 Emitterschaltung
+brainstorming:
+- negative Verstärkung weil ein positives signal, immer die Ausgangsspannung zur Masse zieht
+- viel Spannungsverstärkung und viel Stromverstärkung
+
+Emitter-Schaltung weil Signal und Emitter auf gleiches Potential (Masse) bezogen werden
+
+TLDR: Kleinsignalersatzschaltbild - Schaltung wird mittels Stützkondensatoren,
+diese sind bei hocher frequenz angenähert kurzgeschlossen -> VCC wird zu Masse
+
+Steilheit S=dIc/dUBE|UCE=const = IC/UT=IC*q/(kB*T)=26mA/26mV=1S (wichtig!)
+
+# Stromgegenkopplung
+Widerstand am emitter
+
+# 1.1.2 Kollektorschaltung
+Zur Stromverstärkung (zB als Endstufe bei niedrigen Impedanzen, somit große Lasten treiben).
+Der Emitterfolger ist klassisch.
+
+# 1.1.3 Basisschaltung
+positive Verstärkung, keine Stromverstärkung!
+
+Der Rest der Grundschaltungen wird dort besprochen, wo es später gebraucht wird.
+
+# 2. Leistungsverstärker
+Spannung muss bereits zuvor aufbereitet worden sein.
+
+Klasse A Verstärker: Signal wird bei hohem Arbeitspunkt (mittels hoher Ruhe-
+stromversorgung) betrieben, um das gesamte Signal zu bewahren -> hohe Verluste
+Klasse B Verstärker: geringe Verlustleistung
+
+# 2.1 Betriebsarten und AP-Einstellung
+Bis zum Erreichen der Verlustleistungshyperbel kann noch gekühlt werden.
+Beim Erreichen zerstört sich der Transistor unabhängig von der Kühlung selbst.
+
+Stromflusswinkel:
+    A-Betrieb alpha = 360°
+    B-Betrieb alpha ~= 180° (starke Übernahmeverzerrungen - die hälfte fehlt)
+    AB-Betrieb alpha >=180° (geringe Übernahmeverzerrung um IA~=Iq)
+
+Weitere Betriebsarten sind für die Vorlesung nicht sehr relevant.
+Beispiele: C-Betrieb (alpha<180°), D-Betrieb (digital Pulse)
+
+Im D-Betrieb gibt es kaum Verluste (hohe Effizienz), weil entweder komplett
+durchgeschalten (kein Spannungsabfall) wird, oder komplett gesperrt (kein
+Stromfluss) wird.
+
+Der Arbeitspunkt kann mittels Emittergegenkopplung vor Examplarstreuungen
+geschützt werden.
+Aus der Basis-Masche der Emitterschaltung Ue=UBE+Ic*RE, wenn der 
+Transistor statistisch mehr Strom leitet, sinkt UBE und der Strom sinkt.
+Gleiches Prinzip zur thermischen Stabilisierung.
+
+Der Emitterwiderstand kann mit einem parallel Kondensator für hohe Frequenzen
+überbrückt werden.
