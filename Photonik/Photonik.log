@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2023.10.17)  19 OCT 2023 05:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2023.10.17)  19 OCT 2023 12:00
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -249,22 +249,298 @@ Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PDF
 Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
-)) [1
+))
+LaTeX Font Info:    Trying to load font information for U+msa on input line 28.
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 28.
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+Underfull \hbox (badness 10000) in paragraph at lines 36--40
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./Photonik.aux) ) 
+ []
+
+./Photonik.tex:48: Undefined control sequence.
+l.48          $-j\vec k(\epsilon_0 \vec E+\veP
+                                              )=0$  $\nabla $
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Photonik.tex:49: Undefined control sequence.
+l.49      \item 3) $\vec \nabla \x
+                                   \vec H&= \delta \frac{D}{\delta t} \cross...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Photonik.tex:49: Misplaced alignment tab character &.
+l.49      \item 3) $\vec \nabla \x \vec H&
+                                          = \delta \frac{D}{\delta t} \cross...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./Photonik.tex:49: Undefined control sequence.
+l.49 ...vec H&= \delta \frac{D}{\delta t} \crossed
+                                                  {\vec J}$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Photonik.tex:50: Undefined control sequence.
+l.50          $-j\vec k \x
+                           \vec H = j\omega \vec D$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Photonik.tex:52: Undefined control sequence.
+l.52 ...achte den Poyntingvektor $\vec S=\vec E \x
+                                                   \vec H$. Der Poyntingvekt...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Package amsfonts Warning: Obsolete command \bold; \mathbf should be used instead on input line 55.
+
+
+./Photonik.tex:55: LaTeX Error: \mathbf allowed only in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.55 \bold{Definition:}
+                       
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 62--63
+
+ []
+
+./Photonik.tex:64: Undefined control sequence.
+l.64 \vec \nabla \x
+                    (\vec \nabla \x \vec E) = -Âµ_0\frac{\delta}{\delta t}(\...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Photonik.tex:64: Undefined control sequence.
+l.64 \vec \nabla \x (\vec \nabla \x
+                                    \vec E) = -Âµ_0\frac{\delta}{\delta t}(\...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Command \textmu invalid in math mode on input line 64.
+
+
+LaTeX Warning: Command \textmu invalid in math mode on input line 64.
+
+./Photonik.tex:64: Undefined control sequence.
+l.64 ...Âµ_0\frac{\delta}{\delta t}(\vec \nabla \x
+                                                   k)
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Photonik.tex:65: Undefined control sequence.
+l.65 \vec \nabla \x
+                   (\vec \nabla \vec E)=-Âµ_0 \frac{\delta^2 \ldots}{\delta ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Command \textmu invalid in math mode on input line 65.
+
+
+LaTeX Warning: Command \textmu invalid in math mode on input line 65.
+
+
+LaTeX Warning: Command \textmu invalid in math mode on input line 69.
+
+
+LaTeX Warning: Command \textmu invalid in math mode on input line 69.
+
+./Photonik.tex:70: Undefined control sequence.
+l.70 \vec k = k_0.n.\vec e, \tab
+                                 k_0=\frac{\omega}{c_0}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Photonik.tex:71: Missing { inserted.
+<to be read again> 
+                   \gdef 
+l.71 ...n^2.\vec e(\vec e.\vec E)-\epsilon_\tilde.
+                                                  \vec E = 0, \epsilon_\tild...
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+./Photonik.tex:71: Missing { inserted.
+<to be read again> 
+                   \gdef 
+l.71 ...silon_\tilde.\vec E = 0, \epsilon_\tilde =
+                                                   [[\epsilon_x, 0,0][0,\eps...
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+./Photonik.tex:72: Missing { inserted.
+<to be read again> 
+                   \gdef 
+l.72 M_\tilde.
+              \vec E = 0
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+./Photonik.tex:73: Missing } inserted.
+<inserted text> 
+                }
+l.73 .\]
+        
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./Photonik.tex:73: Missing } inserted.
+<inserted text> 
+                }
+l.73 .\]
+        
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./Photonik.tex:73: Missing } inserted.
+<inserted text> 
+                }
+l.73 .\]
+        
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+Missing character: There is no µ in font cmr10!
+Missing character: There is no µ in font cmr10!
+Missing character: There is no µ in font cmr10!
+
+Overfull \hbox (425.62927pt too wide) detected at line 73
+[]\OT1/cmr/m/n/10 ([][]) = \OMS/cmsy/m/n/10 ^^@[][]\OT1/cmr/m/n/10 ([]\OML/cmm/m/it/10 k\OT1/cmr/m/n/10 )[]([][]) = \OMS/cmsy/m/n/10 ^^@[][][]\OT1/cmr/m/n/10 ([][]) \OMS/cmsy/m/n/10 ^^@ [][] \OT1/cmr/m/n/10 = [] []  =[]\OMS/cmsy/m/n/10 )  ^^@\OML/cmm/m/it/10 jk^^Nt  \OT1/cmr/m/n/10 =[]\OMS/cmsy/m/n/10 )  \OML/cmm/m/it/10 j! \OMS/cmsy/m/n/10 ^^@ []\OT1/cmr/m/n/10 ([][]) + \OML/cmm/m/it/10 k[]:[] \OT1/cmr/m/n/10 = []\OML/cmm/m/it/10 :![]^^O[]^^O:[][] \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 k[]:n:[]; k[] \OT1/cmr/m/n/10 = []\OML/cmm/m/it/10 n[][] \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 n[]:[]\OT1/cmr/m/n/10 ([]\OML/cmm/m/it/10 :[]\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 ^^O[]
+ []
+
+./Photonik.tex:74: Missing { inserted.
+<to be read again> 
+                   \gdef 
+l.74 Mit $det M_\tilde =
+                         0$ folgt deie Gleichung  $n^4.A+n^2.B+C=0$ mit den ...
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+./Photonik.tex:74: Missing } inserted.
+<inserted text> 
+                }
+l.74 Mit $det M_\tilde = 0$
+                            folgt deie Gleichung  $n^4.A+n^2.B+C=0$ mit den ...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+Overfull \hbox (386.96971pt too wide) detected at line 99
+\OML/cmm/m/it/10 e[]e[] \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 e[] \OT1/cmr/m/n/10 = 0[[\OML/cmm/m/it/10 n[] \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 n[]; \OT1/cmr/m/n/10 0\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 0][0\OML/cmm/m/it/10 ; \OMS/cmsy/m/n/10 ^^@\OML/cmm/m/it/10 n[]; \OT1/cmr/m/n/10 0][0\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 0\OML/cmm/m/it/10 ; n[] \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 n[]\OT1/cmr/m/n/10 ]][] = 0\OML/cmm/m/it/10 E[]:\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 n[] \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 n[]\OT1/cmr/m/n/10 ) = 0  =[]\OMS/cmsy/m/n/10 )  \OML/cmm/m/it/10 n[] \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 n[]  \OT1/cmr/m/n/10 =[]\OMS/cmsy/m/n/10 )  \OML/cmm/m/it/10 n \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 n[]E[]\OT1/cmr/m/n/10 (\OMS/cmsy/m/n/10 ^^@\OML/cmm/m/it/10 n[]\OT1/cmr/m/n/10 ) = 0  =[]\OMS/cmsy/m/n/10 )  \OML/cmm/m/it/10 E[] \OT1/cmr/m/n/10 = 0\OML/cmm/m/it/10 E[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 n[] \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 n[]\OT1/cmr/m/n/10 ) = 0  =[]\OMS/cmsy/m/n/10 )  \OML/cmm/m/it/10 n[] \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 n[]  \OT1/cmr/m/n/10 =[]\OMS/cmsy/m/n/10 )  \OML/cmm/m/it/10 n \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 n[]:
+ []
+
+
+Overfull \hbox (199.6172pt too wide) detected at line 110
+\OML/cmm/m/it/10 v[] \OT1/cmr/m/n/10 = [] = [] = []\OML/cmm/m/it/10 v[][] [] Gruppengeschwindigkeit\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 solltemanscheinbargelernthaben\OT1/cmr/m/n/10 )[] = []\OML/cmm/m/it/10 ! [] []:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 113--114
+
+ []
+
+
+./Photonik.tex:114: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.114 \subsubsection*{Die Wellenplatte}\newline
+                                               
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (480.04967pt too wide) detected at line 127
+\OML/cmm/m/it/10 y \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 k:d \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 k[]:n:dy[] \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 k[]:d:n[]y[] \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 k[]:d:n[][]n \OT1/cmr/m/n/10 = (\OML/cmm/m/it/10 E[]; E[]\OT1/cmr/m/n/10 )[]\OML/cmm/m/it/10 ut \OT1/cmr/m/n/10 = (\OML/cmm/m/it/10 E[]; E[]\OT1/cmr/m/n/10 ) = ((\OML/cmm/m/it/10 e[]y[]; \OT1/cmr/m/n/10 0)(0\OML/cmm/m/it/10 ; e[]y[]\OT1/cmr/m/n/10 ))\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 E[]; E[]\OT1/cmr/m/n/10 ) = \OML/cmm/m/it/10 e[]:\OT1/cmr/m/n/10 ((1\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 0)(0\OML/cmm/m/it/10 ; e[]\OT1/cmr/m/n/10 ^^A\OML/cmm/m/it/10 y\OT1/cmr/m/n/10 ))\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 E[]; E[]\OT1/cmr/m/n/10 )^^A\OML/cmm/m/it/10 y \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 k[]:d\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 n[] \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 n[]\OT1/cmr/m/n/10 ) =![]^^A\OML/cmm/m/it/10 nd \OT1/cmr/m/n/10 = [][] = []\OML/cmm/m/it/10 :
+ []
+
+[2] (./Photonik.aux) ) 
 Here is how much of TeX's memory you used:
- 5522 strings out of 476091
- 87344 string characters out of 5794080
- 1850330 words of memory out of 5000000
- 25831 multiletter control sequences out of 15000+600000
- 514590 words of font info for 35 fonts, out of 8000000 for 9000
+ 5568 strings out of 476091
+ 88019 string characters out of 5794080
+ 1866330 words of memory out of 5000000
+ 25858 multiletter control sequences out of 15000+600000
+ 520477 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,5n,76p,249b,143s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on Photonik.pdf (1 page, 17860 bytes).
+ 72i,6n,76p,356b,154s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on Photonik.pdf (2 pages, 162592 bytes).
 PDF statistics:
- 19 PDF objects out of 1000 (max. 8388607)
- 11 compressed objects within 1 object stream
+ 76 PDF objects out of 1000 (max. 8388607)
+ 46 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
