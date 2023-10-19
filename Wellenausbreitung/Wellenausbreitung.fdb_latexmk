@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1697725946 "Wellenausbreitung.tex" "Wellenausbreitung.pdf" "Wellenausbreitung" 1697725948 2
+["pdflatex"] 1697731058 "Wellenausbreitung.tex" "Wellenausbreitung.pdf" "Wellenausbreitung" 1697731060 2
   "/etc/texmf/web2c/texmf.cnf" 1696605536 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbx1000.tfm" 1136768653 3584 2d666ecf6d466d8b007246bc2f94d9da ""
@@ -23,7 +23,6 @@
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb" 1248133631 32762 224316ccc9ad3ca0423a14971cfa7fc1 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1248133631 32569 5e5ddc8df908dea60932f3c484a54c0d ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb" 1248133631 32716 08e384dc442464e7285e891af9f45947 ""
-  "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb" 1248133631 34694 ad62b13721ee8eda1dcc8993c8bd7041 ""
   "/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1461363279 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "/usr/share/texlive/texmf-dist/tex/generic/babel-dutch/dutch.ldf" 1630268686 6785 9a88117cf3b054cf3e3476265f93dce2 ""
   "/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty" 1672087451 151218 8947adcfe23774a8b34494ca536618c3 ""
@@ -82,8 +81,8 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1676468108 39561 34c98e380bf7c7201ee6a7909aff625a ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1697541792 4623455 fa0568a71dd9a288d6c226ee477506c6 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1697542099 7880626 5402103d86f4ed5e7d3d508d9027b452 ""
-  "Wellenausbreitung.aux" 1697725947 1438 98160fb1fa129a3c9799e3effc275993 "pdflatex"
-  "Wellenausbreitung.tex" 1697725939 12299 01f9b32d025b7c76f0cd5438bf1d2dbd ""
+  "Wellenausbreitung.aux" 1697731060 1438 98160fb1fa129a3c9799e3effc275993 "pdflatex"
+  "Wellenausbreitung.tex" 1697731054 11861 afab00431c49100b13070d88d900b65b ""
   (generated)
   "Wellenausbreitung.aux"
   "Wellenausbreitung.log"
