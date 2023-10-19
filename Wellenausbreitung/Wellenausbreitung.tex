@@ -21,15 +21,14 @@
 \pdfsuppresswarningpagegroup=1
 
 \begin{document}
-$\sum_{n=1}^{\infty} a_n z^n$
 \section{2.1 Ladungskontinuität}
 
 Maxwell ergänzt in der letzten Maxwellschen Gleichung die Summe der Leitungsströme mit der Änderung der Verschiebungsstromdichte.
 
-nabla.(nabla x H) = nabla . (S + dD/dt)
-= nabla.S + nabla(dD/dt)
-= nabla.S + d(nabla.D)/dt
-= nabla.S + drho/dt
+\nabla.(\nabla x H) = \nabla . (S + dD/dt)
+= \nabla.S + \nabla(dD/dt)
+= \nabla.S + d(\nabla.D)/dt
+= \nabla.S + drho/dt
 
 \section{2.2.1 Hilfsgleichung}
 Problem: 8 Maxwellgleichungen für 12 unbekannte, daher werden Hilfgleichungen benötigt
@@ -37,13 +36,13 @@ Problem: 8 Maxwellgleichungen für 12 unbekannte, daher werden Hilfgleichungen b
 el. und mag. FLussdichtegleichungen gelten in isotropen Medien (linear & homogen?)
 
 Rohacel
-nabla.(nabla x H)=balba.(S+dD/dt)
-nabla x E = -dB/dt
-nabla.D=rho (effektive Ladungsfreiheit bei fkleinergleich 10^18 Hz, bei diesen Wellenlängen ist lambda kleiner als der Atomradius, da hören die Kontinuutaetsannahmen auf)
-nabla.B=0
+\nabla\cdot(\nabla x H)=\nabla.(S+dD/dt)
+\nabla x E = -dB/dt
+\nabla.D=rho (effektive Ladungsfreiheit bei fkleinergleich 10^18 Hz, bei diesen Wellenlängen ist lambda kleiner als der Atomradius, da hören die Kontinuutaetsannahmen auf)
+\nabla.B=0
 
 aus 1 und 3:
-0 = nabla.S+drho/dt folgt sigma nabla.E+drho/dt=0
+0 = \nabla.S+drho/dt folgt sigma \nabla.E+drho/dt=0
                            sigma rho/epsilon+drho/dt=0
                                 rho(x,y,z,t), (x,y,z)element aus R^3, t element[0, inf)
                                 rho(x,y,z,t)=rho(x,y,z).e^(-t/tau_D)
@@ -64,21 +63,21 @@ tau_D von Kupfer = 8,854.10^-12 F/m / 60.10^6S/m~=10^-18s
 
 H(x,y,z,t)=Re{botH(x,y,z)e^jwt} ...Notiz: Spitzenwertzeiger botH
 
-nabla x botH = botS + jwbotD = sigma.botE + jwepsilon botE = (sigma + jwepsilon).botE = jwepsilon(1+sigma/jwepsilon).botE = jwepsilon (1 - jsigma/wepsilon).botE
-        nabla x botH = jw delta botE   ...delta = effektive Permitivität
-        nabla x botH = -jwµ botH
-nabla x botH = -jwbotB
-nabla.botD = -jwbotB
-nabla.botB = 0
+\nabla x botH = botS + jwbotD = sigma.botE + jwepsilon botE = (sigma + jwepsilon).botE = jwepsilon(1+sigma/jwepsilon).botE = jwepsilon (1 - jsigma/wepsilon).botE
+        \nabla x botH = jw delta botE   ...delta = effektive Permitivität
+        \nabla x botH = -jwµ botH
+\nabla x botH = -jwbotB
+\nabla.botD = -jwbotB
+\nabla.botB = 0
 
 \section{Poyntingscher Satz}
 gleichungen mit H und E multiplizieren
 
 Gleichungen subtrahieren
-Den Term nabla.(ExH) mittels Produktregel + Spatprodukt umformen auf H(nablaxE) - E(nablaxH)
+Den Term \nabla.(ExH) mittels Produktregel + Spatprodukt umformen auf H(\nablaxE) - E(\nablaxH)
 Weiter Produktregel an E und H term anwenden (x.dx/dt=betragx^2/2)
 
-nabla.(ExH) + sigma betragE^2 = -d/dt(epsilon betragE^2/2 + µbetrag(H)^2/2)
+\nabla.(ExH) + sigma betragE^2 = -d/dt(epsilon betragE^2/2 + µbetrag(H)^2/2)
 Abstrahlung   Heizung         =          elektromagnetische
 
 
@@ -135,9 +134,9 @@ Sommerfeldsche Ausstrahlungsbedingung: Wellen verschwinden in der Unendlichkeit
 
 \section{2.5 Lösung der Wellengleichung in kartesischen Koordinaten}
 Sei angemerkt: unter hinreichenden Bedingungen  gilt der Satz von schwartz.
-nabla x H = sigma E +epsilon partd/partdt E
-nabla x (nabla x H) = sigma(nablaxE)+epsilon partd/partdt(nabla x E)
-nabla(nabla H)-delta H = sigma()-µpartdH/partdt) + epsilon partd/partdt(-µpartdH/partdt)
+\nabla x H = sigma E +epsilon partd/partdt E
+\nabla x (\nabla x H) = sigma(\nablaxE)+epsilon partd/partdt(\nabla x E)
+\nabla(\nabla H)-delta H = sigma()-µpartdH/partdt) + epsilon partd/partdt(-µpartdH/partdt)
 delta H = µsigmapartdH/partdt+epsilon µ partd^2/partdt^2H          ... Telegraphengleichung für H, B, E, D
 In dieser VO wird hauptsächlich auf den Seperationsansatz eingegangen
 H=Re{botH(x,y,z).e^jwt}...partd/partdt wird laplace transformiert
@@ -150,8 +149,8 @@ Nächste Woche Di: Seperationsansatz (sollte man aus Mathe noch kennen)
 \section{2.5.1 Löungsansätze}
 Methode 1: E=a.psi
 Methode 2:
-    Reines Wirbelfeld E bzw H=nabla x (a.psi)=-a x nabla.psi
-    Durch Wiederholung: nabla x ( nabla x (a.psi))
+    Reines Wirbelfeld E bzw H=\nabla x (a.psi)=-a x \nabla.psi
+    Durch Wiederholung: \nabla x ( \nabla x (a.psi))
     Mit genügend Wiederholungen kann die Elektrodynamik gelöst werden.
 
 Methode 3: Ansatz mittels elektrodynamischer Potentiale
