@@ -1,0 +1,102 @@
+\documentclass[a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{textcomp}
+\usepackage[german]{babel}
+\usepackage{amsmath, amssymb}
+
+
+% figure support
+\usepackage{import}
+\usepackage{xifthen}
+\pdfminorversion=7
+\usepackage{pdfpages}
+\usepackage{transparent}
+\newcommand{\incfig}[1]{%
+    \def\svgwidth{\columnwidth}
+    \import{./figures/}{#1.pdf_tex}
+}
+
+\pdfsuppresswarningpagegroup=1
+
+\begin{document}
+\section*{WIederholung}
+    \begin{itemize}
+        \item x\ldots Eingang
+        \item u \ldots Zusatnd
+        \item y \ldots Ausgang
+    \end{itemize}
+    Ein LTI-SISO-System ist definiert als
+    \[
+    \dot x=A\cdot x + b\cdot u, x_0
+    y=c^T + d\xdot u
+    folglich
+    x=V\dot z \ldots V ist regulär
+    \dot x = V . \dot z = A. V. z + b.u
+    \dot z = V^-1.A.V.z + V^-1.b.u
+    y= c^T.V.z + d.u
+    .\]
+    Bestimmung der Eigenwerte:
+    \[
+    det(\lambda .E - A)=0
+    det(V^-1).det(\lambda . E - A).det(V)=0
+    det(\lambda . V^-1.V - V^-1.A.V)=0
+    det(\lambda .E - \tilde A)=0
+    \bold{det(V.A)=det(V).det(A)}
+    .\] 
+Die Gleichungen sind äquivalent, die Dynamik des Systems bleibt unverändert.\newline
+Die Nullstellen des charakterisitischen Polynoms werden als die "Wurzel des Polynoms" bezeichnet. Das liegt daran, dass die Nullstellen des Nennerpolynoms Polstellen und die des Zählerpolynoms Nullstellen genannt werden.
+Die Eigenwerte charakterisieren die Dynamik, und diese wird sich nicht ändern, man wird nur mal anders draufschauen.\newline
+Fallunterscheidungen der Eigenwerte im Rahmen dieser VO:
+\begin{itemize}
+    \item relle Eigenwerte
+    \item konjugiert komplexe Eigenwerte
+    \item Vielfachheiten (geom. und algebraisch)
+        Die Geometrische Vielfachheit ist beschrieben, durch den Rangeinbruch der Matrix A. (Man setzt also einen Eigenwert in $det(\lambda E-A)$ ein, und schaut, wie weit der Rang zurückgeht; siehe Beispiel)
+\end{itemize}
+Warum brauchen wir Diagonalmatrizen? Es ist viel einfacher beim Lösen, die Eigenwerte spiegeln sich so in Exponentialfunktionen wieder. Die Lösungen von z und x lassen sich ineinander umrechnen.\newline
+\section*{Wichtiges beispiel 3.1:}
+$\dot x = A . x = [[3,2,-2], [0, 1, 0], [0, 0, 1]].x$
+Die Eigenwerte einer Dreiecksmatrix liegen IMMER auf der Diagonale. (wichtig für Prüfungen)
+$(A-\lamda_i.E).v_i=0$, $i \in {1,2,3}$
+Für $\lambda_1=3$:
+$\implies v_{13}=0, v_{1,2}=0, v_{11}=beliebig$
+$[v_{11}, 0, 0], v_{11}\neq 0$
+Für $\lambda_2=1$:
+Durch einsetzen sieht man:
+rang(A-1.E)=1
+$dim(Kern(A-1.E))=3-rang(A-1.E)=2$  \ldots der "Verlust" den man hat, ist immer die Dim. des Kerns
+analog wie zuvor ergibt sich:
+$2.v_{21}+2.v_{22}-2.v_{23}=0$
+$[-v_{22}+v_{23}, v_{22}, v_{23}]$
+Es können einige Variablen gewählt werden. Gewählt wurden
+$V=[v_1 v_2 v_3]=[[1, 0, 0][0, 1, 1][-1, 1, 0]]$
+$\dot z =V^-1.A.V.z=\tilde A=[[3, 0, 0],[0, 1, 0], [0, 0, 1]].z, z(9)=z_0=V^-1.x_0$
+$\tilde \Phi=[[\exp(3t), 0, 0],[0, \exp(t), 0],[0, 0, \exp(t)]]$
+\section*{3.2.2 Notwendikeit von Hauptvektoren}
+$(A-\lambda .E)v_1=$ wird gelöst, woraus dann die restlichen Hauptvektoren bestimmt werden können:
+$(A-\lambda E)v_{j+1}=v$
+Nach Herleitung wie im Skriptum folgt:
+ $A.V=v.(\lambda.E+N)$
+ Beispiel:  Berechne $V.N$, wobei  $V \in R^{n x n}$
+N ist eine nilpotente Matrix, die wie ein Schieberegister funktioniert, sie verschiebt alle Spaltenvektoren um eine Stelle nach rechts. Nach genügend vielen Schritten kommt immer eine Nullmatrix raus!
+\newline
+Wenn gilt $A.B=B.a$, dann gilt $\exp(A+B)=\exp(A)\exp(B)$. Damit folgt aus 3.24 die Lösung 2.25.
+Was sehen wir: Das Lösungsverhalten wird durch den Eigenwert dominiert. Hiermit wurde das Lösungsverhalten gezeigt, wenn die algebraische Vielfachheit größer als die geometrische ist.
+
+ Keine Ahnung was das hier werden soll:
+ $[[v_{11,R}+I.v_{11,R}, v_{12,R}+I.v_{12,R}], [v_{11,R}-I.v_{11,R}, v_{12,R}-I.v_{12,R}]].\frac{1}{2}.[[1, 1], [-I, I]]=[[v_{11,R}, v_{12,R}],[v_{11,I}, v_{12,I}]$
+
+ \subsection*{3.irgendwas Zusammenfassung}
+ Man betrachte wieder die Fallunterscheidung der Eigenwerte. Die Eigenwerte bestimmen nämlich das Lösungsverhalten.\newline
+
+Beispiel: Unbedingt selbstständig durchrechnen (er hat das Beispiel nur durchbesprochen)
+
+Mit der Dynamikmatrix, im speziellen mit ihrer Eigenwerte, identifizieren wir das Verhalten. Im Weiteren wird die Stabilität beurteilt. Wir haben heute die Fallunterscheidungen der Eigenwerte untersucht, weil uns die Lage der Eigenwerte extrem viel sagen.
+\section*{3.3 Allgemeines Lösungsverhalten}
+Ein lineares System kann nicht, in endlicher Zeit nach unendlich oder gegen 0 gehen. Ein nichtlineares System kann das. Siehe Satz 3.3. Mit Satz 3.4 haben wir den ersten Stabilitätsbegriff kennengelernt.
+
+\section*{Nächstes Mal:}
+Was ist die Bedeutung des Eigenvektors. Im Beispiel der Flugtechnik ist weiters die Richtung notwendig, da wird der EigenVEKTOR notwendig.
+\end{document}
