@@ -62,30 +62,29 @@ Anfangsladungsverteilung:
 \[Q_{0}=rect_{-t_{0}}(t) - rect_{t_{0}}(t)\]
 Wobei bei Kupfer $\tau_{D} = 8,854.10^-12 F/m / 60.10^6S/m~=10^-18s$ gilt. 
 
-$H(x,y,z,t)=Re{botH(x,y,z)e^jwt}$ ...Notiz: Spitzenwertzeiger botH
+$H(x,y,z,t)=Re\{\underline{H}(x,y,z)e^{jwt}\}$ ...Notiz: Spitzenwertzeiger $\underline{H}$
 
-\[\nabla x botH = botS + jwbotD = sigma.botE + jwepsilon botE = (sigma + jwepsilon).botE = jwepsilon(1+sigma/jwepsilon).botE = jwepsilon (1 - jsigma/wepsilon).botE\]
-        \nabla x botH = jw delta botE   ...delta = effektive Permitivität
-        \nabla x botH = -jwµ botH
-\nabla x botH = -jwbotB
-\nabla.botD = -jwbotB
-\nabla.botB = 0
+\[\nabla \times \underline{H} = \underline{S} + j\omega \underline{D} = \sigma\cdot \underline{E} + j\omega\epsilon \underline{E} = (\sigma + j\omega\epsilon)\cdot \underline{E} = j\omega\epsilon(1+\frac{\sigma}{j\omega\epsilon})\cdot \underline{E} = j\omega\epsilon(1 - \frac{j\sigma}{\omega\epsilon})\cdot \underline{E}\]
+$\nabla \times \underline{H}= j\omega \delta \underline{E}$...$\delta$ = effektive Permitivität
+\[\nabla \times  \underline{H} = -j\omega\mu \underline{H}\]
+\[\nabla \times  \underline{H} = -j\omega \underline{B}\]
+\[\nabla\cdot \underline{D} = -j\omega \underline{B}\]
+\[\nabla\cdot \underline{B} = 0\]
 
 \section{Poyntingscher Satz}
-gleichungen mit H und E multiplizieren
+\begin{itemize}
+    \item Gleichungen mit $H$ und $E$ multiplizieren
+    \item Gleichungen subtrahieren
+    \item den Term $\nabla\cdot (E\times H)$ mittels Produktregel + Spatprodukt umformen auf $H\cdot (\nabla\times E) - E\cdot (\nabla\times H)$
+    \item Weiter Produktregel an $E$ und $H$ Termen anwenden
+\end{itemize}
+\[(x\cdot \frac{dx}{dt}= |x|^2/2)\]
+\[\nabla\cdot (E\times H) + \sigma |E|^2 = -\frac{d}{dt}(\epsilon |E|^2/2 + \mu|H|^2/2)\]
+Abstrahlung + Heizung = elektromagnetische\newline
+Die dielektrischen Verluste wachsen direkt proportional zur Frequenz.
 
-Gleichungen subtrahieren
-Den Term \nabla.(ExH) mittels Produktregel + Spatprodukt umformen auf H(\nablaxE) - E(\nablaxH)
-Weiter Produktregel an E und H term anwenden (x.dx/dt=betragx^2/2)
-
-\nabla.(ExH) + sigma betragE^2 = -d/dt(epsilon betragE^2/2 + µbetrag(H)^2/2)
-Abstrahlung   Heizung         =          elektromagnetische
-
-
-Die dielektrischen Veruste wachsen direkt proportional zur Frequenz.
-
-E(x,y,z,t)=Re{E(x,y,z,t)e^jwt}
-H(x,y,z,t)=1/2(botH(x,y,z,t)e^jwt + botHkomkonj(x,y,z)e^-jwt)
+\[E(x,y,z,t)=Re{E(x,y,z,t)\cdot e^{j\omega t}}\]
+\[H(x,y,z,t)=\frac{1}{2}(\underline{H}(x,y,z,t)\cdot e^{j\omega t} + \underline{H}\ast(x,y,z)\cdot e^{-j\omega t})\]
 E(x,y,z,t)xH(x,y,z,t)=Re{botE(x,y,z)ejwt} x 1/2(botHe^jwt+botHkomkonj.e^-jwt)
                     =Re{1/2botExbotHkomkonj + 1/2*botExbotHe^2jwt}
                     stationärer Energifluss        Pendelt
