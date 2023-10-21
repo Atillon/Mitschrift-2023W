@@ -36,7 +36,7 @@ Problem: 8 Maxwellgleichungen für 12 unbekannte, daher werden Hilfgleichungen b
 el. und mag. FLussdichtegleichungen gelten in isotropen Medien (linear \& homogen?)
 
 
-$\rho$(ausgprochen Rohacel)\newline
+\subsection*{$\rho$ (ausgeprochen Rohacel)}
 \[\nabla\cdot(\nabla x H)=\nabla\cdot (S+\frac{dD}{dt})\]
 \[\nabla xE = -\frac{dB}{dt}\]
 \[\nabla \cdot D=\rho\]
@@ -47,23 +47,23 @@ aus 1 und 3:
 
 \[0 = \nabla\cdot S+\frac{d\rho}{dt} \text{folgt} \sigma \nabla\cdot E+\frac{drho}{dt}=0\]
 \[\sigma \rho\epsilon+\frac{d\rho}{dt}=0\]
-\[\rho(x,y,z,t), (x,y,z)\in \R^{3}, t\in 0, inf \]
+\[\rho (x,y,z,t) \text{with} (x,y,z) \in \mathbb{R}^{3}, t\in 0, inf \]
 \[\rho(x,y,z,t)=\rho(x,y,z)\cdot e^{-\frac{t}{\tau_{D}}}\]
 \[S = \sigma E\]
 \[D=\epsilon E\]
-\[\frac{\sigma}{\epsilon} \rho_{0}(x,y,z)\cdot e^{-\frac{t}{\tau_{D} + \rho_{0}(x,y,z)(\frac{-1}{\tau_{D}})e^{\frac{-t}{\tau_{D}}}=0\]
+\[\frac{\sigma}{\epsilon} \rho_{0}(x,y,z)\cdot e^{\frac{-t}{\tau_{D}}} + \rho_{0}(x,y,z)(\frac{-1}{\tau_{D}})e^{\frac{-t}{\tau_{D}}}=0\]
 \[\frac{\sigma}{\epsilon}= \frac{1}{\tau_{D}}, \tau_{D}=\frac{\epsilon}{\sigma}\]
 allgemeine Lösung = homogen + partikulär
 \[\rho(x,y,z) = \rho_{0}(x,y,z)\cdot e^(-\frac{t}{\tau_{D}}) + \text{partikuläre Lösung}\]
-\[\int_{\R^3}(\rho(x,y,z,t))dxdydz = \int_{\R^2}(\rho_{0}(x,y,z)\cdot e^\frac{-t}{\tau_{D}})dxdydz\]
+\[\int_{\mathbb{R}^3}(\rho(x,y,z,t))dxdydz = \int_{\mathbb{R}^2}(\rho_{0}(x,y,z)\cdot e^\frac{-t}{\tau_{D}})dxdydz\]
 \[= e^\frac{-t}{\tau_{D}}, Q(t)=e^\frac{-t}{\tau_{D}}\cdot Q_{0}\]
 Anfangsladungsverteilung:
 \[Q_{0}=rect_{-t_{0}}(t) - rect_{t_{0}}(t)\]
 Wobei bei Kupfer $\tau_{D} = 8,854.10^-12 F/m / 60.10^6S/m~=10^-18s$ gilt. 
 
-H(x,y,z,t)=Re{botH(x,y,z)e^jwt} ...Notiz: Spitzenwertzeiger botH
+$H(x,y,z,t)=Re{botH(x,y,z)e^jwt}$ ...Notiz: Spitzenwertzeiger botH
 
-\nabla x botH = botS + jwbotD = sigma.botE + jwepsilon botE = (sigma + jwepsilon).botE = jwepsilon(1+sigma/jwepsilon).botE = jwepsilon (1 - jsigma/wepsilon).botE
+\[\nabla x botH = botS + jwbotD = sigma.botE + jwepsilon botE = (sigma + jwepsilon).botE = jwepsilon(1+sigma/jwepsilon).botE = jwepsilon (1 - jsigma/wepsilon).botE\]
         \nabla x botH = jw delta botE   ...delta = effektive Permitivität
         \nabla x botH = -jwµ botH
 \nabla x botH = -jwbotB
