@@ -22,34 +22,38 @@
 \pdfsuppresswarningpagegroup=1
 
 \begin{document}
-\section{2.1 Ladungskontinuität}
+\section*{2.1 Ladungskontinuität}
 Maxwell ergänzt in der letzten Maxwellschen Gleichung die Summe der Leitungsströme mit der Änderung der Verschiebungsstromdichte.
 
 \[
 \nabla \cdot (\nabla \times H) = \nabla \cdot S + \nabla\cdot\frac{dD}{dt}
 = \nabla\cdot S + \frac{d\nabla\cdot D}{dt}
-= \nabla\cdot S + \frac{drho}{dt}
+= \nabla\cdot S + \frac{d\rho}{dt}
 \]
 
-\section{2.2.1 Hilfsgleichung}
-Problem: 8 Maxwellgleichungen für 12 unbekannte, daher werden Hilfgleichungen benötigt
+\section*{2.2.1 Hilfsgleichung}
+Problem: 8 Maxwellgleichungen für 12 unbekannte, daher werden Hilfgleichungen benötigt.\newline
+el. und mag. FLussdichtegleichungen gelten in isotropen Medien (linear \& homogen?)
 
-el. und mag. FLussdichtegleichungen gelten in isotropen Medien (linear & homogen?)
 
-Rohacel
-\nabla\cdot(\nabla x H)=\nabla.(S+dD/dt)
+$\rho$(ausgprochen Rohacel)\newline
+\[
+\nabla\cdot(\nabla x H)=\nabla\cdot (S+\frac{dD}{dt})
 \nabla xE = -\frac{dB}{dt}
-$\nabla . D=rho$ (effektive Ladungsfreiheit bei fkleinergleich 10^18 Hz, 
-bei diesen Wellenl\"angen ist lambda kleiner als der Atomradius, da hören die Kontinuutaetsannahmen auf)
+$\nabla \cdot D=\rho$
+\]
+
+(effektive Ladungsfreiheit bei $f\le 10^18 Hz$ - bei diesen Wellenlängen ist \lambda kleiner als der Atomradius, da hören die Kontinuitätsannahmen auf)
 $\nabla.B=0$
 aus 1 und 3:
-0 = \nabla.S+drho/dt folgt sigma \nabla.E+drho/dt=0
-                           sigma rho/epsilon+drho/dt=0
-                                rho(x,y,z,t), (x,y,z)element aus R^3, t element[0, inf)
-                                rho(x,y,z,t)=rho(x,y,z).e^(-t/tau_D)
-S = sigmaE
-D=epsilonE
-
+\[
+    0 = \nabla\cdot S+\frac{d\rho}{dt} \text{folgt} \sigma \nabla\cdot E+\frac{drho}{dt}=0
+    \sigma \rho\epsilon+\frac{d\rho}{dt}=0
+    \rho(x,y,z,t), (x,y,z)\in \R^3, t\in\[0, inf\)
+    \rho(x,y,z,t)=\rho(x,y,z)\cdot e^(-\frac{t}{\tau_{D}})
+S = \sigma E
+D=\epsilon E
+\]
 sigma/epsilon rho_0(x,y,z)e^(-t/tau_D) + rho_0(x,y,z)(-1/tau_d)e^(-t/tau_D)=0
 sigma/epsilon = 1/tau_D, tau_D=epsilon/sigma
 allgemeine Lösung = homogen + partikulär
