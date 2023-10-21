@@ -51,18 +51,15 @@ aus 1 und 3:
 \[\rho(x,y,z,t)=\rho(x,y,z)\cdot e^{-\frac{t}{\tau_{D}}}\]
 \[S = \sigma E\]
 \[D=\epsilon E\]
-
-sigma/epsilon rho_0(x,y,z)e^(-t/tau_D) + rho_0(x,y,z)(-1/tau_d)e^(-t/tau_D)=0
-sigma/epsilon = 1/tau_D, tau_D=epsilon/sigma
+\[\frac{\sigma}{\epsilon} \rho_{0}(x,y,z)\cdot e^{-\frac{t}{\tau_{D} + \rho_{0}(x,y,z)(\frac{-1}{\tau_{D})e^{\frac{-t}{\tau_{D}}}=0\]
+            \[\frac{\sigma}{\epsilon}= \frac{1}{\tau_{D}}, \tau_{D}=\frac{\epsilon}{\sigma}\]
 allgemeine Lösung = homogen + partikulär
-rho(x,y,z) = rho_0(x,y,z).e^(-t/tau_D) + partikuläre Lösung
-int_R^3(rho(x,y,z,t))dxdydz = int_R^2(rho_0(x,y,z)e^-t/tau_D)
-                            = e^(-t/tau_D)
-                            Q(t)=e^(-t/tau_D).Q_0
-Anfangsladungsverteilung
-Q_0=rect-t_0(t) - rectt_0(t)
-
-tau_D von Kupfer = 8,854.10^-12 F/m / 60.10^6S/m~=10^-18s
+\[\rho(x,y,z) = \rho_{0}(x,y,z)\cdot e^(-\frac{t}{\tau_{D}}) + \text{partikuläre Lösung}\]
+\[\int_{\R^3}(\rho(x,y,z,t))dxdydz = \int_{\R^2}(\rho_{0}(x,y,z)\cdot e^\frac{-t}{\tau_{D}})dxdydz\]
+\[= e^\frac{-t}{\tau_{D}}, Q(t)=e^\frac{-t}{\tau_{D}}\cdot Q_{0}\]
+Anfangsladungsverteilung:
+\[Q_{0}=rect_{-t_{0}}(t) - rect_{t_{0}}(t)\]
+Wobei bei Kupfer $\tau_{D} = 8,854.10^-12 F/m / 60.10^6S/m~=10^-18s$ gilt. 
 
 H(x,y,z,t)=Re{botH(x,y,z)e^jwt} ...Notiz: Spitzenwertzeiger botH
 
