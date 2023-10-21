@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1697906145 "Wellenausbreitung.tex" "Wellenausbreitung.pdf" "Wellenausbreitung" 1697906148 2
+["pdflatex"] 1697918380 "Wellenausbreitung.tex" "Wellenausbreitung.pdf" "Wellenausbreitung" 1697918382 2
   "/etc/texmf/web2c/texmf.cnf" 1696605536 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbx1000.tfm" 1136768653 3584 2d666ecf6d466d8b007246bc2f94d9da ""
@@ -80,8 +80,8 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1676468108 39561 34c98e380bf7c7201ee6a7909aff625a ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1697541792 4623455 fa0568a71dd9a288d6c226ee477506c6 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1697542099 7880626 5402103d86f4ed5e7d3d508d9027b452 ""
-  "Wellenausbreitung.aux" 1697906147 1438 e5c8495febd44f784a7a4367bc969265 "pdflatex"
-  "Wellenausbreitung.tex" 1697906139 11553 0099d61749e9dad2905a89b9bf592ec2 ""
+  "Wellenausbreitung.aux" 1697918381 1438 e5c8495febd44f784a7a4367bc969265 "pdflatex"
+  "Wellenausbreitung.tex" 1697917787 11567 3dda80fe65343aac4eb851cd18f21881 ""
   (generated)
   "Wellenausbreitung.aux"
   "Wellenausbreitung.log"
