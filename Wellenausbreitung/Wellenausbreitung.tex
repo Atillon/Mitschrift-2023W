@@ -8,7 +8,6 @@
 \usepackage{amsmath, amssymb}
 \usepackage{accents}
 
-
 % figure support
 \usepackage{import}
 \usepackage{xifthen}
@@ -105,7 +104,7 @@ Platten mit entgegengesetzten Kräften aneinander reiben.\newline
 Dinge des Tages:
 \begin{itemize}
     \item Gerade Einzeldrahtantenne mit induktiver Kopplung in der Mitte. Die Kopplung teilt die Antenne in zwei Teile für kurz- und langwellige Signale.\newline
-       Skizze: ---a---===---b---
+       Skizze: ------a------===------b------
                 $\lambda_{a}~=70cm | \lambda_{b}~=100cm$
     \item Koaxialkabel
     \item Wifi-Antenne: Diese haben "gespiegelte" Stecker, damit normale Koaxialantennen nicht in einen Router passen. Mehr dazu in Kapitel 11
@@ -125,93 +124,91 @@ Analoges kann für die magnetische Feldstärke durchgeführt werden.\newline
 Die elektrischen Flächenladungen die in den Ergebnissen auftreten, spielen in
 dieser Vorlesung keine Rolle und daher gibt es auch keine Beispiele dazu.
 Die Flächenstromdichte spielt sehr wohl eine Rolle (Skineffekt).\newline\newline
-Sommerfeld'sche Ausstrahlungsbedingung: Wellen verschwinden in der Unendlichkeit
+Sommerfeld'sche Ausstrahlungsbedingung: Wellen verschwinden in der Unendlichkeit\newline
 (Mathematische Formulierung wird erstmal nicht durchgeführt)
 
-\section{2.5 Lösung der Wellengleichung in kartesischen Koordinaten}
-Sei angemerkt: unter hinreichenden Bedingungen  gilt der Satz von schwartz.
-\nabla x H = sigma E +epsilon partd/partdt E
-\nabla x (\nabla x H) = sigma(\nablaxE)+epsilon partd/partdt(\nabla x E)
-\nabla(\nabla H)-delta H = sigma()-µpartdH/partdt) + epsilon partd/partdt(-µpartdH/partdt)
-delta H = µsigmapartdH/partdt+epsilon µ partd^2/partdt^2H          ... Telegraphengleichung für H, B, E, D
-In dieser VO wird hauptsächlich auf den Seperationsansatz eingegangen
-H=Re{botH(x,y,z).e^jwt}...partd/partdt wird laplace transformiert
-delta botH = jwµsigmabotHepsilonµw^2botH ... delta botH+(w^2µepsilojwµsigma)botH = bot 0? ... Helmholtzgleichung
+\section*{2.5 Lösung der Wellengleichung in kartesischen Koordinaten}
+\bold{Sei angemerkt:} unter hinreichenden Bedingungen gilt der Satz von Schwartz.
+\[\nabla \times H = \sigma E +\epsilon \frac{\partial}{\partial t}  E\]
+\[\nabla x (\nabla x H) = sigma(\nablaxE)+epsilon partd/partdt(\nabla x E)\]
+\[\nabla(\nabla H)-\delta H = \sigma-\mu \frac{\partial H}{\partial t} + \epsilon \frac{\partial }{\partial t}(-\mu \frac{\partial H}{\partial t})\]
+\[\delta H = \mu \sigma \frac{\partial H}{\partial t} + \epsilon\mu \frac{\partial ^2 H}{\partial t^2}\] \ldotsTelegraphengleichung für $H$,  $B$, $E$ \& $D$\newline
+In dieser VO wird hauptsächlich auf den Separationsansatz eingegangen.
+$H=Re\{\underline{H}(x,y,z)\cdot e^{j\omega t}\}$ \ldots $\frac{\partial }{\partial t}$ wird Laplace-transformiert\newline
+$\delta \underline{H} = j\omega\mu\sigma\underline{H}\epsilon\mu\omega^2 \underline{H}\ldots \delta \underline{H}+(\omega^2 \mu\epsilon j\omega\mu\sigma)\underline{H} = \underline{0}$? \ldots Helmholtzgleichung\newline
 
 HÜ: Empfehlung: Das gleiche für E wiederholen.
 Nächste Woche Di: Seperationsansatz (sollte man aus Mathe noch kennen)
 
-17.10.2023
-\section{2.5.1 Löungsansätze}
-Methode 1: E=a.psi
-Methode 2:
+\subsection*{17.10.2023}
+\section*{2.5.1 Lösungsansätze}
+\begin{itemize}
+    \item Methode 1: $E=a\cdot \psi$\newline
+    \item Methode 2:\newline
     Reines Wirbelfeld E bzw H=\nabla x (a.psi)=-a x \nabla.psi
     Durch Wiederholung: \nabla x ( \nabla x (a.psi))
     Mit genügend Wiederholungen kann die Elektrodynamik gelöst werden.
-
-Methode 3: Ansatz mittels elektrodynamischer Potentiale
+    \item Methode 3: Ansatz mittels elektrodynamischer Potentiale
     Ansatz mittels Vektorpotential
+\end{itemize}
 
-\section{2.5.2 Seperationsansatz}
-zu lösen:
-    pard^2psi/pardx^2 # pard^2psi/pardy^2+ pard^2psi/pardz^2 + w^2µsigmapsi=0
-        psi(x,y,z)=X(x)Y(y)Z(z)
-    pard^2psi/pardx^2YZ # .Xpard^2psi/pardy^2.Z+ XYpard^2psi/pardz^2 + w^2µsigmapsi.XYZ=0
-    1/X(x) . pard^2psi/pardx^2 + 1/Y(y) . pard^2psi/pardy^2 + 1/Z(z) . pard^2psi/pardz^2 + w^2µsigma=0
-                                                                                           ^^^^^^^^^
-    aufgrund des konstanten Terms folgt:
-    1/X(x) . pard^2psi/pardx^2 + 1/Y(y) . pard^2psi/pardy^2 + 1/Z(z) . pard^2psi/pardz^2 + w^2µsigma=0
-    ^^^^^^^^^^^^^^^^^^^^^^^^^^^  ^^^^^^^^^^^^^^^^^^^^^^^^^^   ^^^^^^^^^^^^^^^^^^^^^^^^^^
-        kx^2                   +     ky^2                   +       kz^2                 = w^2µsigma ...Seperationsansatz
+\section*{2.5.2 Separationsansatz}
+Zu lösen:
+\[\frac{\partial^2 \psi}{\partial x^2} + \frac{\partial ^2\psi}{\partial y^2} +\frac{\partial ^2\psi}{\partial z^2}  + \omega^2\mu\sigma\psi=0\]
+\[\psi(x,y,z)=X(x)\cdot Y(y)\cdot Z(z)\]
+\[\frac{\partial ^2\psi}{\partial x^2}\cdot YZ + X\cdot \frac{\partial ^2\psi}{\partial y^2}\cdot Z + XY\cdot \frac{\partial ^2\psi}{\partial z^2} + \omega^2 \mu\sigma\psi\cdot XYZ=0\]
+\[\frac{1}{X(x)} \cdot \frac{\partial ^2\psi}{\partial x^2} + \frac{1}{Y(y)}\cdot \frac{\partial ^2\psi}{\partial y^2} + \frac{1}{Z(z)}\cdot \frac{\partial ^2\psi}{\partial z^2} + \omega^2\mu\sigma=0\]\newline
+Aufgrund des konstanten Terms folgt:
+\[k\cdot x^2 + k\cdot y^2 + k\cdot z^2 = \omega^2\mu\sigma\]\ldots Seperationsansatz
 
-1/X . d^2X(x)/dx^2 = -kx^2
-    folglich X''(x)+kx^2.X(x) = 0 ... Schwingungsgleichung
-    ANALOG   Y''(x)+ky^2.Y(y) = 0
-             Z''(x)+kz^2.Z(z) = 0
-    Fundamentalsystem: {sin(kx.x), cos(kx.x)} ... häufig verwendet
-    Komplexes Fundsys: {e^-jkx.x, e^+jkx.x}   ... häufig verwendet
-    Mischform:         {sin(kx.x), e^+jkx.x}, etc.
-    Hyperbelfunktion:  {cosh(kx.x), sinh(kx.x)}
-Physikalische Bedeutungen in Tabelle 2.1 können durch einsetzen in unsere Wellenfunktion
-Re{Psi(x,y,z).e^jwt}=Re{sin(kz.z).e^jwt} überprüft werden. Die Wellenfront verläuft in z-Richtung.
+\[\frac{1}{X}\cdot \frac{\partial ^2X(x)}{\partial x^2} = -k\cdot x^2\]\newline
+folglich erhält man die Schwingungsgleichung. Analog können die Schwingungsgleichungen für $y$ und $z$ bestimmen und man erhält das Gleichungssystem
+\[X''(x)+k\cdot x^2\cdot X(x) = 0\]
+\[Y''(x)+k\cdot y^2\cdot Y(y) = 0\]
+\[Z''(x)+k\cdot z^2\cdot Z(z) = 0\]
 
-Fortan wird die verkürzte schreibweise pard/pardx = pard_x verwendet.
+Zur Bestimmung einer Lösungen können unterschiedliche Formen angesetzt werden. Die nützlichsten sind:
+\begin{itemize}
+    \item \bold{Fundamentalsystem:} $\{\sin(k_{x}x), \cos(k_{x}x)\}$\ldots häufig verwendet
+    \item \bold{Komplexes Fundsystem:} $\{e^{-jk_{x}x}, e^{jk_{x}x}\}$\ldotshäufig verwendet
+\item \bold{Mischform:} $\{\sin(k_{x}x)m e^{jk_{x}x}\}$, etc.
+    \item \bold{Hyperbelfunktion:} $\{\cosh(k_{x}x), \sinh(k_{x}x)\}$
+\end{itemize}
 
-(2.39) pard_yH_z - pard_zH_y = jwsigmaE_x / .jwµ
-(2.43) pard_zE_x - pard_xE_z = -jwµH_y / .pard_z
-    über 2 Schritte folgt: jwµ.pard_yH_z+pard_z^2E_x-pard_zpard_xE_z = -w^2µsigma.E_x
+Physikalische Bedeutungen in Tabelle 2.1 können durch einsetzen in unsere Wellenfunktion $Re\{\psi(x,y,z)\cdot e^{j\omega t}\}=Re\{\sin(k_{z}z)\cdot e^{j\omega t}\}$ überprüft werden. Die Wellenfront verläuft in z-Richtung.\newline
+Fortan wird die verkürzte Schreibweise $\frac{\partial}{\partial x}  = \partial _{x}$ verwendet.\newline
 
-Annahme wanderwelle nach z +inf     ..... jwµpard_yHz - k_z^2.E_x + jk_z.pard_xE_z=-w^2µsigmaE_y
-                                          (w^2µsigma-kz^2)E_x = -jwµpard_y.Hz-jk_zpard_xE_z
-                                          ^^^^^^^^^^^^^^^^
-                                             kappa^2
-                                          E_x=-j/kappa^2.(k_z.pard_xE_z+wµd_yH_z) ... sollte die erste Gleichung (2.45 ergeben)
+\[(2.39) \partial_{y} H_{z} - \partial_{z} H_{y}= \frac{j\omega\sigma E_{x}}{j\omega\mu}\]
+\[(2.43) \partial_{z}E_{x} - \partial_{x}E_{z} = -j\omega\muH_{y} \partial_{z}\]
+Über 2 Schritte folgt: $j\omega\mu\cdot \partial_{y}H_{z}+\partial_{z}^2 E_{x}-\partial_{z}\partial_{x}E_{z} = -\omega^2\mu\sigma\cdot E_{x}$\newline
+Annahme Wanderwelle nach $z=\infty$\ldots $j\omega\mu \partial_{y}H_{z} - k_{z}^2\cdot E_{x} + jk_{z}\cdot \partial_{x}E_{z}=-\omega^2\mu\sigma E_{y}$
+\[(\omega^2\mu\sigma-k_{z}^2)E_{x} = -j\omega\mu \partial_{y}\cdot H_{z}-jk_{z} \partial_{y}E_{z}\]
+\[E_{x}=-j\frac{1}{\kappa^2}\cdot (k_{z}.\cdot \partial_{x}E_{z}+\omega\mu\partial_{y}H_{z})\]\ldots sollte die erste Gleichung (2.45 ergeben)
 HÜ: Für 2.46 bis 2.48 wiederholen
 
-kappa^2=0
-w^2µsigma-kz^2=0
-    kz=+-w/sqrt(µ.epsilon)
-kappa^2!=0
-w^2µsigma-kz^2=kx^2+kz^2 ... Der betrag der k-Vektors bleibt gleich, daher wird die kz Komponente wegen kx und kz kleiner
-                                Aus dieser Erkentniss zeigt sich: Die TEM-Welle ist die schnellste Welle.
-Notiz: Einngerahmte Formeln müssen auswendig gelernt werden, außer die Modalen Lösungen in kartesischen Koordinaten.
-        Stattdessen das kappa^2 auswendig lernen!
+\[\kappa^2=0\]
+\[\omega^2\musigma-k_{z}^2=0\]
+\[k_{z}=\pm \frac{\omega}{\sqrt(\mu\epsilon)}\]
+\[\kappa^2\neq 0\]
+\[\omega^2\mu\sigma-k_{z}^2=k_{x}^2+ k_{y}^2\]\ldots Der Betrag der k-Vektors bleibt gleich, daher wird die $k_{z}$ Komponente wegen $k_{x}$ und $k_{y}$ kleiner
+Aus dieser Erkenntnis zeigt sich: Die TEM-Welle ist die schnellste Welle.
+Notiz: Eingerahmte Formeln müssen auswendig gelernt werden, außer die Modalen Lösungen in kartesischen Koordinaten.\newline
+Stattdessen das $\kappa^2$ auswendig lernen!
 
-\section{3. Die homogene ebene Welle}
-\section{3.1 Die HEW im idealen Dielektrikum}
-e ... elektrische Feldstärke
-h ... magnetische Feldstärke
-Kleinbuchstaben als Anzeichen der Zeitabhängigkeit.
+\section*{3. Die homogene ebene Welle}
+\section*{3.1 Die HEW im idealen Dielektrikum}
+$e$\ldots elektrische Feldstärke\newline
+$h$\ldots magnetische Feldstärke\newline
+Kleinbuchstaben zur Andeutung der Zeitabhängigkeit.
 
-pard_z^2e_x(z,t) - µepsilon.pard_z^2e_x(z,t) = 0
-    mit e_x(z,t)=f_1(z-vt)+f_z(z+vt)
-eingesetzt (nur mal für f1):
-    f_1''(z-vt)-µepsilonf_1''(z-vt)(-v).(-v)=0
-    1-µepsilonv^2 = 0  folgt v=+-1/sqrt(µepsilon)
+\[\partial_{z}^2 e_{x}(z,t) - \mu\epsilon\partial_{z}^2 e_{x}(z,t) = 0\]
+mit $e_x(z,t)=f_{1}(z-vt)+f_{2}(z+vt)$ eingesetzt folgt (nur mal für f1):
+\[f_{1}''(z-vt)-\mu\epsilon f_{1}''(z-vt)(-v)^2=0\]
+\[1-\mu\epsilon v^2 = 0 \implies v=\pm\frac{1}{sqrt(\mu\epsilon)}\]
 
-h_y^+=1/nü.e_x^+  ... nü=sqrt(µ/epsilon)  nü_0=sqrt(µ_0/epsilon_0)=sqrt((4pi.10^-zH/m)^2.c_0^2)=12pi.10 Ohm = 120piOhm
-                        ...Feldwellenwiderstand     ^^^^^^^^^^^^^                     hat nichts mit ohmschen Verlusten zu tun
-                                                   epsilon_0.µ_0=1/c_0^2  epsilon_0=1/(µ_0.c_0^2)
+\[h_{y}^+=\frac{1}{\nu}\cdot e_x^+\ldots \nu=\sqrt(\frac{\mu}{\epsilon}), \nu_{0}=\sqrt(\frac{µ_{0}}{\epsilon_{0}})=\sqrt((4\cdot \pi\cdot 10^{-z}\frac{H}{m})^2\cdot c_{0}^2)=12\cdot \pi\cdot 10 \Omega = 120\cdot \pi\Omega\] \ldots Feldwellenwiderstand (hat nichts mit ohmschen Verlusten zu tun)
+\[\epsilon_{0}\cdot µ_{0}=\frac{1}{c_{0}^2} = \frac{1}{\mu_{0}\cdot c_{0}^2}\]
+
 \section*{19.10.2023}
 \section*{Ding des Tages}
 Der Prof. baute sich einmal eine Antenne, um mit der ISS beim FAQ mit einer Schule zuzuhören. Eine 50cm Stange nach links, eine 50cm Stange nach rechts. Die Stangen gehen per Bananenstecker in eine mysteriöse graue Box. Von unten wird ein Koax-Kabel angesteckt, bissl qualitativer, nicht so wie das vom grindigen Fernsehen.\newline
@@ -227,7 +224,7 @@ Zu jedem Zeitpunkt, an jedem Ort, ist die elektrische Energiedichte gleich groß
 Abb. 3.1 Man sieht die Energiedichte eines Photons. Dort wo die Pfeile näher zusammen liegen, ist die Feldstärke erhöht. Man kann einen sinusförmigen Verlauf der Feldstärke erkennen.\newline
 Weiters ist die Homogene Elektromagnetische Welle im freien Raum dargestellt. Unbedingt einprägen!\newline
 \subsection*{3.1.4 Wellenzahl und Wellenlänge}
-Unterschied zwischen k und \omega.
+Unterschied zwischen $k$ und $\omega$.
 \section*{Polarisation}
 Alle haben eine Polaristation. Unpolarisierte sind nur im mittel nicht polarisiert.
 \subsection*{Polaristationsarten}

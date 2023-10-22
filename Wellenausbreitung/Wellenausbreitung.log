@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2023.10.17)  22 OCT 2023 09:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2023.10.17)  22 OCT 2023 12:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -233,20 +233,20 @@ File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
 ) (./Wellenausbreitung.aux)
 \openout1 = `Wellenausbreitung.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -309,41 +309,57 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ))
-LaTeX Font Info:    Trying to load font information for U+msa on input line 29.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 28.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 29.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 28.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 96--104
+Underfull \hbox (badness 10000) in paragraph at lines 95--103
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--123
+Underfull \hbox (badness 10000) in paragraph at lines 119--122
 
  []
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 124--130
+Underfull \hbox (badness 10000) in paragraph at lines 123--129
 
  []
 
-./Wellenausbreitung.tex:133: Missing $ inserted.
-<inserted text> 
-                $
-l.133 \nabla
-             x H = sigma E +epsilon partd/partdt E
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
 
-./Wellenausbreitung.tex:134: Undefined control sequence.
-l.134 \nabla x (\nabla x H) = sigma(\nablaxE
-                                            )+epsilon partd/partdt(\nabla x E)
+Package amsfonts Warning: Obsolete command \bold; \mathbf should be used instead on input line 131.
+
+
+./Wellenausbreitung.tex:131: LaTeX Error: \mathbf allowed only in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.131 \bold{Sei angemerkt:}
+                            unter hinreichenden Bedingungen gilt der Satz vo...
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./Wellenausbreitung.tex:133: Undefined control sequence.
+l.133 \[\nabla x (\nabla x H) = sigma(\nablaxE
+                                              )+epsilon partd/partdt(\nabla ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Wellenausbreitung.tex:135: Undefined control sequence.
+l.135 ...partial t^2}\] \ldotsTelegraphengleichung
+                                                   fÃ¼r $H$,  $B$, $E$ \& $D...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -351,90 +367,13 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Command \textmu invalid in math mode on input line 135.
+Underfull \hbox (badness 10000) in paragraph at lines 135--139
 
-
-LaTeX Warning: Command \textmu invalid in math mode on input line 135.
-
-
-LaTeX Warning: Command \textmu invalid in math mode on input line 135.
-
-
-LaTeX Warning: Command \textmu invalid in math mode on input line 135.
-
-
-LaTeX Warning: Command \textmu invalid in math mode on input line 136.
-
-
-LaTeX Warning: Command \textmu invalid in math mode on input line 136.
-
-
-LaTeX Warning: Command \textmu invalid in math mode on input line 136.
-
-
-LaTeX Warning: Command \textmu invalid in math mode on input line 136.
-
-
-LaTeX Warning: Command \" invalid in math mode on input line 136.
-
-
-LaTeX Warning: Command \" invalid in math mode on input line 137.
-
-
-LaTeX Warning: Command \textmu invalid in math mode on input line 139.
-
-
-LaTeX Warning: Command \textmu invalid in math mode on input line 139.
-
-
-LaTeX Warning: Command \textmu invalid in math mode on input line 139.
-
-
-LaTeX Warning: Command \textmu invalid in math mode on input line 139.
-
-
-LaTeX Warning: Command \textmu invalid in math mode on input line 139.
-
-
-LaTeX Warning: Command \textmu invalid in math mode on input line 139.
-
-
-LaTeX Warning: Command \textmu invalid in math mode on input line 139.
-
-
-LaTeX Warning: Command \textmu invalid in math mode on input line 139.
-
-./Wellenausbreitung.tex:140: Missing $ inserted.
-<inserted text> 
-                $
-l.140 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-Missing character: There is no µ in font cmr10!
-Missing character: There is no µ in font cmr10!
-Missing character: There is no µ in font cmr10!
-Missing character: There is no µ in font cmr10!
-Missing character: There is no ü in font cmr10!
-Missing character: There is no ä in font cmr10!
-Missing character: There is no µ in font cmr10!
-Missing character: There is no µ in font cmr10!
-Missing character: There is no µ in font cmr10!
-Missing character: There is no µ in font cmr10!
-
-Overfull \hbox (17.40738pt too wide) in paragraph at lines 132--140
-\OML/cmm/m/it/10 epsilonpartd=partdtE\OMS/cmsy/m/n/10 r\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 (\OMS/cmsy/m/n/10 r\OML/cmm/m/it/10 xH\OT1/cmr/m/n/10 ) = \OML/cmm/m/it/10 sigma\OT1/cmr/m/n/10 () + \OML/cmm/m/it/10 epsilonpartd=partdt\OT1/cmr/m/n/10 (\OMS/cmsy/m/n/10 r\OML/cmm/m/it/10 xE\OT1/cmr/m/n/10 )\OMS/cmsy/m/n/10 r\OT1/cmr/m/n/10 (\OMS/cmsy/m/n/10 r\OML/cmm/m/it/10 H\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 deltaH \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 sigma\OT1/cmr/m/n/10 () \OMS/cmsy/m/n/10 ^^@
  []
 
 
-Overfull \hbox (559.15892pt too wide) in paragraph at lines 132--140
-\OML/cmm/m/it/10 partdH=partdt\OT1/cmr/m/n/10 ) + \OML/cmm/m/it/10 epsilonpartd=partdt\OT1/cmr/m/n/10 (\OMS/cmsy/m/n/10 ^^@\OML/cmm/m/it/10 partdH=partdt\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 deltaH \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 sigmapartdH=partdt \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 epsilonpartd[]=partdt[]H:::TelegraphengleichungfrH; B; E; DIndieserVOwirdhauptschlichaufdenSeperationsansatzeingegangenH \OT1/cmr/m/n/10 =
- []
+Underfull \hbox (badness 10000) in paragraph at lines 146--147
 
-
-Overfull \hbox (88.17963pt too wide) in paragraph at lines 132--140
-\OML/cmm/m/it/10 Re[]:::partd=partdtwirdlaplacetransformiertdeltabotH \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 jwsigmabotHepsilonw[]botH:::deltabotH \OT1/cmr/m/n/10 +
  []
 
 ./Wellenausbreitung.tex:148: Missing $ inserted.
@@ -451,1000 +390,227 @@ LaTeX Warning: Command \" invalid in math mode on input line 150.
 
 LaTeX Warning: Command \" invalid in math mode on input line 150.
 
-./Wellenausbreitung.tex:151: Missing $ inserted.
+
+./Wellenausbreitung.tex:151: LaTeX Error: Command \item invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.151     \item
+                Methode 3: Ansatz mittels elektrodynamischer Potentiale
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./Wellenausbreitung.tex:151: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.151     \item M
+                 ethode 3: Ansatz mittels elektrodynamischer Potentiale
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./Wellenausbreitung.tex:151: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.151     \item M
+                 ethode 3: Ansatz mittels elektrodynamischer Potentiale
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./Wellenausbreitung.tex:153: LaTeX Error: Command \end{itemize} invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.153 \end{itemize}
+                   
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./Wellenausbreitung.tex:153: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.153 \end{itemize}
+                   
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./Wellenausbreitung.tex:153: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.153 \end{itemize}
+                   
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./Wellenausbreitung.tex:153: Missing $ inserted.
 <inserted text> 
                 $
-l.151 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
+l.153 \end{itemize}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
 
 Missing character: There is no ü in font cmr10!
 Missing character: There is no ö in font cmr10!
 
-Overfull \hbox (32.09288pt too wide) in paragraph at lines 146--151
-\T1/cmr/m/n/10 Methode 1: E=a.psi Me-tho-de 2: Rei-nes Wir-bel-feld E bzw H=$\OMS/cmsy/m/n/10 r\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 a:psi\OT1/cmr/m/n/10 ) = \OMS/cmsy/m/n/10 ^^@\OML/cmm/m/it/10 ax\OMS/cmsy/m/n/10 r\OML/cmm/m/it/10 :psiDurchWiederholung \OT1/cmr/m/n/10 :
- []
-
-./Wellenausbreitung.tex:157: Missing $ inserted.
-<inserted text> 
-                $
-l.157     pard^
-               2psi/pardx^2 # pard^2psi/pardy^2+ pard^2psi/pardz^2 + w^2Âµsi...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-./Wellenausbreitung.tex:157: You can't use `macro parameter character #' in math mode.
-l.157     pard^2psi/pardx^2 #
-                              pard^2psi/pardy^2+ pard^2psi/pardz^2 + w^2Âµsi...
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-
-LaTeX Warning: Command \textmu invalid in math mode on input line 157.
-
-
-LaTeX Warning: Command \textmu invalid in math mode on input line 157.
-
-./Wellenausbreitung.tex:159: You can't use `macro parameter character #' in math mode.
-l.159     pard^2psi/pardx^2YZ #
-                                .Xpard^2psi/pardy^2.Z+ XYpard^2psi/pardz^2 +...
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-
-LaTeX Warning: Command \textmu invalid in math mode on input line 159.
-
-
-LaTeX Warning: Command \textmu invalid in math mode on input line 159.
-
-
-LaTeX Warning: Command \textmu invalid in math mode on input line 160.
-
-
-LaTeX Warning: Command \textmu invalid in math mode on input line 160.
-
-
-./Wellenausbreitung.tex:161: LaTeX Error: Unicode character ^^^ (U+001E)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.161 ...                                      ^^^
-                                                  ^^^^^^
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-./Wellenausbreitung.tex:161: LaTeX Error: Unicode character ^^^ (U+001E)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.161 ...                                   ^^^^^^
-                                                  ^^^
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-./Wellenausbreitung.tex:161: LaTeX Error: Unicode character ^^^ (U+001E)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.161 ...                                ^^^^^^^^^
-                                                  
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-LaTeX Warning: Command \textmu invalid in math mode on input line 163.
-
-
-LaTeX Warning: Command \textmu invalid in math mode on input line 163.
-
-
-./Wellenausbreitung.tex:164: LaTeX Error: Unicode character ^^^ (U+001E)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.164     ^^^
-             ^^^^^^^^^^^^^^^^^^^^^^^^  ^^^^^^^^^^^^^^^^^^^^^^^^^^   ^^^^^^^^...
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-./Wellenausbreitung.tex:164: LaTeX Error: Unicode character ^^^ (U+001E)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.164     ^^^^^^
-                ^^^^^^^^^^^^^^^^^^^^^  ^^^^^^^^^^^^^^^^^^^^^^^^^^   ^^^^^^^^...
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-./Wellenausbreitung.tex:164: LaTeX Error: Unicode character ^^^ (U+001E)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.164     ^^^^^^^^^
-                   ^^^^^^^^^^^^^^^^^^  ^^^^^^^^^^^^^^^^^^^^^^^^^^   ^^^^^^^^...
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-./Wellenausbreitung.tex:164: LaTeX Error: Unicode character ^^^ (U+001E)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.164     ^^^^^^^^^^^^
-                      ^^^^^^^^^^^^^^^  ^^^^^^^^^^^^^^^^^^^^^^^^^^   ^^^^^^^^...
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-./Wellenausbreitung.tex:164: LaTeX Error: Unicode character ^^^ (U+001E)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.164     ^^^^^^^^^^^^^^^
-                         ^^^^^^^^^^^^  ^^^^^^^^^^^^^^^^^^^^^^^^^^   ^^^^^^^^...
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-./Wellenausbreitung.tex:164: LaTeX Error: Unicode character ^^^ (U+001E)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.164     ^^^^^^^^^^^^^^^^^^
-                            ^^^^^^^^^  ^^^^^^^^^^^^^^^^^^^^^^^^^^   ^^^^^^^^...
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-./Wellenausbreitung.tex:164: LaTeX Error: Unicode character ^^^ (U+001E)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.164     ^^^^^^^^^^^^^^^^^^^^^
-                               ^^^^^^  ^^^^^^^^^^^^^^^^^^^^^^^^^^   ^^^^^^^^...
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-./Wellenausbreitung.tex:164: LaTeX Error: Unicode character ^^^ (U+001E)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.164     ^^^^^^^^^^^^^^^^^^^^^^^^
-                                  ^^^  ^^^^^^^^^^^^^^^^^^^^^^^^^^   ^^^^^^^^...
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-./Wellenausbreitung.tex:164: LaTeX Error: Unicode character ^^^ (U+001E)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.164     ^^^^^^^^^^^^^^^^^^^^^^^^^^^
-                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^   ^^^^^^^^...
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-./Wellenausbreitung.tex:164: LaTeX Error: Unicode character ^^^ (U+001E)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.164     ^^^^^^^^^^^^^^^^^^^^^^^^^^^  ^^^
-                                          ^^^^^^^^^^^^^^^^^^^^^^^   ^^^^^^^^...
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-./Wellenausbreitung.tex:164: LaTeX Error: Unicode character ^^^ (U+001E)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.164     ^^^^^^^^^^^^^^^^^^^^^^^^^^^  ^^^^^^
-                                             ^^^^^^^^^^^^^^^^^^^^   ^^^^^^^^...
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-./Wellenausbreitung.tex:164: LaTeX Error: Unicode character ^^^ (U+001E)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.164     ^^^^^^^^^^^^^^^^^^^^^^^^^^^  ^^^^^^^^^
-                                                ^^^^^^^^^^^^^^^^^   ^^^^^^^^...
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-./Wellenausbreitung.tex:164: LaTeX Error: Unicode character ^^^ (U+001E)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.164 ...^^^^^^^^^^^^^^^^^^^^^^^^^^^  ^^^^^^^^^^^^
-                                                  ^^^^^^^^^^^^^^   ^^^^^^^^^...
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-./Wellenausbreitung.tex:164: LaTeX Error: Unicode character ^^^ (U+001E)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.164 ...^^^^^^^^^^^^^^^^^^^^^^^^  ^^^^^^^^^^^^^^^
-                                                  ^^^^^^^^^^^   ^^^^^^^^^^^^...
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-./Wellenausbreitung.tex:164: LaTeX Error: Unicode character ^^^ (U+001E)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.164 ...^^^^^^^^^^^^^^^^^^^^^  ^^^^^^^^^^^^^^^^^^
-                                                  ^^^^^^^^   ^^^^^^^^^^^^^^^...
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-./Wellenausbreitung.tex:164: LaTeX Error: Unicode character ^^^ (U+001E)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.164 ...^^^^^^^^^^^^^^^^^^  ^^^^^^^^^^^^^^^^^^^^^
-                                                  ^^^^^   ^^^^^^^^^^^^^^^^^^...
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-./Wellenausbreitung.tex:164: LaTeX Error: Unicode character ^^^ (U+001E)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.164 ...^^^^^^^^^^^^^^^  ^^^^^^^^^^^^^^^^^^^^^^^^
-                                                  ^^   ^^^^^^^^^^^^^^^^^^^^^...
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-./Wellenausbreitung.tex:164: LaTeX Error: Unicode character ^^^ (U+001E)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.164 ...^^^^^^^  ^^^^^^^^^^^^^^^^^^^^^^^^^^   ^^^
-                                                  ^^^^^^^^^^^^^^^^^^^^^^^
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-./Wellenausbreitung.tex:164: LaTeX Error: Unicode character ^^^ (U+001E)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.164 ...^^^^  ^^^^^^^^^^^^^^^^^^^^^^^^^^   ^^^^^^
-                                                  ^^^^^^^^^^^^^^^^^^^^
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-./Wellenausbreitung.tex:164: LaTeX Error: Unicode character ^^^ (U+001E)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.164 ...^  ^^^^^^^^^^^^^^^^^^^^^^^^^^   ^^^^^^^^^
-                                                  ^^^^^^^^^^^^^^^^^
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-./Wellenausbreitung.tex:164: LaTeX Error: Unicode character ^^^ (U+001E)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.164 ...^^^^^^^^^^^^^^^^^^^^^^^^^^   ^^^^^^^^^^^^
-                                                  ^^^^^^^^^^^^^^
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-./Wellenausbreitung.tex:164: LaTeX Error: Unicode character ^^^ (U+001E)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.164 ...^^^^^^^^^^^^^^^^^^^^^^^   ^^^^^^^^^^^^^^^
-                                                  ^^^^^^^^^^^
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-./Wellenausbreitung.tex:164: LaTeX Error: Unicode character ^^^ (U+001E)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.164 ...^^^^^^^^^^^^^^^^^^^^   ^^^^^^^^^^^^^^^^^^
-                                                  ^^^^^^^^
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-./Wellenausbreitung.tex:164: LaTeX Error: Unicode character ^^^ (U+001E)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.164 ...^^^^^^^^^^^^^^^^^   ^^^^^^^^^^^^^^^^^^^^^
-                                                  ^^^^^
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-./Wellenausbreitung.tex:164: LaTeX Error: Unicode character ^^^ (U+001E)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.164 ...^^^^^^^^^^^^^^   ^^^^^^^^^^^^^^^^^^^^^^^^
-                                                  ^^
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-LaTeX Warning: Command \textmu invalid in math mode on input line 165.
-
-
-LaTeX Warning: Command \textmu invalid in math mode on input line 165.
-
-./Wellenausbreitung.tex:166: Missing $ inserted.
-<inserted text> 
-                $
-l.166 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-Missing character: There is no µ in font cmr10!
-Missing character: There is no µ in font cmr10!
-Missing character: There is no µ in font cmr10!
-Missing character: There is no µ in font cmr10!
-Missing character: There is no µ in font cmr10!
-
-Overfull \hbox (16.80292pt too wide) in paragraph at lines 156--166
-\OML/cmm/m/it/10 X\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 Y\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 y\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 Z\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 z\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 pard[]psi=pardx[]YZ:Xpard[]psi=pardy[]:Z \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 XYpard[]psi=pardz[] \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 w[]sigmapsi:XYZ \OT1/cmr/m/n/10 =
- []
-
-
-Overfull \hbox (147.8826pt too wide) in paragraph at lines 156--166
-\OT1/cmr/m/n/10 01\OML/cmm/m/it/10 =X\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 :pard[]psi=pardx[] \OT1/cmr/m/n/10 + 1\OML/cmm/m/it/10 =Y\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 y\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 :pard[]psi=pardy[] \OT1/cmr/m/n/10 + 1\OML/cmm/m/it/10 =Z\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 z\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 :pard[]psi=pardz[] \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 w[]sigma \OT1/cmr/m/n/10 = 0\OML/cmm/m/it/10 aufgrunddeskonstantenTermsfolgt \OT1/cmr/m/n/10 :
- []
-
-
-Overfull \hbox (12.90303pt too wide) in paragraph at lines 156--166
-\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 =X\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 :pard[]psi=pardx[] \OT1/cmr/m/n/10 + 1\OML/cmm/m/it/10 =Y\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 y\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 :pard[]psi=pardy[] \OT1/cmr/m/n/10 + 1\OML/cmm/m/it/10 =Z\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 z\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 :pard[]psi=pardz[] \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 w[]sigma \OT1/cmr/m/n/10 = 0`\OML/cmm/m/it/10 Mkx[] \OT1/cmr/m/n/10 +
- []
-
-./Wellenausbreitung.tex:167: Missing $ inserted.
-<inserted text> 
-                $
-l.167 1/X . d^
-              2X(x)/dx^2 = -kx^2
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-LaTeX Warning: Command \" invalid in math mode on input line 171.
-
-
-LaTeX Warning: Command \" invalid in math mode on input line 172.
-
-
-LaTeX Warning: Command \" invalid in math mode on input line 175.
-
-
-LaTeX Warning: Command \" invalid in math mode on input line 176.
-
-
-LaTeX Warning: Command \" invalid in math mode on input line 176.
-
-
-LaTeX Warning: Command \" invalid in math mode on input line 176.
-
-./Wellenausbreitung.tex:177: Missing $ inserted.
-<inserted text> 
-                $
-l.177 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-Missing character: There is no ä in font cmr10!
-Missing character: There is no ä in font cmr10!
-Missing character: There is no ö in font cmr10!
-Missing character: There is no ü in font cmr10!
-Missing character: There is no ü in font cmr10!
-Missing character: There is no ä in font cmr10!
-
-Overfull \hbox (26.59792pt too wide) in paragraph at lines 167--177
-[]\T1/cmr/m/n/10 1/X . d$[]\OML/cmm/m/it/10 X\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 =dx[] \OT1/cmr/m/n/10 = \OMS/cmsy/m/n/10 ^^@\OML/cmm/m/it/10 kx[]folglichX[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 ) + \OML/cmm/m/it/10 kx[]:X\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 ) = 0\OML/cmm/m/it/10 :::SchwingungsgleichungANALOGY[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 ) +
- []
-
-
-Overfull \hbox (86.50586pt too wide) in paragraph at lines 167--177
-\OML/cmm/m/it/10 ky[]:Y\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 y\OT1/cmr/m/n/10 ) = 0\OML/cmm/m/it/10 Z[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 ) + \OML/cmm/m/it/10 kz[]:Z\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 z\OT1/cmr/m/n/10 ) = 0\OML/cmm/m/it/10 Fundamentalsystem \OT1/cmr/m/n/10 : []\OML/cmm/m/it/10 :::hufigverwendetKomplexesFundsys \OT1/cmr/m/n/10 :
- []
-
-
-Overfull \hbox (565.19005pt too wide) in paragraph at lines 167--177
-[]\OML/cmm/m/it/10 :::hufigverwendetMischform \OT1/cmr/m/n/10 : []\OML/cmm/m/it/10 ; etc:Hyperbelfunktion \OT1/cmr/m/n/10 : []\OML/cmm/m/it/10 PhysikalischeBedeutungeninTabelle\OT1/cmr/m/n/10 2\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 knnendurcheinsetzeninunsereWellenfunktionRe[] \OT1/cmr/m/n/10 =
- []
-
-./Wellenausbreitung.tex:178: Missing $ inserted.
-<inserted text> 
-                $
-l.178 ...erkÃ¼rzte schreibweise pard/pardx = pard_
-                                                  x verwendet.
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-./Wellenausbreitung.tex:179: Missing $ inserted.
-<inserted text> 
-                $
-l.179 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-./Wellenausbreitung.tex:180: Missing $ inserted.
-<inserted text> 
-                $
-l.180 (2.39) pard_
-                  yH_z - pard_zH_y = jwsigmaE_x / .jwÂµ
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-LaTeX Warning: Command \textmu invalid in math mode on input line 180.
-
-
-LaTeX Warning: Command \textmu invalid in math mode on input line 180.
-
-
-LaTeX Warning: Command \textmu invalid in math mode on input line 181.
-
-
-LaTeX Warning: Command \textmu invalid in math mode on input line 181.
-
-
-LaTeX Warning: Command \" invalid in math mode on input line 182.
-
-
-LaTeX Warning: Command \textmu invalid in math mode on input line 182.
-
-
-LaTeX Warning: Command \textmu invalid in math mode on input line 182.
-
-
-LaTeX Warning: Command \textmu invalid in math mode on input line 182.
-
-
-LaTeX Warning: Command \textmu invalid in math mode on input line 182.
-
-./Wellenausbreitung.tex:183: Missing $ inserted.
-<inserted text> 
-                $
-l.183 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-Missing character: There is no µ in font cmr10!
-Missing character: There is no µ in font cmr10!
-Missing character: There is no ü in font cmr10!
-Missing character: There is no µ in font cmr10!
-Missing character: There is no µ in font cmr10!
-
-Overfull \hbox (55.6315pt too wide) in paragraph at lines 180--183
-[]\T1/cmr/m/n/10 (2.39) pard$[]\OML/cmm/m/it/10 H[] \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 pard[]H[] \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 jwsigmaE[]=:jw\OT1/cmr/m/n/10 (2\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 43)\OML/cmm/m/it/10 pard[]E[] \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 pard[]E[] \OT1/cmr/m/n/10 = \OMS/cmsy/m/n/10 ^^@\OML/cmm/m/it/10 jwH[]=:pard[]ber\OT1/cmr/m/n/10 2\OML/cmm/m/it/10 Schrittefolgt \OT1/cmr/m/n/10 :
- []
-
-./Wellenausbreitung.tex:184: Missing $ inserted.
-<inserted text> 
-                $
-l.184 ...nderwelle nach z +inf     ..... jwÂµpard_
-                                                  yHz - k_z^2.E_x + jk_z.par...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-LaTeX Warning: Command \textmu invalid in math mode on input line 184.
-
-
-LaTeX Warning: Command \textmu invalid in math mode on input line 184.
-
-
-LaTeX Warning: Command \textmu invalid in math mode on input line 185.
-
-
-LaTeX Warning: Command \textmu invalid in math mode on input line 185.
-
-
-LaTeX Warning: Command \textmu invalid in math mode on input line 185.
-
-
-LaTeX Warning: Command \textmu invalid in math mode on input line 185.
-
-
-./Wellenausbreitung.tex:186: LaTeX Error: Unicode character ^^^ (U+001E)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.186 ...                                      ^^^
-                                                  ^^^^^^^^^^^^^
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-./Wellenausbreitung.tex:186: LaTeX Error: Unicode character ^^^ (U+001E)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.186 ...                                   ^^^^^^
-                                                  ^^^^^^^^^^
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-./Wellenausbreitung.tex:186: LaTeX Error: Unicode character ^^^ (U+001E)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.186 ...                                ^^^^^^^^^
-                                                  ^^^^^^^
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-./Wellenausbreitung.tex:186: LaTeX Error: Unicode character ^^^ (U+001E)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.186 ...                             ^^^^^^^^^^^^
-                                                  ^^^^
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-./Wellenausbreitung.tex:186: LaTeX Error: Unicode character ^^^ (U+001E)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.186 ...                          ^^^^^^^^^^^^^^^
-                                                  ^
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-LaTeX Warning: Command \textmu invalid in math mode on input line 188.
-
-
-LaTeX Warning: Command \textmu invalid in math mode on input line 188.
-
-
-LaTeX Warning: Command \" invalid in math mode on input line 189.
-
-
-LaTeX Warning: Command \" invalid in math mode on input line 189.
-
-./Wellenausbreitung.tex:190: Missing $ inserted.
-<inserted text> 
-                $
-l.190 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-Missing character: There is no µ in font cmr10!
-Missing character: There is no µ in font cmr10!
-Missing character: There is no µ in font cmr10!
-Missing character: There is no µ in font cmr10!
-Missing character: There is no Ü in font cmr10!
-Missing character: There is no ü in font cmr10!
-
-Overfull \hbox (27.73445pt too wide) in paragraph at lines 184--190
-[]\T1/cmr/m/n/10 Annahme wan-der-wel-le nach z +inf ..... jw\TS1/cmr/m/n/10 µ\T1/cmr/m/n/10 pard$[]\OML/cmm/m/it/10 Hz \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 k[]:E[] \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 jk[]:pard[]E[] \OT1/cmr/m/n/10 = \OMS/cmsy/m/n/10 ^^@\OML/cmm/m/it/10 w[]sigmaE[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 w[]sigma \OMS/cmsy/m/n/10 ^^@
- []
-
-
-Overfull \hbox (126.76866pt too wide) in paragraph at lines 184--190
-\OML/cmm/m/it/10 kz[]\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 E[] \OT1/cmr/m/n/10 = \OMS/cmsy/m/n/10 ^^@\OML/cmm/m/it/10 jwpard[]:Hz \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 jk[]pard[]E[]appa[]E[] \OT1/cmr/m/n/10 = \OMS/cmsy/m/n/10 ^^@\OML/cmm/m/it/10 j=kappa[]:\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 k[]:pard[]E[] \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 wd[]H[]\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 :::solltedieersteGleichung\OT1/cmr/m/n/10 (2\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 45\OML/cmm/m/it/10 ergeben\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 H \OT1/cmr/m/n/10 :
- []
-
-./Wellenausbreitung.tex:191: Missing $ inserted.
-<inserted text> 
-                $
-l.191 kappa^
-            2=0
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-LaTeX Warning: Command \textmu invalid in math mode on input line 192.
-
-
-LaTeX Warning: Command \textmu invalid in math mode on input line 192.
-
-
-LaTeX Warning: Command \textmu invalid in math mode on input line 193.
-
-
-LaTeX Warning: Command \textmu invalid in math mode on input line 193.
-
-
-LaTeX Warning: Command \textmu invalid in math mode on input line 195.
-
-
-LaTeX Warning: Command \textmu invalid in math mode on input line 195.
-
-
-LaTeX Warning: Command \" invalid in math mode on input line 197.
-
-
-LaTeX Warning: Command \ss invalid in math mode on input line 197.
-
-
-LaTeX Warning: Command \" invalid in math mode on input line 197.
-
-./Wellenausbreitung.tex:199: Missing $ inserted.
-<inserted text> 
-                $
-l.199 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-Missing character: There is no µ in font cmr10!
-Missing character: There is no µ in font cmr10!
-Missing character: There is no µ in font cmr10!
-Missing character: There is no ü in font cmr10!
-Missing character: There is no ÿ in font cmr10!
-Missing character: There is no ö in font cmr10!
-
-Overfull \hbox (130.38972pt too wide) in paragraph at lines 191--199
-\OML/cmm/m/it/10 kz[]:::Derbetragderk \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 Vektorsbleibtgleich; daherwirddiekzKomponentewegenkxundkzkleinerAusdieserErkentnisszeigtsich \OT1/cmr/m/n/10 :
- []
-
-
-Overfull \hbox (453.87335pt too wide) in paragraph at lines 191--199
-\OML/cmm/m/it/10 DieTEM \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 WelleistdieschnellsteWelle:Notiz \OT1/cmr/m/n/10 : \OML/cmm/m/it/10 EinngerahmteFormelnmssenauswendiggelerntwerden; auerdieModalenLsungeninkartesischenKoordinaten:Stattdessendaskappa[]auswendiglernen\OT1/cmr/m/n/10 !$ 
- []
-
-./Wellenausbreitung.tex:206: Missing $ inserted.
-<inserted text> 
-                $
-l.206 pard_
-           z^2e_x(z,t) - Âµepsilon.pard_z^2e_x(z,t) = 0
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-LaTeX Warning: Command \textmu invalid in math mode on input line 206.
-
-
-LaTeX Warning: Command \textmu invalid in math mode on input line 206.
-
-
-LaTeX Warning: Command \" invalid in math mode on input line 208.
-
-
-LaTeX Warning: Command \textmu invalid in math mode on input line 209.
-
-
-LaTeX Warning: Command \textmu invalid in math mode on input line 209.
-
-
-LaTeX Warning: Command \textmu invalid in math mode on input line 210.
-
-
-LaTeX Warning: Command \textmu invalid in math mode on input line 210.
-
-
-LaTeX Warning: Command \textmu invalid in math mode on input line 210.
-
-
-LaTeX Warning: Command \textmu invalid in math mode on input line 210.
-
-./Wellenausbreitung.tex:211: Missing $ inserted.
-<inserted text> 
-                $
-l.211 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-Missing character: There is no µ in font cmr10!
-Missing character: There is no ü in font cmr10!
-Missing character: There is no µ in font cmr10!
-Missing character: There is no µ in font cmr10!
-Missing character: There is no µ in font cmr10!
-
-Overfull \hbox (19.47511pt too wide) in paragraph at lines 206--211
-[]\T1/cmr/m/n/10 pard$[]\OML/cmm/m/it/10 e[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 z; t\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 epsilon:pard[]e[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 z; t\OT1/cmr/m/n/10 ) = 0\OML/cmm/m/it/10 mite[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 z; t\OT1/cmr/m/n/10 ) = \OML/cmm/m/it/10 f[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 z \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 vt\OT1/cmr/m/n/10 ) + \OML/cmm/m/it/10 f[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 z \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 vt\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 eingesetzt\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 nurmalfrf\OT1/cmr/m/n/10 1) :
+Overfull \hbox (308.36713pt too wide) in paragraph at lines 147--154
+\T1/cmr/m/n/10 Reines Wir-bel-feld E bzw H=$\OMS/cmsy/m/n/10 r\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 a:psi\OT1/cmr/m/n/10 ) = \OMS/cmsy/m/n/10 ^^@\OML/cmm/m/it/10 ax\OMS/cmsy/m/n/10 r\OML/cmm/m/it/10 :psiDurchWiederholung \OT1/cmr/m/n/10 : \OMS/cmsy/m/n/10 r\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 (\OMS/cmsy/m/n/10 r\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 a:psi\OT1/cmr/m/n/10 ))\OML/cmm/m/it/10 MitgengendWiederholungenkanndieElektrodynamikgelstwerden:Methode\OT1/cmr/m/n/10 3 :
  []
 
 [3]
-./Wellenausbreitung.tex:212: Missing $ inserted.
-<inserted text> 
-                $
-l.212 h_
-        y^+=1/nÃ¼.e_x^+  ... nÃ¼=sqrt(Âµ/epsilon)  nÃ¼_0=sqrt(Âµ_0/epsilon_0...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
 
-
-LaTeX Warning: Command \" invalid in math mode on input line 212.
-
-
-LaTeX Warning: Command \" invalid in math mode on input line 212.
-
-
-LaTeX Warning: Command \textmu invalid in math mode on input line 212.
-
-
-LaTeX Warning: Command \textmu invalid in math mode on input line 212.
-
-
-LaTeX Warning: Command \" invalid in math mode on input line 212.
-
-
-LaTeX Warning: Command \textmu invalid in math mode on input line 212.
-
-
-LaTeX Warning: Command \textmu invalid in math mode on input line 212.
-
-
-./Wellenausbreitung.tex:213: LaTeX Error: Unicode character ^^^ (U+001E)
-               not set up for use with LaTeX.
+./Wellenausbreitung.tex:172: LaTeX Error: \mathbf allowed only in math mode.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.213 ...          ...Feldwellenwiderstand     ^^^
-                                                  ^^^^^^^^^^                ...
-You may provide a definition with
-\DeclareUnicodeCharacter 
+l.172     \item \bold{Fundamentalsystem:}
+                                          $\{\sin(k_{x}x), \cos(k_{x}x)\}$\l...
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
 
-./Wellenausbreitung.tex:213: LaTeX Error: Unicode character ^^^ (U+001E)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.213 ...       ...Feldwellenwiderstand     ^^^^^^
-                                                  ^^^^^^^                   ...
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-./Wellenausbreitung.tex:213: LaTeX Error: Unicode character ^^^ (U+001E)
-               not set up for use with LaTeX.
+./Wellenausbreitung.tex:173: LaTeX Error: \mathbf allowed only in math mode.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.213 ...    ...Feldwellenwiderstand     ^^^^^^^^^
-                                                  ^^^^                     h...
-You may provide a definition with
-\DeclareUnicodeCharacter 
+l.173     \item \bold{Komplexes Fundsystem:}
+                                             $\{e^{-jk_{x}x}, e^{jk_{x}x}\}$...
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./Wellenausbreitung.tex:173: Undefined control sequence.
+l.173 ...:} $\{e^{-jk_{x}x}, e^{jk_{x}x}\}$\ldotsh
+                                                  Ã¤ufig verwendet
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
 
-./Wellenausbreitung.tex:213: LaTeX Error: Unicode character ^^^ (U+001E)
-               not set up for use with LaTeX.
+./Wellenausbreitung.tex:174: LaTeX Error: \mathbf allowed only in math mode.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.213 ... ...Feldwellenwiderstand     ^^^^^^^^^^^^
-                                                  ^                     hat ...
-You may provide a definition with
-\DeclareUnicodeCharacter 
+l.174 \item \bold{Mischform:}
+                              $\{\sin(k_{x}x)m e^{jk_{x}x}\}$, etc.
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
 
-LaTeX Warning: Command \textmu invalid in math mode on input line 214.
+./Wellenausbreitung.tex:175: LaTeX Error: \mathbf allowed only in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.175     \item \bold{Hyperbelfunktion:}
+                                         $\{\cosh(k_{x}x), \sinh(k_{x}x)\}$
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
 
-LaTeX Warning: Command \textmu invalid in math mode on input line 214.
+Underfull \hbox (badness 10000) in paragraph at lines 178--180
 
-
-LaTeX Warning: Command \textmu invalid in math mode on input line 214.
-
-
-LaTeX Warning: Command \textmu invalid in math mode on input line 214.
-
-./Wellenausbreitung.tex:215: Missing $ inserted.
-<inserted text> 
-                $
-l.215 \section
-              *{19.10.2023}
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-Missing character: There is no ü in font cmr10!
-Missing character: There is no ü in font cmr10!
-Missing character: There is no µ in font cmr10!
-Missing character: There is no ü in font cmr10!
-Missing character: There is no µ in font cmr10!
-Missing character: There is no µ in font cmr10!
-Missing character: There is no µ in font cmr10!
-
-Overfull \hbox (30.26286pt too wide) in paragraph at lines 212--215
-[]\T1/cmr/m/n/10 h$[] \OT1/cmr/m/n/10 = 1\OML/cmm/m/it/10 =n:e[]:::n \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 sqrt\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 =epsilon\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 n[] \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 sqrt\OT1/cmr/m/n/10 ([]\OML/cmm/m/it/10 =epsilon[]\OT1/cmr/m/n/10 ) = \OML/cmm/m/it/10 sqrt\OT1/cmr/m/n/10 ((4\OML/cmm/m/it/10 pi:\OT1/cmr/m/n/10 10[]\OML/cmm/m/it/10 zH=m\OT1/cmr/m/n/10 )[]\OML/cmm/m/it/10 :c[]\OT1/cmr/m/n/10 ) = 12\OML/cmm/m/it/10 pi:\OT1/cmr/m/n/10 10\OML/cmm/m/it/10 Ohm \OT1/cmr/m/n/10 =
  []
 
+./Wellenausbreitung.tex:182: Undefined control sequence.
+l.182 ...}E_{x} - \partial_{x}E_{z} = -j\omega\muH
+                                                  _{y} \partial_{z}\]
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-Overfull \hbox (24.47702pt too wide) in paragraph at lines 212--215
-\OT1/cmr/m/n/10 120\OML/cmm/m/it/10 piOhm:::Feldwellenwiderstand[]atnichtsmitohmschenVerlustenzutunepsilon[]:[] \OT1/cmr/m/n/10 = 1\OML/cmm/m/it/10 =c[]epsilon[] \OT1/cmr/m/n/10 =
- []
+./Wellenausbreitung.tex:190: Undefined control sequence.
+l.190 \[\omega^2\musigma
+                        -k_{z}^2=0\]
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-./Wellenausbreitung.tex:220: Missing $ inserted.
+[4]
+
+LaTeX Warning: Command \textmu invalid in math mode on input line 209.
+
+
+LaTeX Warning: Command \textmu invalid in math mode on input line 209.
+
+Missing character: There is no µ in font cmr10!
+
+LaTeX Warning: Command \textmu invalid in math mode on input line 210.
+
+
+LaTeX Warning: Command \textmu invalid in math mode on input line 210.
+
+Missing character: There is no µ in font cmr10!
+./Wellenausbreitung.tex:217: Missing $ inserted.
 <inserted text> 
                 $
-l.220 ... ist, heben sich die FlÃ¼sse auf \implies
+l.217 ... ist, heben sich die FlÃ¼sse auf \implies
                                                    $L=0, \omega_0=0$
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./Wellenausbreitung.tex:220: Missing $ inserted.
+./Wellenausbreitung.tex:217: Missing $ inserted.
 <inserted text> 
                 $
-l.220 ...ich die FlÃ¼sse auf \implies $L=0, \omega
+l.217 ...ich die FlÃ¼sse auf \implies $L=0, \omega
                                                   _0=0$
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 226--229
+Underfull \hbox (badness 10000) in paragraph at lines 223--226
 
  []
 
-./Wellenausbreitung.tex:230: Missing $ inserted.
-<inserted text> 
-                $
-l.230 Unterschied zwischen k und \omega
-                                       .
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-./Wellenausbreitung.tex:231: Missing $ inserted.
-<inserted text> 
-                $
-l.231 \section
-              *{Polarisation}
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-[4] (./Wellenausbreitung.aux) ) 
+[5] (./Wellenausbreitung.aux) ) 
 Here is how much of TeX's memory you used:
- 6132 strings out of 476091
- 96995 string characters out of 5794080
- 1866330 words of memory out of 5000000
- 26402 multiletter control sequences out of 15000+600000
+ 6133 strings out of 476091
+ 97010 string characters out of 5794080
+ 1863330 words of memory out of 5000000
+ 26403 multiletter control sequences out of 15000+600000
  525122 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,5n,76p,383b,196s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 72i,6n,76p,383b,196s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on Wellenausbreitung.pdf (4 pages, 220793 bytes).
+Output written on Wellenausbreitung.pdf (5 pages, 224052 bytes).
 PDF statistics:
- 107 PDF objects out of 1000 (max. 8388607)
- 65 compressed objects within 1 object stream
+ 110 PDF objects out of 1000 (max. 8388607)
+ 67 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
