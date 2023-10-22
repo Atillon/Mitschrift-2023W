@@ -67,31 +67,30 @@ $H(x,y,z,t)=Re\{\underline{H}(x,y,z)e^{jwt}\}$ ...Notiz: Spitzenwertzeiger $\und
 \[\nabla \times \underline{H} = \underline{S} + j\omega \underline{D} = \sigma\cdot \underline{E} + j\omega\epsilon \underline{E} = (\sigma + j\omega\epsilon)\cdot \underline{E} = j\omega\epsilon(1+\frac{\sigma}{j\omega\epsilon})\cdot \underline{E} = j\omega\epsilon(1 - \frac{j\sigma}{\omega\epsilon})\cdot \underline{E}\]
 $\nabla \times \underline{H}= j\omega \delta \underline{E}$...$\delta$ = effektive Permitivität
 \[\nabla \times  \underline{H} = -j\omega\mu \underline{H}\]
-\[\nabla \times  \underline{H} = -j\omega \underline{B}\]
-\[\nabla\cdot \underline{D} = -j\omega \underline{B}\]
-\[\nabla\cdot \underline{B} = 0\]
+\[\nabla\times\underline{H} = -j\omega \underline{B}\]
+\[\nabla\cdot\underline{D} = -j\omega \underline{B}\]
+\[\nabla\cdot\underline{B} = 0\]
 
-\section{Poyntingscher Satz}
+\section*{Poyntingscher Satz}
 \begin{itemize}
     \item Gleichungen mit $H$ und $E$ multiplizieren
     \item Gleichungen subtrahieren
     \item den Term $\nabla\cdot (E\times H)$ mittels Produktregel + Spatprodukt umformen auf $H\cdot (\nabla\times E) - E\cdot (\nabla\times H)$
     \item Weiter Produktregel an $E$ und $H$ Termen anwenden
 \end{itemize}
-\[(x\cdot \frac{dx}{dt}= |x|^2/2)\]
-\[\nabla\cdot (E\times H) + \sigma |E|^2 = -\frac{d}{dt}(\epsilon |E|^2/2 + \mu|H|^2/2)\]
+
+\[x\cdot \frac{dx}{dt}= |x|^2/2\]
+\[\nabla\cdot (E\times H) + \sigma |E|^2 = -\frac{d}{dt}(\frac{\epsilon}{2} |E|^2 + \frac{\mu}{2}|H|^2)\]
 Abstrahlung + Heizung = elektromagnetische\newline
 Die dielektrischen Verluste wachsen direkt proportional zur Frequenz.
 
-\[E(x,y,z,t)=Re{E(x,y,z,t)\cdot e^{j\omega t}}\]
+\[E(x,y,z,t)=Re\{E(x,y,z,t)\cdot e^{j\omega t}\}\]
 \[H(x,y,z,t)=\frac{1}{2}(\underline{H}(x,y,z,t)\cdot e^{j\omega t} + \underline{H}\ast(x,y,z)\cdot e^{-j\omega t})\]
-E(x,y,z,t)xH(x,y,z,t)=Re{botE(x,y,z)ejwt} x 1/2(botHe^jwt+botHkomkonj.e^-jwt)
-                    =Re{1/2botExbotHkomkonj + 1/2*botExbotHe^2jwt}
-                    stationärer Energifluss        Pendelt
-                    =Re{1/2.botExbotHkompkonj} + ....
+\[E(x,y,z,t)\times H(x,y,z,t)=Re\{\underline{E}(x,y,z)\cdot e^{j\omega t}\} \times \frac{1}{2}(\underline{H}\cdot e^{j\omega t}+\underline{H}\ast\cdot e^{-j\omega t})\]
+\[=Re\{\frac{1}{2}\underline{E}\times \underline{H}\ast + \frac{1}{2}\underline{E}\times \underline{H}\cdot e^{2j\omega t}\} = \text{stationärer + pendelnder Anteil}\]
+\[=Re\{\frac{1}{2}\underline{E}\times \underline{H}\ast\} + \ldots\]
 
-    komplexer Poyntingvektor botT=1/2botExbotHkompkonj = botT_w+j botT_b
-
+komplexer Poyntingvektor: \[\underline{T}=\frac{1}{2}\underline{E}\times \underline{H}\ast= \underline{T}_{\omega}+j \underline{T}_{b}\]
 
 \section{tägliche Trivia}
 Quellen und Wellen hängen irgendwie zusammen, Antennen sind gerne mal Quellen.
