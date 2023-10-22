@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2023.10.17)  22 OCT 2023 08:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2023.10.17)  22 OCT 2023 08:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -332,9 +332,31 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
+./Wellenausbreitung.tex:93: Extra }, or forgotten \endgroup.
+<template> }
+            $}\ifmeasuring@ \savefieldlength@ \fi \set@field \endtemplate 
+l.93 \end{align*}
+                 
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
 ./Wellenausbreitung.tex:93: Missing \endgroup inserted.
 <inserted text> 
                 \endgroup 
+l.93 \end{align*}
+                 
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./Wellenausbreitung.tex:93: Missing } inserted.
+<inserted text> 
+                }
 l.93 \end{align*}
                  
 I've inserted something that you may have forgotten.
@@ -479,6 +501,18 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
+./Wellenausbreitung.tex:93: Misplaced alignment tab character &.
+<argument> ...cdot e^{j\omega t}\}\] \[H(x,y,z,t)&
+                                                  =\frac {1}{2}(\underline {...
+l.93 \end{align*}
+                 
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
 ./Wellenausbreitung.tex:93: Missing \endgroup inserted.
 <inserted text> 
                 \endgroup 
@@ -502,6 +536,42 @@ l.93 \end{align*}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
+
+./Wellenausbreitung.tex:93: Misplaced alignment tab character &.
+<argument> ...t})\] \[E(x,y,z,t)\times H(x,y,z,t)&
+                                                  =Re\{\underline {E}(x,y,z)...
+l.93 \end{align*}
+                 
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./Wellenausbreitung.tex:93: Misplaced alignment tab character &.
+<argument> ... {H}\ast \cdot e^{-j\omega t})\] \[&
+                                                  =Re\{\frac {1}{2}\underlin...
+l.93 \end{align*}
+                 
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./Wellenausbreitung.tex:93: Misplaced alignment tab character &.
+<argument> ...tionärer + pendelnder Anteil}\] \[&
+                                                  =Re\{\frac {1}{2}\underlin...
+l.93 \end{align*}
+                 
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
 
 ./Wellenausbreitung.tex:93: Misplaced \cr.
 \math@cr@@@ ->\cr 
@@ -579,9 +649,31 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
+./Wellenausbreitung.tex:93: Extra }, or forgotten \endgroup.
+<template> }
+            $}\ifmeasuring@ \savefieldlength@ \fi \set@field \endtemplate 
+l.93 \end{align*}
+                 
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
 ./Wellenausbreitung.tex:93: Missing \endgroup inserted.
 <inserted text> 
                 \endgroup 
+l.93 \end{align*}
+                 
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./Wellenausbreitung.tex:93: Missing } inserted.
+<inserted text> 
+                }
 l.93 \end{align*}
                  
 I've inserted something that you may have forgotten.
@@ -708,6 +800,54 @@ my insertion and my current dilemma will both disappear.
 l.93 \end{align*}
                  
 Things are pretty mixed up, but I think the worst is over.
+
+./Wellenausbreitung.tex:93: Misplaced alignment tab character &.
+<argument> ...cdot e^{j\omega t}\}\] \[H(x,y,z,t)&
+                                                  =\frac {1}{2}(\underline {...
+l.93 \end{align*}
+                 
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./Wellenausbreitung.tex:93: Misplaced alignment tab character &.
+<argument> ...t})\] \[E(x,y,z,t)\times H(x,y,z,t)&
+                                                  =Re\{\underline {E}(x,y,z)...
+l.93 \end{align*}
+                 
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./Wellenausbreitung.tex:93: Misplaced alignment tab character &.
+<argument> ... {H}\ast \cdot e^{-j\omega t})\] \[&
+                                                  =Re\{\frac {1}{2}\underlin...
+l.93 \end{align*}
+                 
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./Wellenausbreitung.tex:93: Misplaced alignment tab character &.
+<argument> ...tionärer + pendelnder Anteil}\] \[&
+                                                  =Re\{\frac {1}{2}\underlin...
+l.93 \end{align*}
+                 
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
 
 ./Wellenausbreitung.tex:93: Misplaced \cr.
 \math@cr@@@ ->\cr 
