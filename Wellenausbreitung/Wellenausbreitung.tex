@@ -84,54 +84,49 @@ $\nabla \times \underline{H}= j\omega \delta \underline{E}$...$\delta$ = effekti
 Abstrahlung + Heizung = elektromagnetische\newline
 Die dielektrischen Verluste wachsen direkt proportional zur Frequenz.
 
-\begin{align*}
-    \[E(x,y,z,t)&=Re\{E(x,y,z,t)\cdot e^{j\omega t}\}\]
-    \[H(x,y,z,t)&=\frac{1}{2}(\underline{H}(x,y,z,t)\cdot e^{j\omega t} + \underline{H}\ast(x,y,z)\cdot e^{-j\omega t})\]
-    \[E(x,y,z,t)\times H(x,y,z,t)&=Re\{\underline{E}(x,y,z)\cdot e^{j\omega t}\} \times \frac{1}{2}(\underline{H}\cdot e^{j\omega t}+\underline{H}\ast\cdot e^{-j\omega t})\]
-    \[&=Re\{\frac{1}{2}\underline{E}\times \underline{H}\ast + \frac{1}{2}\underline{E}\times \underline{H}\cdot e^{2j\omega t}\} = \text{stationärer + pendelnder Anteil}\]
-    \[&=Re\{\frac{1}{2}\underline{E}\times \underline{H}\ast\} + \ldots\]
-\end{align*}
+\[E(x,y,z,t)=Re\{E(x,y,z,t)\cdot e^{j\omega t}\}\]
+\[H(x,y,z,t)=\frac{1}{2}(\underline{H}(x,y,z,t)\cdot e^{j\omega t} + \underline{H}\ast(x,y,z)\cdot e^{-j\omega t})\]
+\[E(x,y,z,t)\times H(x,y,z,t)=Re\{\underline{E}(x,y,z)\cdot e^{j\omega t}\} \times \frac{1}{2}(\underline{H}\cdot e^{j\omega t}+\underline{H}\ast\cdot e^{-j\omega t})\]
+\[=Re\{\frac{1}{2}\underline{E}\times \underline{H}\ast + \frac{1}{2}\underline{E}\times \underline{H}\cdot e^{2j\omega t}\} = \text{stationärer + pendelnder Anteil}\]
+\[=Re\{\frac{1}{2}\underline{E}\times \underline{H}\ast\} + \ldots\]
 
 komplexer Poyntingvektor: \[\underline{T}=\frac{1}{2}\underline{E}\times \underline{H}\ast= \underline{T}_{\omega}+j \underline{T}_{b}\]
 
-\section{tägliche Trivia}
+\section*{Tägliche Trivia}
 Quellen und Wellen hängen irgendwie zusammen, Antennen sind gerne mal Quellen.
 Der Begriff der Antenne kommt aus dem italienischen Wort für Zeltstange.
-Der Dipol ist die elementare Antenne.
+Der Dipol ist die elementare Antenne.\newline
 Merksatz: Die niedrigste Strahlungsordnung ist die Dipolladung.
-Eine Druckwelle einer Explosion íśt´éíńé´Monopolstrahlung, die Erbebenwelle ist
-eine Dipol- oder sogar Quadropolwelle.
+Eine Druckwelle einer Explosion ist eine Monopolstrahlung, die Erdbebenwelle ist
+eine Dipol- oder sogar Quadropolstrahlung.
 Die Kräfte einer Explosion gehen radial weg, während im Zentrum eines Erbebens
-Platten mit entgegengesetzten Kräften aneinander reiben.
+Platten mit entgegengesetzten Kräften aneinander reiben.\newline
+
 Dinge des Tages:
--) Gerade Einzeldrahtantenne mit induktiver Kopplung in der Mitte. Die Kopplung teilt die Antenne in zwei Teile für kurz- und langwellige Signale.
-       Skizze: ------------===--------
-                lambda=70cm   lambda~=100cm
+\begin{itemize}
+    \item Gerade Einzeldrahtantenne mit induktiver Kopplung in der Mitte. Die Kopplung teilt die Antenne in zwei Teile für kurz- und langwellige Signale.\newline
+       Skizze: ---a---===---b---
+                $\lambda_{a}~=70cm | \lambda_{b}~=100cm$
+    \item Koaxialkabel
+    \item Wifi-Antenne: Diese haben "gespiegelte" Stecker, damit normale Koaxialantennen nicht in einen Router passen. Mehr dazu in Kapitel 11
+\end{itemize}
 
--) Koaxkabel
--) Wifi-Antenne: Diese haben "gespiegelte" Stecker, damit normale koaxantennen 
-    nicht in einen Router passen. Mehr dazu in Kapitel 11
+Also, was war nochmal eine Antenne? Wandler zwischen raumgebundenen und leitungsgebundenen Wellen.
 
-Also, was war nochmal eine Antenne? Wandler zwischen raumgebundenen und
-                                    leitungsgebundenen Wellen.
-
-\section{2.4 Randbedingungen}
+\section*{2.4 Randbedingungen}
 Wiederholung: Faraday'sches Gesetz
 
-\section{2.1 Grenzflächen zwischen Dielektrika}
-Beispiel: Oberflächenintegral über kleines Rechteck na Grenzfläche.
-        delta l ist größer als delta x, aber kurz genug, damit E_tangential an
-        den beiden kurzen Kanten konstant bleibt.
-    siehe Resultat im Skriptum
-Analoges zur magnetischen Feldstärke
+\section*{2.1 Grenzflächen zwischen Dielektrika}
+Beispiel: Oberflächenintegral über kleines Rechteck an Grenzfläche.
+$\Delta l$ ist größer als $\Delta x$, aber kurz genug, damit $E_{tangential}$ an den beiden kurzen Kanten konstant bleibt. Siehe Resultat im Skriptum.
+Analoges kann für die magnetische Feldstärke durchgeführt werden.\newline
 
-Ähnliche infinitesimale Methode fpr die Divergenzgleichungen.
+Ähnliche infinitesimale Methode für die Divergenzgleichungen.
 Die elektrischen Flächenladungen die in den Ergebnissen auftreten, spielen in
 dieser Vorlesung keine Rolle und daher gibt es auch keine Beispiele dazu.
-Die Flächenstromdichte spielt sehr wohl eine Rolle (Skinneffekt).
-
-Sommerfeldsche Ausstrahlungsbedingung: Wellen verschwinden in der Unendlichkeit
-        (Mathematische Formulierung wird erstmal nicht durchgeführt)
+Die Flächenstromdichte spielt sehr wohl eine Rolle (Skineffekt).\newline\newline
+Sommerfeld'sche Ausstrahlungsbedingung: Wellen verschwinden in der Unendlichkeit
+(Mathematische Formulierung wird erstmal nicht durchgeführt)
 
 \section{2.5 Lösung der Wellengleichung in kartesischen Koordinaten}
 Sei angemerkt: unter hinreichenden Bedingungen  gilt der Satz von schwartz.
