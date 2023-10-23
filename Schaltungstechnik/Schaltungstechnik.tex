@@ -1,27 +1,52 @@
-# 0. Vorbesprechung
+\documentclass[a4paper]{article}
 
-zukünftig von 11:15 bis 12:45
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{textcomp}
+\usepackage[ngerman]{babel}
+\usepackage{amsmath, amssymb}
+
+
+% figure support
+\usepackage{import}
+\usepackage{xifthen}
+\pdfminorversion=7
+\usepackage{pdfpages}
+\usepackage{transparent}
+\newcommand{\incfig}[1]{%
+    \def\svgwidth{\columnwidth}
+    \import{./figures/}{#1.pdf_tex}
+}
+
+\pdfsuppresswarningpagegroup=1
+
+\begin{document}
+\section*{0. Vorbesprechung}
+
+zukünftig von 11:15 bis 12:45\newline
 Übungen immer in der 2. Stunde, Übungstermine folgen in TUWEL
 
-Kapitelzusammenfassung:
+\bold{Kapitelzusammenfassung:}
 -6: Sehr wichtig, sehr detailreich, mehr informationen als in sonst einer vorlesung, rechenintensiv und prüfungsrelevant
 -7: gegenteil von 6, nicht sehr intensiv und durchlesen sollte eher reichen
 -8: Anwendung aller vorherigen Kapitel
 
 
-# 1. Grundschaltungen
-# 1.1 Transistorgrundschaltungen
-# 1.1.1 Emitterschaltung
-brainstorming:
-- negative Verstärkung weil ein positives signal, immer die Ausgangsspannung zur Masse zieht
-- viel Spannungsverstärkung und viel Stromverstärkung
+\section*{1. Grundschaltungen}
+\section*{1.1 Transistorgrundschaltungen}
+\subsection*{1.1.1 Emitterschaltung}
+\bold{brainstorming:}
+\begin{itemize}
+    \item negative Verstärkung weil ein positives signal, immer die Ausgangsspannung zur Masse zieht
+    \item viel Spannungsverstärkung und viel Stromverstärkung
+\end{itemze}
 
 Emitter-Schaltung weil Signal und Emitter auf gleiches Potential (Masse) bezogen werden
 
 TLDR: Kleinsignalersatzschaltbild - Schaltung wird mittels Stützkondensatoren,
 diese sind bei hocher frequenz angenähert kurzgeschlossen -> VCC wird zu Masse
 
-Steilheit S=dIc/dUBE|UCE=const = IC/UT=IC*q/(kB*T)=26mA/26mV=1S (wichtig!)
+Steilheit $S=\frac{\partial I_{c}}{\partial U_{BE}} |_{UCE=const} = \frac{I_{c}}{U_{T}}=I_{c}\cdot \frac{q}{k_{B}\cdot T}=\frac{26mA}{26mV}=1S$ (wichtig!)
 
 # Stromgegenkopplung
 Widerstand am emitter
@@ -66,3 +91,4 @@ Gleiches Prinzip zur thermischen Stabilisierung.
 
 Der Emitterwiderstand kann mit einem parallel Kondensator für hohe Frequenzen
 überbrückt werden.
+\end{document}
