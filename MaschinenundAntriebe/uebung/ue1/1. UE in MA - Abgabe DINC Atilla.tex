@@ -23,15 +23,15 @@
 
 \begin{document}
     \section*{Angabe}
-    \begin{align*}
-        \text{Rotordurchmesser:}d_{R}&=30cm=0,3m &&
-        \text{Eisenlänge:} l_{Fe}&=25cm=0,23m &&
-        \text{Luftspalt:} \delta&=1,2mm=0,0012m &&
-        \text{Zahnbreite:}b_{Z}&=180mm=0,18m &&
-        \text{Jochbreite:}b_{J}&=11cm=0,11m &&
-        \text{mittlerer Durchmesser des Jochs:}d_{J}=550mm&=0,55m &&
-        \text{Windungszahl der Errergerwicklung:}N_{E}&=600
-    \end{align*}
+    \begin{fleqn}[2em]
+        \[ \text{Rotordurchmesser:}d_{R}=30cm=0,3m \]
+        \[ \text{Eisenlänge:} l_{Fe}=25cm=0,23m\]
+        \[ \text{Luftspalt:} \delta=1,2mm=0,0012m\]
+        \[ \text{Zahnbreite:}b_{Z}=180mm=0,18m \]
+        \[ \text{Jochbreite:}b_{J}=11cm=0,11m \]
+        \[ \text{mittlerer Durchmesser des Jochs:}d_{J}=550mm=0,55m \]
+        \[ \text{Windungszahl der Errergerwicklung:}N_{E}=600 \]
+    \end{fleqn}
 
     \section*{Frage 1}
     Annahme: Eisen sei ideal permeabel $\mu_{r}\to \infty$ 
@@ -54,16 +54,19 @@
     
     \subsection*{Erregerwiderstand und Verlustleistung}
     Zur Berechnung des Erregerwiderstandes wird die maximal zulässige Stromdichte $J$, der spezifischer Widerstand von Kupfer $\rho_{Cu}$ sowie dessen Temperaturabhängigkeit $\alpha$ gegeben:
-    \begin{align*}
-        \[ J&=4 \frac{A}{mm^2}\]
-        \[ \rho_{Cu}&=0,0178 \frac{\Ohm mm^2}{m} \text{\ldots online herausgesucht weil in Letto nur der Leitwert gegeben ist}\]
-        \[ \alpha = 0,00393 K^{-1}\]
-    \end{align*}
+    \begin{fleqn}[2em]
+      \[ J=4 \frac{A}{mm^2}\]
+      \[ \rho_{Cu}=0,0178 \frac{\Ohm mm^2}{m} \text{\ldots online herausgesucht weil in Letto nur der Leitwert gegeben ist}\]
+      \[ \alpha = 0,00393 K^{-1}\]
+    \end{fleqn}
+    Daraus können direkt folgende Größen bestimmt werden:
+    \begin{fleqn}[2em]    
     \[ \overline{l}=1,2\cdot U_{Z}=1,2\cdot 2(b_{Z}+l_{Fe})=1,032m \text{\ldots mittlere Leistungslänge pro Wicklung} \]
     \[ A_{Cu}=\frac{I_{E}}{J} = 0,95493mm^2 \]
     \[ R_{E,20} =\rho_{Cu}*\frac{\overline{l}N_{E}}{A_{Cu}}=11,542\Ohm\]
     \[ R_{E,80}=R_{E,20}\cdot (1+\alpha\cdot (60K))=14,263\Ohm\]
     \[ P_{V,E,80}=I_{E}^2\cdot R_{E,80}=208,11 W\]
+    \end{fleqn}
 
     \section*{Frage 2}
     Annahme: Eisen habe eine Permeabilität $\mu_{r,Fe}=2000$
