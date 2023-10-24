@@ -98,18 +98,21 @@
     In den Durchflutungssatz einsetzen:
     \begin{fleqn}[2em]
         \[ I_{E}\cdot N_{E}&= \frac{1}{\mu_{0}}
-        \frac{1}{\mu_{r,Fe}}B_{Z}l_{Z}
+            (\frac{1}{\mu_{r,Fe}}B_{Z}l_{Z}
         + \frac{1}{\mu_{r,Fe}}B_{R}d_{R}
         +\frac{1}{\mu_{r,Fe}}B_{J}\frac{d_{J}\pi}{2}
         +\frac{1}{\mu_{r,L}B_{L}2\delta}
     )\]
     \[=\frac{1}{\mu_{0}}(
-        \frac{1}{\mu_{r,Fe}B_{L}\frac{A_{L}}{A_{Z}}}l_{Z}
+    \frac{1}{\mu_{r,Fe}}B_{L}\frac{A_{L}}{A_{Z}}l_{Z}
         +\frac{1}{\mu_{r,Fe}}B_{L}\frac{A_{L}}{A_{R}}d_{R}
-        +\frac{1}{MU_{R,Fe}}B_{L}\frac{A_{L}}{2A_{J}}\frac{d_{J}\pi}{2}
+        +\frac{1}{\mu_{R,Fe}}B_{L}\frac{A_{L}}{2A_{J}}\frac{d_{J}\pi}{2}
         +\frac{1}{\mu_{r,L}}B_{L}2\delta
     )\]
-    \[=\frac{B_{L}A_{L}}{\mu_{0}}(\frac{1}{\mu_{r,Fe}}        )
+    \[=\frac{B_{L}A_{L}}{\mu_{0}}(\ldots)
+    \]
+    \[
+        \implies B_{L}=I_{E}\cdot N_{E}\cdot \mu_{0}\frac{1}{A_{L}}*\frac{1}{(\ldots)}
     \]
     \end{fleqn}
 \end{document}
