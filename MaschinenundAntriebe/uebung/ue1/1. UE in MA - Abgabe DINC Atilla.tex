@@ -5,7 +5,7 @@
 \usepackage[T1]{fontenc}
 \usepackage{textcomp}
 \usepackage[ngerman]{babel}
-\usepackage{amsmath, amssymb}
+\usepackage{amsmath, amssymb, nccmath}
 \usepackage{accents}
 
 % figure support
@@ -21,8 +21,16 @@
 
 \pdfsuppresswarningpagegroup=1
 
+\title{1. Übung\\Maschinen und Antriebe}
+\author{DINC Atilla (11917652)}
+
 \begin{document}
-    \section*{Angabe}
+\normalsize
+\maketitle
+%\tableofcontent\newpage
+
+% ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Start of the document ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+\section*{Angabe}
     \begin{fleqn}[2em]
         \[ \text{Rotordurchmesser:}d_{R}=30cm=0,3m \]
         \[ \text{Eisenlänge:} l_{Fe}=25cm=0,23m\]
@@ -30,7 +38,7 @@
         \[ \text{Zahnbreite:}b_{Z}=180mm=0,18m \]
         \[ \text{Jochbreite:}b_{J}=11cm=0,11m \]
         \[ \text{mittlerer Durchmesser des Jochs:}d_{J}=550mm=0,55m \]
-        \[ \text{Windungszahl der Errergerwicklung:}N_{E}=600 \]
+        \[ \text{Windungszahl der Erregerwicklung:}N_{E}=600 \]
     \end{fleqn}
 
     \section*{Frage 1}
@@ -72,7 +80,24 @@
     Annahme: Eisen habe eine Permeabilität $\mu_{r,Fe}=2000$
 
     \subsection*{Luftspaltflussdichte}
-    Der zuvor ermittelte Erregerstrom soll verwendet werden.
-
-    
+    Der zuvor ermittelte Erregerstrom soll verwendet werden. Es wird wieder der Durchflutungssatz angewandt:
+    \[I_{E}\cdot N_{E}=H_{Z}\cdot l_{Z}+H_{R}\cdot d_{R}+H_{J}\cdot \frac{d_{J}\pi}{2}+H_{L}2\delta\]
+    Weil Streuflüsse vernachlässigt werden dürfen, muss der Fluss in den unterschiedlichen Segmenten gleich bleiben (Satz des magn. Hüllenflusses). Deshalb kann mit den geometrischen Beziehungen die Flussdichte in allen Segmenten bestimmt werden.
+    \begin{fleqn}[2em]
+        \[ \Phi_{Z}=\Phi_{L} \implies B_{Z}\cdot A_{Z}=B_{L}\cdot A_{L} \implies B_{L}=B_{z} \frac{A_{Z}}{A_{L}} \]
+        \[ \Phi_{Z}=\Phi_{R} \implies B_{Z}\cdot A_{Z}=B_{R}\cdot A_{R}\implies B_{R}=B_{Z} \frac{A_{Z}}{A_{R}} \]
+        \[ \frac{1}{2}\Phi_{Z}=\Phi_{J} \implies \frac{1}{2}B_{Z}\cdot A_{Z}=B_{J}\cdot A_{J}\implies B_{J}=\frac{1}{2}B_{Z}\frac{A_{Z}}{A_{J}}\]
+    \end{fleqn}
+    Die Querschnitte für die unterschiedlichen Segmente berechnen sich zu:
+    \begin{fleqn}[2em]
+        \[ A_{Z}= b_{z}*l_{Fe}=0,045 m^2\]
+        \[ A_{R}=A_{Z} = 0,045 m^2\]
+        \[ A_{J}=b_{J}*l_{Fe}=0,0275 m^2 \]
+        \[ A_{L}\approx0,04823 m^2 \]
+    \end{fleqn}
+    In den Durchflutungssatz einsetzen:
+    \begin{fleqn}[2em]
+        \[ I_{E}\cdot N_{E}= \]
+        
+    \end{fleqn}
 \end{document}
