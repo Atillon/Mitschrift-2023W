@@ -1,11 +1,12 @@
 \documentclass[a4paper]{article}
 
+\usepackage[a4paper,top=2cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{textcomp}
-\usepackage[german]{babel}
+\usepackage[ngerman]{babel}
 \usepackage{amsmath, amssymb}
-
+\usepackage{accents}
 
 % figure support
 \usepackage{import}
@@ -62,7 +63,7 @@ Warum brauchen wir Diagonalmatrizen? Es ist viel einfacher beim Lösen, die Eige
 0 && 0 && 1\\
 \end{pmatrix}\cdot x\]
 Die Eigenwerte einer Dreiecksmatrix liegen IMMER auf der Diagonale. (wichtig für Prüfungen)
-\[(A-\lamda_{i}\cdot E)\cdot v_i=0$, $i \in {1,2,3}\]
+\[(A-\lambda_{i}\cdot E)\cdot v_i=0$, $i \in {1,2,3}\]
 Für $\lambda_1=3$:
 \[\implies v_{13}=0, v_{1,2}=0, v_{11}=beliebig\]
 \[\begin{pmatrix} v_{11}\\ 0\\ 0\end{pmatrix}, v_{11}\neq 0\]

@@ -1,0 +1,75 @@
+\documentclass[a4paper]{article}
+
+\usepackage[a4paper,top=2cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{textcomp}
+\usepackage[ngerman]{babel}
+\usepackage{amsmath, amssymb}
+\usepackage{accents}
+
+% figure support
+\usepackage{import}
+\usepackage{xifthen}
+\pdfminorversion=7
+\usepackage{pdfpages}
+\usepackage{transparent}
+\newcommand{\incfig}[1]{%
+    \def\svgwidth{\columnwidth}
+    \import{./figures/}{#1.pdf_tex}
+}
+
+\pdfsuppresswarningpagegroup=1
+
+\begin{document}
+    \section*{Angabe}
+    \begin{align*}
+        \[ \text{Rotordurchmesser:}d_{R}&=30cm=0,3m \]
+        \[ \text{Eisenlänge:} l_{Fe}&=25cm=0,23m\]
+        \[ \text{Luftspalt:} \delta&=1,2mm=0,0012m\]
+        \[ \text{Zahnbreite:}b_{Z}&=180mm=0,18m \]
+        \[ \text{Jochbreite:}b_{J}&=11cm=0,11m \]
+        \[ \text{mittlerer Durchmesser des Jochs:}d_{J}=550mm&=0,55m \]
+        \[ \text{Windungszahl der Errergerwicklung:}N_{E}&=600 \]
+    \end{align*}
+
+    \section*{Frage 1}
+    Annahme: Eisen sei ideal permeabel $\mu_{r}\to \infty$ 
+    \subsection*{Erregerstrom $I_{E}$}
+    Im Luftspalt soll die Flussdichte $B_{\delta}=1,2T$ vorgegeben.
+    Aus dem Durchflutungssatz folgt:\newline
+    \[ \Theta=I_{E}\cdot N_{E}=H_{L}\cdot 2\delta \]
+    \[ \implies I_{E}=\frac{\frac{B_{L}}{\mu_{0}\mu_{r}}2\delta}{N_{E}}\approx3,8197A\]
+    \subsection*{Selbstinduktivität}
+    Aus dem Durchflutungssatz wird ein Ausdruck hergeleitet, der Erregerstrom und magnetischen Fluss verknüpft.
+    \[ I_{E}\cdot N_{E}=H_{L}\cdot 2\delta =\frac{B_{L}}{\mu_{0}\mu_{r}}\cdot 2\delta=\frac{\Phi}{\mu_{0}\mu_{r}A}\cdot 2\delta\]
+    \begin{equation} \implies L=\frac{\Phi}{I_{E}}=\frac{N_{E}\mu_{0}\mu_{r}A}{2\delta} \end{equation}
+    
+    Um die Krümmung des Rotors in der Fläche zu berücksichtigen muss wird die Bogenlänge des Luftspaltes bestimmt.
+    \[ \text{Bogenlänge eines Kreissegments:}b=d\cdot \arcsin(\frac{s}{d}) \]
+    \[ d\text{\ldots Kreisdurchmesser} \]
+    \[ s\text{\ldots Kreissehne} \]
+    \[ A_{k}=b\cdot l_{Fe} = (d_{R}+\delta)\arcsin(\frac{b_{Z}}{d_{R}+\delta})\cdot l_{Fe}\approx 0,04823 m^2\]
+    \[ L= \frac{N_{E}\mu_{0}\mu_{r}A_{k}}{2\delta}\approx 15,152 mH\]
+    
+    \subsection*{Erregerwiderstand und Verlustleistung}
+    Zur Berechnung des Erregerwiderstandes wird die maximal zulässige Stromdichte $J$, der spezifischer Widerstand von Kupfer $\rho_{Cu}$ sowie dessen Temperaturabhängigkeit $\alpha$ gegeben:
+    \begin{align*}
+        \[ J&=4 \frac{A}{mm^2}\]
+        \[ \rho_{Cu}&=0,0178 \frac{\Ohm mm^2}{m} \text{\ldots online herausgesucht weil in Letto nur der Leitwert gegeben ist}\]
+        \[ \alpha = 0,00393 K^{-1}\]
+    \end{align*}
+    \[ \overline{l}=1,2\cdot U_{Z}=1,2\cdot 2(b_{Z}+l_{Fe})=1,032m \text{\ldots mittlere Leistungslänge pro Wicklung} \]
+    \[ A_{Cu}=\frac{I_{E}}{J} = 0,95493mm^2 \]
+    \[ R_{E,20} =\rho_{Cu}*\frac{\overline{l}N_{E}}{A_{Cu}}=11,542\Ohm\]
+    \[ R_{E,80}=R_{E,20}\cdot (1+\alpha\cdot (60K))=14,263\Ohm\]
+    \[ P_{V,E,80}=I_{E}^2\cdot R_{E,80}=208,11 W\]
+
+    \section*{Frage 2}
+    Annahme: Eisen habe eine Permeabilität $\mu_{r,Fe}=2000$
+
+    \subsection*{Luftspaltflussdichte}
+    Der zuvor ermittelte Erregerstrom soll verwendet werden.
+
+    
+\end{document}
