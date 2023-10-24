@@ -84,9 +84,9 @@
     \[I_{E}\cdot N_{E}=H_{Z}\cdot l_{Z}+H_{R}\cdot d_{R}+H_{J}\cdot \frac{d_{J}\pi}{2}+H_{L}2\delta\]
     Weil Streuflüsse vernachlässigt werden dürfen, muss der Fluss in den unterschiedlichen Segmenten gleich bleiben (Satz des magn. Hüllenflusses). Deshalb kann mit den geometrischen Beziehungen die Flussdichte in allen Segmenten bestimmt werden.
     \begin{fleqn}[2em]
-        \[ \Phi_{Z}=\Phi_{L} \implies B_{Z}\cdot A_{Z}=B_{L}\cdot A_{L} \implies B_{L}=B_{z} \frac{A_{Z}}{A_{L}} \]
-        \[ \Phi_{Z}=\Phi_{R} \implies B_{Z}\cdot A_{Z}=B_{R}\cdot A_{R}\implies B_{R}=B_{Z} \frac{A_{Z}}{A_{R}} \]
-        \[ \frac{1}{2}\Phi_{Z}=\Phi_{J} \implies \frac{1}{2}B_{Z}\cdot A_{Z}=B_{J}\cdot A_{J}\implies B_{J}=\frac{1}{2}B_{Z}\frac{A_{Z}}{A_{J}}\]
+        \[ \Phi_{L}=\Phi_{Z} \implies B_{L}\cdot A_{L}=B_{Z}\cdot A_{Z} \implies B_{Z}=B_{L} \frac{A_{L}}{A_{Z}} \]
+        \[ \Phi_{L}=\Phi_{R} \implies B_{L}\cdot A_{L}=B_{R}\cdot A_{R}\implies B_{R}=B_{L} \frac{A_{L}}{A_{R}} \]
+        \[ \frac{1}{2}\Phi_{L}=\Phi_{J} \implies \frac{1}{2}B_{L}\cdot A_{L}=B_{J}\cdot A_{J}\implies B_{J}=\frac{1}{2}B_{L}\frac{A_{L}}{A_{J}}\]
     \end{fleqn}
     Die Querschnitte für die unterschiedlichen Segmente berechnen sich zu:
     \begin{fleqn}[2em]
@@ -97,7 +97,19 @@
     \end{fleqn}
     In den Durchflutungssatz einsetzen:
     \begin{fleqn}[2em]
-        \[ I_{E}\cdot N_{E}= \]
-        
+        \[ I_{E}\cdot N_{E}&= \frac{1}{\mu_{0}}
+        \frac{1}{\mu_{r,Fe}}B_{Z}l_{Z}
+        + \frac{1}{\mu_{r,Fe}}B_{R}d_{R}
+        +\frac{1}{\mu_{r,Fe}}B_{J}\frac{d_{J}\pi}{2}
+        +\frac{1}{\mu_{r,L}B_{L}2\delta}
+        )&&
+        &=\frac{1}{\mu_{0}}(
+        \frac{1}{\mu_{r,Fe}B_{L}\frac{A_{L}}{A_{Z}}}l_{Z}
+        +\frac{1}{\mu_{r,Fe}}B_{L}\frac{A_{L}}{A_{R}}d_{R}
+        +\frac{1}{MU_{R,Fe}}B_{L}\frac{A_{L}}{2A_{J}}\frac{d_{J}\pi}{2}
+        +\frac{1}{\mu_{r,L}}B_{L}2\delta
+        )
+        &=\frac{B_{L}A_{L}}{\mu_{0}}(\frac{1}{\mu_{r,Fe}}        )
+    \]
     \end{fleqn}
 \end{document}
