@@ -1,0 +1,72 @@
+\documentclass[a4paper]{article}
+
+\usepackage[a4paper,top=2cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{textcomp}
+\usepackage[ngerman]{babel}
+\usepackage{amsmath, amssymb, nccmath}
+\usepackage{accents}
+
+% figure support
+\usepackage{import}
+\usepackage{xifthen}
+\pdfminorversion=7
+\usepackage{pdfpages}
+\usepackage{transparent}
+\newcommand{\incfig}[1]{%
+    \def\svgwidth{\columnwidth}
+    \import{./figures/}{#1.pdf_tex}
+}
+
+\pdfsuppresswarningpagegroup=1
+
+\title{Rechenübung\\Wellenausbreitung}
+\author{DINC Atilla (11917652)}
+
+\begin{document}
+\normalsize
+\maketitle
+%\tableofcontent\newpage
+
+% ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Start of the document ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+\section*{31.10.2023}
+\section*{Beispiel 5}
+Abbildung: siehe Beispielskriptun
+
+\begin{itemize}
+    \item 1. Ansatz für einfallende und ausfallende Welle finden
+        \[ \vec{E_{i}}=E_{0}e^{-jk_{z}z} \vec{e_{x}} \]
+        \[ \vec{E_{r}}=E_{0}e^{+jk_{z}z}\vec{e_{x'}} \]
+    \item 2. Transponieren
+        gemoetrisch ergibt sich $x'=x\cos(2\phi)-z\sin(\phi)$
+        und $y'=y$ 
+        und $z'=x\sin(2\phi)+z\cos(2\phi)$
+        \[ \vec{E_{r}}=E_{0}e^{jk_{z}(x\sin(2\phi)+z\cos(2\phi))}(\vec{e_{x}}\cos(2\phi)-\vec{e_{z}}\sin(2\phi)) \]
+        \[\vec{E_{ges}}=\vec{E_{i}}+\vec{E_{r}} \]
+        \[ =E_{0}(e^{-jk_{z}z}+\cos(2\phi)e^{jk_{z}(x\sin(2\phi)+z\cos(2\phi))})\vec{e_{x}}
+        -E_{0}\sin(2\phi)e^{jk_{z}(x\sin(2\phi)+z\cos(2\phi))}\vec{e_{z}}\]
+    \item 3. Hüllkurve bestimmen
+        \[ Betrag(E_{ges,x})=Betrag(E_{0})\sqrt{irgendwas}  \]
+        \[ =Betrag(E_{0}) \sqrt{1+\cos^{2}(2\phi) + 2\cos(2\phi)\cos(k_{z}z(1+\cos(2\phi)))} \]
+    \item 4. Fallunterscheidung#
+        \[ \phi =0° \implies Betrag(E_{ges,x})=Betrag(E_{0})2\cos(k_{z}z)  \]
+        \[ \phi =45° \implies Betrag(E_{ges,x})=Betrag(E_{0})  \]
+        \[ \phi =90° \implies Betrag(E_{ges,x})=0  \]
+    \item 5. Minimale und Maximale Feldstärke
+        \[ Betrag(E_{ges,x})=Betrag(E_{0}) \sqrt{1+\cos^{2}(2\phi) + 2\cos(2\phi)\cos(k_{z}z(1+\cos(2\phi)))} \]
+        \[\cos(k_{z}z(1+\cos(2\phi))\]
+        \ldots $min = -1$ und  $max=1$
+        \[ Betrag(E_{ges,x})_{min}=Betrag(E_{0}(1-\cos(2\phi)))\]
+        \[ Betrag(E_{ges,x})_{max}=Betrag(E_{0}(1+\cos(2\phi)))\]
+        \[ m=\frac{E_{max}}{E_{min}}=\frac{1+\cos(2\phi)}{1-\cos(2\phi)}\text{,} 1 <m < \infty \]
+    \item 6.
+        \[ \cos(k_{z}z(1+\cos(2\phi)))=-1 \]
+        \[ \cos(\pi(2n-1))=-1 \]
+        \[ k_{z}z(1+\cos(2\phi))=\pi(2n-1) \]
+        \[ k_{z}z_{n}(1+\cos(2\phi))=2\pin-\pi \]
+        \[ k_{z}z_{n+1}(1+\cos(2\phi))=2\pin+\pi \]
+        und er löscht es weg\ldots
+\end{itemize}
+
+\end{document}
