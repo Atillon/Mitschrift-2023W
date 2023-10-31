@@ -1,11 +1,12 @@
 \documentclass[a4paper]{article}
 
+\usepackage[a4paper,top=2cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{textcomp}
 \usepackage[ngerman]{babel}
-\usepackage{amsmath, amssymb}
-
+\usepackage{amsmath, amssymb, nccmath}
+\usepackage{accents}
 
 % figure support
 \usepackage{import}
@@ -20,7 +21,16 @@
 
 \pdfsuppresswarningpagegroup=1
 
+\title{Mitschrift\\Schaltungstechnik}
+\author{DINC Atilla (11917652)}
+
 \begin{document}
+\normalsize
+\maketitle
+%\tableofcontent\newpage
+
+% ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Start of the document ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 \section*{0. Vorbesprechung}
 
 zukünftig von 11:15 bis 12:45\newline
@@ -91,4 +101,71 @@ Gleiches Prinzip zur thermischen Stabilisierung.
 
 Der Emitterwiderstand kann mit einem parallel Kondensator für hohe Frequenzen
 überbrückt werden.
+
+\subsection*{30.10.2023}
+\section*{VV-Breitbandverstärker}
+Hohe Verstärkungen notwendig. Da stellt sich die Frage, welche Spannungsverstärkungen mit Transistorschaltungen möglich sind.
+
+\subsection*{Maximale Verstärkung}
+
+\subsection*{3.1.1 Breitband OV (VV-OPV)}
+
+\subsection*{Kaskodenschaltung}
+\subsubsection*{PNP-Kaskode}
+\begin{itemize}
+    \item T4 \& T6 erhöhen die Eingangsimpedanz
+    \item Stromspiegel und Spannungsfolger sind auch mit dabei
+\end{itemize}
+\subsubsection*{gefaltete Kaskode}
+\begin{itemize}
+    \item Spart Transistoren
+\end{itemize}
+
+\subsubsection*{OPV mit komplementärem Kaskoden-Differenzverstärker}
+Sehr hohe Verstärkung möglich
+
+\subsubsection*{Breitband-Gegentakt-OV}
+Ist aufgrund der konstantstromquellen auf $2I_{q}=2I_{O}$ beschränkt. Das ist sehr nachteilhaft für das Umladen von (Koppel-)Kapazitäten.
+
+\subsubsection*{Breitband-Differenzverstärker im AB-Betrieb}
+Dieses Prinzip, dass bei Bedarf sehr viel Strom geliefert werden kann, wird auch Current-On-Demand genannt.
+
+\section*{Transkonduktanz-Verstärker (VC-OV)}
+Typ: Voltage-Current Operationsverstärker (VC-OC)
+
+Der gespiegelte Strom wird nicht mehr in eine Spannung umgesetzt.
+Wird auch OTA genannt. Weil die Steilheit proportional zum Ruhestrom ist, ist 
+die Steilheit einstellbar.
+
+\subsubsection*{Wideband Transconductance Amplifier (WTA)}
+$k_{I}=8$ zeigt an, dass die Emitterfläche 8-mal größer ausgelegt ist (z.B.
+durch parallel geschaltete Transistoren) wodurch auch der 8-fache Strom geführt
+ wird.
+
+\subsubsection*{Typische Anwendung}
+\begin{itemize}
+    \item Treiber für Koaxialleiter
+    \item Bandpassfilter
+        siehe Skriptum S.33
+\end{itemize}
+
+\section*{Transimpedanz-Verstärker}
+Typ: TIA, Strom-Spannungs Operationsverstärker
+
+Joa, was auch immer, ist nicht so als könnte man dem folgen\ldots
+
+Kaskodierter Stromspiegel für höhere Verstärkung.
+
+Sehr beeindruckend hohe Slew-Rate!
+
+\section*{Strom-Verstärker}
+Typ: Strom-Strom Operationsverstärker (CC-OV)
+
+Basis ist hochohmig, Emitter ist niederohmig und kann idealerweise Strom in
+beide Richtungen fördern.
+
+Joa, Rest ist es scheinbar wieder nicht wert, angemessen zu erklären.
+Hauptsache man kann es in den 3min irgendwie reindrücken.
+
+
 \end{document}

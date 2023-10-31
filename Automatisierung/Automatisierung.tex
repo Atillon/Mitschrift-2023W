@@ -131,4 +131,126 @@ Ein lineares System kann nicht, in endlicher Zeit nach unendlich oder gegen 0 ge
 
 \section*{Nächstes Mal:}
 Was ist die Bedeutung des Eigenvektors. Im Beispiel der Flugtechnik ist weiters die Richtung notwendig, da wird der EigenVEKTOR notwendig.
+
+\section*{31.10.2023}
+\section*{Wiederholung}
+\section*{3.5 Realisierungsproblem}
+Gegeben sei ein LTI-System:
+\[ \dot x = Ax+bu\text{,}x_{0} \]
+\[ dot y = c^{T}x+du \]
+Daraus kann mit einem Ausgangszustand $x_{0}$ eine Übertragungsfunktion im Laplacebereich hergeleitet werden:
+\[ G(s)=\frac{\hat{Y(s)}}{\hat{U}(s)}=c^{T}(SE-A)^{-1b+d}\]
+Der reverse Weg beschreibt ein Realisierungsproblem.
+
+Wenn der Zählergrad grösser als der Nennergrad ist, hat man einen DIfferenzierer, daher macht es Sinn, dass man da keinen Zustand haben kann.
+Es werden Eigenschaften mit den englischen Begriffen
+\begin{itemize}
+    \item proper: Zählergrad \ge  Nenner
+    \item strictly proper: Zählergrad > Nennergrad
+\end{itemize}
+
+\subsubsection*{Beispiel:}
+\[ \tilde{b_{l}}=b_{l}-a_{l}b_{n} \]
+\ldots bitte nachlesen
+
+\subsection*{Stabilität}
+
+\subsubsection*{BIBO-Stabilität}
+\[ \dot x=Ax\text{,} x_{0} \]
+\[ G_{s}=\frac{\hat{Y}}{\hat{U}}\]
+\[ \lim_{t \to \infty} x(t)=0 \]
+\subsubsection*{Satz 3.7: BIBO-Stabilität anhand der Impulsantwort}
+Impuls-Eingang Laplace-transformiert ergibt
+\[ G(s)=1\]
+daraus folgt
+\[ \hat{Y}(s)=G(s)*1\text{,}y(t)=\mathbb{L}^{-1}\{G(s)\}=g(t) \]
+
+\subsubsection*{Satz 3.8: BIBO-Stabilität anhand der Impulsantwort}
+\[ G(s)=\frac{\hat{Y}}{\hat{U}}=c^{T}(SE-A)^{-1}b+d=\frac{Z(s)}{N(s)} \]
+Hieraus lässt sich erkennen, dass sich die Eigenwerte im Nenner befinden müssen.
+
+\section*{3.7 Kontinuierlicher Frequenzgang}
+Wir beschränken uns auf Harmonische Eingangs- und Ausgangsgrössen. Wenn eine 
+harmonische Grösse aufgeschaltet wird, schwingen nach ausreichend langer Zeit
+alle transienten Funktionen im Ausgang ab und es bleibt eine harmonische
+Schwingung mit der gleichen Frequenz.
+
+\subsubsection*{Beispiel 3.4} Im Skriptum durchbesprochen
+Man sieht, wir erhalten wieder eine harmonische Schwingung, es ändern sich nur 
+Amplitude und Phase. Am Beispiel $Y=U^{2}$ sieht man auch direkt, dass das nur
+für lineare Systeme gilt.
+
+Rückblick auf die komplexen Zahlen: $z_{1}=a_{1}+Ib_{1}=Betrag(z_{1})\cdot e^{Iarg(z_{1})}$ 
+\[ Betrag(z_{1})=\sqrt{a_{1}^{2}+b_{1}^{2}}  \]
+\[ arg(z_{1}) =\arctan(\frac{b_{1}}{a_{1}})\]
+Für die Prüfung: $\arctan(\frac{1}{1})\neq \arctan(-\frac{1}{-1})$ das ist KEIN
+Rechenfehler, das wird bei der Prüfung als ein normaler Fehler angerechnet.\newline
+HÜ: Rechne auch $z_{1}\cdot z_{2}$ und $\frac{z_{1}}{z_{2}}$ aus.
+Der Prof hat lang und breit erklärt, dass wir bei der Prüfung nachdenken müssen,
+es werden keine 40 Zeilen zum umformen erwartet. Das dividieren zweier komplexer
+Zahlen ist kein Trick sondern eine Grundlage.
+
+Beim Aufbau eines Frequenzgangs könnte man eine Frequenz einstellen, und aufs
+Einschwingen warten, und das für ganz viele Frequenzen wiederholen. Wird aber
+in der Praxis nicht so gemacht. Professionell wird Eingang und Ausgang
+irgendwie bestimmt angeregt, beides FF-transformiert und die beiden FFTs mit-
+einander dividiert.
+
+Zur Darstellung werden Bodediagram und Ortskurve verwendet.
+
+Eine Nyquist-Ortskurve wird mit Betrag und Winkel geplottet (siehe Skriptum)
+
+Das Bodediagram:
+\begin{itemize}
+    \item Amplitudengang: doppellogarithmisch aufgetragener Betrag
+    \item Phasengang
+\end{itemize}
+
+Wieso wird das so gemacht? Siehe Gleichungen 3.117 und 3.118
+\[ \log(\frac{a}{b})=\log(a)-\log(b) \]
+\[ \log(a\cdot b)=\log(a)+\log(b) \]
+
+Zu Gleichung 3.119:
+Es sind einige Erkenntnisse zu den reellen und konj. kompl. Nullstellen zu sehen.
+Weiters:
+\begin{itemize}
+    \item $\xi=0$ \implies  $1+(\frac{s}{\omega_{z}^{2}}=0$ 
+    \item $\xi=1$ \implies  $ 1+ 2(\frac{s}{\omega_{z}+(\frac{s}{\omega_{z}})^2=(1+\frac{s}{\omega_{z}})^{2}=0}$
+\end{itemize}
+Die Nullstellen lassen sich sehr gut in der komplexen Ebene abbilden.
+Diese Erkenntnis ist sehr fundamental für die gesamte Vorlesung.
+
+$V$ wird als Verstärkungsfaktor bezeichnet.
+
+\[ G(s)=\frac{\hat{Y}}{\hat{U}} \]
+\[ u(t)=\sigma(t) \text{laplacetransformiert} \hat{U}=\frac{1}{s}\]
+\[ \sigma(t) \text{\ldots Heavyside-Funktion} \]
+\[ \hat{Y}=G(s)\hat{U}=G(s) \frac{1}{s} \]
+Endwertsatz: $\lim_{t \to \infty} y(t)=\lim_{s \to 0} s \hat{y}=\lim_{s \to 0} G(s)=G(0)=V \frac{Z(0)}{N(0)}=V$ 
+
+$(I\omega)'$ wird als Integrator/Differenzierer bezeichnet.
+Integrator
+\[ \dot x=u \text{,} x_{0}=0\]
+\[ y=x \]
+\[ s \hat{x}=\hat{u} \]
+\[ \hat{y}=\hat{x} = \frac{\hat{u}}{s} \implies \frac{\hat{y}}{\hat{u}}=\frac{1}{s}\]
+
+Differenzierer
+\[ y=\dot u \]
+\[ \hat{y}=s \hat{u} \]
+\[ \frac{\hat{y}}{u}=s=G(s) \]
+
+\[ G(s)=\frac{1}{s}=\frac{1}{I\omega}\]
+\[ Betrag(G(s))_{dB}= \text{Im Bodediagram plotten (Gerade mit k=-45°)}\]
+\[ arg(\frac{1}{I\omega})=0-arg(I\omega)=-90° \text{\ldots const}\]
+
+
+\[ G(s)=\frac{1}{s^{2}}=-\frac{1}{\omega^{2}}\]
+\[ Betrag(G(s))_{dB}= \text{Im Bodediagram plotten}\]
+\[ arg(\frac{1}{s^{2}})=\ldots \]
+
+Der Differenzierer steigt stattdessen. Für sehr hohe Frequenzen geht der Differenzierer gegen unendlich.
+Da jedes reale System Rauschen hat, macht es den Differenzierer sehr unangenehm.
+Der Differenzier macht in echt einfach keinen Sinn, und MatLab weigert sich, ihn aus der Toolbox zu entfernen.
+
 \end{document}

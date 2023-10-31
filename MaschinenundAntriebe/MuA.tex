@@ -126,4 +126,48 @@ Gleichung 2.33 ist ebenfalls wichtig.
     /item etc.
 Das ist sehr wichtig.
 \end{itemize}
+
+\section*{2.4 Wichtige Schaltungen der GSM}
+\subsection*{2.4.1 Permanenterregte GSM}
+\subsubsection*{Flussverkettungsgleichung}
+Man bedenke auch$ k\Phi n=k\Phi \frac{\Omega}{2\pi} =k'\Phi\Omega$.
+\begin{equation}\label{2.39} \text{ist eine lineare Differentialgleichung} \end{equation}
+
+\subsubsection*{Mechanische Gleichung}
+zu 2.45 und 2.46: einfach nachlesen
+
+\subsubsection*{Spannungsgesteuerte PM-GSM}
+Die spannungsgesteuerte GSM gibt die Drehzahl vor.
+allgemein - Übertragungsfunktion: $f(s)=\frac{x_{a}(s)}{x_{e}(s)}$\newline
+aus 2.45 und 2.46 kommt man auf 2.47.\newline
+Interpretation:
+\begin{itemize}
+    \item Nullstellen des Nenners bestimmen die Stabilität
+\end{itemize}
+In Abbildung 2.35 gilt als Zwischengrösse: $\frac{1}{\Theta_{m}}=\frac{d\Omega_{M}}{dt}$, weshalb nach dem Integrator die Ausgangsgrösse $\Omega_{M}$ erscheint.
+
+Fazit: Eine spannungsgesteuerte GSM ist alles andere als hochdynamisch. Die Spannungs muss behutsam hochgefahren werden (siehe Eingangszweig $\frac{1}{R_{A}}\to \frac{L_{A}}{R_{A}}\to const$)
+
+\boxed{Empfohlene Übung: rechnen Sie 2.48 nach und untersuchen Sie die Schwingungsbedingungen.}
+
+\subsubsection*{Stationärverhalten der Spannungssteuerung}
+Abb 2.37 wurde ausführlich besprochen:
+\begin{itemize}
+    \item n-Verhalten bei Last
+    \item Strom-Spannungsverhalten in unterschiedlichen Situationen
+    \item Alle quadranten abfahren (Hinweis: Generatorbetrieb und Bremsbetrieb)
+\end{itemize}
+
+\subsubsection*{Einfluss einer stossförmigen Laständerung}
+Die Pole einer Störübertragungsfunktion sind die gleichen, wie die einer Führungsübertragungsfunktion. Sind also die der Führung stabil, so sind auch die der Störung stabil.\newline
+Wenn der Bruch aus Gleichugn 2.53 in 2 Brüche gespalten wird, ist der $R_{A}$-Bruch ein normaler PT2 und der $s\cdot L_{A}$-Bruch ist ein gedämpfter Differenzierer DT2.
+
+Die Steuerungen in Abb. 2.38 sind sehr simpel aber nicht sehr hochdynamisch.
+
+\subsection*{Stromgesteuerte PM-Gleichstrommaschine}
+Die stromgesteuerte Maschine prägt das Drehmoment ein.\newline
+Für das Lastverhalten kann man die mechanische Gleichung $\Theta \dot\Omega=m_{i}=k'\Phi I$ betrachten.
+
+
+Bis Seite 84 besprochen.
 \end{document}
