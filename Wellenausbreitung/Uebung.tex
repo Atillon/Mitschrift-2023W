@@ -79,15 +79,18 @@ Welle breitet sich in z-Richtung aus, Wand ist parallel zur x-y-Ebene
 \begin{itemize}
     \item 1. Wellengeschwindigkeit
         \[ v_{P}=\frac{1}{\sqrt{\epsilon\mu}}=\frac{1}{\sqrt{\epsilon_{0}\mu_{0}} \sqrt{\epsilon_{r}\mu_{r}} }=\frac{c_{0}}{\sqrt{\epsilon_{r}} } =75\cdot 10^{10}\frac{m}{s}\]
+
     \item 2.
         \[ \vec{E_{i}(z)=E_{0}e^{-jk_{z}z}}\vec{e_{z}} \]
         \[ jk_{z}=\alpha+j\zeta=j\omega\sqrt{\mu\delta} =(0,049+j1,624)\frac{1}{m} \]
         \[ \alpha=0,049  \frac{NP}{m} \implies \alpha[dB]=0,42 \frac{dB}{m} \]
+
     \item 3. 
         \[ \vec{E_{i}}(z)=E_{0}e^{-jk_{z}z}\vec{e_{x}} \]
         \[ \vec{E_{i}(z=10cm)=}=1 \frac{V}{m}e^{-j(1,624-j0,049)\frac{1}{m}\cdot 10m}=()-0,53+j0,31)\vec{e_{x}}\frac{V}{m}\]
         \[ \vec{e}(z,t)=Re\{E_{i}(z)e^{j\omega t}\} \]
         \[ \vec{e}(10,t)=Re\{E_{0}e^{-jk_{z}z}e^{j\omega t}\} = 0,615 \frac{V}{m}\cos(\omega t - 16,24)\vec{e_{x}}\]
+
     \item 4.
         \[ \vec{E_{r}}(z)=Ae^{jk_{z}(z-z0)} \]
         \[ \vec{E_{ges}}(z)=\vec{E_{i}}(z)+\vec{E_{r}}(z) \]
@@ -100,26 +103,13 @@ Welle breitet sich in z-Richtung aus, Wand ist parallel zur x-y-Ebene
         \[ Betrag(E_{r})=\sqrt{E_{r}E_{r}\konjgiertkomplex}=\ldots=Ae^{\alpha(z-z_{0})} \]
         \[ \vec{E_{ges}}E_{0}(e^{-(\alpha+j\beta)}-e^{-(\alpha+j\beta)(z-2z_{0})}\vec{e_{x}}) \]
         \[ Betrag(\vec{E_{ges}})=\sqrt{E_{ges}E_{ges}\konj}=E_{0}\sqrt{e^{-2\alpha z}(1+e^{4\alpha (z-z_{0})})-2e^{-\alpha z_{0}}\cos(2\beta(z-z_{0}))}  \]
+
     \item 6.
         \[ alpha = 0 \]
-        \[ Betrag(\vec{E_ges})=E_{0}\sqrt{1(1+j)-2\cdot 1\cos(\beta(z-z_{0}))} \]
-        \[ =E_{0}\sqrt{2()}  \]
-        Ich hab ein Tafelbild vom rest\ldots
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
+        \[ Betrag(\vec{E_ges})=E_{0}\sqrt{1(1+1)-2\cdot 1\cos(2\beta(z-z_{0}))} \]
+        \[ =E_{0}\sqrt{2(1-\cos2\beta(z-z_{0}))}  \]
+        \[\cos(2\beta\Delta z)\overset{!}{=}1 \]
+        \[ 2\beta\Delta z = 2\pi \]
+        \[ \Delta z =\frac{2\pi}{2\beta}=\frac{\pi}{\frac{2\pi}{\lambda}}=\frac{\lambda}{2}\]
 \end{itemize}
-
-
 \end{document}
