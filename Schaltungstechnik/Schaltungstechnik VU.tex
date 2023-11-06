@@ -1,0 +1,40 @@
+\documentclass[a4paper]{article}
+
+\usepackage[a4paper,top=2cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{textcomp}
+\usepackage[ngerman]{babel}
+\usepackage{amsmath, amssymb, nccmath}
+\usepackage{accents}
+
+% figure support
+\usepackage{import}
+\usepackage{xifthen}
+\pdfminorversion=7
+\usepackage{pdfpages}
+\usepackage{transparent}
+\newcommand{\incfig}[1]{%
+    \def\svgwidth{\columnwidth}
+    \import{./figures/}{#1.pdf_tex}
+}
+
+\pdfsuppresswarningpagegroup=1
+
+\title{Übungseinheit\\Schaltungstechnik}
+\author{DINC Atilla (11917652)}
+
+\begin{document}
+\normalsize
+\maketitle
+%\tableofcontent\newpage
+
+% ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Start of the document ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+\section*{Beispiel 3:}
+siehe Berechnung im Skriptum
+
+\section*{Beispiel 4: Dimensionierung eines Kühlblechs}
+
+\section*{Beispiel 6: Subtrahierverstärker}
+
+\end{document}
