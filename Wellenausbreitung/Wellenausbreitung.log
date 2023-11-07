@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2023.10.17)  22 OCT 2023 12:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2023.10.17)  7 NOV 2023 12:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -367,105 +367,105 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 135--139
+Underfull \hbox (badness 10000) in paragraph at lines 135--140
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 146--147
+Underfull \hbox (badness 10000) in paragraph at lines 147--148
 
  []
 
-./Wellenausbreitung.tex:148: Missing $ inserted.
+./Wellenausbreitung.tex:149: Missing $ inserted.
 <inserted text> 
                 $
-l.148     Reines Wirbelfeld E bzw H=\nabla
+l.149     Reines Wirbelfeld E bzw H=\nabla
                                            x (a.psi)=-a x \nabla.psi
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-LaTeX Warning: Command \" invalid in math mode on input line 150.
+LaTeX Warning: Command \" invalid in math mode on input line 151.
 
 
-LaTeX Warning: Command \" invalid in math mode on input line 150.
+LaTeX Warning: Command \" invalid in math mode on input line 151.
 
 
-./Wellenausbreitung.tex:151: LaTeX Error: Command \item invalid in math mode.
+./Wellenausbreitung.tex:152: LaTeX Error: Command \item invalid in math mode.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.151     \item
+l.152     \item
                 Methode 3: Ansatz mittels elektrodynamischer Potentiale
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Wellenausbreitung.tex:151: LaTeX Error: Something's wrong--perhaps a missing \item.
+./Wellenausbreitung.tex:152: LaTeX Error: Something's wrong--perhaps a missing \item.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.151     \item M
+l.152     \item M
                  ethode 3: Ansatz mittels elektrodynamischer Potentiale
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Wellenausbreitung.tex:151: LaTeX Error: Something's wrong--perhaps a missing \item.
+./Wellenausbreitung.tex:152: LaTeX Error: Something's wrong--perhaps a missing \item.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.151     \item M
+l.152     \item M
                  ethode 3: Ansatz mittels elektrodynamischer Potentiale
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Wellenausbreitung.tex:153: LaTeX Error: Command \end{itemize} invalid in math mode.
+./Wellenausbreitung.tex:154: LaTeX Error: Command \end{itemize} invalid in math mode.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.153 \end{itemize}
+l.154 \end{itemize}
                    
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Wellenausbreitung.tex:153: LaTeX Error: Something's wrong--perhaps a missing \item.
+./Wellenausbreitung.tex:154: LaTeX Error: Something's wrong--perhaps a missing \item.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.153 \end{itemize}
+l.154 \end{itemize}
                    
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Wellenausbreitung.tex:153: LaTeX Error: Something's wrong--perhaps a missing \item.
+./Wellenausbreitung.tex:154: LaTeX Error: Something's wrong--perhaps a missing \item.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.153 \end{itemize}
+l.154 \end{itemize}
                    
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-./Wellenausbreitung.tex:153: Missing $ inserted.
+./Wellenausbreitung.tex:154: Missing $ inserted.
 <inserted text> 
                 $
-l.153 \end{itemize}
+l.154 \end{itemize}
                    
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -476,23 +476,11 @@ my insertion and my current dilemma will both disappear.
 Missing character: There is no ü in font cmr10!
 Missing character: There is no ö in font cmr10!
 
-Overfull \hbox (308.36713pt too wide) in paragraph at lines 147--154
+Overfull \hbox (308.36713pt too wide) in paragraph at lines 148--155
 \T1/cmr/m/n/10 Reines Wir-bel-feld E bzw H=$\OMS/cmsy/m/n/10 r\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 a:psi\OT1/cmr/m/n/10 ) = \OMS/cmsy/m/n/10 ^^@\OML/cmm/m/it/10 ax\OMS/cmsy/m/n/10 r\OML/cmm/m/it/10 :psiDurchWiederholung \OT1/cmr/m/n/10 : \OMS/cmsy/m/n/10 r\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 (\OMS/cmsy/m/n/10 r\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 a:psi\OT1/cmr/m/n/10 ))\OML/cmm/m/it/10 MitgengendWiederholungenkanndieElektrodynamikgelstwerden:Methode\OT1/cmr/m/n/10 3 :
  []
 
 [3]
-
-./Wellenausbreitung.tex:172: LaTeX Error: \mathbf allowed only in math mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.172     \item \bold{Fundamentalsystem:}
-                                          $\{\sin(k_{x}x), \cos(k_{x}x)\}$\l...
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
 
 ./Wellenausbreitung.tex:173: LaTeX Error: \mathbf allowed only in math mode.
 
@@ -500,19 +488,10 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.173     \item \bold{Komplexes Fundsystem:}
-                                             $\{e^{-jk_{x}x}, e^{jk_{x}x}\}$...
+l.173     \item \bold{Fundamentalsystem:}
+                                          $\{\sin(k_{x}x), \cos(k_{x}x)\}$\l...
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
-
-./Wellenausbreitung.tex:173: Undefined control sequence.
-l.173 ...:} $\{e^{-jk_{x}x}, e^{jk_{x}x}\}$\ldotsh
-                                                  Ã¤ufig verwendet
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
 
 ./Wellenausbreitung.tex:174: LaTeX Error: \mathbf allowed only in math mode.
@@ -521,10 +500,19 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.174 \item \bold{Mischform:}
-                              $\{\sin(k_{x}x)m e^{jk_{x}x}\}$, etc.
+l.174     \item \bold{Komplexes Fundsystem:}
+                                             $\{e^{-jk_{x}x}, e^{jk_{x}x}\}$...
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
+
+./Wellenausbreitung.tex:174: Undefined control sequence.
+l.174 ...:} $\{e^{-jk_{x}x}, e^{jk_{x}x}\}$\ldotsh
+                                                  Ã¤ufig verwendet
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
 
 ./Wellenausbreitung.tex:175: LaTeX Error: \mathbf allowed only in math mode.
@@ -533,18 +521,30 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.175     \item \bold{Hyperbelfunktion:}
+l.175 \item \bold{Mischform:}
+                              $\{\sin(k_{x}x)m e^{jk_{x}x}\}$, etc.
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./Wellenausbreitung.tex:176: LaTeX Error: \mathbf allowed only in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.176     \item \bold{Hyperbelfunktion:}
                                          $\{\cosh(k_{x}x), \sinh(k_{x}x)\}$
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 178--180
+Underfull \hbox (badness 10000) in paragraph at lines 179--181
 
  []
 
-./Wellenausbreitung.tex:182: Undefined control sequence.
-l.182 ...}E_{x} - \partial_{x}E_{z} = -j\omega\muH
+./Wellenausbreitung.tex:183: Undefined control sequence.
+l.183 ...}E_{x} - \partial_{x}E_{z} = -j\omega\muH
                                                   _{y} \partial_{z}\]
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -552,8 +552,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Wellenausbreitung.tex:190: Undefined control sequence.
-l.190 \[\omega^2\musigma
+./Wellenausbreitung.tex:191: Undefined control sequence.
+l.191 \[\omega^2\musigma
                         -k_{z}^2=0\]
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -563,54 +563,81 @@ and I'll forget about whatever was undefined.
 
 [4]
 
-LaTeX Warning: Command \textmu invalid in math mode on input line 209.
-
-
-LaTeX Warning: Command \textmu invalid in math mode on input line 209.
-
-Missing character: There is no µ in font cmr10!
-
 LaTeX Warning: Command \textmu invalid in math mode on input line 210.
 
 
 LaTeX Warning: Command \textmu invalid in math mode on input line 210.
 
 Missing character: There is no µ in font cmr10!
-./Wellenausbreitung.tex:217: Missing $ inserted.
+
+LaTeX Warning: Command \textmu invalid in math mode on input line 211.
+
+
+LaTeX Warning: Command \textmu invalid in math mode on input line 211.
+
+Missing character: There is no µ in font cmr10!
+./Wellenausbreitung.tex:218: Missing $ inserted.
 <inserted text> 
                 $
-l.217 ... ist, heben sich die FlÃ¼sse auf \implies
+l.218 ... ist, heben sich die FlÃ¼sse auf \implies
                                                    $L=0, \omega_0=0$
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./Wellenausbreitung.tex:217: Missing $ inserted.
+./Wellenausbreitung.tex:218: Missing $ inserted.
 <inserted text> 
                 $
-l.217 ...ich die FlÃ¼sse auf \implies $L=0, \omega
+l.218 ...ich die FlÃ¼sse auf \implies $L=0, \omega
                                                   _0=0$
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 223--226
+Underfull \hbox (badness 10000) in paragraph at lines 224--227
 
  []
 
-[5] (./Wellenausbreitung.aux) ) 
+[5]
+./Wellenausbreitung.tex:268: Undefined control sequence.
+l.268 Zu merken: $\tan(\THeta
+                             _{B}) =\sqrt{\frac{n^{2}-1}{n^{4}-1}} $
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 272.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 272.
+
+./Wellenausbreitung.tex:272: Misplaced alignment tab character &.
+l.272 \[ \Gamma(\Theta_{1}=0Â°)&
+                                =\frac{\sqrt{\epsilon_{2}-\epsilon_{1}} }{\s...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+Missing character: There is no ° in font cmr10!
+[6] [7] (./Wellenausbreitung.aux) ) 
 Here is how much of TeX's memory you used:
- 6133 strings out of 476091
- 97010 string characters out of 5794080
+ 6136 strings out of 476091
+ 97053 string characters out of 5794080
  1863330 words of memory out of 5000000
- 26403 multiletter control sequences out of 15000+600000
+ 26406 multiletter control sequences out of 15000+600000
  525122 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,6n,76p,383b,196s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 72i,7n,76p,383b,196s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on Wellenausbreitung.pdf (5 pages, 224052 bytes).
+Output written on Wellenausbreitung.pdf (7 pages, 238740 bytes).
 PDF statistics:
- 110 PDF objects out of 1000 (max. 8388607)
- 67 compressed objects within 1 object stream
+ 118 PDF objects out of 1000 (max. 8388607)
+ 73 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -231,6 +231,75 @@ Alle haben eine Polaristation. Unpolarisierte sind nur im mittel nicht polarisie
 \subsection*{Polaristationsarten}
 \subsubsection*{elliptische Polarisations (allgemeine Form)}
 
+\section*{07.11.2023}
+\section*{Ding des Tages}
+Ehemalige Diplomarbeit:\newline
+Eine helixförmige Kunststofflinse wandelt eine ebene harmonische Welle in einen Gauss-Laguerre-Beam um. Die "Wendeltreppe" verzögert wellen an unterscheidlcihen Stellen unterschiedlich lang, wodurch eine ebene harmonische Welle spiralförmig Phasenverschobene ebene harmonische Welle umgewandelt wird.
+Durch diese Konstruktion kann ein Empfänger-Linsen Paar in 4 unterschiedlichen Kombinationen aufgebaut werden, wodurch die Bandbreite vervierfacht werden kann. Siehe Anhang für mehr.
 
+Er überspringt ein wenig Stoff und niemand traut sich was zu sagen
+\section*{4.1 Grenzfläche  zwischen \ldots}
+Wir betrachten den TM-Fall.
+
+Die geometrischen Zusammenhänge werden erstmal festgelegt. Die Annahme, dass der Winkel der einfallenden und ausfallenden Welle gleich ist, wird noch ausgelassen.
+\subsubsection*{Ansätze anschreiben}
+\begin{itemize}
+    \item einfallende Welle $\vec{E_{e}}$
+    \item reflektierte Welle $\vec{E_{r}}$
+    \item transmittierte Welle $\vec{E_{t}}$
+    \item Randbedinungen bei $z=0$:
+        \[ E_{tang}\text{stetig bei} z=0: \ldots \]
+        \[ D_{norm} \text{ stetig bei} z=0; \ldots\]
+        \[ \implies \text{Reflexionsgesetz:} \Theta_{e}=\Theta_{r}=\Theta_{1}\]
+        \[ \text{Snelliussches Brechungsgesetz:} \frac{\sin(\Theta_{1})}{\sin(\Theta_{2})}=\sqrt{\frac{\epsilon_{2}}{\epsilon_{1}}}=\frac{n_{2}}{n_{1}}  \]
+\end{itemize}
+Durch Einsetzung:
+\[ \begin{pmatrix}
+-\cos(\Theta_{1}) && \cos(\Theta_{2})\\
+\epsilon_{1}\sin(\Theta_{1}) && -\epsilon_{2}\sin(\Theta_{2})
+\end{pmatrix} \cdot 
+\begin{pmatrix} \Gamma_{TM}\\ T_{TM}\end{pmatrix}
+=\begin{pmatrix} \cos(\Theta_{1})\\ -\epsilon_{1}\sin(\Theta_{1})\end{pmatrix}
+\]
+
+Im Skriptum findet man die Fresnelschen Formeln für den TE-Fall und dne TM-Fall. Muss nicht auswendiggelernt werden aber sollte verstanden werden.
+Er legt uns stark ans Herz, dass es einmal selbstständig hergeleitet/angwandt werden soll. Hört sich einfach an, aber für den Prüfungsfall ist das eine sehr wichtige Übung.
+
+Zu merken: $\tan(\THeta_{B}) =\sqrt{\frac{n^{2}-1}{n^{4}-1}} $
+
+Denkübung: Eine Taschenlampe leuchtet auf eine Fläche im Brooster Winkel $\Theta_{B}$, dann ist die reflektierte Welle TE-polarisiert. Sollte mittlerweile verständlich sein.
+
+\[ \Gamma(\Theta_{1}=0°)&=\frac{\sqrt{\epsilon_{2}-\epsilon_{1}} }{\sqrt{\epsilon_{2}+\epsilon_{1}}}=\frac{n-1}{n+1}\]
+\[ \Gamma_{TE}=-\Gamma_{TM}=\frac{1-n}{1+n} \]
+Siehe Diagram im Skriptum, die Nullstelle ist der Brooster Winkel. Die Abbildungen wurden ausführlich besprochen.
+Alles links vom Grenzwinkel der totalen Reflektion $\Theta_{1,T}$ findet man auch in der anderen Abbildung, alles rechts davon widerum nicht.
+
+In der nächsten Abbildung sieht man, wie das einfallende und das reflektierte Feld bei einer totalen Reflektion  lokal miteinander interferieren. Es sollte nichts transmittieren, es entsteht jedoch ein evalenszentes Feld in -x-Richtung. Der Energietransport für den Feldaufbau des evalescenten Feldes finden im Einschwungvorgang auf.
+
+Er demonstriert an den Beispielen Reflektion am Auge und Reflektion am Mikrowellen-Gitter, wie nach man rangehen muss, um das evaleszente Licht zu spüren/messen.
+
+Weitere Übung: Dämpfung durch Mikrowellengitter: $D=\frac{P_{legal}}{P_{N}}=\frac{2W}{1000W}=\frac{1}{500}\implies -27dB$
+
+\subsection*{4.1.2 Nichtideale Dielektrika}
+Kann wie gehabt berechnet werden. Im Realteil der Wellenzahl findet man die Dämpfung und im Imaginärteil das effektive Lambda.
+Siehe Quasi-Brewsterwinkel im Skriptum.
+
+\subsection*{4.2}
+\subsubsection*{4.2.1 TM-Fall}
+Kann man durchrechnen, ist aber sehr einfach.
+
+Siehe Ergebnis in Abbildung. Diesmal tritt kein evaleszentes Feld im unteren Halbraum auf. Im oberen Halbraum findet sich wieder die Superposition aus einfallender und reflektierter Welle vor.
+Weiters sieht man, dass eine Metallplatte oberhalb der ursprünglichen Metallplatte die Randbedingung nicht verletzt. Siehe Abbildung mit rot markierter Platte.
+
+Weiters sieht man, dass eine Metallplatte oberhalb der ursprünglichen Metallplatte die Randbedingung nicht verletzt. Siehe Abbildung mit rot markierter Platte.
+
+Im praktischen Fall, werden die parallelen Platten vorgegeben im Eingang muss wird die Welle mit einem Winkel eingeprägt, der die Randbedingungen erfüllt.
+
+\subsection*{4.3 Parallelplattenleitung}
+\subsection*{4.3.2 Die TEM-Welle und die TE-Welle}
+Die Feldstärke breitet sich in der horizontalen Eben aus.
+
+Durch mathematische Herleitung im Skriptum folgt:
+\[ \lambda_{H,m}=\frac{\lambda_{0}}{\sin(\Theta_{m})} \]
 
 \end{document}
