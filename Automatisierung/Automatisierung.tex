@@ -339,4 +339,84 @@ Der Differenzierer steigt stattdessen. Für sehr hohe Frequenzen geht der Differ
 Da jedes reale System Rauschen hat, macht es den Differenzierer sehr unangenehm.
 Der Differenzier macht in echt einfach keinen Sinn, und MatLab weigert sich, ihn aus der Toolbox zu entfernen.
 
+\section*{Wiederholung}
+\begin{itemize}
+    \item LTI
+    \item SISO
+    \item jedes Laplace-transformierbare Signal kann auf ein System aufgeschaltet werden, um die Systemantwort zu bestimmen
+        Beispiele: Motor: Strom wird aufgeschaltet und Drehzahl bestimmt
+    \item Letzte Stunde: Wenn s auf die Imaginäre Achse eingeschränkt wird, hat man einen kontinuierlichen Frequenzgang
+        $G(s)\vert_{s=I\omega}=G(I\omega)=Re(G(I\omega)+I\cdot Img(G(I\omega))=\|G(I\omega)e^{I\cdot arg(G(I\omega))}\|$ 
+        Mit logarithmischen Frequenzgängen zeigen wir harmonische Eingangs und Ausgangsgrössen.\newline
+        Siehe weiters Integrierer, Differenzierer, etc. und siehe weiters die logarithmischen Rechenregeln.
+\end{itemize}
+
+\subsubsection*{3) Linearer Term $G_{3}(I\omega)=1+I \frac{\omega}{\omega_{K}}$}
+\subsubsection*{Betrag}
+Fallunterscheidung
+\begin{itemize}                    
+    \item für $\frac{\omega}{\omega_{K} \le 1}$ : nähert sich $0$ an
+    \item für $\frac{\omega}{\omega_{K} = 1}$: ist etwa 3,0103
+    \r $\frac{\omega}{\omega_{K} \bigger 1}$
+\end{itemize}
+Hierzu bitte den Frequenzgang für $G(s)=1+\frac{s}{10}$ plotten, dann hat man den Betrag von Lineartermen verstanden.
+
+Anmerkung für Prüfung: Transienten müssen im Bodediagram nicht angenähert werden, Knickzüge sind komplett ausreichend.
+
+\subsubsection*{Phase}
+Fallunterscheidung
+\begin{itemize}
+    \item alle 3 fälle wiederholen und für $G(s)=1+\frac{s}{10}$ und $G(s)=\frac{1}{1+\frac{s}{10}}$ plotten
+\end{itemize}
+Wichtig - Interpretation des Phasengangs: Wenn das Vorzeichen negativ ist, kommen negative Winkel raus. Das trifft für Nullstellen zu, die auf der instabilen (positiven) hälfte der Komplexen Ebene zu. Daher werden negative Phasengänge als instabil interpretiert (definiert).
+Wenn jedoch der Term im Nenner stehen würde, z.B. $\frac{1}{1+\frac{s}{10}}$, dann geht die Phase für stabile Systeme nach unten.\newline
+Hierzu irgendwie eine Eselsbrücke aneignen und nochmal im Skriptum nachlesen.
+
+\subsubsection*{4) Quadratischer Term $G_{4}(I\omega)=1-(\frac{\omega}{\omega_{K}})^{2}+I2\Xi\frac{\omega}{ \omega_{K}}$, $\omega_{K}\bigger0$ :}
+\subsubsection*{Betrag}
+\begin{itemize}
+    \item wieder 3 Fälle durchführen und für $G(s)=1+2\Xi\frac{s}{10} +(\frac{s}{10}^{2}$ und $G(s)=\frac{1}{1+2\Xi\frac{s}{10} +(\frac{s}{10}^{2}}$ plotten
+    \item 4. Fall: Variation vom $\Xi=(0, 1]$. Man erkennt Resonanz- und Antiresonanz (und alles dazwischen)
+\end{itemize}
+Beispiel: Feder-Masse-Schwingkreis
+Aufbau: Wand-Feder-Masse-Kraft
+Mit Position x zwischen Wand und Massenzentrum
+\[ m \dot\dot x = F-cx \]
+\[ y=x \]
+\[ \implies s^{2}m \hat{x}=\hat{F}-c \hat{x} \]
+\[ \hat{y}=\hat{x} \]
+\[ \implies G(S)=\frac{\hat{y}}{\hat{x}}=\frac{1}{s^{2}m+c}=\frac{1}{c}\frac{1}{1+s^{2}\frac{m}{c}}=\frac{1}{c}\frac{1}{1+(\frac{s}{\sqrt{\frac{c}{m}} })^{2}}=\frac{1}{c}\frac{1}{1+(\frac{s}{\omega_{K}})^{2}}\text{,} \Xi_{K}=0\]
+
+Funfakt: Jede Struktur hat unendlich viele Resonanz- und Antiresonanzfrequenzen. Diese befinden sich je nach Struktur extrem weit oben (rechts). Da aber jede Struktur ein Tiefpassverhalten aufweist, sind die hohen Resonanzen rechts stark geschwächt. 
+
+Beispiel: $G(s)=\frac{1}{1+s^{2}}$ 
+Betrag sollte einfach sein und wird übersprungen.
+Phase:
+\[ arg(G(I\omega))=arg(1)-arg(1-\omega^{2})=\arctan(\frac{0}{1-\omega^{2}}) \]
+Wieder für $\Xi=(0, 1]$ plotten. Siehe Abbildung 3.17 im Skriptum. Ist ein wenig komplizierter.
+
+\subsection*{Darstellung von Bodediagrammen - Durchführung}
+\subsection*{Amplitudengang}
+\[ G(s)=\frac{10^{-2} 10}{0.01} \frac{1-\frac{s}{10}}{s(1+2 \frac{1}{2} \frac{s}{0.1}+(\frac{s}{0.1})^{2})}\]
+
+\subsubsection*{normierte Form anschreiben}
+\[ G(s)=\frac{10^{-2} 10}{0.01} \frac{1-\frac{s}{10}}{s(1+2 \frac{1}{2} \frac{s}{0.1}+(\frac{s}{0.1})^{2})}\]
+
+\subsubsection*{Algebraisch Teilfunktionen}
+\[ G_{1}=10, G_{2}=\frac{1}{s}, G_{3}=1-\frac{s}{10}, G_{4}=\frac{1}{1+2 \frac{1}{2} \frac{s}{0.1} }\]
+Diese Teilfunktionen können separat aufgetragen und addiert werden.
+
+\subsubsection*{Grafisch Teilfunktionen}
+Weil die unterschiedlichen Knickzüge, nach der Knickfrequenz sortiert sind, können sie nacheinander kontinuierlich grafisch addiert werden.
+Das geht natürlich schwer, wenn die Knickfrequenzen sehr knapp anneinander liegen. In dem Fall ergeben sich die Transienten durch Überlagerung. In solchen Fällen sollten die algebraischen Teilfunktionen aufgezeichnet werden. Die Addition dieser Teilfunktionen ist dann nicht mehr so wichtig und kann bei Prüfungen übersprungen werden.
+
+\subsection*{Phasengang}
+Hier kann sehr ähnlich gearbeitet werden, siehe Skriptum, kein Bock mitzuschreiben.
+
+\subsection*{Phasenminimale Übertragungsfunktionen}
+Eine Übertragungsfunktion $G(s)$ ist phasemminimal, wenn sich alle Pole in der linken offenen Halbebene befinden.
+
+Beispiel: Die Sprungantwort eines Systems wird kurzzeitig negative, bevor sie sich im Positiven einstellt (siehe Versatz eines Pendels, das in der oberen Ruhelage liegt). Die kurzzeitige negative Phase zeigt, dass es eine rechte Polstelle gibt \implies das System ist nicht phasenminimal
+
+
 \end{document}
