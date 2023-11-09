@@ -418,5 +418,92 @@ Eine Übertragungsfunktion $G(s)$ ist phasemminimal, wenn sich alle Pole in der 
 
 Beispiel: Die Sprungantwort eines Systems wird kurzzeitig negative, bevor sie sich im Positiven einstellt (siehe Versatz eines Pendels, das in der oberen Ruhelage liegt). Die kurzzeitige negative Phase zeigt, dass es eine rechte Polstelle gibt \implies das System ist nicht phasenminimal
 
+\section*{09.11.2023}
+\subsection*{Wiederholung/Rechentips?}
+Gegeben sei
+\[ G(s)=\frac{-(s-2)}{s^{2}+s+1} \].
+Er plottet uns die Sprungantwort in Matlab. Zeigen Sie, wie man auf die gleiche Sprungantwort kommt.
+\[ \lim_{t \to +0} y(t)=\lim_{s \to \infty} s \hat{y}=\lim_{s \to \infty} sG(s) \frac{1}{s}=0 \]
+\[ \lim_{t \to \infty} y(t)=\lim_{s \to 0} s \hat{y}=\lim_{s \to 0} sG(s) \frac{1}{s}=G(0)=0 \]
+\[ \lim_{t \to 0} \frac{d}{dt}y(t) =\lim_{s \to \infty} s(s \hat{y})=\lim_{s \to \infty} s^{2}G(s) \frac{1}{s}=\lim_{s \to \infty} \frac{-s^{2}+2s}{s^{2}+s+1}= -1\]auttex
+Diese Eigenschaften können zur Konstruktion der Sprungantwort herangezogen werden.
+
+\subsection*{3.8 Regelungstechnische Übertragungsglieder}
+In der Praxis können natürlich nicht immer Sprungantworten herangezogen werden, da diese bereits destrukltiv für das zu untersuchende System wirken können.
+
+\subsection*{3.8.1 PT1-Glied}
+\subsubsection*{Anmerkung: Polstellen und Zeitkonstanten hängen direkt miteinander zusammen, daher sind unterschiedliche Problemstellungen möglic. (Polvorgabe oder Dynamikvorgabe)}
+
+\subsection*{3.8.2 PT2-Glied}
+\subsection*{3.8.3 P-Regler}
+\subsection*{3.8.4 I-Regler}
+\subsection*{3.8.5 PI-Regler}
+\[ G(s)=\frac{V_{I}(1+sT_{I})}{s}=\frac{V_{I}}{s}+V_{I}T_{I} \]
+Die Sprungantwort ist direkt aus der Geradengleichung ablesbar.
+\subsection*{3.8.6 Differenzierer}
+\subsection*{3.8.7 Proportional-Differential-Glied}
+\subsection*{3.8.8 Lead-Glied (PD-T_{1}-Glied)}
+Kommt immer wieder zur Prüfung!
+\[ G=V \frac{1+sT}{1+s\eta T}\text{,} 0 < \eta < 1\]
+Plot: Frequenzgang (V-kosnt -> gerade -> konstant$\frac{1}{T}$ und $\frac{1}{\eta T}$) Phasengang (Gauss-Glocke für $\frac{1}{T}$ und $\frac{1}{\eta T}$)
+\[ \lim_{t \to +0} y(t)=\lim_{s \to \infty} s \frac{1}{s}G(s)=V \frac{T}{\eta T} \]
+\[ \lim_{t \to \infty} y(t)=\lim_{s \to 0} s \frac{1}{s}G(s)=V \]
+Sprungantwort des Lead-Glieds konstruieren: Sprung auf $\frac{V}{\eta}$ und exponentieller abstieg zu $V$.
+Der Nenner dominiert immer die Dynamik, daher kann die Zeitkonstante ohne Zeichnen der Tangente durch Zerlegung der Funktion abgelesen werden.
+Das Lag-Glied schaut ähnlich aus, startet jedoch unterhalb von V und nähert sich nach oben an.
+Zur Bestimmung der maximalen Phasenanhebung kann die erste Ableitung des Arguments bestimmt werden. Solche Formeln stehen aber im Formelheft.
+
+\section*{3.8.9}
+\subsection*{3.8.10 Totzeit-Glied}
+Er meinte, er wird sich im Rahmen dieser VO nicht mit der Lösung partieller Differentialgleichungen beschäftigen. Beim Totzeiglied macht er die Ausnahme.
+Keine Ahnung was er macht aber Transport durch ein Rohr:
+\[ k_{P}+\frac{K_{I}}{s}+k_{D}s \]
+\[ y(t)=u(t-\frac{L}{V}) \]
+\section*{Story-Time: Water-Hammer im Pumpspeicherkraftwerk}
+Es treten sehr lange Transportleitungen auf, weshalb es zu Totzeiten im Sekundenbereich kommt. Daher muss man stark aufpassen, keinen Überdruck aber auch keinen Unterdruck zu erzeugen. Beim Unterdruck können Kavitäten erzeugt werden, die durch das System wandern und dann zum Beispiel an der Schaufel Schäden erzeugen.
+
+\subsubsection*{Bodediagram}
+\[ G(s)=e^{-sT_{t}} \]
+\[ G(I\omega)=e^{-I\omega T_{t}} \]
+\[ arg(G(I\omega))=-\omega T_{z}\]
+
+\subsection*{3.9 Schaltungstechnische Realisierung}
+Dieses Kapitel wird nicht geprüft.
+Er wollte uns nur mal demonstrieren, wie elegant man Sachen machen kann.
+
+\subsection*{3.10 Pol-Nullstellen Diagram}
+\[ T=\frac{1}{\sqrt{\alpha^{2}+\beta^{2}} } \]
+Hier sieht man sehr schön, weshalb Matlab Halbkreise für das Pol-Nullstellen-Diagramm einzeichnet.
+
+Wenn als Problemstellung jetzt eine Polvorgabe gefordert ist, können diese Pole nun in diesem Diagramm eingetragen werden.
+Durch Verschiebung entlang der Halbkreise kann die Dämpfung des Systems beeinflusst werden (siehe letztes Kapitel).
+
+\section*{4 Der Regelkreis}
+Regelkreis hier abbilden.
+\begin{itemize}
+    \item Führungsregelung
+    \item Störregelung: Störgrössenaufschaltung -  Messung der Temperatur der Nordwand, da sonst die Totzeit zu hoch wäre
+    \item Rauschen des Sensors
+\end{itemize}
+
+Die Identifikation eines Regelkreies ist sehr wichtig. Was ist die Strecke? Was ist der Regler? Was ist die Führungsgrösse? Alle Elemente sollten intuitiv erkennbar sein und das kann geübt werden.
+
+Fun-Fact: Die englische Sprache hat keine eigenen Begriffe für Steuerung und Regelung
+\begin{iteimize}
+    open-loop-control: Steuerung
+    closed-loop-control: Regelung
+\end{iteimize}
+
+Anmerkung zu Abb. 4.2: Sowas muss natürlich nicht auswendig gelernt werden und ist auch nicht Stoff der Vorlesung, es geht hier nur um die regelungstechnische Analyse.
+In diesem System kommen einige Komponenten vor, unsere Ausgangsgrösse ist hier die drehzal $\omega_{2}$. Man sieht, dass die Drehzahl als Überlagerung von zwei Eingängen darstellen kann. Diese Strecke muss nun um ein Regelungsglied erweitert werden.
+
+Die wesentlichen Aufgaben der Regelung sind folgende:
+\begin{itemize}
+    \item 1) Stabiliserung einer instabilen Strecke
+    \item 2) das Ausgangssignal $y(t)$ soll dem Referenzsignal $r(t)$ möglichst gut folgen
+    \item 3) 
+    \item 4)
+\item 5)
+\end{itemize}
 
 \end{document}

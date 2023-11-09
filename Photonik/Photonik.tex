@@ -130,5 +130,86 @@ Keine Ahnung, schau Tafelbild. Hat er in 30sec erklärt.
 
 \subsubsection*{Beispiel 2 nächste Woche}
 
+\section*{09.11.2023}
+\section*{Ausbesserung der Nebenrechnung}
+Wird noch im TISS hochgeladen.
 
+\subsection*{Wiederholung: Doppelbrechnung}
+Durch den ausserordentlichen Brechungsindex wird eine weiter Brechung hervorgerufen. Die ordentliche Welle folgt einem Kreis, während die ausserordentliche Welle durch eine Ellipse beschrieben wird, siehe Tafelbild.
+
+\section*{Ding des Tages}
+Glam-Taylor-Polarisator
+Zwei Medien (oft Calzit) bilden einen Rechteck, Die Kontaktfläche der Medien ist eine Schräge, welche mit einem Klebstoff versehen ist. Die Medien haben je einen ordentlichen und einen ausserordentlichen Brechungsindex.
+
+Da die ausserordentlichen Polarisatoren an einer Ellipse projeziert werden, kann ein Winkel getroffen werden, wo die ausserordentliche Welle durchgelassen, die ordentliche Welle jedoch total reflektiert wird.
+
+Siehe weiters Rachon-Prisma und das Wollaston-Prisma. Siehe Tafelbild
+
+\section*{Interferenz}
+Bei orthogonal Komponenten kann es nicht zu Interferenzen kommen, da das Innprodukt 0 ist. Daher werden parallele Komponenten benötigt.
+Wie in Halbleiterphysik gelernt, werden nie wirklich elektrische Felder, sondern deren Intensitäten als Betragsquadrat $I=\|E_{1}+E_{2}\|^{2}$ gemessen.
+\[ I=(E_{1}+E_{2})(E_{1}+E_{2})komplkonj =  E_{1}E_{1}\komkonj +E_{2}E_{2}\komkonj + E_{1}\komkonj E_{2} + E_{2}\komkonj E_{1} = I_{0} + I_{0} + 2I_{0}\cos(\Delta t) = 2I_{0}(1+\cos(\Delta t))\]
+Plot hinzufügen
+
+Wie erhält man nun parallele Komponenten? Stichwort: Interferrometer
+
+Eine Spiegel teilt einen Strahl in zwei Strahlen mit der halben Strahlungsintensität $I_{1}$ und $I_{2}$ auf. Mit Zwei 100% spiegeln werden beide Strahlen wieder rechtwinkelig zueinander gebündelt. Im Knotenpunkt wird wieder ein 50% Spiegel angebracht, welcher die beiden 50% Strahlen in 4 25% Strahlen aufspaltet, und im Endergebnis 2 50% Strahlen erzeugt, die über zwei unterschiedliche Pfade erzeugt wurden. Auf einem Pfad kann nun ein Verzögerungselement eingebaut werden.
+\[ I_{1}=\frac{I_{0}}{4}2(1+\cos(\Delta \Phi))=\frac{I_{0}}{2}(1+\cos(\Delta \Phi)) \]
+
+Er spricht sehr viel über die Empfindlichkeit von Interferometern, da sich Änderungen im Nanometerbereich auf die Intensität auswirken können.
+
+\subsubsection*{Michelson-Interferometer}
+Die $R=1$ Spiegel (100% Spiegel) zeigen wieder zurück auf den erste $R=0.5$ Spiegel. Das "Queen of Michelson" ist der Michelson-Interferometer, welches zur Observation von Gravitationswellen gebaut wurde, das LIGO.
+
+
+\subsection*{irgendwas}
+Wir schauen uns mal an, wenn wir nicht nur eine Frequenz sondern ein Frequenzpacket haben \ldots glaube ich zumindest.
+Wir haben eine Welle gegeben durch
+\[ E(z,t)=E_{0}(\omega)e^{j(\omega t-kz)}=E_{0}(\omega)e^{}\]
+
+Wird diese Welle durch ein Interferometer geschickt, so erhält man
+\[ E(0,t)=E_{0}(\omega)e^{j\omega t} \]
+\[ I(\oemga)=I_{0}(\omega)2(1+\cos(\Delta \Phi)) \]
+
+Man erhält: siehe Abbildung im Tafelbild
+
+\[ \Delta\omega\cdot \Delta t = 2\pi \]
+\[ (\omega_{2}-\omega_{1})\Delta t = 2\pi \]
+\[ \Delta t = \frac{2\pi}{\omega_{2}-\omega_{1}} \]
+
+\section*{Etalon, Fabry-Perot Interferometer}
+Siehe Abbildung im Tafelbild (ist scheinbar sehr gut im Video zu sehen): zwei parallele Platten, die Welle wird schräge eingeführt und wird mehrmals reflektiert.
+\[ \Phi_{0}=k_{0}n \frac{d}{\cos(\Theta)} \]
+\[ \Delta\Phi=2k_{0}nd\cos(\Theta) \]
+Die Herleitung ist nicht sehr einfach zu sehen aber grundsätzlich nicht schwer. Im Video ist es sauber durchgeführt. (Seine Worte)
+
+Die Wellen werden beschrieben als:
+\begin{itemize}
+    \item $E_{0}t_{01}e^{j\Phi_{0}}t_{12}$
+    \item $E_{0}t_{01}e^{j\Phi_{0}}t_{12}r_{01}r_{12}e^{j\Delta\Phi}$
+    \item $E_{0}t_{01}e^{j\Phi_{0}}t_{12}r_{01}^{2}r_{12}^{2}e^{j2\Delta\Phi}$
+\end{itemize}
+\[ E_{ges}=E_{0}t_{01}e^{j\Phi_{0}}t_{12} \sum_{n=0}{\infty} (r_{01}r_{12}e^{j\Delta\Phi})^{n} \]
+\[ E_{ges}=E_{0}t_{01}e^{j\Phi_{0}}t_{12} \frac{1}{1-r_{01}r_{12}e^{j\Delta\Phi}} \]
+
+es fehlt ein wenig
+\implies 
+\[ \frac{I_{t}}{I_{0}}=\frac{T^{2}}{1-2R\cos(\Delta\Phi)+R^{2}} \]
+
+Bitte im Video nachgucken
+\[ \Delta\Phi=0 \implies \frac{I_{t}}{I_{0}}=\frac{T^{2}}{(1-R)^{2}}=\frac{(1-R^)^{2}}{(1-R)^{2}}=1\]
+\[ R+T=1 \]
+\[ \cos(\Delta t) =1-2\sin^{2}(\frac{\Delta t}{2})\]
+
+\[ \frac{I_{t}}{I_{0}}=\frac{T^{2}}{(1-R)^{2+4R\sin^{2}(\frac{\Delta t}{2})}}=\frac{T^{2}}{(1-R)^{2}} \frac{1}{1+\frac{4R}{(1-R)^{2}\sin^{2}(\frac{\Delta t}{2})}} \]
+Finesse: $F=\pi \frac{\sqrt{\pi} }{1-R}$ 
+\[ \frac{I_{t}}{I_{0}}=\frac{1}{1+(\frac{2F}{\pi})^{2}\sin^2 \frac{\Delta t}{2}} \]
+
+Siehe Abbildung in Tafelbild: Plot der Transmittivität bei unterschiedlichen Finesse's. Es zeigen sich Peaks bei unterschiedlichen $\omega_{m}$ 's
+\[ \omega_{m}=\frac{\pi c_{0}m}{\cos(\Theta)nd} \]
+\[ \Delta \omega = \omega_{m,1}-\omega_{m}=\frac{\pi c_{0}}{\cos(\Theta nd)}\]
+\[ \Delta\omega_{res}=\frac{\Delta\omega}{F} \]
+
+Mit diesem Interferometer kann man durch Durchstimmung von $n$,  $d$ und  $\Theta$ irgendwas machen.
+Scheinbar hat er eine Diplomarbeit damit gemacht, der Student hat somit ein optisches Mikrofon gebaut.
 \end{document}
