@@ -372,11 +372,11 @@ Wichtig - Interpretation des Phasengangs: Wenn das Vorzeichen negativ ist, komme
 Wenn jedoch der Term im Nenner stehen würde, z.B. $\frac{1}{1+\frac{s}{10}}$, dann geht die Phase für stabile Systeme nach unten.\newline
 Hierzu irgendwie eine Eselsbrücke aneignen und nochmal im Skriptum nachlesen.
 
-\subsubsection*{4) Quadratischer Term $G_{4}(I\omega)=1-(\frac{\omega}{\omega_{K}})^{2}+I2\Xi\frac{\omega}{ \omega_{K}}$, $\omega_{K}\bigger0$ :}
+\subsubsection*{4) Quadratischer Term $G_{4}(I\omega)=1-(\frac{\omega}{\omega_{K}})^{2}+I2\Chi\frac{\omega}{ \omega_{K}}$, $\omega_{K}\bigger0$ :}
 \subsubsection*{Betrag}
 \begin{itemize}
-    \item wieder 3 Fälle durchführen und für $G(s)=1+2\Xi\frac{s}{10} +(\frac{s}{10}^{2}$ und $G(s)=\frac{1}{1+2\Xi\frac{s}{10} +(\frac{s}{10}^{2}}$ plotten
-    \item 4. Fall: Variation vom $\Xi=(0, 1]$. Man erkennt Resonanz- und Antiresonanz (und alles dazwischen)
+    \item wieder 3 Fälle durchführen und für $G(s)=1+2\Chi\frac{s}{10} +(\frac{s}{10}^{2}$ und $G(s)=\frac{1}{1+2\Chi\frac{s}{10} +(\frac{s}{10}^{2}}$ plotten
+    \item 4. Fall: Variation vom $\Chi=(0, 1]$. Man erkennt Resonanz- und Antiresonanz (und alles dazwischen)
 \end{itemize}
 Beispiel: Feder-Masse-Schwingkreis
 Aufbau: Wand-Feder-Masse-Kraft
@@ -385,7 +385,7 @@ Mit Position x zwischen Wand und Massenzentrum
 \[ y=x \]
 \[ \implies s^{2}m \hat{x}=\hat{F}-c \hat{x} \]
 \[ \hat{y}=\hat{x} \]
-\[ \implies G(S)=\frac{\hat{y}}{\hat{x}}=\frac{1}{s^{2}m+c}=\frac{1}{c}\frac{1}{1+s^{2}\frac{m}{c}}=\frac{1}{c}\frac{1}{1+(\frac{s}{\sqrt{\frac{c}{m}} })^{2}}=\frac{1}{c}\frac{1}{1+(\frac{s}{\omega_{K}})^{2}}\text{,} \Xi_{K}=0\]
+\[ \implies G(S)=\frac{\hat{y}}{\hat{x}}=\frac{1}{s^{2}m+c}=\frac{1}{c}\frac{1}{1+s^{2}\frac{m}{c}}=\frac{1}{c}\frac{1}{1+(\frac{s}{\sqrt{\frac{c}{m}} })^{2}}=\frac{1}{c}\frac{1}{1+(\frac{s}{\omega_{K}})^{2}}\text{,} \Chi_{K}=0\]
 
 Funfakt: Jede Struktur hat unendlich viele Resonanz- und Antiresonanzfrequenzen. Diese befinden sich je nach Struktur extrem weit oben (rechts). Da aber jede Struktur ein Tiefpassverhalten aufweist, sind die hohen Resonanzen rechts stark geschwächt. 
 
@@ -393,7 +393,7 @@ Beispiel: $G(s)=\frac{1}{1+s^{2}}$
 Betrag sollte einfach sein und wird übersprungen.
 Phase:
 \[ arg(G(I\omega))=arg(1)-arg(1-\omega^{2})=\arctan(\frac{0}{1-\omega^{2}}) \]
-Wieder für $\Xi=(0, 1]$ plotten. Siehe Abbildung 3.17 im Skriptum. Ist ein wenig komplizierter.
+Wieder für $\Chi=(0, 1]$ plotten. Siehe Abbildung 3.17 im Skriptum. Ist ein wenig komplizierter.
 
 \subsection*{Darstellung von Bodediagrammen - Durchführung}
 \subsection*{Amplitudengang}
@@ -499,11 +499,131 @@ In diesem System kommen einige Komponenten vor, unsere Ausgangsgrösse ist hier 
 
 Die wesentlichen Aufgaben der Regelung sind folgende:
 \begin{itemize}
-    \item 1) Stabiliserung einer instabilen Strecke
+    \item 1) Stabilisierung einer instabilen Strecke
     \item 2) das Ausgangssignal $y(t)$ soll dem Referenzsignal $r(t)$ möglichst gut folgen
-    \item 3) 
-    \item 4)
-\item 5)
+    \item 3) die Störübertragungsfunktion kann durch $R(s)$ prinzipiell gezielt verändert werden
+    \item 4) die Parameterschwankungen der Strecke $\Delta G(s)$ können in  $T_{r,y}(s)$ prinzipiell unterdrückt werden
+    \item 5) das Sensorrauschen wirkt sich im Bereich guten Führungsverhaltens direkt auf die Ausgangsgröße aus 
 \end{itemize}
+
+\section*{14.11.2023}
+\section*{Wiederholung}
+Historische Zusammenfassung der Regelkreise:
+\begin{itemize}
+    \item Ägypter: Korkschwimmer als erste P-Regler
+    \item Dampfmaschine: Erster moderner Regler. Hat sich noch nicht stark durchgesetzt, da die Fabrikation der Regler noch zu aufwendig war
+    \item vor wenigen Jahrzehnten waren Echtzeit-regler npoch wunschdenken
+    \item Heutzutage sind Echtzeitregler ein Kernthema, Stichwort: Cyber-Physical-Connections
+\end{itemize}
+
+Wir brauchen zur Regelung einer Strecke, einen Aktor. Wenn die Dynamik des Aktors in der gleichen Grössenordunng wie die Stecke liegt, so ist der Aktor Teil der Regelstrecke. Aktoren sind in der Praxis oftmals stark überdimensioniert. die Eingangsgösse des Aktors ist immer die Ausgangsgrösse des Reglers. Am Ausgang der Strecke findet man die Stellgrösse, mit der ein Soll-Ist-Vergleich durchgeführt werden kann. Der Sensor übersetzt die Ausgangsgrösse für den Regler.
+
+Weiters wurde alles am Beispiel einer Antriebsregelstrecke besprochen. Hier sieht man wieder: Dynamik ist relativ, verglichen zum  Anker ist die Leistungselektronik beliebig schnell. Zur Abbildung 4.4 wird heute der Regler entworfen.
+
+Siehe Abb. 4.5: Regelkreis als Übertragungssystem
+Der Regler erhält eine verrauschte Rückkopplung und stellt eine Führungsgre $u$ ein. Da wir mit linear Funktionen arbeiten können wir Übertragungsfunktionen verwenden.
+
+Wir müssen nun die Aufgaben einer unserer Regelstrecke erfüllen:
+\begin{itemize}
+    \item 1) solllte die Strecke instabil ien, müssen wir diese stabilisieren.
+        Man denke an das AKW Fukushima oder an die Boeing die nur ein einem extern angebrachten emfpindlichen Sensor stabilisiert wurde
+    \item 2) $T_{r,y}(I\oemga)=1$
+    \item 3) $T_{d,y}(I\omega)=0$ 
+    \item 4) $\frac{\Delta T_{r,y}(I\omega)}{T_{r,y}(I\omega)}=1$ 
+    \item 5) $T_{n,y}(I\omega)=1$
+\end{itemize}
+Dies ist nicht sehr realistisch, daher wandeln wir das um auf:
+
+\begin{itemize}
+    \item 1) solllte die Strecke instabil ien, müssen wir diese stabilisieren.
+        Man denke an das AKW Fukushima oder an die Boeing die nur ein einem extern angebrachten emfpindlichen Sensor stabilisiert wurde
+    \item 2) $\|T_{r,y}(I\oemga)\|\ll1$
+    \item 3) $\|T_{d,y}(I\omega)\|\ll0$ 
+    \item 4) $\|\frac{\Delta T_{r,y}(I\omega)}{T_{r,y}(I\omega)}\|\ll1$ 
+    \item 5) $\|T_{n,y}(I\omega)\|\ll=1$
+\end{itemize}
+\[ T_{r,y}(s)=\frac{\hat{Y}}{\hat{r}}, \frac{R(s)(G(s)+\Delta G(s))-R(s)G(s)}{R(s)G(s)}=\frac{\DeltaG}{G} \]
+\[ T_{r,y}(s)=G(s)R(s) \]
+Man erinnere sich: BIBO-Stabilität - Alle Polstellen haben Realteil kleiner 0? das hab ich fix falsch verstanden.
+
+\subsection*{4.2.1 Einfache Steuerung}
+Er zeigt uns ein Matlab-Projekt: Steuerung eines GleichstrommoterEr zeigt uns ein Matlab-Projekt: Steuerung eines Gleichstrommoters.
+Wie kann man eine Steuerung entwerfen.
+Man nehme an, es gelte $G(s)=\frac{1}{(sT)^{2}+2\xi sT+1}$
+\[ R(s)=V \frac{(sT)^{2}+2\Xi sT+1}{(s+1)^{3}} \]
+Es wird gewählt: $V=1\text{,}\ldots  $
+
+zu Abb. 4.7: Steuerung mit Störgrössenaufschaltung
+\[ T_{dy}(s)=\]
+\[ R_{d}(s)=\frac{G_{d}(s)}{G(s)}\imples T_{dy}(s)=0 \text{\ldots dies ist nicht möglich}\]
+\[ G_{d}(s)=\frac{Z_{d}(s)}{N_{d}(s)} \]
+\[ G(s)=\frac{Z(s)}{N(s)} \]
+\[ G(s)=\frac{1}{s^{2}+s+1} \]
+\[ G_{d}(s)=\frac{1}{s+1} \]
+\[ \frac{G_{d}(s)}{G(s)}=\frac{1}{s+1}(s^{2}+s+1) \]
+\[ R_{d}(s)=\frac{Z_{d}(s)N(s)}{N_{d}(s)Z(s)} \]
+Es darf zu keiner Kürzung kommen. (Kürzungen sind nämlich niemals praktisch möglich, da man nicht alle Nachkommerstellen kennen kann)
+
+\subsection*{4.3 Regelung}
+\[ T_{d,y}=\frac{R(s)G(s)}{1+R(s)G(s)}\]
+\[ T_{d,y}(s)=\frac{G_{d}(s)}{1+R(s)G(s)} \]
+\[ T_{n,y}(s)=\frac{-R(s)G(s)}{1+R(s)G(s)} \]
+\[ irgendwas \]
+\[ irgendwas \]
+
+Demonstriert Implemantation in Matlab.
+
+Merksatz: Als Konsequenz ist zu beachten, dass die Rückkopplung immer mit dem Stabilitätsproblem verbunden ist.
+
+Def.: Interne Stabilität
+Die Übertragungsfunktion des Geschlssenen Kreises muss stabil sein. We\ldots stimmt nicht ganz, bitte überarbeitenn
+Beispiel: Einschleifiger Standardregelkreis
+Strecke: $\frac{1}{s-1}$
+Regler: $\frac{s-1}{s+1}$
+Blockschaltbild:
+      |
+r--O--R--O--S--.--y
+  |----------|
+\[ T_{r,y}=\frac{
+        \frac{s-1}{s+1}
+        \frac{1}{s-1}
+}{
+    1+ \frac{s-1}{s+1}\frac{1}{s-1}
+}=\frac{
+    \frac{1}{s+1}
+}{
+    \frac{s+2}{s+1}
+}=\frac{1}{s+2}\text{BIBO}\]
+
+\[ T_{d,y}=
+\frac{
+    \frac{1}{s-1}
+}{
+    1+
+    \frac{1}{s-1}
+    \frac{s-1}{s+1}
+}=\frac{s+1}{(s+2)(s-1)}\text{nicht BIBO wegen (s-1)}\]
+
+Ein intuitives Verständis zur Interne Stabilität ist wichtig.
+
+Nun folgt der Anschluss an die klassische Methodik, die oft an einer HTL übermittelt wird.
+Blockschaltbild:
+         |
+r--O--R--G--O--.--y
+  |----------|
+Das R-G-Glied wird als offener Regelkreis bezeichnet $L(s)=R(s)G(s)$
+\[ T_{r,y}=\frac{RG}{1+RG}=\frac{L}{1+L} \]
+\[ T_{dy}=\frac{1}{1+RG}=\frac{1}{1+L} \]
+Der Amplitudengang des offenen Regelkreises geht exponentiell nach unten und schneidet die Achse bei $\omega_{C}$
+ \[ \omega\ll\omega_{c}:\|L\|\gg1\implies\|T_{r,y}\|approx 1, \|T_{dy}\|approx \frac{1}{\|L\|} \]
+ \[ \omega\gg\omega_{c}:\|L\|\ll1\implies\|T_{r,y}\|approx \|L\|, \|T_{dy}\|approx \frac{1}{\|L\|} \]
+Hiermit können nun $\|T_{ry}\|_{dB}$ und $ \|T_{dy}\|_{dB}$ plotten
+
+nun könnte der Regler so entworfen werden, der im offenen Kreis an der Stelle $\omega_{s}$ einen Peak einbaut, welcher in $\|T_{dy}\|_{dB}$ den gleichen negativen Peak erzeugt.
+Siehe Tafelbild
+
+Im weitesten Sinne entspricht die Durchtrittsfrequenz der Bandbreite wie in Folie 285 beschrieben. Nun könnte man sich denken, dass man die Durchtrittsfrequenz beliebig erhöht und die Bandbreite somit beliebig wählt. Woran wirds scheitern? Am Aktor.
+
+Als Vorbereitung für die nächste Stunde wurd in Matlab ein Antriebsreglerentwurf mit Sensorrauschen betrachtet. Die Durchtrittsfrequenz wurde so weit erhöht, dass das Sensorrauschen nicht mit im Unterdrückungsbereich der offenen Regelschleife lag. 
 
 \end{document}
