@@ -325,4 +325,50 @@ WICHTIG: Kommenden Dienstag kommt eine Übung, Beispiel 7 Parallelplattenleiter 
 
 Die Begriffe wie Wanderwelle, evaeszentes Feld, evaleszente Moden, etc. sind wenig überraschend wichtig und werden bei der Prüfung erwartet.
 
+\section*{16.11.2023}
+\section*{Geschichte des Tages}
+Nobelpreisverleih an Marconis für eine transatalantische Übertragung. Die Übertragung wird zwar angezweifelt, der Verleih wurde jedoch nicht widerufen.
+
+Fig. 2: Marconis Empfänger 1901
+
+Die moderne Erklärung läuft auf eine Oberflächenwelle über dem schlecht leitfähigem Atlantis durch die feuchte Luft als Dielektrikum.
+
+\section*{Der Oberflächenwelle}
+Wir leiten Schritt für Schrit folgenden Ansatz her:
+\[ E_{z,1}=e^{jk_{x,1}x} e^{-jk_{z}z} \]
+\[ E_{z,2}=e^{jk_{x,2}x} e^{-jk_{z}z}\]
+\[ H_{z,1}=H_{z,2}=0 \text{\ldots bedeutet TM-Welle} \]
+\[ \frac{\partial}{\partial y}=0\]
+\[ k_{x,i}^{2}+k_{y}^{2}+k_{z}^{2}=\omega^2\mu_{i}\epsilon_{i}\text{,} i \in {1,2} \]
+Modale Lösung: siehe Skriptum
+Randbedingungen: siehe Skriptum
+
+Aus dem Gleichungssystem erhalten wir eine Gleichung mit den beiden Amplituden $A_{1}$ und $A_{2}$
+ \[ 
+ \begin{pmatrix}
+ \frac{\omega\delta_{1}}{k_{x,1}} && -\frac{\omega\delta_{2}}{k_{x,2}}\\
+ 1 && -1
+ \end{pmatrix} 
+\begin{pmatrix} A_{1}\\ A_{2}\end{pmatrix}
+= \begin{pmatrix} 0\\ 0\end{pmatrix}
+\]
+Wir fordern von der Matrix $det M \overset{!}{=}0$
+Nach some Algebra erhalten wir:
+\[ k_{x1}^{2}= \omega^{2}\delta_{1}^{2} \frac{\delta_{1}\mu_{1}-\delta_{2}\mu_{2}}{\delta_{1}^{2}-\delta_{2}^{2}}\]
+\[ k_{x2}^{2}= \omega^{2}\delta_{2}^{2} \frac{\delta_{1}\mu_{1}-\delta_{2}\mu_{2}}{\delta_{1}^{2}-\delta_{2}^{2}}\]
+\[ k_{z}^{2}= \omega^{2}\delta_{1}^{2}\delta_{2}^{2} \frac{\delta_{1}\mu_{1}-\delta_{2}\mu_{2}}{\delta_{1}^{2}-\delta_{2}^{2}}\]
+
+Für das Besipiel der transatlantischen Übertragung:
+\begin{itemize}
+    \item Medium 1 ist Quasileiter: $ s_{1}=\frac{\sigma_{1}}{\omega\epsilon_{1}}\gg1$
+    \item Medium 2 ist Quasidielektrikum: $ s_{2}=\frac{\sigma_{2}}{\omega\epsilon_{2}}\ll1$
+\end{itemize}
+
+\subsection*{5.2 Feldbilder}
+Achtung: das Feld ist planar. Es geht nicht in die y-Richtung.
+
+\subsection*{5.3 Wellenwiderstände und Leistungsumsatz}
+
+\section*{Nächste Woche: 5.3.2 Der Leitungswellenwiderstand}
+
 \end{document}

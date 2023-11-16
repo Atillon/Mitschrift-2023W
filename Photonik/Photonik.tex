@@ -212,4 +212,67 @@ Siehe Abbildung in Tafelbild: Plot der Transmittivität bei unterschiedlichen Fi
 
 Mit diesem Interferometer kann man durch Durchstimmung von $n$,  $d$ und  $\Theta$ irgendwas machen.
 Scheinbar hat er eine Diplomarbeit damit gemacht, der Student hat somit ein optisches Mikrofon gebaut.
+
+\section*{16.11.2023}
+\section*{Wiederholung}
+Interferrometer mit 3 Brechungsindizes: erzeugt mit jeder internen Reclexion eine in $n_{2}$ ausbreitende Welle.
+Durch Superposition erhalten wir ein Interferenzmuster mit Peaks, welche einen sogenannten Rsonanzabstand $\Delta\omega_{r}$ haben.
+
+\section*{Interferenzen, Tranmissionen und Reflexionen in Kavitäten}
+|    $n_{1}$   |
+R=1      R=1
+Stehende Wellen mit $m \frac{\lambda_{0}}{2}=n_{1}d$ 
+
+
+|    $n_{1}$   |
+R=0.8        R=0.8
+T=0.2        T=0.2
+
+Wieso sind die blauen Peaks anders geformt als die reflektierte Intensitäten?
+Siehe Tafelbild
+
+\subsection*{eine Filmschicht auf einem Substrat}
+Anti-Reflex-Beschichtung an einer Brille
+$n_{0}$ | $n_{1}$ | $n_{s}$ 
+Luft   |        | Glas
+       |        |
+       |        |
+\ldots      |        |
+$I_{0}\|t\|^{2}e^{j\pi}$|    <   |
+$I_{0}$>|    >   |
+       |        |
+       $\pi$    $\pi$  \ldots Phasensprünge an den Flächen (wie damals abgeleitet)
+Siehe Tafelbild
+\[ 2k_{0}n_{1}d=\pi \implies n_{1}d=\frac{\lambda_{0}}{4}\text{\ldots Bragg-Bedingung}\]
+
+Betrachten wir das ganze als Farug-Peru? (keine Ahnung oida), so erhalten wir
+\[ T=\frac{(1-\|r_{01}\|^{2})(1-\|r_{1s}\|)^{2}}{1-\|r_{1s}\|\|r_{01}\|^{2}+\|r_{1s}\|^{2}\|r_{01}\|^{2}}=1 \]
+\[ n_{1}\sqrt{n_{0}n_{s}}  \]
+\[ r=\frac{n_{0}n_{s}-n_{1}^{2}}{n_{0}n_{s}+n_{1}^{2}} \]
+
+Durch multiple Schichten kann eine Total-Reflex-Beschichtung realisiert werden.
+Aufbau: $n_{0}n_{H}n_{L}n_{H}n_{L}n_{H}n_{S}$ 
+$n_{H}=2.3$, $n_{L}=1.28$, $n_{s}=1.5$
+\[ R=[\frac{1-(\frac{n_{L}}{n_{H}})^{2m}}{1+(\frac{n_{L}}{n_{H}})^{2m}}]^{2} \]
+Wie im Skriptum zu sehen, ergibt sich eine relative hohe Bandbreite.
+\[ \frac{\Delta}{\omega_{g}}=\frac{4}{\pi}\arcsin(\frac{n_{H}-n_{L}}{n_{H}+n_{L}}) \]
+
+\section*{Beugung (engl. Defraction = Defraktion)}
+Wir setzen eine Kugelwelle an: $\frac{e^{jkr}}{r}$ 
+Punkt $P$ sendet eine Feldstärke $A=T\cdot E_{0}$ aus. Punkt $P$ befindet sich in einem Raum mit Rand  $R$.
+
+Wir summieren die Welle an der Randfläche auf: $\int\int \frac{e^{jkr}}{r}A(x',y')=E(x,y,z)$
+
+Wir wollen jetzt $\frac{e^{jkr}}{r}$ in $z$ ausdrücken:
+\[ r=\sqrt{z +(x-x')^{2} + (y-y')^{2}} \]
+mittels Taylorreihenentwicklung: $\sqrt{1+u}=1+\frac{u}{2} $
+ \[ r=z+\frac{(x-x')^{2}}{2}+\frac{(y-y')^{2}}{2} \]
+ \[ E(x,y,z)=\frac{1}{\lambda} irgendwas \text{\ldots Fresnel-Näherung} \]
+\[ z\gg \frac{x'^{2}+y'^{2}}{\lambda} \]
+
+Frauenhofer-Nähgerung:
+\[ E(x,y,z)=\frac{1}{\lambda z} \\int_{}^{} \int_{}^{} A(x',y')e^{-j \frac{2\pi}{\lambda z}x x'}e^{-j \frac{2\pi}{\lambda z}y y'} dx'dy' \]
+
+mit der "Paraxialen Näherung" $tan(\alpha)=\frac{x'}{z}$ mit $\alpha \approx \frac{x'}{z}$ kann man dann jenes Diagram konstruieren
+
 \end{document}
