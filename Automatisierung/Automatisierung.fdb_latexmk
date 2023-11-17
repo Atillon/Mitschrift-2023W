@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1700124587 "Automatisierung.tex" "Automatisierung.pdf" "Automatisierung" 1700124590 2
+["pdflatex"] 1700230839 "Automatisierung.tex" "Automatisierung.pdf" "Automatisierung" 1700230841 2
   "/etc/texmf/web2c/texmf.cnf" 1696605536 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbx1000.tfm" 1136768653 3584 2d666ecf6d466d8b007246bc2f94d9da ""
@@ -10,6 +10,7 @@
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecrm1000.tfm" 1136768653 3584 adb004a0c8e7c46ee66cad73671f37b4 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecrm1200.tfm" 1136768653 3584 f80ddd985bd00e29e9a6047ebd9d4781 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecrm1440.tfm" 1136768653 3584 3169d30142b88a27d4ab0e3468e963a2 ""
+  "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecrm1728.tfm" 1136768653 3584 3c76ccb63eda935a68ba65ba9da29f1a ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcrm0500.tfm" 1136768653 1536 b3387106d9afecbfe14bde2de6eadf47 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcrm0700.tfm" 1136768653 1536 73da8e8f1d2a4c957d51ca133585586b ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1136768653 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
@@ -93,6 +94,7 @@
   "/usr/share/texlive/texmf-dist/tex/latex/import/import.sty" 1586645574 6201 0ad8b5da8e12f60a88d546b2198a56f2 ""
   "/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def" 1673989714 30429 213676d4c7327a21d91ddaed900e7b81 ""
   "/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg" 1279039959 678 4792914a8f45be57bb98413425e4c7af ""
+  "/usr/share/texlive/texmf-dist/tex/latex/ncctools/nccmath.sty" 1530651749 14585 b9ec0dfe305551751c94c3d416a3bea2 ""
   "/usr/share/texlive/texmf-dist/tex/latex/pdflscape/pdflscape-nometadata.sty" 1667072951 6572 ea530fbbe537629fd97736d33babc07d ""
   "/usr/share/texlive/texmf-dist/tex/latex/pdflscape/pdflscape.sty" 1667072951 2224 1230ab76aa62221ccbd90bca8c8c015e ""
   "/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pdfpages.sty" 1671569853 54859 c2b191f8d736ddb86177723cc23c30a9 ""
@@ -109,11 +111,13 @@
   "/usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb" 1697541704 140176 d4962f948b4cc0adf4d3dde77a128c95 ""
   "/usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb" 1697541704 135942 859a90cad7494a1e79c94baf546d7de5 ""
   "/usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb" 1636152094 138258 6525c253f16cededa14c7fd0da7f67b2 ""
+  "/usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb" 1697541705 136101 f533469f523533d38317ab5729d00c8a ""
+  "/usr/share/texmf/fonts/type1/public/cm-super/sfrm1728.pfb" 1697541705 131438 3aa300b3e40e5c8ba7b4e5c6cebc5dd6 ""
   "/usr/share/texmf/web2c/texmf.cnf" 1676468108 39561 34c98e380bf7c7201ee6a7909aff625a ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1697541792 4623455 fa0568a71dd9a288d6c226ee477506c6 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1697542099 7880626 5402103d86f4ed5e7d3d508d9027b452 ""
-  "Automatisierung.aux" 1700124589 172 9a11d227405fdf87a144ba3e8a029b8a "pdflatex"
-  "Automatisierung.tex" 1700124586 35222 da369c0becd6465451e7bb673cdf5d56 ""
+  "Automatisierung.aux" 1700230840 172 9a11d227405fdf87a144ba3e8a029b8a "pdflatex"
+  "Automatisierung.tex" 1700230838 35559 334f87bb52501ef9562bf6708965853c ""
   (generated)
   "Automatisierung.aux"
   "Automatisierung.log"

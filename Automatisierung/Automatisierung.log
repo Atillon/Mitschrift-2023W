@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2023.10.17)  16 NOV 2023 09:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2023.10.17)  17 NOV 2023 15:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -141,10 +141,13 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-)) (/usr/share/texlive/texmf-dist/tex/latex/accents/accents.sty
+)) (/usr/share/texlive/texmf-dist/tex/latex/ncctools/nccmath.sty
+Package: nccmath 2006/01/20 v1.3 Additional Math Commands (NCC)
+\NCC@fracrulewidth=\dimen159
+) (/usr/share/texlive/texmf-dist/tex/latex/accents/accents.sty
 Package: accents 2006/05/12 v1.4 Math Accent Tools
-\cc@skew=\dimen159
-\cc@wd=\dimen160
+\cc@skew=\dimen160
+\cc@wd=\dimen161
 \cc@code=\count276
 \cc@group=\count277
 \cc@skewchar=\count278
@@ -156,8 +159,8 @@ Package: xifthen 2015/11/05 v1.4.0 Extended ifthen features
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count279
 \calc@Bcount=\count280
-\calc@Adimen=\dimen161
-\calc@Bdimen=\dimen162
+\calc@Adimen=\dimen162
+\calc@Bdimen=\dimen163
 \calc@Askip=\skip53
 \calc@Bskip=\skip54
 LaTeX Info: Redefining \setlength on input line 80.
@@ -172,8 +175,8 @@ Package: ifmtarg 2018/04/16 v1.2b check for an empty argument
 Package: pdfpages 2022/12/19 v0.5x Insert pages of external PDF documents (AM)
  (/usr/share/texlive/texmf-dist/tex/latex/eso-pic/eso-pic.sty
 Package: eso-pic 2020/10/14 v3.0a eso-pic (RN)
-\ESO@tempdima=\dimen163
-\ESO@tempdimb=\dimen164
+\ESO@tempdima=\dimen164
+\ESO@tempdimb=\dimen165
  (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
  (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
@@ -203,12 +206,12 @@ File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 107.
 )
-\Gin@req@height=\dimen165
-\Gin@req@width=\dimen166
+\Gin@req@height=\dimen166
+\Gin@req@width=\dimen167
 )
-\AM@pagewidth=\dimen167
-\AM@pageheight=\dimen168
-\AM@fboxrule=\dimen169
+\AM@pagewidth=\dimen168
+\AM@pageheight=\dimen169
+\AM@fboxrule=\dimen170
  (/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pppdftex.def
 File: pppdftex.def 2022/12/19 v0.5x Pdfpages driver for pdfTeX (AM)
 )
@@ -233,20 +236,20 @@ File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
 ) (./Automatisierung.aux)
 \openout1 = `Automatisierung.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -285,13 +288,13 @@ LaTeX Font Info:    ... okay on input line 24.
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count286
-\scratchdimen=\dimen170
+\scratchdimen=\dimen171
 \scratchbox=\box56
 \nofMPsegments=\count287
 \nofMParguments=\count288
 \everyMPshowfont=\toks28
 \MPscratchCnt=\count289
-\MPscratchDim=\dimen171
+\MPscratchDim=\dimen172
 \MPnumerator=\count290
 \makeMPintoPDFobject=\count291
 \everyMPtoPDFconversion=\toks29
@@ -309,24 +312,24 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ))
-LaTeX Font Info:    Trying to load font information for U+msa on input line 31.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 29.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 31.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 29.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-./Automatisierung.tex:37: Missing $ inserted.
+./Automatisierung.tex:45: Missing $ inserted.
 <inserted text> 
                 $
-l.37 ...ndlich unendlich viele lösungen für \phi
+l.45 ...ndlich unendlich viele lösungen für \phi
                                                   , weil der \R^2 verwendet ...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./Automatisierung.tex:37: Undefined control sequence.
-l.37 ...ich viele lösungen für \phi, weil der \R
+./Automatisierung.tex:45: Undefined control sequence.
+l.45 ...ich viele lösungen für \phi, weil der \R
                                                   ^2 verwendet wurde
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -334,8 +337,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Automatisierung.tex:38: Undefined control sequence.
-l.38 der \R
+./Automatisierung.tex:46: Undefined control sequence.
+l.46 der \R
            ^2 ist der falsche Zustandsraum, der richtige Raum wäre eigendli...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -344,35 +347,35 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Command \" invalid in math mode on input line 38.
+LaTeX Warning: Command \" invalid in math mode on input line 46.
 
-./Automatisierung.tex:39: Missing $ inserted.
+./Automatisierung.tex:47: Missing $ inserted.
 <inserted text> 
                 $
-l.39 
+l.47 
      
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 Missing character: There is no � in font cmr10!
 
-Overfull \hbox (88.65485pt too wide) in paragraph at lines 37--39
+Overfull \hbox (88.65485pt too wide) in paragraph at lines 45--47
 \OML/cmm/m/it/10 ^^^; weilder[]verwendetwurdeder[]istderfalscheZustandsraum; derrichtigeRaumwreeigendlichderSO\OT1/cmr/m/n/10 3\OML/cmm/m/it/10 ; derZylinder\OT1/cmr/m/n/10 ?)$ 
  []
 
-./Automatisierung.tex:86: You can't use `macro parameter character #' in horizontal mode.
-l.86 u(t) = u~#
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+./Automatisierung.tex:94: You can't use `macro parameter character #' in horizontal mode.
+l.94 u(t) = u~#
                deltau
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
 If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
-[1
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-./Automatisierung.tex:120: Undefined control sequence.
-l.120 \[y=c^{T} + d\xdot
+./Automatisierung.tex:128: Undefined control sequence.
+l.128 \[y=c^{T} + d\xdot
                          u\]
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -381,26 +384,25 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Package amsfonts Warning: Obsolete command \bold; \mathbf should be used instead on input line 130.
+Package amsfonts Warning: Obsolete command \bold; \mathbf should be used instead on input line 138.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 143--144
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 151--152
 
  []
 
-./Automatisierung.tex:152: Display math should end with $$.
+./Automatisierung.tex:160: Display math should end with $$.
 <to be read again> 
                    ,
-l.152 \[(A-\lambda_{i}\cdot E)\cdot v_i=0$,
+l.160 \[(A-\lambda_{i}\cdot E)\cdot v_i=0$,
                                             $i \in {1,2,3}\]
 The `$' that I just saw supposedly matches a previous `$$'.
 So I shall assume that you typed `$$' both times.
 
-[2]
-./Automatisierung.tex:152: Missing $ inserted.
+./Automatisierung.tex:160: Missing $ inserted.
 <inserted text> 
                 $
-l.152 ...{i}\cdot E)\cdot v_i=0$, $i \in {1,2,3}\]
+l.160 ...{i}\cdot E)\cdot v_i=0$, $i \in {1,2,3}\]
                                                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -408,99 +410,98 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 210--211
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 218--219
 
  []
 
-[3]
-./Automatisierung.tex:234: Missing $ inserted.
+./Automatisierung.tex:242: Missing $ inserted.
 <inserted text> 
                 $
-l.234     \item proper: Zählergrad \ge
+l.242     \item proper: Zählergrad \ge
                                          Nenner
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-./Automatisierung.tex:235: LaTeX Error: Command \item invalid in math mode.
+./Automatisierung.tex:243: LaTeX Error: Command \item invalid in math mode.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.235     \item
+l.243     \item
                 strictly proper: Zählergrad > Nennergrad
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Automatisierung.tex:235: LaTeX Error: Something's wrong--perhaps a missing \item.
+./Automatisierung.tex:243: LaTeX Error: Something's wrong--perhaps a missing \item.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.235     \item s
+l.243     \item s
                  trictly proper: Zählergrad > Nennergrad
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Automatisierung.tex:235: LaTeX Error: Something's wrong--perhaps a missing \item.
+./Automatisierung.tex:243: LaTeX Error: Something's wrong--perhaps a missing \item.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.235     \item s
+l.243     \item s
                  trictly proper: Zählergrad > Nennergrad
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-LaTeX Warning: Command \" invalid in math mode on input line 235.
+LaTeX Warning: Command \" invalid in math mode on input line 243.
 
 
-./Automatisierung.tex:236: LaTeX Error: Command \end{itemize} invalid in math mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.236 \end{itemize}
-                   
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./Automatisierung.tex:236: LaTeX Error: Something's wrong--perhaps a missing \item.
+./Automatisierung.tex:244: LaTeX Error: Command \end{itemize} invalid in math mode.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.236 \end{itemize}
+l.244 \end{itemize}
                    
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Automatisierung.tex:236: LaTeX Error: Something's wrong--perhaps a missing \item.
+./Automatisierung.tex:244: LaTeX Error: Something's wrong--perhaps a missing \item.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.236 \end{itemize}
+l.244 \end{itemize}
                    
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-./Automatisierung.tex:236: Missing $ inserted.
+
+./Automatisierung.tex:244: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.244 \end{itemize}
+                   
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./Automatisierung.tex:244: Missing $ inserted.
 <inserted text> 
                 $
-l.236 \end{itemize}
+l.244 \end{itemize}
                    
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -510,26 +511,26 @@ my insertion and my current dilemma will both disappear.
 
 Missing character: There is no � in font cmr10!
 [4]
-./Automatisierung.tex:303: Missing $ inserted.
+./Automatisierung.tex:311: Missing $ inserted.
 <inserted text> 
                 $
-l.303     \item $\xi=0$ \implies
+l.311     \item $\xi=0$ \implies
                                   $1+(\frac{s}{\omega_{z}^{2}}=0$
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./Automatisierung.tex:303: Missing $ inserted.
+./Automatisierung.tex:311: Missing $ inserted.
 <inserted text> 
                 $
-l.303 ...0$ \implies  $1+(\frac{s}{\omega_{z}^{2}}
+l.311 ...0$ \implies  $1+(\frac{s}{\omega_{z}^{2}}
                                                   =0$
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./Automatisierung.tex:303: Extra }, or forgotten $.
+./Automatisierung.tex:311: Extra }, or forgotten $.
 \frac  #1#2->{\begingroup #1\endgroup \@@over #2}
                                                  
-l.303 ...0$ \implies  $1+(\frac{s}{\omega_{z}^{2}}
+l.311 ...0$ \implies  $1+(\frac{s}{\omega_{z}^{2}}
                                                   =0$
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -537,26 +538,27 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-./Automatisierung.tex:304: Missing $ inserted.
+[5]
+./Automatisierung.tex:312: Missing $ inserted.
 <inserted text> 
                 $
-l.304     \item $\xi=1$ \implies
+l.312     \item $\xi=1$ \implies
                                   $ 1+ 2(\frac{s}{\omega_{z}+(\frac{s}{\omeg...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./Automatisierung.tex:304: Missing $ inserted.
+./Automatisierung.tex:312: Missing $ inserted.
 <inserted text> 
                 $
-l.304 ...a_{z}})^2=(1+\frac{s}{\omega_{z}})^{2}=0}
+l.312 ...a_{z}})^2=(1+\frac{s}{\omega_{z}})^{2}=0}
                                                   $
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./Automatisierung.tex:304: Extra }, or forgotten $.
+./Automatisierung.tex:312: Extra }, or forgotten $.
 \frac  #1#2->{\begingroup #1\endgroup \@@over #2}
                                                  
-l.304 ...a_{z}})^2=(1+\frac{s}{\omega_{z}})^{2}=0}
+l.312 ...a_{z}})^2=(1+\frac{s}{\omega_{z}})^{2}=0}
                                                   $
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -564,10 +566,10 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-./Automatisierung.tex:305: Missing } inserted.
+./Automatisierung.tex:313: Missing } inserted.
 <inserted text> 
                 }
-l.305 \end{itemize}
+l.313 \end{itemize}
                    
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -575,10 +577,10 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./Automatisierung.tex:305: Missing } inserted.
+./Automatisierung.tex:313: Missing } inserted.
 <inserted text> 
                 }
-l.305 \end{itemize}
+l.313 \end{itemize}
                    
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -586,34 +588,33 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-[5]
 
-LaTeX Warning: Command \textdegree invalid in math mode on input line 331.
+LaTeX Warning: Command \textdegree invalid in math mode on input line 339.
 
 
-LaTeX Warning: Command \textdegree invalid in math mode on input line 331.
+LaTeX Warning: Command \textdegree invalid in math mode on input line 339.
 
 Missing character: There is no � in font cmr10!
 
-Overfull \hbox (1.26953pt too wide) in paragraph at lines 348--352
+Overfull \hbox (1.26953pt too wide) in paragraph at lines 356--360
 \T1/cmr/m/n/10 li-chen Fre-quenz-gang $\OML/cmm/m/it/10 G\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 s\OT1/cmr/m/n/10 )\OMS/cmsy/m/n/10 j[] \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 G\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 I!\OT1/cmr/m/n/10 ) = \OML/cmm/m/it/10 Re\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 G\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 I!\OT1/cmr/m/n/10 ) + \OML/cmm/m/it/10 I \OMS/cmsy/m/n/10 ^^A \OML/cmm/m/it/10 Img\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 G\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 I!\OT1/cmr/m/n/10 )) = \OMS/cmsy/m/n/10 k\OML/cmm/m/it/10 G\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 I!\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 e[]\OMS/cmsy/m/n/10 k$
  []
 
 [6]
-./Automatisierung.tex:360: Improper \spacefactor.
+./Automatisierung.tex:368: Improper \spacefactor.
 <recently read> \spacefactor 
                              
-l.360     \r $
+l.368     \r $
               \frac{\omega}{\omega_{K} \bigger 1}$
 You can refer to \spacefactor only in horizontal mode;
 you can refer to \prevdepth only in vertical mode; and
 neither of these is meaningful inside \write. So
 I'm forgetting what you said and using zero instead.
 
-./Automatisierung.tex:360: Extra }, or forgotten $.
+./Automatisierung.tex:368: Extra }, or forgotten $.
 \add@accent ... \accent@spacefactor \spacefactor }
                                                   \let \maybe@load@fontshape...
-l.360     \r $
+l.368     \r $
               \frac{\omega}{\omega_{K} \bigger 1}$
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -621,28 +622,28 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-./Automatisierung.tex:360: Please use \mathaccent for accents in math mode.
+./Automatisierung.tex:368: Please use \mathaccent for accents in math mode.
 \add@accent ... \let \ignorespaces \relax \accent 
                                                   #1 #2\egroup \ifmmode \els...
-l.360     \r $
+l.368     \r $
               \frac{\omega}{\omega_{K} \bigger 1}$
 I'm changing \accent to \mathaccent here; wish me luck.
 (Accents are not the same in formulas as they are in text.)
 
-./Automatisierung.tex:360: Missing { inserted.
+./Automatisierung.tex:368: Missing { inserted.
 <to be read again> 
                    $
-l.360     \r $
+l.368     \r $
               \frac{\omega}{\omega_{K} \bigger 1}$
 A left brace was mandatory here, so I've put one in.
 You might want to delete and/or insert some corrections
 so that I will find a matching right brace soon.
 (If you're confused by all this, try typing `I}' now.)
 
-./Automatisierung.tex:360: Missing } inserted.
+./Automatisierung.tex:368: Missing } inserted.
 <inserted text> 
                 }
-l.360     \r $
+l.368     \r $
               \frac{\omega}{\omega_{K} \bigger 1}$
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -650,25 +651,25 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./Automatisierung.tex:360: Bad space factor (0).
+./Automatisierung.tex:368: Bad space factor (0).
 <recently read> \accent@spacefactor 
                                     
-l.360     \r $
+l.368     \r $
               \frac{\omega}{\omega_{K} \bigger 1}$
 I allow only values in the range 1..32767 here.
 
-./Automatisierung.tex:360: Missing $ inserted.
+./Automatisierung.tex:368: Missing $ inserted.
 <inserted text> 
                 $
-l.360     \r $\frac{\omega}{\omega_{K} \bigger 1}
+l.368     \r $\frac{\omega}{\omega_{K} \bigger 1}
                                                  $
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./Automatisierung.tex:360: Missing $ inserted.
+./Automatisierung.tex:368: Missing $ inserted.
 <inserted text> 
                 $
-l.360     \r $\frac{\omega}{\omega_{K} \bigger 1}
+l.368     \r $\frac{\omega}{\omega_{K} \bigger 1}
                                                  $
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -676,18 +677,18 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./Automatisierung.tex:360: Missing $ inserted.
+./Automatisierung.tex:368: Missing $ inserted.
 <inserted text> 
                 $
-l.360     \r $\frac{\omega}{\omega_{K} \bigger 1}
+l.368     \r $\frac{\omega}{\omega_{K} \bigger 1}
                                                  $
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./Automatisierung.tex:360: Undefined control sequence.
+./Automatisierung.tex:368: Undefined control sequence.
 <argument> \omega _{K} \bigger 
                                1
-l.360     \r $\frac{\omega}{\omega_{K} \bigger 1}
+l.368     \r $\frac{\omega}{\omega_{K} \bigger 1}
                                                  $
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -695,10 +696,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Automatisierung.tex:360: Extra }, or forgotten $.
+./Automatisierung.tex:368: Extra }, or forgotten $.
 \frac  #1#2->{\begingroup #1\endgroup \@@over #2}
                                                  
-l.360     \r $\frac{\omega}{\omega_{K} \bigger 1}
+l.368     \r $\frac{\omega}{\omega_{K} \bigger 1}
                                                  $
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -706,10 +707,10 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-./Automatisierung.tex:361: Missing } inserted.
+./Automatisierung.tex:369: Missing } inserted.
 <inserted text> 
                 }
-l.361 \end{itemize}
+l.369 \end{itemize}
                    
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -717,10 +718,10 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./Automatisierung.tex:361: Missing } inserted.
+./Automatisierung.tex:369: Missing } inserted.
 <inserted text> 
                 }
-l.361 \end{itemize}
+l.369 \end{itemize}
                    
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -728,10 +729,10 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./Automatisierung.tex:375: Undefined control sequence.
+./Automatisierung.tex:383: Undefined control sequence.
 <argument> ... {\omega }{\omega _{K}})^{2}+I2\Chi 
                                                   \frac {\omega }{ \omega _{...
-l.375 ...a}{ \omega_{K}}$, $\omega_{K}\bigger0$ :}
+l.383 ...a}{ \omega_{K}}$, $\omega_{K}\bigger0$ :}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -739,10 +740,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Automatisierung.tex:375: Undefined control sequence.
+./Automatisierung.tex:383: Undefined control sequence.
 <argument> ... \omega _{K}}$, $\omega _{K}\bigger 
                                                   0$ :
-l.375 ...a}{ \omega_{K}}$, $\omega_{K}\bigger0$ :}
+l.383 ...a}{ \omega_{K}}$, $\omega_{K}\bigger0$ :}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -750,8 +751,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Automatisierung.tex:378: Undefined control sequence.
-l.378 ...älle durchführen und für $G(s)=1+2\Chi
+./Automatisierung.tex:386: Undefined control sequence.
+l.386 ...älle durchführen und für $G(s)=1+2\Chi
                                                   \frac{s}{10} +(\frac{s}{10...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -759,10 +760,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Automatisierung.tex:378: Undefined control sequence.
+./Automatisierung.tex:386: Undefined control sequence.
 <argument> 1+2\Chi 
                    \frac {s}{10} +(\frac {s}{10}^{2}
-l.378 ...}{1+2\Chi\frac{s}{10} +(\frac{s}{10}^{2}}
+l.386 ...}{1+2\Chi\frac{s}{10} +(\frac{s}{10}^{2}}
                                                   $ plotten
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -770,10 +771,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Automatisierung.tex:379: Undefined control sequence.
+./Automatisierung.tex:387: Undefined control sequence.
 <recently read> \Chi 
                      
-l.379     \item 4. Fall: Variation vom $\Chi
+l.387     \item 4. Fall: Variation vom $\Chi
                                             =(0, 1]$. Man erkennt Resonanz- ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -781,10 +782,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Automatisierung.tex:384: Extra }, or forgotten $.
+./Automatisierung.tex:392: Extra }, or forgotten $.
 \cc@@accent ...ef \cc@nuc {#2}\fi \kern \cc@skew }
                                                   \kern -\cc@skew \kern \cc@wd 
-l.384 \[ m \dot\dot
+l.392 \[ m \dot\dot
                     x = F-cx \]
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -792,10 +793,10 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-./Automatisierung.tex:384: Extra }, or forgotten $.
+./Automatisierung.tex:392: Extra }, or forgotten $.
 \cc@palette ...>\mathchoice {#1\displaystyle {#2}}
                                                   {#1\textstyle {#2}}{#1\scr...
-l.384 \[ m \dot\dot
+l.392 \[ m \dot\dot
                     x = F-cx \]
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -803,10 +804,10 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-./Automatisierung.tex:384: Extra }, or forgotten $.
+./Automatisierung.tex:392: Extra }, or forgotten $.
 \cc@@accent ...ef \cc@nuc {#2}\fi \kern \cc@skew }
                                                   \kern -\cc@skew \kern \cc@wd 
-l.384 \[ m \dot\dot
+l.392 \[ m \dot\dot
                     x = F-cx \]
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -814,10 +815,10 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-./Automatisierung.tex:384: Extra }, or forgotten $.
+./Automatisierung.tex:392: Extra }, or forgotten $.
 \cc@palette ...splaystyle {#2}}{#1\textstyle {#2}}
                                                   {#1\scriptstyle {#2}}{#1\s...
-l.384 \[ m \dot\dot
+l.392 \[ m \dot\dot
                     x = F-cx \]
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -825,10 +826,10 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-./Automatisierung.tex:384: Extra }, or forgotten $.
+./Automatisierung.tex:392: Extra }, or forgotten $.
 \cc@@accent ...ef \cc@nuc {#2}\fi \kern \cc@skew }
                                                   \kern -\cc@skew \kern \cc@wd 
-l.384 \[ m \dot\dot
+l.392 \[ m \dot\dot
                     x = F-cx \]
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -836,10 +837,10 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-./Automatisierung.tex:384: Extra }, or forgotten $.
+./Automatisierung.tex:392: Extra }, or forgotten $.
 \cc@palette ...extstyle {#2}}{#1\scriptstyle {#2}}
                                                   {#1\scriptscriptstyle {#2}}
-l.384 \[ m \dot\dot
+l.392 \[ m \dot\dot
                     x = F-cx \]
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -847,10 +848,10 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-./Automatisierung.tex:384: Extra }, or forgotten $.
+./Automatisierung.tex:392: Extra }, or forgotten $.
 \cc@@accent ...ef \cc@nuc {#2}\fi \kern \cc@skew }
                                                   \kern -\cc@skew \kern \cc@wd 
-l.384 \[ m \dot\dot
+l.392 \[ m \dot\dot
                     x = F-cx \]
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -858,10 +859,10 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-./Automatisierung.tex:384: Extra }, or forgotten $.
+./Automatisierung.tex:392: Extra }, or forgotten $.
 \cc@palette ...le {#2}}{#1\scriptscriptstyle {#2}}
                                                   
-l.384 \[ m \dot\dot
+l.392 \[ m \dot\dot
                     x = F-cx \]
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -869,10 +870,10 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-./Automatisierung.tex:384: Missing $ inserted.
+./Automatisierung.tex:392: Missing $ inserted.
 <inserted text> 
                 $
-l.384 \[ m \dot\dot
+l.392 \[ m \dot\dot
                     x = F-cx \]
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -881,22 +882,22 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-./Automatisierung.tex:384: LaTeX Error: Bad math environment delimiter.
+./Automatisierung.tex:392: LaTeX Error: Bad math environment delimiter.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.384 \[ m \dot\dot x = F-cx \]
+l.392 \[ m \dot\dot x = F-cx \]
                                
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-./Automatisierung.tex:384: Missing } inserted.
+./Automatisierung.tex:392: Missing } inserted.
 <inserted text> 
                 }
-l.384 \[ m \dot\dot x = F-cx \]
+l.392 \[ m \dot\dot x = F-cx \]
                                
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -904,10 +905,10 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./Automatisierung.tex:384: Missing } inserted.
+./Automatisierung.tex:392: Missing } inserted.
 <inserted text> 
                 }
-l.384 \[ m \dot\dot x = F-cx \]
+l.392 \[ m \dot\dot x = F-cx \]
                                
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -915,10 +916,10 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./Automatisierung.tex:384: Missing } inserted.
+./Automatisierung.tex:392: Missing } inserted.
 <inserted text> 
                 }
-l.384 \[ m \dot\dot x = F-cx \]
+l.392 \[ m \dot\dot x = F-cx \]
                                
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -926,10 +927,10 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./Automatisierung.tex:384: Missing $ inserted.
+./Automatisierung.tex:392: Missing $ inserted.
 <inserted text> 
                 $
-l.384 \[ m \dot\dot x = F-cx \]
+l.392 \[ m \dot\dot x = F-cx \]
                                
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -938,30 +939,30 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-./Automatisierung.tex:385: LaTeX Error: Bad math environment delimiter.
+./Automatisierung.tex:393: LaTeX Error: Bad math environment delimiter.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.385 \[ y=x \]
+l.393 \[ y=x \]
                
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-./Automatisierung.tex:386: Missing $ inserted.
+./Automatisierung.tex:394: Missing $ inserted.
 <inserted text> 
                 $
-l.386 \[ \implies
+l.394 \[ \implies
                   s^{2}m \hat{x}=\hat{F}-c \hat{x} \]
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./Automatisierung.tex:386: Missing $ inserted.
+./Automatisierung.tex:394: Missing $ inserted.
 <inserted text> 
                 $
-l.386 ...plies s^{2}m \hat{x}=\hat{F}-c \hat{x} \]
+l.394 ...plies s^{2}m \hat{x}=\hat{F}-c \hat{x} \]
                                                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -970,28 +971,28 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-./Automatisierung.tex:387: LaTeX Error: Bad math environment delimiter.
+./Automatisierung.tex:395: LaTeX Error: Bad math environment delimiter.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.387 \[ \hat{y}=\hat{x} \]
+l.395 \[ \hat{y}=\hat{x} \]
                            
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-./Automatisierung.tex:388: Missing $ inserted.
+./Automatisierung.tex:396: Missing $ inserted.
 <inserted text> 
                 $
-l.388 \[ \implies
+l.396 \[ \implies
                   G(S)=\frac{\hat{y}}{\hat{x}}=\frac{1}{s^{2}m+c}=\frac{1}{c...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./Automatisierung.tex:388: Undefined control sequence.
-l.388 ...+(\frac{s}{\omega_{K}})^{2}}\text{,} \Chi
+./Automatisierung.tex:396: Undefined control sequence.
+l.396 ...+(\frac{s}{\omega_{K}})^{2}}\text{,} \Chi
                                                   _{K}=0\]
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -999,10 +1000,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Automatisierung.tex:388: Missing $ inserted.
+./Automatisierung.tex:396: Missing $ inserted.
 <inserted text> 
                 $
-l.388 ...s}{\omega_{K}})^{2}}\text{,} \Chi_{K}=0\]
+l.396 ...s}{\omega_{K}})^{2}}\text{,} \Chi_{K}=0\]
                                                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1010,18 +1011,18 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./Automatisierung.tex:395: Missing $ inserted.
+./Automatisierung.tex:403: Missing $ inserted.
 <inserted text> 
                 $
-l.395 \[ arg(G(I\omega
+l.403 \[ arg(G(I\omega
                       ))=arg(1)-arg(1-\omega^{2})=\arctan(\frac{0}{1-\omega^...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./Automatisierung.tex:395: Missing $ inserted.
+./Automatisierung.tex:403: Missing $ inserted.
 <inserted text> 
                 $
-l.395 ...a^{2})=\arctan(\frac{0}{1-\omega^{2}}) \]
+l.403 ...a^{2})=\arctan(\frac{0}{1-\omega^{2}}) \]
                                                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1029,10 +1030,10 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./Automatisierung.tex:396: Undefined control sequence.
+./Automatisierung.tex:404: Undefined control sequence.
 <recently read> \Chi 
                      
-l.396 Wieder für $\Chi
+l.404 Wieder für $\Chi
                        =(0, 1]$ plotten. Siehe Abbildung 3.17 im Skriptum. I...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1041,33 +1042,33 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-./Automatisierung.tex:398: LaTeX Error: Something's wrong--perhaps a missing \item.
+./Automatisierung.tex:406: LaTeX Error: Something's wrong--perhaps a missing \item.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.398 \subsection
+l.406 \subsection
                  *{Darstellung von Bodediagrammen - Durchführung}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Automatisierung.tex:398: LaTeX Error: Something's wrong--perhaps a missing \item.
+./Automatisierung.tex:406: LaTeX Error: Something's wrong--perhaps a missing \item.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.398 \subsection
+l.406 \subsection
                  *{Darstellung von Bodediagrammen - Durchführung}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-./Automatisierung.tex:398: Missing } inserted.
+./Automatisierung.tex:406: Missing } inserted.
 <inserted text> 
                 }
-l.398 ...llung von Bodediagrammen - Durchführung}
+l.406 ...llung von Bodediagrammen - Durchführung}
                                                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1075,18 +1076,18 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./Automatisierung.tex:398: Missing $ inserted.
+./Automatisierung.tex:406: Missing $ inserted.
 <inserted text> 
                 $
-l.398 ...llung von Bodediagrammen - Durchführung}
+l.406 ...llung von Bodediagrammen - Durchführung}
                                                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./Automatisierung.tex:398: Missing } inserted.
+./Automatisierung.tex:406: Missing } inserted.
 <inserted text> 
                 }
-l.398 ...llung von Bodediagrammen - Durchführung}
+l.406 ...llung von Bodediagrammen - Durchführung}
                                                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1094,10 +1095,10 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./Automatisierung.tex:398: Missing } inserted.
+./Automatisierung.tex:406: Missing } inserted.
 <inserted text> 
                 }
-l.398 ...llung von Bodediagrammen - Durchführung}
+l.406 ...llung von Bodediagrammen - Durchführung}
                                                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1105,10 +1106,10 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./Automatisierung.tex:398: Missing \endgroup inserted.
+./Automatisierung.tex:406: Missing \endgroup inserted.
 <inserted text> 
                 \endgroup 
-l.398 ...llung von Bodediagrammen - Durchführung}
+l.406 ...llung von Bodediagrammen - Durchführung}
                                                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1116,10 +1117,10 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./Automatisierung.tex:398: Missing } inserted.
+./Automatisierung.tex:406: Missing } inserted.
 <inserted text> 
                 }
-l.398 ...llung von Bodediagrammen - Durchführung}
+l.406 ...llung von Bodediagrammen - Durchführung}
                                                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1127,18 +1128,18 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./Automatisierung.tex:398: Missing $ inserted.
+./Automatisierung.tex:406: Missing $ inserted.
 <inserted text> 
                 $
-l.398 ...llung von Bodediagrammen - Durchführung}
+l.406 ...llung von Bodediagrammen - Durchführung}
                                                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./Automatisierung.tex:398: Missing } inserted.
+./Automatisierung.tex:406: Missing } inserted.
 <inserted text> 
                 }
-l.398 ...llung von Bodediagrammen - Durchführung}
+l.406 ...llung von Bodediagrammen - Durchführung}
                                                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1146,10 +1147,10 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./Automatisierung.tex:398: Missing } inserted.
+./Automatisierung.tex:406: Missing } inserted.
 <inserted text> 
                 }
-l.398 ...llung von Bodediagrammen - Durchführung}
+l.406 ...llung von Bodediagrammen - Durchführung}
                                                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1157,10 +1158,10 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./Automatisierung.tex:398: Missing \endgroup inserted.
+./Automatisierung.tex:406: Missing \endgroup inserted.
 <inserted text> 
                 \endgroup 
-l.398 ...llung von Bodediagrammen - Durchführung}
+l.406 ...llung von Bodediagrammen - Durchführung}
                                                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1168,10 +1169,10 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./Automatisierung.tex:398: Missing } inserted.
+./Automatisierung.tex:406: Missing } inserted.
 <inserted text> 
                 }
-l.398 ...llung von Bodediagrammen - Durchführung}
+l.406 ...llung von Bodediagrammen - Durchführung}
                                                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1179,18 +1180,18 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./Automatisierung.tex:398: Missing $ inserted.
+./Automatisierung.tex:406: Missing $ inserted.
 <inserted text> 
                 $
-l.398 ...llung von Bodediagrammen - Durchführung}
+l.406 ...llung von Bodediagrammen - Durchführung}
                                                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./Automatisierung.tex:398: Missing } inserted.
+./Automatisierung.tex:406: Missing } inserted.
 <inserted text> 
                 }
-l.398 ...llung von Bodediagrammen - Durchführung}
+l.406 ...llung von Bodediagrammen - Durchführung}
                                                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1198,10 +1199,10 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./Automatisierung.tex:398: Missing } inserted.
+./Automatisierung.tex:406: Missing } inserted.
 <inserted text> 
                 }
-l.398 ...llung von Bodediagrammen - Durchführung}
+l.406 ...llung von Bodediagrammen - Durchführung}
                                                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1209,20 +1210,20 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./Automatisierung.tex:398: Missing { inserted.
+./Automatisierung.tex:406: Missing { inserted.
 <to be read again> 
                    $
-l.398 ...llung von Bodediagrammen - Durchführung}
+l.406 ...llung von Bodediagrammen - Durchführung}
                                                   
 A left brace was mandatory here, so I've put one in.
 You might want to delete and/or insert some corrections
 so that I will find a matching right brace soon.
 (If you're confused by all this, try typing `I}' now.)
 
-./Automatisierung.tex:398: Missing } inserted.
+./Automatisierung.tex:406: Missing } inserted.
 <inserted text> 
                 }
-l.398 ...llung von Bodediagrammen - Durchführung}
+l.406 ...llung von Bodediagrammen - Durchführung}
                                                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1230,20 +1231,20 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./Automatisierung.tex:398: Missing { inserted.
+./Automatisierung.tex:406: Missing { inserted.
 <to be read again> 
                    $
-l.398 ...llung von Bodediagrammen - Durchführung}
+l.406 ...llung von Bodediagrammen - Durchführung}
                                                   
 A left brace was mandatory here, so I've put one in.
 You might want to delete and/or insert some corrections
 so that I will find a matching right brace soon.
 (If you're confused by all this, try typing `I}' now.)
 
-./Automatisierung.tex:398: Missing } inserted.
+./Automatisierung.tex:406: Missing } inserted.
 <inserted text> 
                 }
-l.398 ...llung von Bodediagrammen - Durchführung}
+l.406 ...llung von Bodediagrammen - Durchführung}
                                                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1251,20 +1252,20 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./Automatisierung.tex:398: Missing { inserted.
+./Automatisierung.tex:406: Missing { inserted.
 <to be read again> 
                    $
-l.398 ...llung von Bodediagrammen - Durchführung}
+l.406 ...llung von Bodediagrammen - Durchführung}
                                                   
 A left brace was mandatory here, so I've put one in.
 You might want to delete and/or insert some corrections
 so that I will find a matching right brace soon.
 (If you're confused by all this, try typing `I}' now.)
 
-./Automatisierung.tex:398: Missing } inserted.
+./Automatisierung.tex:406: Missing } inserted.
 <inserted text> 
                 }
-l.398 ...llung von Bodediagrammen - Durchführung}
+l.406 ...llung von Bodediagrammen - Durchführung}
                                                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1272,10 +1273,10 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./Automatisierung.tex:398: Missing \endgroup inserted.
+./Automatisierung.tex:406: Missing \endgroup inserted.
 <inserted text> 
                 \endgroup 
-l.398 ...llung von Bodediagrammen - Durchführung}
+l.406 ...llung von Bodediagrammen - Durchführung}
                                                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1283,76 +1284,78 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./Automatisierung.tex:398: Display math should end with $$.
+./Automatisierung.tex:406: Display math should end with $$.
 <to be read again> 
                    \vskip 
-l.398 ...llung von Bodediagrammen - Durchführung}
+l.406 ...llung von Bodediagrammen - Durchführung}
                                                   
 The `$' that I just saw supposedly matches a previous `$$'.
 So I shall assume that you typed `$$' both times.
 
 [7]
-./Automatisierung.tex:419: Missing $ inserted.
+./Automatisierung.tex:427: Missing $ inserted.
 <inserted text> 
                 $
-l.419 ...ss es eine rechte Polstelle gibt \implies
+l.427 ...ss es eine rechte Polstelle gibt \implies
                                                    das System ist nicht phas...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./Automatisierung.tex:420: Missing $ inserted.
+./Automatisierung.tex:428: Missing $ inserted.
 <inserted text> 
                 $
-l.420 
+l.428 
       
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./Automatisierung.tex:445: Missing $ inserted.
+[8]
+./Automatisierung.tex:453: Missing $ inserted.
 <inserted text> 
                 $
-l.445 ...ction*{3.8.8 Lead-Glied (PD-T_{1}-Glied)}
+l.453 ...ction*{3.8.8 Lead-Glied (PD-T_{1}-Glied)}
                                                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./Automatisierung.tex:445: Missing $ inserted.
+./Automatisierung.tex:453: Missing $ inserted.
 <inserted text> 
                 $
-l.445 ...ction*{3.8.8 Lead-Glied (PD-T_{1}-Glied)}
+l.453 ...ction*{3.8.8 Lead-Glied (PD-T_{1}-Glied)}
                                                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-[8] [9]
+[9]
 
-./Automatisierung.tex:492: LaTeX Error: Environment iteimize undefined.
+./Automatisierung.tex:500: LaTeX Error: Environment iteimize undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.492 \begin{iteimize}
+l.500 \begin{iteimize}
                       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-./Automatisierung.tex:495: LaTeX Error: \begin{equation*} on input line 384 ended by \end{iteimize}.
+./Automatisierung.tex:503: LaTeX Error: \begin{equation*} on input line 392 ended by \end{iteimize}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.495 \end{iteimize}
+l.503 \end{iteimize}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-./Automatisierung.tex:530: Undefined control sequence.
-l.530     \item 2) $T_{r,y}(I\oemga
+[10]
+./Automatisierung.tex:538: Undefined control sequence.
+l.538     \item 2) $T_{r,y}(I\oemga
                                    )=1$
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1360,9 +1363,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[10]
-./Automatisierung.tex:540: Undefined control sequence.
-l.540     \item 2) $\|T_{r,y}(I\oemga
+./Automatisierung.tex:548: Undefined control sequence.
+l.548     \item 2) $\|T_{r,y}(I\oemga
                                      )\|\ll1$
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1370,10 +1372,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Automatisierung.tex:545: Undefined control sequence.
+./Automatisierung.tex:553: Undefined control sequence.
 <argument> \DeltaG 
                    
-l.545 ...s))-R(s)G(s)}{R(s)G(s)}=\frac{\DeltaG}{G}
+l.553 ...s))-R(s)G(s)}{R(s)G(s)}=\frac{\DeltaG}{G}
                                                    \]
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1381,8 +1383,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Automatisierung.tex:558: Undefined control sequence.
-l.558 \[ R_{d}(s)=\frac{G_{d}(s)}{G(s)}\imples
+./Automatisierung.tex:566: Undefined control sequence.
+l.566 \[ R_{d}(s)=\frac{G_{d}(s)}{G(s)}\imples
                                                T_{dy}(s)=0 \text{\ldots dies...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1391,10 +1393,10 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 [11] [12]
-./Automatisierung.tex:643: Extra }, or forgotten $.
+./Automatisierung.tex:651: Extra }, or forgotten $.
 \cc@@accent ...ef \cc@nuc {#2}\fi \kern \cc@skew }
                                                   \kern -\cc@skew \kern \cc@wd 
-l.643 \[ I \dot\dot
+l.651 \[ I \dot\dot
                    \phi M_{el}-M_{L}=k_{A}i_{A}-M_{L} \]
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1402,10 +1404,10 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-./Automatisierung.tex:643: Extra }, or forgotten $.
+./Automatisierung.tex:651: Extra }, or forgotten $.
 \cc@palette ...>\mathchoice {#1\displaystyle {#2}}
                                                   {#1\textstyle {#2}}{#1\scr...
-l.643 \[ I \dot\dot
+l.651 \[ I \dot\dot
                    \phi M_{el}-M_{L}=k_{A}i_{A}-M_{L} \]
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1413,10 +1415,10 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-./Automatisierung.tex:643: Extra }, or forgotten $.
+./Automatisierung.tex:651: Extra }, or forgotten $.
 \cc@@accent ...ef \cc@nuc {#2}\fi \kern \cc@skew }
                                                   \kern -\cc@skew \kern \cc@wd 
-l.643 \[ I \dot\dot
+l.651 \[ I \dot\dot
                    \phi M_{el}-M_{L}=k_{A}i_{A}-M_{L} \]
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1424,10 +1426,10 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-./Automatisierung.tex:643: Extra }, or forgotten $.
+./Automatisierung.tex:651: Extra }, or forgotten $.
 \cc@palette ...splaystyle {#2}}{#1\textstyle {#2}}
                                                   {#1\scriptstyle {#2}}{#1\s...
-l.643 \[ I \dot\dot
+l.651 \[ I \dot\dot
                    \phi M_{el}-M_{L}=k_{A}i_{A}-M_{L} \]
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1435,10 +1437,10 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-./Automatisierung.tex:643: Extra }, or forgotten $.
+./Automatisierung.tex:651: Extra }, or forgotten $.
 \cc@@accent ...ef \cc@nuc {#2}\fi \kern \cc@skew }
                                                   \kern -\cc@skew \kern \cc@wd 
-l.643 \[ I \dot\dot
+l.651 \[ I \dot\dot
                    \phi M_{el}-M_{L}=k_{A}i_{A}-M_{L} \]
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1446,10 +1448,10 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-./Automatisierung.tex:643: Extra }, or forgotten $.
+./Automatisierung.tex:651: Extra }, or forgotten $.
 \cc@palette ...extstyle {#2}}{#1\scriptstyle {#2}}
                                                   {#1\scriptscriptstyle {#2}}
-l.643 \[ I \dot\dot
+l.651 \[ I \dot\dot
                    \phi M_{el}-M_{L}=k_{A}i_{A}-M_{L} \]
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1457,10 +1459,10 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-./Automatisierung.tex:643: Extra }, or forgotten $.
+./Automatisierung.tex:651: Extra }, or forgotten $.
 \cc@@accent ...ef \cc@nuc {#2}\fi \kern \cc@skew }
                                                   \kern -\cc@skew \kern \cc@wd 
-l.643 \[ I \dot\dot
+l.651 \[ I \dot\dot
                    \phi M_{el}-M_{L}=k_{A}i_{A}-M_{L} \]
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1468,10 +1470,10 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-./Automatisierung.tex:643: Extra }, or forgotten $.
+./Automatisierung.tex:651: Extra }, or forgotten $.
 \cc@palette ...le {#2}}{#1\scriptscriptstyle {#2}}
                                                   
-l.643 \[ I \dot\dot
+l.651 \[ I \dot\dot
                    \phi M_{el}-M_{L}=k_{A}i_{A}-M_{L} \]
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1479,10 +1481,10 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-./Automatisierung.tex:643: Missing $ inserted.
+./Automatisierung.tex:651: Missing $ inserted.
 <inserted text> 
                 $
-l.643 \[ I \dot\dot
+l.651 \[ I \dot\dot
                    \phi M_{el}-M_{L}=k_{A}i_{A}-M_{L} \]
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1490,18 +1492,18 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./Automatisierung.tex:643: Missing $ inserted.
+./Automatisierung.tex:651: Missing $ inserted.
 <inserted text> 
                 $
-l.643 \[ I \dot\dot\phi
+l.651 \[ I \dot\dot\phi
                         M_{el}-M_{L}=k_{A}i_{A}-M_{L} \]
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./Automatisierung.tex:643: Missing $ inserted.
+./Automatisierung.tex:651: Missing $ inserted.
 <inserted text> 
                 $
-l.643 ...\dot\phi M_{el}-M_{L}=k_{A}i_{A}-M_{L} \]
+l.651 ...\dot\phi M_{el}-M_{L}=k_{A}i_{A}-M_{L} \]
                                                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1509,10 +1511,10 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./Automatisierung.tex:643: Missing } inserted.
+./Automatisierung.tex:651: Missing } inserted.
 <inserted text> 
                 }
-l.643 ...\dot\phi M_{el}-M_{L}=k_{A}i_{A}-M_{L} \]
+l.651 ...\dot\phi M_{el}-M_{L}=k_{A}i_{A}-M_{L} \]
                                                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1520,10 +1522,10 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./Automatisierung.tex:643: Missing } inserted.
+./Automatisierung.tex:651: Missing } inserted.
 <inserted text> 
                 }
-l.643 ...\dot\phi M_{el}-M_{L}=k_{A}i_{A}-M_{L} \]
+l.651 ...\dot\phi M_{el}-M_{L}=k_{A}i_{A}-M_{L} \]
                                                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1531,10 +1533,10 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./Automatisierung.tex:643: Missing } inserted.
+./Automatisierung.tex:651: Missing } inserted.
 <inserted text> 
                 }
-l.643 ...\dot\phi M_{el}-M_{L}=k_{A}i_{A}-M_{L} \]
+l.651 ...\dot\phi M_{el}-M_{L}=k_{A}i_{A}-M_{L} \]
                                                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1542,10 +1544,10 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./Automatisierung.tex:643: Missing $ inserted.
+./Automatisierung.tex:651: Missing $ inserted.
 <inserted text> 
                 $
-l.643 ...\dot\phi M_{el}-M_{L}=k_{A}i_{A}-M_{L} \]
+l.651 ...\dot\phi M_{el}-M_{L}=k_{A}i_{A}-M_{L} \]
                                                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1553,18 +1555,18 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./Automatisierung.tex:644: Missing $ inserted.
+./Automatisierung.tex:652: Missing $ inserted.
 <inserted text> 
                 $
-l.644 \[ \dot\phi
+l.652 \[ \dot\phi
                  =\omega \]
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./Automatisierung.tex:644: Missing $ inserted.
+./Automatisierung.tex:652: Missing $ inserted.
 <inserted text> 
                 $
-l.644 \[ \dot\phi=\omega \]
+l.652 \[ \dot\phi=\omega \]
                            
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1572,18 +1574,18 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./Automatisierung.tex:645: Missing $ inserted.
+./Automatisierung.tex:653: Missing $ inserted.
 <inserted text> 
                 $
-l.645 \[ \dot\omega
+l.653 \[ \dot\omega
                    =\frac{k_{A}}{I}i_{A}-\frac{1}{I}M_{L} \]
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./Automatisierung.tex:645: Missing $ inserted.
+./Automatisierung.tex:653: Missing $ inserted.
 <inserted text> 
                 $
-l.645 ...=\frac{k_{A}}{I}i_{A}-\frac{1}{I}M_{L} \]
+l.653 ...=\frac{k_{A}}{I}i_{A}-\frac{1}{I}M_{L} \]
                                                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1592,33 +1594,33 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-./Automatisierung.tex:654: LaTeX Error: Something's wrong--perhaps a missing \item.
+./Automatisierung.tex:662: LaTeX Error: Something's wrong--perhaps a missing \item.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.654 \subsection
+l.662 \subsection
                  *{Beispiel 4.1}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Automatisierung.tex:654: LaTeX Error: Something's wrong--perhaps a missing \item.
+./Automatisierung.tex:662: LaTeX Error: Something's wrong--perhaps a missing \item.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.654 \subsection
+l.662 \subsection
                  *{Beispiel 4.1}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-./Automatisierung.tex:654: Missing } inserted.
+./Automatisierung.tex:662: Missing } inserted.
 <inserted text> 
                 }
-l.654 \subsection*{Beispiel 4.1}
+l.662 \subsection*{Beispiel 4.1}
                                 
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1626,18 +1628,18 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./Automatisierung.tex:654: Missing $ inserted.
+./Automatisierung.tex:662: Missing $ inserted.
 <inserted text> 
                 $
-l.654 \subsection*{Beispiel 4.1}
+l.662 \subsection*{Beispiel 4.1}
                                 
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./Automatisierung.tex:654: Missing } inserted.
+./Automatisierung.tex:662: Missing } inserted.
 <inserted text> 
                 }
-l.654 \subsection*{Beispiel 4.1}
+l.662 \subsection*{Beispiel 4.1}
                                 
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1645,10 +1647,10 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./Automatisierung.tex:654: Missing } inserted.
+./Automatisierung.tex:662: Missing } inserted.
 <inserted text> 
                 }
-l.654 \subsection*{Beispiel 4.1}
+l.662 \subsection*{Beispiel 4.1}
                                 
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1656,10 +1658,10 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./Automatisierung.tex:654: Missing \endgroup inserted.
+./Automatisierung.tex:662: Missing \endgroup inserted.
 <inserted text> 
                 \endgroup 
-l.654 \subsection*{Beispiel 4.1}
+l.662 \subsection*{Beispiel 4.1}
                                 
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1667,10 +1669,10 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./Automatisierung.tex:654: Missing } inserted.
+./Automatisierung.tex:662: Missing } inserted.
 <inserted text> 
                 }
-l.654 \subsection*{Beispiel 4.1}
+l.662 \subsection*{Beispiel 4.1}
                                 
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1678,18 +1680,18 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./Automatisierung.tex:654: Missing $ inserted.
+./Automatisierung.tex:662: Missing $ inserted.
 <inserted text> 
                 $
-l.654 \subsection*{Beispiel 4.1}
+l.662 \subsection*{Beispiel 4.1}
                                 
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./Automatisierung.tex:654: Missing } inserted.
+./Automatisierung.tex:662: Missing } inserted.
 <inserted text> 
                 }
-l.654 \subsection*{Beispiel 4.1}
+l.662 \subsection*{Beispiel 4.1}
                                 
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1697,10 +1699,10 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./Automatisierung.tex:654: Missing } inserted.
+./Automatisierung.tex:662: Missing } inserted.
 <inserted text> 
                 }
-l.654 \subsection*{Beispiel 4.1}
+l.662 \subsection*{Beispiel 4.1}
                                 
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1708,10 +1710,10 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./Automatisierung.tex:654: Missing \endgroup inserted.
+./Automatisierung.tex:662: Missing \endgroup inserted.
 <inserted text> 
                 \endgroup 
-l.654 \subsection*{Beispiel 4.1}
+l.662 \subsection*{Beispiel 4.1}
                                 
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1719,10 +1721,10 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./Automatisierung.tex:654: Missing } inserted.
+./Automatisierung.tex:662: Missing } inserted.
 <inserted text> 
                 }
-l.654 \subsection*{Beispiel 4.1}
+l.662 \subsection*{Beispiel 4.1}
                                 
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1730,18 +1732,18 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./Automatisierung.tex:654: Missing $ inserted.
+./Automatisierung.tex:662: Missing $ inserted.
 <inserted text> 
                 $
-l.654 \subsection*{Beispiel 4.1}
+l.662 \subsection*{Beispiel 4.1}
                                 
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./Automatisierung.tex:654: Missing } inserted.
+./Automatisierung.tex:662: Missing } inserted.
 <inserted text> 
                 }
-l.654 \subsection*{Beispiel 4.1}
+l.662 \subsection*{Beispiel 4.1}
                                 
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1749,10 +1751,10 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./Automatisierung.tex:654: Missing } inserted.
+./Automatisierung.tex:662: Missing } inserted.
 <inserted text> 
                 }
-l.654 \subsection*{Beispiel 4.1}
+l.662 \subsection*{Beispiel 4.1}
                                 
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1760,20 +1762,20 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./Automatisierung.tex:654: Missing { inserted.
+./Automatisierung.tex:662: Missing { inserted.
 <to be read again> 
                    $
-l.654 \subsection*{Beispiel 4.1}
+l.662 \subsection*{Beispiel 4.1}
                                 
 A left brace was mandatory here, so I've put one in.
 You might want to delete and/or insert some corrections
 so that I will find a matching right brace soon.
 (If you're confused by all this, try typing `I}' now.)
 
-./Automatisierung.tex:654: Missing } inserted.
+./Automatisierung.tex:662: Missing } inserted.
 <inserted text> 
                 }
-l.654 \subsection*{Beispiel 4.1}
+l.662 \subsection*{Beispiel 4.1}
                                 
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1781,20 +1783,20 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./Automatisierung.tex:654: Missing { inserted.
+./Automatisierung.tex:662: Missing { inserted.
 <to be read again> 
                    $
-l.654 \subsection*{Beispiel 4.1}
+l.662 \subsection*{Beispiel 4.1}
                                 
 A left brace was mandatory here, so I've put one in.
 You might want to delete and/or insert some corrections
 so that I will find a matching right brace soon.
 (If you're confused by all this, try typing `I}' now.)
 
-./Automatisierung.tex:654: Missing } inserted.
+./Automatisierung.tex:662: Missing } inserted.
 <inserted text> 
                 }
-l.654 \subsection*{Beispiel 4.1}
+l.662 \subsection*{Beispiel 4.1}
                                 
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1802,20 +1804,20 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./Automatisierung.tex:654: Missing { inserted.
+./Automatisierung.tex:662: Missing { inserted.
 <to be read again> 
                    $
-l.654 \subsection*{Beispiel 4.1}
+l.662 \subsection*{Beispiel 4.1}
                                 
 A left brace was mandatory here, so I've put one in.
 You might want to delete and/or insert some corrections
 so that I will find a matching right brace soon.
 (If you're confused by all this, try typing `I}' now.)
 
-./Automatisierung.tex:654: Missing } inserted.
+./Automatisierung.tex:662: Missing } inserted.
 <inserted text> 
                 }
-l.654 \subsection*{Beispiel 4.1}
+l.662 \subsection*{Beispiel 4.1}
                                 
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1823,10 +1825,10 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./Automatisierung.tex:654: Missing \endgroup inserted.
+./Automatisierung.tex:662: Missing \endgroup inserted.
 <inserted text> 
                 \endgroup 
-l.654 \subsection*{Beispiel 4.1}
+l.662 \subsection*{Beispiel 4.1}
                                 
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1834,64 +1836,65 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./Automatisierung.tex:654: Display math should end with $$.
+./Automatisierung.tex:662: Display math should end with $$.
 <to be read again> 
                    \vskip 
-l.654 \subsection*{Beispiel 4.1}
+l.662 \subsection*{Beispiel 4.1}
                                 
 The `$' that I just saw supposedly matches a previous `$$'.
 So I shall assume that you typed `$$' both times.
 
 
-./Automatisierung.tex:687: LaTeX Error: Environment iteimize undefined.
+./Automatisierung.tex:695: LaTeX Error: Environment iteimize undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.687 \begin{iteimize}
+l.695 \begin{iteimize}
                       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
+[13]
 
-./Automatisierung.tex:688: LaTeX Error: Lonely \item--perhaps a missing list environment.
+./Automatisierung.tex:696: LaTeX Error: Lonely \item--perhaps a missing list environment.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.688 \item P
+l.696 \item P
              (-\infty): Pfeil dreht sich im Uhrzeigersinn und stoppt bei $-\...
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \hbox (badness 10000) detected at line 688
+Underfull \hbox (badness 10000) detected at line 696
 [][]
  []
 
-./Automatisierung.tex:688: Missing $ inserted.
+./Automatisierung.tex:696: Missing $ inserted.
 <inserted text> 
                 $
-l.688 \item P(-\infty
+l.696 \item P(-\infty
                      ): Pfeil dreht sich im Uhrzeigersinn und stoppt bei $-\...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./Automatisierung.tex:688: Missing $ inserted.
+./Automatisierung.tex:696: Missing $ inserted.
 <inserted text> 
                 $
-l.688 ...eigersinn und stoppt bei $-\frac{3\pi}{2}
+l.696 ...eigersinn und stoppt bei $-\frac{3\pi}{2}
                                                   $
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./Automatisierung.tex:688: Missing $ inserted.
+./Automatisierung.tex:696: Missing $ inserted.
 <inserted text> 
                 $
-l.688 ...eigersinn und stoppt bei $-\frac{3\pi}{2}
+l.696 ...eigersinn und stoppt bei $-\frac{3\pi}{2}
                                                   $
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1899,18 +1902,18 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./Automatisierung.tex:688: Missing $ inserted.
+./Automatisierung.tex:696: Missing $ inserted.
 <inserted text> 
                 $
-l.688 ...eigersinn und stoppt bei $-\frac{3\pi}{2}
+l.696 ...eigersinn und stoppt bei $-\frac{3\pi}{2}
                                                   $
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./Automatisierung.tex:688: Extra }, or forgotten $.
+./Automatisierung.tex:696: Extra }, or forgotten $.
 \frac  #1#2->{\begingroup #1\endgroup \@@over #2}
                                                  
-l.688 ...eigersinn und stoppt bei $-\frac{3\pi}{2}
+l.696 ...eigersinn und stoppt bei $-\frac{3\pi}{2}
                                                   $
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1919,59 +1922,59 @@ the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
 
-./Automatisierung.tex:689: LaTeX Error: Lonely \item--perhaps a missing list environment.
+./Automatisierung.tex:697: LaTeX Error: Lonely \item--perhaps a missing list environment.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.689 \item P
+l.697 \item P
              (-0)->P(+0): wird nicht gezählt,  da ein Sprung nicht stetig ist
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \hbox (badness 10000) detected at line 689
+Underfull \hbox (badness 10000) detected at line 697
 [][]
  []
 
 
-./Automatisierung.tex:690: LaTeX Error: Lonely \item--perhaps a missing list environment.
+./Automatisierung.tex:698: LaTeX Error: Lonely \item--perhaps a missing list environment.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.690 \item P
+l.698 \item P
              (+0)->P(+\infty): Pfeil dreht sich im Uhrzeigersinn und stoppt ...
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \hbox (badness 10000) detected at line 690
+Underfull \hbox (badness 10000) detected at line 698
 [][]
  []
 
-./Automatisierung.tex:690: Missing $ inserted.
+./Automatisierung.tex:698: Missing $ inserted.
 <inserted text> 
                 $
-l.690 \item P(+0)->P(+\infty
+l.698 \item P(+0)->P(+\infty
                             ): Pfeil dreht sich im Uhrzeigersinn und stoppt ...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./Automatisierung.tex:690: Missing $ inserted.
+./Automatisierung.tex:698: Missing $ inserted.
 <inserted text> 
                 $
-l.690 ...eigersinn und stoppt bei $-\frac{3\pi}{2}
+l.698 ...eigersinn und stoppt bei $-\frac{3\pi}{2}
                                                   $
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./Automatisierung.tex:690: Missing $ inserted.
+./Automatisierung.tex:698: Missing $ inserted.
 <inserted text> 
                 $
-l.690 ...eigersinn und stoppt bei $-\frac{3\pi}{2}
+l.698 ...eigersinn und stoppt bei $-\frac{3\pi}{2}
                                                   $
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1979,18 +1982,18 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./Automatisierung.tex:690: Missing $ inserted.
+./Automatisierung.tex:698: Missing $ inserted.
 <inserted text> 
                 $
-l.690 ...eigersinn und stoppt bei $-\frac{3\pi}{2}
+l.698 ...eigersinn und stoppt bei $-\frac{3\pi}{2}
                                                   $
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./Automatisierung.tex:690: Extra }, or forgotten $.
+./Automatisierung.tex:698: Extra }, or forgotten $.
 \frac  #1#2->{\begingroup #1\endgroup \@@over #2}
                                                  
-l.690 ...eigersinn und stoppt bei $-\frac{3\pi}{2}
+l.698 ...eigersinn und stoppt bei $-\frac{3\pi}{2}
                                                   $
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1999,22 +2002,22 @@ the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
 
-./Automatisierung.tex:691: LaTeX Error: \begin{equation*} on input line 643 ended by \end{iteimize}.
+./Automatisierung.tex:699: LaTeX Error: \begin{equation*} on input line 651 ended by \end{iteimize}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.691 \end{iteimize}
+l.699 \end{iteimize}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-./Automatisierung.tex:691: Missing } inserted.
+./Automatisierung.tex:699: Missing } inserted.
 <inserted text> 
                 }
-l.691 \end{iteimize}
+l.699 \end{iteimize}
                     
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2022,10 +2025,10 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./Automatisierung.tex:691: Missing } inserted.
+./Automatisierung.tex:699: Missing } inserted.
 <inserted text> 
                 }
-l.691 \end{iteimize}
+l.699 \end{iteimize}
                     
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2033,15 +2036,14 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-[13]
 
-./Automatisierung.tex:712: LaTeX Error: \begin{equation*} on input line 643 ended by \end{document}.
+./Automatisierung.tex:720: LaTeX Error: \begin{equation*} on input line 651 ended by \end{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.712 \end{document}
+l.720 \end{document}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2050,22 +2052,22 @@ or  <return>  to continue without it.
 [14] (./Automatisierung.aux) )
 (\end occurred inside a group at level 2)
 
-### semi simple group (level 2) entered at line 643 (\begingroup)
-### semi simple group (level 1) entered at line 384 (\begingroup)
+### semi simple group (level 2) entered at line 651 (\begingroup)
+### semi simple group (level 1) entered at line 392 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 6158 strings out of 476091
- 97245 string characters out of 5794080
- 1870330 words of memory out of 5000000
- 26420 multiletter control sequences out of 15000+600000
- 527655 words of font info for 75 fonts, out of 8000000 for 9000
+ 6271 strings out of 476091
+ 98828 string characters out of 5794080
+ 1868330 words of memory out of 5000000
+ 26528 multiletter control sequences out of 15000+600000
+ 528423 words of font info for 76 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,17n,76p,547b,261s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on Automatisierung.pdf (14 pages, 293371 bytes).
+ 72i,17n,76p,547b,271s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1728.pfb>
+Output written on Automatisierung.pdf (14 pages, 323682 bytes).
 PDF statistics:
- 145 PDF objects out of 1000 (max. 8388607)
- 91 compressed objects within 1 object stream
+ 155 PDF objects out of 1000 (max. 8388607)
+ 97 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2023.10.17)  16 NOV 2023 16:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2023.10.17)  17 NOV 2023 15:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -141,10 +141,13 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-)) (/usr/share/texlive/texmf-dist/tex/latex/accents/accents.sty
+)) (/usr/share/texlive/texmf-dist/tex/latex/ncctools/nccmath.sty
+Package: nccmath 2006/01/20 v1.3 Additional Math Commands (NCC)
+\NCC@fracrulewidth=\dimen159
+) (/usr/share/texlive/texmf-dist/tex/latex/accents/accents.sty
 Package: accents 2006/05/12 v1.4 Math Accent Tools
-\cc@skew=\dimen159
-\cc@wd=\dimen160
+\cc@skew=\dimen160
+\cc@wd=\dimen161
 \cc@code=\count276
 \cc@group=\count277
 \cc@skewchar=\count278
@@ -156,8 +159,8 @@ Package: xifthen 2015/11/05 v1.4.0 Extended ifthen features
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count279
 \calc@Bcount=\count280
-\calc@Adimen=\dimen161
-\calc@Bdimen=\dimen162
+\calc@Adimen=\dimen162
+\calc@Bdimen=\dimen163
 \calc@Askip=\skip53
 \calc@Bskip=\skip54
 LaTeX Info: Redefining \setlength on input line 80.
@@ -172,8 +175,8 @@ Package: ifmtarg 2018/04/16 v1.2b check for an empty argument
 Package: pdfpages 2022/12/19 v0.5x Insert pages of external PDF documents (AM)
  (/usr/share/texlive/texmf-dist/tex/latex/eso-pic/eso-pic.sty
 Package: eso-pic 2020/10/14 v3.0a eso-pic (RN)
-\ESO@tempdima=\dimen163
-\ESO@tempdimb=\dimen164
+\ESO@tempdima=\dimen164
+\ESO@tempdimb=\dimen165
  (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
  (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
@@ -203,12 +206,12 @@ File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 107.
 )
-\Gin@req@height=\dimen165
-\Gin@req@width=\dimen166
+\Gin@req@height=\dimen166
+\Gin@req@width=\dimen167
 )
-\AM@pagewidth=\dimen167
-\AM@pageheight=\dimen168
-\AM@fboxrule=\dimen169
+\AM@pagewidth=\dimen168
+\AM@pageheight=\dimen169
+\AM@fboxrule=\dimen170
  (/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pppdftex.def
 File: pppdftex.def 2022/12/19 v0.5x Pdfpages driver for pdfTeX (AM)
 )
@@ -233,20 +236,20 @@ File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
 ) (./Wellenausbreitung.aux)
 \openout1 = `Wellenausbreitung.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -285,13 +288,13 @@ LaTeX Font Info:    ... okay on input line 24.
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count286
-\scratchdimen=\dimen170
+\scratchdimen=\dimen171
 \scratchbox=\box56
 \nofMPsegments=\count287
 \nofMParguments=\count288
 \everyMPshowfont=\toks28
 \MPscratchCnt=\count289
-\MPscratchDim=\dimen171
+\MPscratchDim=\dimen172
 \MPnumerator=\count290
 \makeMPintoPDFobject=\count291
 \everyMPtoPDFconversion=\toks29
@@ -309,47 +312,47 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ))
-LaTeX Font Info:    Trying to load font information for U+msa on input line 28.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 29.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 28.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 29.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 95--103
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 119--122
+Underfull \hbox (badness 10000) in paragraph at lines 103--111
 
  []
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 123--129
+Underfull \hbox (badness 10000) in paragraph at lines 127--130
 
  []
 
 
-Package amsfonts Warning: Obsolete command \bold; \mathbf should be used instead on input line 131.
+Underfull \hbox (badness 10000) in paragraph at lines 131--137
+
+ []
 
 
-./Wellenausbreitung.tex:131: LaTeX Error: \mathbf allowed only in math mode.
+Package amsfonts Warning: Obsolete command \bold; \mathbf should be used instead on input line 139.
+
+
+./Wellenausbreitung.tex:139: LaTeX Error: \mathbf allowed only in math mode.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.131 \bold{Sei angemerkt:}
+l.139 \bold{Sei angemerkt:}
                             unter hinreichenden Bedingungen gilt der Satz vo...
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-./Wellenausbreitung.tex:133: Undefined control sequence.
-l.133 \[\nabla x (\nabla x H) = sigma(\nablaxE
+./Wellenausbreitung.tex:141: Undefined control sequence.
+l.141 \[\nabla x (\nabla x H) = sigma(\nablaxE
                                               )+epsilon partd/partdt(\nabla ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -357,8 +360,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Wellenausbreitung.tex:135: Undefined control sequence.
-l.135 ...partial t^2}\] \ldotsTelegraphengleichung
+./Wellenausbreitung.tex:143: Undefined control sequence.
+l.143 ...partial t^2}\] \ldotsTelegraphengleichung
                                                    fÃ¼r $H$,  $B$, $E$ \& $D...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -367,105 +370,105 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 135--140
+Underfull \hbox (badness 10000) in paragraph at lines 143--148
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 147--148
+Underfull \hbox (badness 10000) in paragraph at lines 155--156
 
  []
 
-./Wellenausbreitung.tex:149: Missing $ inserted.
+./Wellenausbreitung.tex:157: Missing $ inserted.
 <inserted text> 
                 $
-l.149     Reines Wirbelfeld E bzw H=\nabla
+l.157     Reines Wirbelfeld E bzw H=\nabla
                                            x (a.psi)=-a x \nabla.psi
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-LaTeX Warning: Command \" invalid in math mode on input line 151.
+LaTeX Warning: Command \" invalid in math mode on input line 159.
 
 
-LaTeX Warning: Command \" invalid in math mode on input line 151.
+LaTeX Warning: Command \" invalid in math mode on input line 159.
 
 
-./Wellenausbreitung.tex:152: LaTeX Error: Command \item invalid in math mode.
+./Wellenausbreitung.tex:160: LaTeX Error: Command \item invalid in math mode.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.152     \item
+l.160     \item
                 Methode 3: Ansatz mittels elektrodynamischer Potentiale
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Wellenausbreitung.tex:152: LaTeX Error: Something's wrong--perhaps a missing \item.
+./Wellenausbreitung.tex:160: LaTeX Error: Something's wrong--perhaps a missing \item.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.152     \item M
+l.160     \item M
                  ethode 3: Ansatz mittels elektrodynamischer Potentiale
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Wellenausbreitung.tex:152: LaTeX Error: Something's wrong--perhaps a missing \item.
+./Wellenausbreitung.tex:160: LaTeX Error: Something's wrong--perhaps a missing \item.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.152     \item M
+l.160     \item M
                  ethode 3: Ansatz mittels elektrodynamischer Potentiale
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Wellenausbreitung.tex:154: LaTeX Error: Command \end{itemize} invalid in math mode.
+./Wellenausbreitung.tex:162: LaTeX Error: Command \end{itemize} invalid in math mode.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.154 \end{itemize}
+l.162 \end{itemize}
                    
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Wellenausbreitung.tex:154: LaTeX Error: Something's wrong--perhaps a missing \item.
+./Wellenausbreitung.tex:162: LaTeX Error: Something's wrong--perhaps a missing \item.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.154 \end{itemize}
+l.162 \end{itemize}
                    
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Wellenausbreitung.tex:154: LaTeX Error: Something's wrong--perhaps a missing \item.
+./Wellenausbreitung.tex:162: LaTeX Error: Something's wrong--perhaps a missing \item.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.154 \end{itemize}
+l.162 \end{itemize}
                    
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-./Wellenausbreitung.tex:154: Missing $ inserted.
+./Wellenausbreitung.tex:162: Missing $ inserted.
 <inserted text> 
                 $
-l.154 \end{itemize}
+l.162 \end{itemize}
                    
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -476,37 +479,37 @@ my insertion and my current dilemma will both disappear.
 Missing character: There is no ü in font cmr10!
 Missing character: There is no ö in font cmr10!
 
-Overfull \hbox (308.36713pt too wide) in paragraph at lines 148--155
+Overfull \hbox (308.36713pt too wide) in paragraph at lines 156--163
 \T1/cmr/m/n/10 Reines Wir-bel-feld E bzw H=$\OMS/cmsy/m/n/10 r\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 a:psi\OT1/cmr/m/n/10 ) = \OMS/cmsy/m/n/10 ^^@\OML/cmm/m/it/10 ax\OMS/cmsy/m/n/10 r\OML/cmm/m/it/10 :psiDurchWiederholung \OT1/cmr/m/n/10 : \OMS/cmsy/m/n/10 r\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 (\OMS/cmsy/m/n/10 r\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 a:psi\OT1/cmr/m/n/10 ))\OML/cmm/m/it/10 MitgengendWiederholungenkanndieElektrodynamikgelstwerden:Methode\OT1/cmr/m/n/10 3 :
  []
 
 [3]
 
-./Wellenausbreitung.tex:173: LaTeX Error: \mathbf allowed only in math mode.
+./Wellenausbreitung.tex:181: LaTeX Error: \mathbf allowed only in math mode.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.173     \item \bold{Fundamentalsystem:}
+l.181     \item \bold{Fundamentalsystem:}
                                           $\{\sin(k_{x}x), \cos(k_{x}x)\}$\l...
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Wellenausbreitung.tex:174: LaTeX Error: \mathbf allowed only in math mode.
+./Wellenausbreitung.tex:182: LaTeX Error: \mathbf allowed only in math mode.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.174     \item \bold{Komplexes Fundsystem:}
+l.182     \item \bold{Komplexes Fundsystem:}
                                              $\{e^{-jk_{x}x}, e^{jk_{x}x}\}$...
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-./Wellenausbreitung.tex:174: Undefined control sequence.
-l.174 ...:} $\{e^{-jk_{x}x}, e^{jk_{x}x}\}$\ldotsh
+./Wellenausbreitung.tex:182: Undefined control sequence.
+l.182 ...:} $\{e^{-jk_{x}x}, e^{jk_{x}x}\}$\ldotsh
                                                   Ã¤ufig verwendet
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -515,36 +518,36 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-./Wellenausbreitung.tex:175: LaTeX Error: \mathbf allowed only in math mode.
+./Wellenausbreitung.tex:183: LaTeX Error: \mathbf allowed only in math mode.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.175 \item \bold{Mischform:}
+l.183 \item \bold{Mischform:}
                               $\{\sin(k_{x}x)m e^{jk_{x}x}\}$, etc.
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Wellenausbreitung.tex:176: LaTeX Error: \mathbf allowed only in math mode.
+./Wellenausbreitung.tex:184: LaTeX Error: \mathbf allowed only in math mode.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.176     \item \bold{Hyperbelfunktion:}
+l.184     \item \bold{Hyperbelfunktion:}
                                          $\{\cosh(k_{x}x), \sinh(k_{x}x)\}$
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 179--181
+Underfull \hbox (badness 10000) in paragraph at lines 187--189
 
  []
 
-./Wellenausbreitung.tex:183: Undefined control sequence.
-l.183 ...}E_{x} - \partial_{x}E_{z} = -j\omega\muH
+./Wellenausbreitung.tex:191: Undefined control sequence.
+l.191 ...}E_{x} - \partial_{x}E_{z} = -j\omega\muH
                                                   _{y} \partial_{z}\]
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -552,8 +555,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Wellenausbreitung.tex:191: Undefined control sequence.
-l.191 \[\omega^2\musigma
+./Wellenausbreitung.tex:199: Undefined control sequence.
+l.199 \[\omega^2\musigma
                         -k_{z}^2=0\]
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -563,43 +566,43 @@ and I'll forget about whatever was undefined.
 
 [4]
 
-LaTeX Warning: Command \textmu invalid in math mode on input line 210.
+LaTeX Warning: Command \textmu invalid in math mode on input line 218.
 
 
-LaTeX Warning: Command \textmu invalid in math mode on input line 210.
-
-Missing character: There is no µ in font cmr10!
-
-LaTeX Warning: Command \textmu invalid in math mode on input line 211.
-
-
-LaTeX Warning: Command \textmu invalid in math mode on input line 211.
+LaTeX Warning: Command \textmu invalid in math mode on input line 218.
 
 Missing character: There is no µ in font cmr10!
-./Wellenausbreitung.tex:218: Missing $ inserted.
+
+LaTeX Warning: Command \textmu invalid in math mode on input line 219.
+
+
+LaTeX Warning: Command \textmu invalid in math mode on input line 219.
+
+Missing character: There is no µ in font cmr10!
+./Wellenausbreitung.tex:226: Missing $ inserted.
 <inserted text> 
                 $
-l.218 ... ist, heben sich die FlÃ¼sse auf \implies
+l.226 ... ist, heben sich die FlÃ¼sse auf \implies
                                                    $L=0, \omega_0=0$
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./Wellenausbreitung.tex:218: Missing $ inserted.
+./Wellenausbreitung.tex:226: Missing $ inserted.
 <inserted text> 
                 $
-l.218 ...ich die FlÃ¼sse auf \implies $L=0, \omega
+l.226 ...ich die FlÃ¼sse auf \implies $L=0, \omega
                                                   _0=0$
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 224--227
+Underfull \hbox (badness 10000) in paragraph at lines 232--235
 
  []
 
 [5]
-./Wellenausbreitung.tex:268: Undefined control sequence.
-l.268 Zu merken: $\tan(\THeta
+./Wellenausbreitung.tex:276: Undefined control sequence.
+l.276 Zu merken: $\tan(\THeta
                              _{B}) =\sqrt{\frac{n^{2}-1}{n^{4}-1}} $
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -608,13 +611,13 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Command \textdegree invalid in math mode on input line 272.
+LaTeX Warning: Command \textdegree invalid in math mode on input line 280.
 
 
-LaTeX Warning: Command \textdegree invalid in math mode on input line 272.
+LaTeX Warning: Command \textdegree invalid in math mode on input line 280.
 
-./Wellenausbreitung.tex:272: Misplaced alignment tab character &.
-l.272 \[ \Gamma(\Theta_{1}=0Â°)&
+./Wellenausbreitung.tex:280: Misplaced alignment tab character &.
+l.280 \[ \Gamma(\Theta_{1}=0Â°)&
                                 =\frac{\sqrt{\epsilon_{2}-\epsilon_{1}} }{\s...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -626,18 +629,18 @@ might try typing `S' now just to see what is salvageable.
 Missing character: There is no ° in font cmr10!
 [6] [7] [8] (./Wellenausbreitung.aux) ) 
 Here is how much of TeX's memory you used:
- 6136 strings out of 476091
- 97053 string characters out of 5794080
- 1863330 words of memory out of 5000000
- 26406 multiletter control sequences out of 15000+600000
- 525122 words of font info for 67 fonts, out of 8000000 for 9000
+ 6249 strings out of 476091
+ 98636 string characters out of 5794080
+ 1865330 words of memory out of 5000000
+ 26514 multiletter control sequences out of 15000+600000
+ 525890 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,8n,76p,403b,196s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on Wellenausbreitung.pdf (8 pages, 248995 bytes).
+ 72i,8n,76p,403b,224s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1728.pfb>
+Output written on Wellenausbreitung.pdf (8 pages, 278978 bytes).
 PDF statistics:
- 121 PDF objects out of 1000 (max. 8388607)
- 75 compressed objects within 1 object stream
+ 131 PDF objects out of 1000 (max. 8388607)
+ 81 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
