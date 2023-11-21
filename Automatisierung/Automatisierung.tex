@@ -717,4 +717,88 @@ Gilt bedingung 4.45, so ist der geschlossene Regelkreis BIBO-stabil.
  \section*{Nächstes Mal}
  Wir werden die Phase auslegen, um Stabilität zu garantieren. Das wird ein Derivat des Nyquist-Kriteriums.Wir werden die Phase auslegen, um Stabilität zu garantieren. Das wird ein Derivat des Nyquist-Kriteriums.
 
+ \section*{21.11.2023}
+ \section*{Wiederholung}
+ Sofern wir einen gekürzten Ausdruck fpr eine Übertragungsfunktion gegeben haben, können wir dessen Stabilität bestimmen.
+ \[ G(s)=\frac{z(s)}{n(s)} \]
+ \begin{itemize}
+     \item Routh-Hurwitz-Kriterium
+         Analyse des Nennerpolynoms
+     \item Nyquistkriterium
+         Analyse der Ortskurve des offenen Regelkreises
+ \end{itemize}
+ 
+ \section*{Vereinfachtes Nyquist-Kriterium}
+Wenn die 4 Bedingungen lt. Skriptum gegeben sind gilt: Phasenreserve muss positiv sein \implies stabil
+
+\section*{Kenngrössen der Sprungantwort}
+\subsection*{Anstiegszeit $t_{r}$}
+Es gibt einige Definition zu Anstiegszeiten. Eine Norm definiert dies als Zeit von 10% bis 90%. In der VO verwenden wir eine Tangenten am Wendepunkt und schneiden diese mit 0% und 100%.
+\subsection*{Überschwingweite $ü$}
+\subsection*{bleibende Regelabweichung}
+\subsubsection*{Empirische Zusammenhänge}
+\[ \omega_{C} t_{r}\approx 1.5 \]
+\[ \Phi[°]+ü[%]\approx 70% \]
+bleibende Regelabweichung: siehe Tabelle 5.10
+\subsubsection*{Herleitung: Bleibende Regelabweichung}
+Rückkoppelkreis:
+r--+--R--G(s)--+--.--y
+   |--------------|
+\[ \hat{e}=T_{de}(s) \hat{d} \]
+\[ T_{de}(s)=\frac{-1}{1+R(s)G(s)} \text{\ldots Mittels Formel (gilt natürlich nur für einschleifige Standardregelkreise)}\]
+\[ -\hat{e}=\hat{y}=\hat{d}+R(s)G(s)\implies \frac{\hat{e}}{\hat{d}}=\frac{-1}{1+RG} \text{\ldots selbst hergeleitet}\]
+
+\[ \lim_{t \to \infty} e(t)=0=\lim_{s \to 0}\hat{e}=\lim_{s \to 0} s \frac{1}{1+R(s)G(s)} \frac{1}{s}=\lim_{s \to 0} \frac{-1}{1+\frac{Z_{R}}{N_{R}} \frac{Z_{G}}{N_{G}}}=\lim_{s \to 0} \frac{-N_{R}(s)N_{G}(s)}{N_{R}(s)N_{G}(s)+Z_{R}(s)Z_{G}(s)}=0  \]
+\[ \implies N_{R}(0)N_{G}(0)=0 \]
+
+Rückkoppelkreis:
+         |$d=\sigma(t)$
+r--+--R(s)--+--G(s)--.--y
+  |-            |
+  |-------------|
+  \[ T_{de}(s)=\frac{-G(s)}{1+R(s)G(s)}=\frac{\hat{e}}{\hat{d}} \]
+  \[ \lim_{t \to \infty} e(t)=\lim_{s \to 0} s \frac{-G(s)}{1+R(s)G(s)} \frac{1}{s}=\lim_{s \to 0} \frac{-\frac{Z_{G}}{N_{G}}}{1+ \frac{Z_{R}}{N_{R}} \frac{Z_{G}}{N_{G}}}=\lim_{s \to 0}  \frac{-Z_{G}N_{R}}{N_{G}N_{R}+Z_{G}Z_{R}}=0 \]
+  \[ \implies Z_{G}(0)N_{R}(0)=0 \]
+  
+\subsection*{Annahme: $d(t)=\sind(2t)$}
+\[ e(t)=\|T_{de}(I2)\|\sin(2t+arg(T_{de}(I2))) \]
+\[ T_{de}(s)= \frac{-Z_{g}N_{R}}{N_{G}N_{R}+Z_{G}Z_{R}} \]
+\[ N_{R}(s)=(1+\frac{s^{4}}{4})\tilde{n}_{R} \]
+\[ N_{R}(2I)=0 R(s)=\frac{V Z_{R}}{(1+\frac{s^{2}}{4})\tilde{N}_R}\]
+
+\subsection*{5.1 PI-Reglerentwurf}
+Streckenübertragungsfunktion: $ G(s)= \frac{5}{1+2 \cdot 0.707s+s^{2}} $
+
+\[ L_{1}(s)=\frac{5}{s(1+2\cdot 707+)} \]
+Im Skriptum nachlesen. Ist perfekt dokumentiert. Beispiel auch als Matlab-Projekt verfügbar.
+
+\subsection*{5.2 Lead-Lag-Reglerentwurf}
+Streckenübertragungsfunktion: $G(s)=\frac{
+    irgendwas
+}{
+    irgendwas
+}$ 
+
+siehe Skriptum
+
+Wir sehen, dass die Phase gehoben und die Amplituden gesenkt werden muss. Normalerweise steigen/fallen die beiden Gren Zusammen (denke an Bedeutungen im Zähler und Nenner) \implies das schreit nach einem Lead-Lag-Reglerentwurf!
+
+Wir heben zunächst die Phase an, aber heben es um 10°(Richtwert: 15° und 20° sind auch noch möglich) zu weit an.\newline
+\implies Lead-Glied
+
+Nun sind sowohl Amplitude alsauch Phase zu hoch und können gemeinsam gesenkt werden.\newline
+\implies Lag-Glied
+
+\subsection*{PID-Regler per Hand einstellen}
+Integralanteil abschalten: liefert nämlich -90° und verschlechtert die Phasenreserve
+P-Regler einstellen, damit es sich schön einschwingt
+D-Anteil einstellen, damit der Schwung entfernt wird (liefert nämlich +90° und verbessert die Phasenreserve)
+I-Anteil hochdrehen, P-Anteil senken und D-Anteil erhöhen
+
+Ihm ist folgendes wichtiger: wir verstehen, dass wir hier Phasenreserven und Knickfrequenzen verschieben
+
+\section*{Nächstes Mal}
+Kompensationsreglerentwurf mit Notchfilter
+
+Danach ist der erste Teil des Skriptums durch. Kapitel 6 ist wieder ein kompletter Neuanfang!
 \end{document}

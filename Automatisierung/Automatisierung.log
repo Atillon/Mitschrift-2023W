@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2023.10.17)  17 NOV 2023 15:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2023.10.17)  21 NOV 2023 12:07
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2036,38 +2036,151 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
+./Automatisierung.tex:732: Missing $ inserted.
+<inserted text> 
+                $
+l.732 ... Phasenreserve muss positiv sein \implies
+                                                   stabil
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
 
-./Automatisierung.tex:720: LaTeX Error: \begin{equation*} on input line 651 ended by \end{document}.
+./Automatisierung.tex:733: Missing $ inserted.
+<inserted text> 
+                $
+l.733 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+LaTeX Warning: Command \" invalid in math mode on input line 737.
+
+Missing character: There is no ü in font cmr12!
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 741.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 741.
+
+
+LaTeX Warning: Command \" invalid in math mode on input line 741.
+
+./Automatisierung.tex:743: Missing $ inserted.
+<inserted text> 
+                $
+l.743 \subsubsection
+                    *{Herleitung: Bleibende Regelabweichung}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./Automatisierung.tex:743: Display math should end with $$.
+<to be read again> 
+                   \tex_par:D 
+l.743 \subsubsection
+                    *{Herleitung: Bleibende Regelabweichung}
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+Missing character: There is no ° in font cmr10!
+Missing character: There is no ü in font cmr10!
+[14]
+Overfull \hbox (15.65782pt too wide) detected at line 751
+[] \OML/cmm/m/it/10 e\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 t\OT1/cmr/m/n/10 ) = 0 = [] []\OML/cmm/m/it/10 e \OT1/cmr/m/n/10 = [] \OML/cmm/m/it/10 s[][] \OT1/cmr/m/n/10 = [] [] = [] [] = 0
+ []
+
+./Automatisierung.tex:763: Undefined control sequence.
+<argument> Annahme: $d(t)=\sind 
+                                (2t)$
+l.763 \subsection*{Annahme: $d(t)=\sind(2t)$}
+                                             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Automatisierung.tex:784: Missing $ inserted.
+<inserted text> 
+                $
+l.784 ...deutungen im ZÃ¤hler und Nenner) \implies
+                                                   das schreit nach einem Le...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./Automatisierung.tex:785: Missing $ inserted.
+<inserted text> 
+                $
+l.785 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./Automatisierung.tex:787: Missing $ inserted.
+<inserted text> 
+                $
+l.787 \implies
+               Lead-Glied
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./Automatisierung.tex:788: Missing $ inserted.
+<inserted text> 
+                $
+l.788 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./Automatisierung.tex:790: Missing $ inserted.
+<inserted text> 
+                $
+l.790 \implies
+               Lag-Glied
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./Automatisierung.tex:791: Missing $ inserted.
+<inserted text> 
+                $
+l.791 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+[15]
+
+./Automatisierung.tex:804: LaTeX Error: \begin{equation*} on input line 741 ended by \end{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.720 \end{document}
+l.804 \end{document}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[14] (./Automatisierung.aux) )
-(\end occurred inside a group at level 2)
+[16] (./Automatisierung.aux) )
+(\end occurred inside a group at level 3)
 
+### semi simple group (level 3) entered at line 741 (\begingroup)
 ### semi simple group (level 2) entered at line 651 (\begingroup)
 ### semi simple group (level 1) entered at line 392 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 6271 strings out of 476091
- 98828 string characters out of 5794080
+ 6272 strings out of 476091
+ 98832 string characters out of 5794080
  1868330 words of memory out of 5000000
- 26528 multiletter control sequences out of 15000+600000
+ 26529 multiletter control sequences out of 15000+600000
  528423 words of font info for 76 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  72i,17n,76p,547b,271s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1728.pfb>
-Output written on Automatisierung.pdf (14 pages, 323682 bytes).
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1728.pfb>
+Output written on Automatisierung.pdf (16 pages, 340149 bytes).
 PDF statistics:
- 155 PDF objects out of 1000 (max. 8388607)
- 97 compressed objects within 1 object stream
+ 167 PDF objects out of 1000 (max. 8388607)
+ 104 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

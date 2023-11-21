@@ -379,4 +379,54 @@ Achtung: das Feld ist planar. Es geht nicht in die y-Richtung.
 
 \section*{Nächste Woche: 5.3.2 Der Leitungswellenwiderstand}
 
+\section*{21.11.2023}
+\section*{Ding des Tages}
+\begin{itemize}
+    \item Hohlleiter (rechteckiger Querschnitt)
+        Kann beliebige Frequenzen ausser Gleichstrom leiten. Für gleichstrom gibt es keinen Rückleiter, für alle anderen Frequenzen kann man einen beliebigen Schnitt ziehen und die beiden Teile beliebig als Hin- und Rückleiter definieren.\item Hohlleiter (rechteckiger Querschnitt)
+        Kann beliebige Frequenzen ausser Gleichstrom leiten. Für gleichstrom gibt es keinen Rückleiter, für alle anderen Frequenzen kann man einen beliebigen Schnitt ziehen und die beiden Teile beliebig als Hin- und Rückleiter definieren. Je nach Schnitt ist die Definition von Strom und Spannung anzupassen. Für schräge Schnitte gilt auch nicht mehr die Wegunabhängigkeit für $\intE ds$.
+        Skizze:
+        |---------|
+        | a |
+        |   |b $f_{g}=\frac{c_{0}}{2a}$
+        |---------|
+\end{itemize}
+
+\section*{5.3.2 Der Leitungswellenwiderstand}
+Wir erhalten den Ansatz
+\[ dP = \frac{1}{2} \|I_{z}\|^{2}dZ\text{\ldots P = Scheinleistung!P = Scheinleistung!}\]
+mit dem Integral
+\[ I_{z}=\int_{\sum} \vec{S}_{1} d\vec{F}=\sigma_{1} \int_{x=0}^{\infty} \int_{y=0}^{b} E_{z1}dxdy  
+=j \frac{\sigma_{1}A_{1}b}{k_{x1}}e^{-jk_{z}z}\]
+Man bedenke, dass für $x=0$ der Grenzwert verwendet werden muss.
+Der Leitungswellenwiderstand charakterisiert den Leistungsumsatz. Zu sehen aus $ dU_{z}=irgendwas \text{ siehe skriotum}$
+
+Durch Einsetzen erhält man das erste Zwischenergebnis:
+\[ dP=\frac{1}{2}\ldots \text{siehe Skriptum} \]
+
+Weiters kann der Poyntingvektor herangezogen werden.
+\[ \vec{T}=\frac{1}{2}\vec{E}x \vec{H}^{*}=\frac{1}{2}\begin{pmatrix} -E_{z}H_{y}^{*}\\ 0\\ E_{z}H_{y}^{*}\end{pmatrix} \]
+Durch Einsetzen des Ansatzes erhalten wir das zweite Zwischenergebnis.
+
+Durch Gleichsetzen der Zwischenergebnisse erhalten wir: $dZ_{L}\approx \eta_{1} \frac{dz}{b}$
+\[ \eta_{1}\text{\ldots Mediumswellenwiderstand} \]
+\[ \frac{dz}{b} \text{\ldots Geometrie} \]
+
+\section*{5.3.3 Berechnung der Leitungsverluste: Power Loss Method}
+Über die Sprungbedingung der tangentialen Feldstärke auf der Leiteroberfläche kann ein Ausdruck für die Oberflächenstromdichte hergeleitet werden.
+\[ \implies I_{z}=-b H_{y1}(Oberfläche) \]
+\[ p=\frac{1}{b} \frac{dP_{W}}{dz}=\frac{1}{2}\|H_{tang}(Oberfläche)\|^{2}b\R_{1} \]
+\[ \R_{1}\text{\ldots Realteil des zugehörigen Leitungswellenwiderstandes} \]
+
+
+\section*{5.3.4 Der Oberflächenwiderstand}
+\[ R=\frac{l}{\sigma_{1}A}=\frac{l}{\sigma_{1}d_{1}b}=R_{square}\frac{l}{b} \]
+
+\section*{5.3.5 Der Skin-Effekt}
+$R=\frac{1}{2\pi a}\sqrt{\frac{\omega\mu}{2\sigma_1}} $
+Wenn wir das nun plotten, können wir das erste Grundgesetz der Nachrichtentechnik überprüfen: Alle Verluste steigen mit der Frequenz!
+\subsubsection*{Einschub Exponentialfunktion}
+Die Fläche unter $\int_{0}^{\infty}   a\cdot e^{-bx} dx$ kann durch Konstruktion einer Gerade durch die Achsen bestimmt werden.
+
+
 \end{document}

@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1700230839 "Automatisierung.tex" "Automatisierung.pdf" "Automatisierung" 1700230841 2
+["pdflatex"] 1700564871 "Automatisierung.tex" "Automatisierung.pdf" "Automatisierung" 1700564873 2
   "/etc/texmf/web2c/texmf.cnf" 1696605536 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbx1000.tfm" 1136768653 3584 2d666ecf6d466d8b007246bc2f94d9da ""
@@ -44,6 +44,7 @@
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb" 1248133631 36741 fa121aac0049305630cf160b86157ee4 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb" 1248133631 37912 77d683123f92148345f3fc36a38d9ab1 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb" 1248133631 36281 c355509802a035cadc5f15869451dcee ""
+  "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb" 1248133631 35469 70d41d2b9ea31d5d813066df7c99281c ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1248133631 35752 024fb6c41858982481f6968b5fc26508 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1248133631 32722 d7379af29a190c3f453aba36302ff5a9 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb" 1248133631 31809 8670ca339bf94e56da1fc21c80635e2a ""
@@ -116,8 +117,8 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1676468108 39561 34c98e380bf7c7201ee6a7909aff625a ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1697541792 4623455 fa0568a71dd9a288d6c226ee477506c6 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1697542099 7880626 5402103d86f4ed5e7d3d508d9027b452 ""
-  "Automatisierung.aux" 1700230840 172 9a11d227405fdf87a144ba3e8a029b8a "pdflatex"
-  "Automatisierung.tex" 1700230838 35559 334f87bb52501ef9562bf6708965853c ""
+  "Automatisierung.aux" 1700564872 172 3c80c9948f538d5875a8c26c8128377a "pdflatex"
+  "Automatisierung.tex" 1700556662 39489 925b90e4bc8abceb727ade1f582702d2 ""
   (generated)
   "Automatisierung.aux"
   "Automatisierung.log"
