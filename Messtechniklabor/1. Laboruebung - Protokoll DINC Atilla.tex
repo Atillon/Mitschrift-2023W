@@ -1,0 +1,49 @@
+\documentclass[a4paper]{article}
+
+\usepackage[a4paper,top=2cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{textcomp}
+\usepackage[ngerman]{babel}
+\usepackage{amsmath, amssymb, nccmath}
+\usepackage{accents}
+
+% figure support
+\usepackage{import}
+\usepackage{xifthen}
+\pdfminorversion=7
+\usepackage{pdfpages}
+\usepackage{transparent}
+\newcommand{\incfig}[1]{%
+    \def\svgwidth{\columnwidth}
+    \import{./figures/}{#1.pdf_tex}
+}
+
+\pdfsuppresswarningpagegroup=1
+
+\title{Protokoll zur ersten Laborübung\\Messtechnik Labor 376.091}
+\author{DINC Atilla (11917652)}
+
+\begin{document}
+\normalsize
+\maketitle
+\tableofcontent
+\begin{tabular}
+    Nummer  && Bezeichnung  && Beschreibung                 && Grössen \\ 
+    -       && MM1          && Digitalmultimeter            && $R$, $U$, $I$ \\
+    -       && MM2          && Digitalmultimeter            &&  $R$, $U$, $I$ \\
+    -       && OZ1          && Digitalspeicheroszilloskop   && $U(t)$ \\
+    -       && FG1          && Funktionsgenerator           && $u(t)$
+\end{tabular}
+\newpage
+
+% ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Start of the document ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+\section{Vorbereitung}
+
+\section{1. Versuch}
+\section{2. Versuch}
+\section{3. Versuch}
+\section{4. Versuch}
+
+\end{document}
