@@ -428,5 +428,34 @@ Wenn wir das nun plotten, können wir das erste Grundgesetz der Nachrichtentechn
 \subsubsection*{Einschub Exponentialfunktion}
 Die Fläche unter $\int_{0}^{\infty}   a\cdot e^{-bx} dx$ kann durch Konstruktion einer Gerade durch die Achsen bestimmt werden.
 
+\section*{23.11.2023}
+\section*{Ding des Tages}
+\begin{itemize}
+    \item Hohlleiter: Merklich dünn, ausgelegt für das D-Band; Mechanischer Aufbau: Klemmverbindung mittels trichterförmigem Flansch
+    \item Quadratischer Trichter
+    \item SIW (Substrate Integrated Wareguide): Durch eine Serie an Vias wird aus einem Bereich einer doppelteitig beschichteten Platine wird ein Hohlleiter geformt. Die Lücke zwischen den Vias darf maximal ein vierte der Hohlleiterwellenlänge betragen
+\end{itemize}
 
+\section*{6.1 Der Rechteckhohlleiter}
+die transversalen Feldkomponenten
+$\nabla^{2} \begin{pmatrix} E_{x}\\ E_{y}\\\ H_{x}\\ H_{y}\end{pmatrix}
++(\omega^{2}\epsilon\mu-k_{z}^{2})
+\begin{pmatrix} E_{x}\\ E_{y}\\\ H_{x}\\ H_{y}\end{pmatrix}=0$
+mit $k_{z}=\frac{\omega}{c}=\omega\sqrt{\epsilon\mu} $ für TEM-Wellen
+\implies Die TEM-Welle ist nicht ausbreitungsfähig im Hohlleiter
+
+Wegen den Randbedingungen für die H-Welle wird der ein $\cos$-Ansatz für die H-Welle gemacht.
+Wegen den Randbedingungen für die E-Welle wird der ein $\sin$-Ansatz für die E-Welle gemacht.
+
+Die Randbedingungen ergeben $k_{z}=\frac{m\pi}{a}$ und $k_{y}=\frac{n\pi}{b}$ mit Breite $a$ und Höhe $b$ Wellen, die entweder von ihren Wellenbäuchen oder Wellenknoten angrenzen.
+
+Wir leiten also einen Ausdruck für die Grenzwellenlänge $\lambda_{G}$ her. Dadurch kann die Hohlleiterwellenlänge $\lambda_{H}=\frac{1}{\sqrt{1-(\frac{\lambda}{\lambda_{G}})^{2}} }$ berechnet werden. Diese Formel für die Hohlleiterwellenlänge ist gültig für sehr viele Hohlleiterformen.
+
+Wichtige Formeln:
+\begin{itemize}
+    \item Grenzwellenlänge: $\lambda_{G}$
+    \item Gruppengeschwindigkeit: $yo$
+    \item Phasengeschwindigkeit:  $yo$
+\end{itemize}
+Wichtig: Die Gruppengeschwindigkeit ist immer kleiner als die Phasengeschwindigkeit. (vielleicht hab ichs vertauscht\ldots )
 \end{document}

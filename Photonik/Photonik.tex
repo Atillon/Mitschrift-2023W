@@ -467,8 +467,58 @@ mittels Taylorreihenentwicklung: $\sqrt{1+u}=1+\frac{u}{2} $
 \[ z\gg \frac{x'^{2}+y'^{2}}{\lambda} \]
 
 Frauenhofer-Nähgerung:
-\[ E(x,y,z)=\frac{1}{\lambda z} \\int_{}^{} \int_{}^{} A(x',y')e^{-j \frac{2\pi}{\lambda z}x x'}e^{-j \frac{2\pi}{\lambda z}y y'} dx'dy' \]
+\[ E(x,y,z)=\frac{1}{\lambda z} \int \int A(x',y')e^{-j \frac{2\pi}{\lambda z}\nu_{x} x'}e^{-j \frac{2\pi}{\lambda z}\nu_{y} y'} dx'dy' \]
 
 mit der "Paraxialen Näherung" $tan(\alpha)=\frac{x'}{z}$ mit $\alpha \approx \frac{x'}{z}$ kann man dann jenes Diagram konstruieren
+
+\section*{23.11.2023}
+Beugung am Spalt Abb. 1:
+\[ E(x,y)\prop \frac{1}{\lambda_{z}} \int\int E_{0}e^{-j2\pi\nu_{x}x'}e^{-j2\pi\nu_{y}y'}dx'dy'\]
+\[ E(x,y)\prop E_{0}\frac{1}{\lambda_{z}} \int_{-\frac{D}{2}}^{\frac{D}{2}} e^{-j2\pi\nu_{x}x'}dx'=\frac{E_{0}}{\lambda z}\frac{2}{D}\frac{\sin(2\pi\nu_{x}\frac{D}{2})}{2\pi\nu_{x} \frac{D}{2}}  \]
+\[ I=irgendwas\]
+
+Beugung am Spalt Abb. 2:
+\[ A(x',y')=\sum_{n=1}^{N} A_{n}(x-x'_{n}, y-y'_{n}) \]
+\[ E(x,y)\prop \frac{1}{\lambda_{z}}\int\intA(x',y')e^{-j2\pi\nu_{x}x'}e^{-j2\pi\nu_{y}y'}dx'dy'\]
+\[ E(x,y)\prop \frac{1}{\lambda_{z}}\sum_{n=1}^{N} \int\int A(x',y')e^{-j2pi\nu_{x}(x'-x'_{n})}e^{-j2pi\nu_{y}(y'-y'_{n})}\]
+\[ E(x,y)\prop \frac{1}{\lambda_z}\sum_{n=1}^{N} e^{j2\pi(\nu_{x}+\nu_y)} \int\int A(x',y')e^{-j2\pi(\nu_{x}x'+\nu_{y}y')}dx'dy' \]
+\[ E(x,y)\prop \frac{1}{\lambda_{z}} \frac{
+ \sin(k \frac{x}{2}N \frac{h}{2})       
+}{
+ \sin(k \frac{x}{2}irgendwas) 
+}
+\cdot \F(x',y')\]
+Array-Theorem: $\F(x',y')$
+
+Abb. 3
+ \[ I(\phi)\prop \frac{\sin^{2}(N\beta)}{\sin^2(\beta)} si^{2}(\beta a)\]
+ \[ \sin^{2}(\beta)=0\text{mit} \beta=m\pi\text{,}\]
+\[ \frac{\pi \Lambda}{\lambda}\sin(\phi)=m\pi \]
+ 
+ Gittergleichung: $\Lambda \sin(\phi)=m \lambda$
+
+ Abb.4
+\[ \Delta x=\Lambda(\sin\phi-\sin\phi_{in}) \]
+\[ \Delta \Phi=k\Lambda(\sin\phi-\sin\phi_{in})=m2\pi \]
+\[ \Lambda(\sin\phi-\sin\phi_{in})=m\lambda \]
+
+Wie können wir im Intensitätsbild zwei Wellenlängen voneinander unterscheiden, wenn es zu Überlappungen kommt: Rayleigh-Kriterium Abb. 5
+Wenn ein Maximum einer Wellenänge mit dem Minimum einer anderen Wellenlänge korrespondiert, wird differenziert.
+\[ I(\phi)=\frac{\sin^{2}(N\beta)}{\sin^{2}(\beta)} \si^{2}(a \beta)\]
+1) $\beta=n\pi$
+kein Bock mitzuschreibekein bock mitzuschreibenn
+
+\section*{Ultrakurze Lichtpulse}
+Abb. 6
+\[ E(z, t)=E_{0}(\omega)e^{j(\omega t-kz)} \]
+\[ E(z,t)=[E_{0}(\omega)e^{-jkz}]e^{j\omega t}=\tilde{E}_{\omega}e^{j\omega t}\]
+Impuls: $E(z,t)=\frac{1}{2\pi}\int \tilde{E}(\omega)e^{j\omega t}d\omega$ mit $k(\omega)=\frac{\omega}{c_{0}}n(\omega)$
+$k(\omega)$ ist sehr stark frequenzabhängig \implies Taylorreihenentwicklung um $\omega_{0}$
+ \[ k(\omega_{0})=k(\omega_0) + k'(\omega)(\omega-\omega_{0}) + \frac{k''}{2}(\omega-\omega_0)^{2} \]
+ \begin{itemize}
+     \item 0: $k(\omega_{0})=\frac{\omega}{c_{0}}n=\frac{\omega}{\frac{c_{0}}{n}}=\frac{\omega}{v_{P}}$
+     \item 1: $k'(\omega_{0})=\frac{\delta k}{\delta\omega}=\frac{1}{c_{0}}[n(\omega)+\omega_{irgedwas}$
+     \item 2: $k''=\frac{\delta}{\delta\omega} k'=\frac{\delta}{\delta\omega}(\frac{1}{v_{g}})$\ldots Group Velocity Dispersion (Abb. 7)
+ \end{itemize}
 
 \end{document}
