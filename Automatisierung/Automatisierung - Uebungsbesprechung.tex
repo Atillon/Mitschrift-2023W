@@ -1,0 +1,313 @@
+\documentclass[a4paper]{article}
+
+\usepackage[a4paper,top=2cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{textcomp}
+\usepackage[ngerman]{babel}
+\usepackage{amsmath, amssymb, nccmath}
+\usepackage{accents}
+
+% figure support
+\usepackage{import}
+\usepackage{xifthen}
+\pdfminorversion=7
+\usepackage{pdfpages}
+\usepackage{transparent}
+\newcommand{\incfig}[1]{%
+    \def\svgwidth{\columnwidth}
+    \import{./figures/}{#1.pdf_tex}
+}
+
+\pdfsuppresswarningpagegroup=1
+
+\title{Mitschrift\\Automatisierungsübung}
+\author{DINC Atilla (11917652)}
+
+\begin{document}
+\normalsize
+\maketitle
+%\tableofcontent\newpage
+
+% ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Start of the document ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+\section*{Wiederholung - Theoretiche Grundlagen}
+\begin{itemize}
+    \item Koordinatentransformation für einfacheren Rechenweg
+    \item Diagonalform zur leichteren Lösung
+    \item Jordanblöcke
+    \item 3.30 auswendig lernen, erspart Zeit bei der Prüfung
+\end{itemize}
+
+\section*{2. Übung: Lineare dynamische Systeme}
+\subsection*{2.1. Zwei autonome Systeme}
+\[ A_{1}=\begin{pmatrix}
+1 && 0 && 0\\
+0 && 1 && -1\\
+0 && 0 && 2\\
+\end{pmatrix}  \]
+Gesucht: $x=V_{1}z$, $\tilde{A}$_{1}=V_{1}^{-1}A_{1}V_{1}
+\begin{itemize}
+    \item Für Eigenwerte gilt: $Ax=\lambda x\implies (A-\lambda E)x=0$ 
+        \[\begin{bmatrix}
+        1-\lambda && 0 && 0\\
+        0 && 1-\lambda && -1\\
+        0 && 0 && 2-\lambda\\
+        \end{bmatrix} 
+        =
+    (1-\lambda)^{2}(2-\lambda)=0\]
+        \[ \implies \lambda_{1}=1\text{,}n_{1}=2\text{,}g_{1}= \]
+        \[ \implies \lambda_{2}=2\text{,}n_{2}=1\text{,}g_{2}=1 \]
+        
+    \item Für Eigenvektoren gilt: $Kern(A-\lambda_{i}E)$
+        \[ g_{1}=dim(Kern(A-\lambda_{1}E))=n-rang(A-\lambda_{1}E) \]
+        \lambda_{1}: $(A-\lambda_{1}E)=\begin{bmatrix}
+        0 && 0 && 0\\
+        0 && 0 && -1\\
+        0 && 0 && 1\\
+        \end{bmatrix}
+        \implies rang(\ldots )=1$
+        V_{1}: $(A-\lambda_{1}E)v_{1}=0$
+        \implies $v_{1,1}=\begin{pmatrix} 1\\ 0\\ 0\end{pmatrix}$
+         \implies $v_{1,2}=\begin{pmatrix} 0\\ 1\\ 0\end{pmatrix}$
+        \lambda_{2} \implies $v_{2}=\begin{pmatrix} 0\\ -1\\ 1\end{pmatrix}$
+
+        Transformationsmatrix $V_{1}=\begin{pmatrix} v_{11}&& v_{12}&& v_{2}\end{pmatrix}$
+       \[ V_{1}=\begin{pmatrix}
+       1 && 0 && 0\\
+       0 && 1 && -1\\
+       0 && 0 && 1\\
+       \end{pmatrix} 
+       \cdot 
+       \begin{pmatrix}
+       1 && 0 && 0\\
+       0 && 1 && 0\\
+       0 && 0 && 1\\
+       \end{pmatrix} 
+   \]
+   \[ V_{1}^{-1}=\begin{pmatrix}
+   1 && 0 && 0\\
+   0 && 1 && 1\\
+   0 && 0 && 1\\
+   \end{pmatrix}  \]
+
+   \[ \tilde{A}_{1}=V_{1}^{-1}A_{1}V_{1}=\begin{pmatrix}
+   1 && 0 && 0\\
+   0 && 1 && 1\\
+   0 && 0 && 1\\
+   \end{pmatrix} 
+\cdot 
+\begin{pmatrix}
+1 && 0 && 0\\
+0 && 1 && -1\\
+0 && 0 && 2\\
+\end{pmatrix} 
+\cdot 
+\begin{pmatrix}
+1 && 0 && 0\\
+0 && 1 && -1\\
+0 && 0 && 1\\
+\end{pmatrix} \]
+\[ \tilde{A}_{1}=\begin{pmatrix}
+1 && 0 && 0\\
+0 && 1 && 0\\
+0 && 0 && 2\\
+\end{pmatrix}  \]
+Man hätte das Ergebnis auch einfach ablesen können, aber bei der Prüfung würden nicht so einfache Matrizen auftreten.
+
+\end{itemize}
+\[ A_{2}=\begin{pmatrix}
+1 && 2 && 2\\
+0 && 1 && -1\\
+0 && 0 && 2\\
+\end{pmatrix}  \]
+Gesucht: $x=V_{2}$, $\tilde{A}$_{2}=V_{2}^{-1}A_{2}V_{2}
+
+\begin{itemize}
+    \item EW:
+        \[ det(A-\lambda E) \]
+            \[\implies \lambda_{1}\]     
+            \[\implies \lambda_{1}\]     
+            Wieder Vielfachheiten bestimmen.
+    \item EV:
+        \[ v_{1.1}=\begin{pmatrix} 1\\ 0\\ 0\end{pmatrix} \]
+        v_{1.2}: $(A-\lambda_{1}E)v_{1.2}=v_{1.1}$
+         \[ \implies v_{1.2}=\begin{pmatrix} 0\\ \frac{1}{2}\\ 0\end{pmatrix} \]
+        v_{2}: $(A-\lambda_{2}E)v_{2}=0$ 
+        \[ \implies v_{2}=\begin{pmatrix} 0\\ -1\\ 1\end{pmatrix} \]
+    \item Transformationsmatrix:
+        \[ V_{2}=
+        \begin{pmatrix}
+        1 && 0 && 0\\
+        0 && \frac{1}{2} && -1\\
+        0 && 0 && 1\\
+        \end{pmatrix}^{-1}
+    \]
+    \[ \tilde{A}_{2}=V_{2}^{-1}A_{2}V
+        =\begin{pmatrix}
+        1 && 1 && 0\\
+        0 && 1 && 0\\
+        0 && 0 && 2\\
+        \end{pmatrix} 
+    \]
+    Rest will ich nicht mitschreiben
+    \[ \hat{\Phi}_{2}(t)=e^{\lambda Et}\begin{pmatrix}
+    1 && t && 0\\
+    0 && 1 && 0\\
+    0 && 0 && 1\\
+    \end{pmatrix}  \]
+    
+\end{itemize}
+
+\subsection*{2.2 Schwingungsfähiges Feder-Masse-System}
+\[ \dot x =\begin{pmatrix}
+0 && 1\\
+-\frac{k}{m} && -\frac{d}{m}
+\end{pmatrix} \vec{x} + \begin{pmatrix} 0\\ \frac{1}{m}\end{pmatrix}u\]
+\[ \vec{x}(0)=\vec{x}_{0} \]
+\[ y=\begin{pmatrix} 1&& 0\end{pmatrix} \vec{x} \]
+
+\begin{itemize}
+    \item EW: $det(A-\lambda E)=0$
+        \[ \lambda_{1,2}=-\frac{d}{2m}\pm \sqrt{(\frac{d}{2m})^{2} -\frac{k}{m}}=-1\pm j\sqrt{2}  \] 
+    \item EV: $(A-\lambda_{1}E)v_{1}=0$
+         \[ \begin{pmatrix}
+        1-j\sqrt{2}  && 1\\
+         -3 && -1-j\sqrt{2} 
+         \end{pmatrix}  v_{1}=0 \]
+        \[ \implies \begin{pmatrix}
+        1-j\sqrt{2}  && 1\\
+        -3(1-j\sqrt{2} ) && -3
+        \end{pmatrix}  
+        v_{1}
+        =\begin{pmatrix}
+        1-j\sqrt{2}  && 1\\
+        0 && 0
+        \end{pmatrix} 
+        v_{1}=0
+    \]
+      \[ v_{1}=\begin{pmatrix} 1+j\sqrt{2} \\ -3\end{pmatrix} \]
+      \[ \lambda_{2}=-1-j\sqrt{2} \implies v_{2}=\begin{pmatrix} 1-j\sqrt{2} \\ -3\end{pmatrix}  \]
+      
+      \[ V=\begin{pmatrix} v_{1}&& v_{2}\end{pmatrix}=\begin{pmatrix} v_{1}&& v_{1}\conjcompl\end{pmatrix} \]
+
+      laut irgendeiner Formel im Skriptum:
+      \[ V=\begin{pmatrix} Re{v_{1}}&& Img{v_{2}}\end{pmatrix}
+  = \begin{pmatrix}
+  1 && \sqrt{2} \\
+  -3 && 0
+  \end{pmatrix} \]
+
+  \[ V^{-1}=\begin{pmatrix}
+  0 && -\frac{1}{3}\\
+  \frac{1}{\sqrt{2} } && \frac{1}{\sqrt{2}3 }
+  \end{pmatrix}  \]
+  \[ V^{-1}=\frac{adj(V_{i,j})}{det(V)}=\frac{(-1)^{i+j} M_{j,i}}{det(V)}=\frac{1}{3\sqrt{2} }\begin{pmatrix}
+  0 && -\sqrt{2} \\
+  3 && 1
+  \end{pmatrix}  \]
+  
+  \item
+      \[ \tilde{A}=V^{-1}AV=\frac{1}{3\sqrt{2} } \begin{pmatrix}
+      0 && -\sqrt{2} \\
+      3 && 1
+      \end{pmatrix} \cdot 
+  \begin{pmatrix}
+  0 && 1\\
+  -3 && -2
+  \end{pmatrix} \begin{pmatrix}
+  1 && \sqrt{2} \\
+  -3 && 0
+  \end{pmatrix} =\begin{pmatrix}
+  -1 && \sqrt{2} \\
+  -\sqrt{2}  && 1
+  \end{pmatrix} \]
+\ldots  wie die Form aus dem Skriptum (könnte man wieder direkt anschreiben wenn man es auswendig kann)
+  \[ B=\begin{pmatrix} 0\\ 1/2\end{pmatrix} \]
+  
+\[ \tilde{B}=V^{-1}B=\begin{pmatrix} -\frac{1}{6}\\ \frac{1}{\sqrt{2}6 }\end{pmatrix} \]
+
+      \[ C=\begin{pmatrix} 1&& 0\end{pmatrix} \]
+      \[ \tilde{C}=C^{T}V= \begin{pmatrix} 1&& \sqrt{2} \end{pmatrix}\]
+     
+      \[ \tilde{\Phi}(t)=e^{-\t}\begin{pmatrix}
+      \cos(\sqrt{2}t ) && \sin(\sqrt{2}t )\\
+      -\sin(\sqrt{2}t ) && \cos(\sqrt{2}t )
+      \end{pmatrix}  \]
+
+\end{itemize}
+
+\subsection*{Aufgabe 2.4 Laplacetransformation}
+\[ \dot x =Ax+Bu \]
+\[ y=Cx+Du \]
+Laplacetransformiert
+\[ sXs)-x_{0}= AX(s)+Bu(s) \]
+\[ Y(s)=CX(s)+Du(s) \]
+\[ \implies (sE-A)X(s)-x_{0=Bu(s)} \]
+\[ X(s)=(sE-A)^{-1}(Bu(s)+x_{0}) \]
+\[ y(s)=C(sE-A)^{-1}x_{0}+C(sE-A)^{-1}(Bu(s))+du(s)\]
+\[ \implies x_{0}=0, y(s)={C(sE-A)^{-1}B+D}u(s) \]
+\[ G(s)=\frac{y(s)}{u(s)}=C(sE-A)^{-1}+D \]
+
+Alternativ:
+\[ x(t)=\Phi(t)x_{0}+\int_{0}^{t} \Phi(t-\tau)Bu(\tau)d\tau  \]
+\[ X(s)=\Phi(s)x_{0}+\Phi(s)Bu(s) \]
+\[\implies \Phi(s)=(sE-A)^{-1} \]
+
+
+\[ (sE-A)=\begin{pmatrix}
+s+3 && 4\\
+-2 && s-1
+\end{pmatrix}  \]
+\[ \Phi(s)=(sE-A)^{-1}=\frac{1}{(s+3)(s-1)8}\begin{pmatrix}
+    (s-1) && -4\\
+2 && (s+3)
+\end{pmatrix}  \]
+
+Rücktransformation:
+\[ \frac{1}{s^{2}+2s+5}=\frac{1}{(s+1)^{2}+4}\implies \frac{1}{2}e^{-t}\sin(2t)  \]
+\[ \frac{s-1}{(s+1)^{2}+4}\implies \frac{1}{2}e^{-t}\sin(2t)+e^{-t}2\cos(2t))-\frac{1}{2}e^{-t}\sin(2t) \]
+\[ \frac{s-3}{(s+1)^{2}+4}\implies \frac{1}{2}e^{-t}\sin(2t)+e^{-t}2\cos(2t))-3\frac{1}{2}e^{-t}\sin(2t)  \]
+
+\[ x(s)=\Phi(s)x_{0}+\Phi(s)Bu(s)=0+Bu(s) \]
+\[ y(s)=Cx(s)+Du(s)=Cx(s)+0 \]
+\[ \implies y(s)=C\Phi(s)Bu(s)=\frac{s-1}{(s+1)^{2}+4}\frac{1}{s-1}=\frac{1}{N} \]
+\[ \text{Rücktransformation:} y(t)=\frac{1}{2}e^{-t}\sin(2t) \]
+
+\subsection*{Bonusbeispiel, weil wir erst seit 2h ohne Pause dran sind}
+\[ A=\begin{pmatrix}
+1 && 0 && -s^{2}\\
+0 && -2 && -2s\\
+1 && s && -1\\
+\end{pmatrix}  \]
+Wir haben 5min Zeit bis er uns das Ergebnis zeigt. Wir brauchen ja keine Pause, aber er kann gern im Gang chillen.
+
+\[ A^{-1}= \frac{1}{2} \begin{pmatrix}
+2+2s && -2s && 2\\
+-s^{3} && s^{2}-1 && -s\\
+-2s^{2} && 2s && -2\\
+\end{pmatrix}\]
+\ldots Alles falsch\ldot ich hab i und j in der Formel vertauscht
+
+Eine 5min Pause, nach 2h und 10min oida. Der Rechenteil ist abgeschlossen. Jetzt macht er noch eine Fragestunde und zeigt den Umgang mit Maple und Matlab.
+
+\section*{MatLab}
+Alle Programme die er hier zeigen wird, sind auf der Homepage verfügbar.
+Hilfreiche Befehle:
+\begin{itemize}
+    \item "doc ss"
+    \item "doc c2d"
+\end{itemize}
+\section*{Maple}
+Alle Programme die er hier zeigen wird, sind auf der Homepage verfügbar.
+Es sind nicht Programme zu den exakt gleichen Beispielen aber trotzdem das gleiche.
+\subsection*{Beispiel 2.1 in Maple}
+\subsection*{Beispiel 2.2 in Maple}
+\subsection*{Beispiel 2.3 in Maple}
+\subsection*{Beispiel 2.4 in Maple}
+\subsection*{Beispiel 2.5 in Maple}
+
+Oida, er hat sich jetzt genau 10min für die Programme genommen. Hat sich voll gelohnt so lang zu warten\ldots 
+\section*{Fragestunde}
+Hab ich mir nicht gegeben.
+
+\end{document}

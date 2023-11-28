@@ -801,4 +801,80 @@ Ihm ist folgendes wichtiger: wir verstehen, dass wir hier Phasenreserven und Kni
 Kompensationsreglerentwurf mit Notchfilter
 
 Danach ist der erste Teil des Skriptums durch. Kapitel 6 ist wieder ein kompletter Neuanfang!
+
+\section*{28.11.2023}
+\section*{Wiederholung}
+Beim letzten Mal haben wir uns die Dynamik angeschaut und Kenngrössen der Sprungantwort mit Kenngrössen des Bodediagrams in Verbindung gebracht.
+
+\section*{5.3 Kompensationsreglerentwurf am Beispiel der Antriebsregelstrecke aus Abb. 4.3}
+Wir erkennen, dass der offene Regelkreis eine Resonanzerhöhung hat, diese wollen wir mit einem Regler kompensieren. Wir kürzen mit unserem Regler also den Resonanzterm weg.
+Damit der gewählte Regler realisierbar ist, müssen wir die Ordnung des Nenners erhöhen. \newline
+Hinweis: Wenn der Zählergrad und Nennergrad gleich sind, ist der Regler sprungfähig. Wir können stabile Nullstellen kürzen wie wir sollen und auch beliebige Regler vorgeben wie wir wollen, solange der Nennergrad grössergleich Zählergrad ist, aber sprungfähige Regler sind schlecht.\newline
+Nun müssen wir mit unserem Regler noch die gewünschte Phasenreserve berücksichtigen.
+
+\section*{6 Der Digitale Regelkreis}
+\subsection*{6.1 Allgemeines}
+Es ändert sich nicht viel, nur die Schnittstelle zum Aktor und vom Sensor zurück zum digitalen Regler.
+
+Notation: $y_{k}=y(kT_{a})$
+
+Sprünge werden mit dem rechtsseitigen Grenzwert definiert.
+
+Zur Quantisierung wird ein Halteglied mit einem Abtastwert benutzt. Das "zero-oder-hold" Halteglied hält den zuletzt abgetasteten Wert bis zum nächsten Abtastzeitpunkt aufrecht.
+
+\subsection*{6.2.1 Der nichtlineare Fall}
+Wir schalten eine Folge $(u_{k})$ auf und erhalten eine Ausgangsfolge $(y_{k})$.
+Für $kT_{a}<t<(k+1)T_{a}$ gilt $u_{k}=u(kT_{a})$\ldots siehe Skriptum.
+
+\subsection*{6.2.2 Linear, zeitinvariant}
+Integral aus Gleichung (6.18a) läasst sich vereinfachen:
+\[ \int_{kTa}^{(k+1)T_{a}} \Phi((k+1)T_{a}-\tau)d\tau  \]
+Zur Supstitution:
+\[ \overline{\tau}=(k+1)T_{a}-\tau \]
+\[ \tau=kT_{a} \to \overline{\tau}=\tau_{a}\]
+\[ \tau=(k+1)T_{a} \implies \overline{\tau}=0 \]
+
+\[ \int_{T_{a}}^{0} \Phi(\overline{\tau})(-d \overline{\tau})=\int_{0}^{T_{a}} \Phi(\overline{\tau}) d \overline{\tau}  \]
+
+\[ \dot x=Ax+Bu \]
+\[ y=Cx+Du \]
+
+\[ x_{k+1}=\Phi x_{k} + \Gamma u_{k} \]
+\[ y_{k}=Cx_{k}+Du_{k} \]
+
+\[ \Phi=e^{AT_{a}} \]
+\[ \Gamma=\int_{0}^{T_{a}e^{A\tau}d\tau B}   \]
+
+Beispiel:
+\[ \frac{d}{dt}x=Ax+bu=\begin{pmatrix}
+0 && 1\\
+0 && 0
+\end{pmatrix} x+\begin{pmatrix} 0\\ 1\end{pmatrix}u \]
+\[ y=c^{T}x=\begin{pmatrix} 1&& 0\end{pmatrix}x \]
+Das Beispiel ist so einfach, dass es im Skriptum im Schnellformat mit einer Abkürzung gerechnet wird.
+
+\section*{6.3 Die Transistionsmatrix}
+\[ x_{k+1}=\Phi x_{k} \text{,}x_{0} \]
+Durch Iterations erhält man die Transitionsmatrix des Abtastsystems
+\[ x_{1}=\Phi x_{0} \]
+\[ x_{2}=\Phi\Phi x_{0} \]
+\[ x_{k}=\Phi^{k}x_{0}=\Psi(k)x_{0} \]
+
+Aus dieser Erkenntnis folgen sofort die Beziehungen:
+\begin{iteimize}
+\item $\Psi(0)=E$
+\item $\Psi(k+i)=\Psi(k)\Psi(i)$
+\item \ldots  (siehe Skriptum
+\end{iteimize}
+
+Bald folgt die Finite Elemente Methode, ich sags dir.
+
+
+Beim nächsten Mal kommt die Z-Trasnformation.
+
+Dann haben wir die Zusammenhänge.
+Differentialgleichung \implies s-Übertragungsfunktion\newline
+Differenzengleichung \implies z-Übertragungsfunktion
+
+
 \end{document}
