@@ -2,11 +2,14 @@
 \contentsline {section}{\numberline {1}Einleitung}{2}{}%
 \contentsline {section}{\numberline {2}Messungen mit dem Digitalmultimeter}{2}{}%
 \contentsline {subsection}{\numberline {2.1}Spannungsmessung}{2}{}%
+\contentsline {subsubsection}{\numberline {2.1.1}Mathematische Grundlagen}{2}{}%
+\contentsline {subsubsection}{\numberline {2.1.2}Messaufbau und Messdurchführung}{2}{}%
+\contentsline {subsubsection}{\numberline {2.1.3}Messergebnisse}{2}{}%
 \contentsline {subsection}{\numberline {2.2}Strommessung}{2}{}%
 \contentsline {subsection}{\numberline {2.3}Widerstandsmessung}{2}{}%
-\contentsline {section}{\numberline {3}Messungen mit dem Oszilloskop}{2}{}%
-\contentsline {subsection}{\numberline {3.1}Tastkopf}{2}{}%
-\contentsline {subsection}{\numberline {3.2}AC-Spannungsmessung}{2}{}%
-\contentsline {subsection}{\numberline {3.3}RMS im Detail}{2}{}%
-\contentsline {subsection}{\numberline {3.4}Amplitudenauflösung}{2}{}%
-\contentsline {subsection}{\numberline {3.5}Dynamik}{2}{}%
+\contentsline {section}{\numberline {3}Messungen mit dem Oszilloskop}{3}{}%
+\contentsline {subsection}{\numberline {3.1}Tastkopf}{3}{}%
+\contentsline {subsection}{\numberline {3.2}AC-Spannungsmessung}{3}{}%
+\contentsline {subsection}{\numberline {3.3}RMS im Detail}{3}{}%
+\contentsline {subsection}{\numberline {3.4}Amplitudenauflösung}{3}{}%
+\contentsline {subsection}{\numberline {3.5}Dynamik}{3}{}%

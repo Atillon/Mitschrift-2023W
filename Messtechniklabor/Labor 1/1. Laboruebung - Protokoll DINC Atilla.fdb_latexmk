@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1702895859 "1. Laboruebung - Protokoll DINC Atilla.tex" "1. Laboruebung - Protokoll DINC Atilla.pdf" "1. Laboruebung - Protokoll DINC Atilla" 1702895859
+["pdflatex"] 1702913063 "1. Laboruebung - Protokoll DINC Atilla.tex" "1. Laboruebung - Protokoll DINC Atilla.pdf" "1. Laboruebung - Protokoll DINC Atilla" 1702913063
   "/etc/texmf/web2c/texmf.cnf" 1702831379 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbx1000.tfm" 1136768653 3584 2d666ecf6d466d8b007246bc2f94d9da ""
@@ -28,7 +28,12 @@
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm" 1136768653 1116 933a60c408fc0a863a92debe84b2d294 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm" 1136768653 1120 8b7d695260f3cff42e636090a8002094 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb" 1248133631 36299 5f9df58c2139e7edcf37c8fca4bd384d ""
+  "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb" 1248133631 37912 77d683123f92148345f3fc36a38d9ab1 ""
+  "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb" 1248133631 36281 c355509802a035cadc5f15869451dcee ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1248133631 35752 024fb6c41858982481f6968b5fc26508 ""
+  "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb" 1248133631 31809 8670ca339bf94e56da1fc21c80635e2a ""
+  "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb" 1248133631 32762 224316ccc9ad3ca0423a14971cfa7fc1 ""
+  "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1248133631 32569 5e5ddc8df908dea60932f3c484a54c0d ""
   "/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1461363279 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "/usr/share/texlive/texmf-dist/tex/generic/babel-german/ngerman.ldf" 1614462139 2289 b1d356015c8fd065cb4437d567449559 ""
   "/usr/share/texlive/texmf-dist/tex/generic/babel-german/ngermanb.ldf" 1614462139 7752 76871ff65dd4689e1a548995ac96d8c3 ""
@@ -88,9 +93,12 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1644012257 39432 7155514e09a3d69036fac785183a21c2 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1702839840 4379155 98693266ff65f58d9f98aff394de12d2 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1702839957 2799239 a7c58ddd8f8ea76eeac8574e7f125ac9 ""
-  "1. Laboruebung - Protokoll DINC Atilla.aux" 1702895842 1366 0caa775952ea766d9a4d9bf14e28e2f5 "pdflatex"
-  "1. Laboruebung - Protokoll DINC Atilla.tex" 1702895858 2509 ad84981f53183565fb06e0298fb00b18 ""
-  "1. Laboruebung - Protokoll DINC Atilla.toc" 1702895842 774 a3549e5b1b424aeae162328f25fa86d5 "pdflatex"
+  "1. Laboruebung - Protokoll DINC Atilla.aux" 1702913061 2293 0c03fc87f61fb14cc18c7652cb89c891 "pdflatex"
+  "1. Laboruebung - Protokoll DINC Atilla.tex" 1702913063 5564 9d283e9e812df6c648e20bd49386e906 ""
+  "1. Laboruebung - Protokoll DINC Atilla.toc" 1702913061 1015 83c89ae9b9a44a802a1cfd0e9582635b "pdflatex"
+  "schematics/1a_RiVM.png" 1702854637 3933 aa3d2aa559636ad648913d1ac26b4c9e ""
+  "schematics/1b_EinflussVM.png" 1702854637 5372 4a4ca36b3795de3244c999d4a1df1aa5 ""
+  "schematics/1c_MessbereichserweiterungVM.png" 1702854637 4973 a9d5e6051bf79b17456dd89f2b24c7ef ""
   (generated)
   "1. Laboruebung - Protokoll DINC Atilla.aux"
   "1. Laboruebung - Protokoll DINC Atilla.log"
