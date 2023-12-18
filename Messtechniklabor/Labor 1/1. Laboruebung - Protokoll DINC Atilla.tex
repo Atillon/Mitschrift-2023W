@@ -8,6 +8,8 @@
 \usepackage{amsmath, amssymb, nccmath}
 \usepackage{accents}
 
+\usepackage{multirow}
+
 % figure support
 \usepackage{import}
 \usepackage{xifthen}
@@ -25,28 +27,62 @@
 \author{DINC Atilla (11917652)}
 
 \begin{document}
+\newcommand{\unit}[1]{\ensuremath{\, \mathrm{#1}}} % Einheiten in Math-Moder richtig formatieren
 \normalsize
 \maketitle
 \tableofcontents
+
 \begin{center}
-\begin{tabular}{|c| c| c| c|}
-    Nummer  & Bezeichnung  & Beschreibung                 & Grössen \\ 
+\begin{tabular}{|c| c| c| c| c|}
     \hline
-    -       & MM1          & Digitalmultimeter            & $R$, $U$, $I$ \\
-    -       & MM2          & Digitalmultimeter            &  $R$, $U$, $I$ \\
-    -       & OZ1          & Digitalspeicheroszilloskop   & $U(t)$ \\
-    -       & FG1          & Funktionsgenerator           & $u(t)$
+    \multicolumn{5}{|c|}{Geräteliste} \\
+    \hline
+
+    Bezeichnung & Gerätebeschreibung           & Messgrößen & Inventarnummer & Bemerkungen\\ 
+    \hline
+    MM0          & Agilent Digitalmultimeter    & - & U1232A & -\\
+    MM1          & Digitalmultimeter            & - & #11 & -\\
+    MM2          & Digitalmultimeter            & - & #7 & -\\
+   \multirow{2}{*}{OZ1}&
+   \multirow{2}{*}{
+       \begin{tabular}[c]
+           Digitalspeicheroszilloskop DSO-x2002A\\
+           MMSR
+       \end{tabular}
+}&
+   \multirow{2}{*}{Ch2}&
+   \multirow{2}{*}{C0404-5}&
+   \multirow{2}{*}{-}\\
+        &   &   &   &   \\
+    FG1          & Funktionsgenerator           & $u(t)$ & SDG1025 & -\\
+    \hline
+    \multicolumn{5}{|c|}{Zubehörliste} \\
+    \hline
+
+    Bezeichnung & Zubehörbeschreibung           & Messgrößen & Inventarnummer & Bemerkungen\\ 
+    \hline
+    K1          & Tastkopf (10:1) 100\unit{MHz} 10\unit{M\Omega} 15\unit{pf} & - & - & rot\\
+    K2          & Tastkopf (10:1) 150\unit{MHz} 10\unit{M\Omega} 15\unit{pf} & - & - & grau\\
+    K3          & Tastkopf (10:1) 150\unit{MHz} 10\unit{M\Omega} 15\unit{pf} & - & - & rosa\\
+\hline
+
 \end{tabular}
 \end{center}
 \newpage
-
 % ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Start of the document ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-\section{Vorbereitung}
+\section{Einleitung}
 
-\section{1. Versuch}
-\section{2. Versuch}
-\section{3. Versuch}
-\section{4. Versuch}
+\section{Messungen mit dem Digitalmultimeter}
+\subsection{Spannungsmessung}
+\subsection{Strommessung}
+\subsection{Widerstandsmessung}
+\section{Messungen mit dem Oszilloskop}
+\subsection{Tastkopf}
+\subsection{AC-Spannungsmessung}
+\subsection{RMS im Detail}
+\subsection{Amplitudenauflösung}
+\subsection{Dynamik}
+
 
 \end{document}
