@@ -1,0 +1,8 @@
+\babel@toc {ngerman}{}\relax 
+\contentsline {section}{\numberline {1}Erklärung, Unterschrift, Allgemeines}{2}{}%
+\contentsline {subsection}{\numberline {1.1}Teilnehmerinformationen}{2}{}%
+\contentsline {subsection}{\numberline {1.2}Laborausstattung}{2}{}%
+\contentsline {section}{\numberline {2}Einleitung}{3}{}%
+\contentsline {section}{\numberline {3}Aufbau zur Charakterisierung}{3}{}%
+\contentsline {section}{\numberline {4}Aufnahme der Kennlinie}{3}{}%
+\contentsline {subsection}{\numberline {4.1}Messergebnisse}{3}{}%
