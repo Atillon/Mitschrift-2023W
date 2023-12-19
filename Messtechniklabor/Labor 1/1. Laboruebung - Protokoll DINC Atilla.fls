@@ -522,7 +522,12 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
 OUTPUT 1. Laboruebung - Protokoll DINC Atilla.toc
 OUTPUT 1. Laboruebung - Protokoll DINC Atilla.pdf
 INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
+INPUT ./images/Unterschrift.png
+INPUT images/Unterschrift.png
+INPUT ./images/Unterschrift.png
+INPUT ./images/Unterschrift.png
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbx1200.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecsl1000.tfm
 INPUT ./schematics/1a_RiVM.png
 INPUT ./schematics/1a_RiVM.png
 INPUT schematics/1a_RiVM.png
@@ -538,7 +543,6 @@ INPUT ./schematics/1c_MessbereichserweiterungVM.png
 INPUT schematics/1c_MessbereichserweiterungVM.png
 INPUT ./schematics/1c_MessbereichserweiterungVM.png
 INPUT ./schematics/1c_MessbereichserweiterungVM.png
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecsl1000.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecrm0700.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecrm0500.tfm
 INPUT ./schematics/2a_RiAM.png
@@ -576,6 +580,16 @@ INPUT ./schematics/5a_ACMessung.png
 INPUT schematics/5a_ACMessung.png
 INPUT ./schematics/5a_ACMessung.png
 INPUT ./schematics/5a_ACMessung.png
+INPUT ./images/Oszi - Dynamik.jpg
+INPUT ./images/Oszi - Dynamik.jpg
+INPUT images/Oszi - Dynamik.jpg
+INPUT ./images/Oszi - Dynamik.jpg
+INPUT ./images/Oszi - Dynamik.jpg
+INPUT ./images/Oszi - Einschaltvorgang.jpg
+INPUT ./images/Oszi - Einschaltvorgang.jpg
+INPUT images/Oszi - Einschaltvorgang.jpg
+INPUT ./images/Oszi - Einschaltvorgang.jpg
+INPUT ./images/Oszi - Einschaltvorgang.jpg
 INPUT 1. Laboruebung - Protokoll DINC Atilla.aux
 INPUT /usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc
 INPUT /usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc

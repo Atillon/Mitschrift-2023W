@@ -41,7 +41,33 @@
 \normalsize
 \maketitle
 \tableofcontents
+\pagebreak
+\section{Erklärung, Unterschrift, Allgemeines}
+Alle Messungen und Ergebnisse die diesem Protokoll entstammen wurden von Atilla Dinc,
+Muhammend Tesgin und Victoria Wolfgruber durchgeführt und dokumentiert.
 
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.3\textwidth]{images/Unterschrift}
+    \caption{Unterschrift des Protokollführers DINC Atilla}
+\end{figure}
+
+\subsection{Teilnehmerinformationen}
+	\begin{tabular}{|c| c|}
+		\hline
+        \textbf{Gruppennummer:} & 5                                                                                        \\
+        \hline
+		\multicolumn{2}{|c|}{\textbf{Gruppenmitglider}}                                                                                        \\
+		\hline
+        Name & Matrikelnummer\\
+        \hline
+        Atilla Dinc & 11917652\\
+        Muhammed Tesgin & 12004145\\
+        Victoria Wolfgruber & 11933423\\
+        \hline
+	\end{tabular}
+
+\subsection{Laborausstattung}
 \begin{center}
 	\begin{tabular}{|c| c| c| c| c|}
 		\hline
@@ -53,14 +79,7 @@
 		MM0                      & Agilent Digitalmultimeter True RMS                                  & -          & U1232A         & -           \\
 		MM1                      & Digitalmultimeter                                          & -          & \#11            & -           \\
 		MM2                      & Digitalmultimeter                                          & -          & \#7             & -           \\
-		%\multirow{2}{*}{OZ1}     &
-		%\multirow{2}{*}{
-		%\begin{tabular}[c]
-		%		Digitalspeicheroszilloskop DSO-x2002A \\
-		%		MMSR
-		%	\end{tabular}
-		%}& \multirow{2}{*}{-} & \multirow{2}{*}{C0404-5} & \multirow{2}{*}{-}  \\
-		                         &                                                            &            &                &             \\
+        OZ1 & Digitalspeicheroszilloskop DSO-x2002A & - & C0404-5 & -\\
 		NG1                      & Netzgerät 2-Channel $\pm10\unit{mV}$                       & -   & CD0404-6       & -           \\
 		FG1                      & Funktionsgenerator                                         & -    & SDG1025        & -           \\
 		\hline
@@ -76,10 +95,14 @@
 		\hline
 	\end{tabular}
 \end{center}
-\newpage
+
 % ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Start of the document ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+\newpage
 \section{Einleitung}
+In dieser Laborübung soll der Umgang mit den gängigen Messgeräten geübt werden.
+Weiters soll ein intuitives Verständnis für die grundlegenden Funktionen,
+Einschränkungen und Fehlerquellen geschult werden.\newline 
 
 \section{Messungen mit dem Digitalmultimeter}
 \subsection{Spannungsmessung}
@@ -202,6 +225,10 @@ und eine Messbereichserweiterung sollte durchgeführt werden.
 
 \subsubsection{Messaufbau und Messdurchführung}
 \subsubsection*{Bestimmung des Innenwiderstands}
+Die Schaltung wurde wie im Skriptum vorgegeben nach Abb. \ref{fig:2a_RiAM} aufgebaut.
+Dabei wurde $R_{1}$ mit dem Multimeter kontrolliert. Die Spannung am Voltmeter MM2
+und der Strom durch das Amperemeter MM1 wurden zur Berechnung des Innenwiderstands
+$R_{i}$ verwendet.
 
 \begin{figure}[h]
     \centering
@@ -211,6 +238,11 @@ und eine Messbereichserweiterung sollte durchgeführt werden.
 \end{figure}
 
 \subsubsection*{Bestimmung des Einflusses}
+Zur Bestimmung des Einflusses wurde das Amperemeter MM2 dessen Einfluss zu bestimmen war,
+bereits vor dem Betrieb in die Schaltung verbaut, da der Strompfad während der 
+Messung bereit sein sollte. Es wurde lediglich mit einer Messtrippe kurzgeschlossen
+und trug somit bis zur Entfernung der Messstrippe nicht zur Schaltung bei.
+Weiters wurden zwei Multimeter des gleichen Models verwendet.
 
 \begin{figure}[h]
     \centering
@@ -220,6 +252,9 @@ und eine Messbereichserweiterung sollte durchgeführt werden.
 \end{figure}
 
 \subsubsection*{Messbereichserweiterung}
+Zur Messbereichserweiterung wurde ein paralleler Widerstand $R_{p}$ gewählt,
+welcher den überschüssigen Strom um das Amperemeter herumleitet. Der Schaltplan
+für diese Messung ist in Abb. \ref{fig:2c_MB-ErweiterungAM} dargestellt.
 
 \begin{figure}[h]
     \centering
@@ -524,9 +559,55 @@ Spitze-Spitze-Spannung $U_{pp}=6,29\unit{V_{pp}}$ vermessen werden.
 
 \subsection{Dynamik}
 Das Eingangssignal kann über unterschiedliche Kopplungen eingespeist werden.
-Dabei dient die DC-Kopplung 
+Dabei dient die DC-Kopplung der Erhaltung des originalen Signals und die AC-Kopplung
+der Filterung der Gleichanteils. Dies wird durch einen komplexwertigen Filter
+realisiert und verändert somit auch die Dynamik des Eingangs.
+
+\subsubsection{Messaufbau und Messdurchführung}
+Zur Durchführung wurde lediglich der HIGH-Z Ausgang des Funktionsgenerators über
+ein T-Stück und zwei Koaxial-Kabel mit BNC-Steckern an die beiden Eingänge des
+Oszilloskops angeschlossen. Das Signal wurde einmal DC-gekoppelt dargestellt und
+einmal AC-gekoppelt. Beim Signal handelt es sich um einen reinen
+Sinus ($f=5\unit{Hz}$,  $U_{pp}=10\unit{V_{pp}}$).
+
+\subsubsection{Messergebnisse}
+Wie in an der Abb. \ref{fig:images-Oszi-Dynamik-jpg} erkenntlich ist, tritt eine
+große Phasenverschiebung zwischen den Signalen auf. Weiters ist deine große
+Spannungsminderung am AC-gekoppeltem Channel zu sehen. Das Ergebnis könnte sich
+erklären lassen, wenn intern ein RC-Filter verbaut ist, der bei niedrigen
+Frequenzen eine hohe Reaktanz und somit einen hohen Spannungsabfall aufweist.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/Oszi - Dynamik.jpg}
+    \caption{Vergleich zwischen DC-gekoppeltem (größere Amplitude) und 
+    AC-gekoppeltem (kleinere Amplitude) Eingang}
+    \label{fig:images-Oszi-Dynamik-jpg}
+\end{figure}
 
 \subsection{Einschaltvorgang der Spannungsversorgung}
+Zuletzt sollte der Einschaltvorgang der Spannungsversorgung aufgenommen werden.
 
+\subsubsection{Messaufbau und Messdurchführung}
+Hierzu wurde der Aufbau aus der Dynamik-Messung beibehalten und lediglich die
+Ausgangsspannung auf $U_{pp}=2\unit{V_{pp}}$ gestellt. Zur Messung wurde der
+Ausgang des Funktionsgenerators ausgeschaltet, das Oszilloskop auf Single-Shot
+gewechselt und der Ausgang wieder eingeschaltet. Dadurch wurde ein Standbild des
+Einschaltvorgangs aufgenommen.
+
+\subsubsection{Messergebnisse}
+Wie in Abb. \ref{fig:images-Oszi-Einschaltvorgang-jpg} zu sehen ist, schaltet der
+Funktionsgenerator in mehreren Stufen, bis die gewünschte Ausgangsspannung erreicht wurde.
+Bei den Sprüngen könnte es sich um einen rasanten Ladevorgang der Ausgangskapazitäten
+handeln. Die fallenden Rampen wiederum, könnten den Zeitraum darstellen, in dem
+der Funktionsgenerator die Ausgangspannung kontrolliert und eventuell Berechnungen
+vornimmt.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/Oszi - Einschaltvorgang.jpg}
+    \caption{Einschaltvorgang des Funktionsgenerators FG1 bei einem eingestellten Sinussignal}
+    \label{fig:images-Oszi-Einschaltvorgang-jpg}
+\end{figure}
 
 \end{document}
