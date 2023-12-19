@@ -5,4 +5,12 @@
 \contentsline {section}{\numberline {2}Einleitung}{3}{}%
 \contentsline {section}{\numberline {3}Aufbau zur Charakterisierung}{3}{}%
 \contentsline {section}{\numberline {4}Aufnahme der Kennlinie}{3}{}%
-\contentsline {subsection}{\numberline {4.1}Messergebnisse}{3}{}%
+\contentsline {subsection}{\numberline {4.1}Messergebnisse}{4}{}%
+\contentsline {section}{\numberline {5}Rauschen und Auflösung}{4}{}%
+\contentsline {subsection}{\numberline {5.1}Messergebnisse}{5}{}%
+\contentsline {section}{\numberline {6}Sepktrum der Fremdlichtintensität}{5}{}%
+\contentsline {subsection}{\numberline {6.1}Messergebnisse}{5}{}%
+\contentsline {section}{\numberline {7}Phasenselektiver Synchrongleichrichter}{6}{}%
+\contentsline {subsection}{\numberline {7.1}Messergebnisse}{7}{}%
+\contentsline {section}{\numberline {8}Phasenunabhängiger Synchrondemodulator}{7}{}%
+\contentsline {subsection}{\numberline {8.1}Messergebnisse}{7}{}%
