@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.12.17)  19 DEC 2023 21:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.12.17)  19 DEC 2023 21:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -374,22 +374,22 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.51453pt}.
 
 [2 <./images/Unterschrift.png>]
-<schematics/schaltung_nur_mean.jpg, id=19, 1445.4pt x 813.0375pt>
+<schematics/schaltung_nur_mean.jpg, id=19, 566.115pt x 152.82094pt>
 File: schematics/schaltung_nur_mean.jpg Graphic file (type jpg)
 <use schematics/schaltung_nur_mean.jpg>
 Package pdftex.def Info: schematics/schaltung_nur_mean.jpg  used on input line 146.
-(pdftex.def)             Requested size: 341.43437pt x 192.0563pt.
+(pdftex.def)             Requested size: 341.43437pt x 92.17128pt.
  [3 <./schematics/schaltung_nur_mean.jpg>]
 Overfull \hbox (17.22168pt too wide) in paragraph at lines 170--221
 [][] [] 
  []
 
-<images/6-3-2-Reflektor1.png, id=27, 361.788pt x 217.248pt>
+<images/6-3-2-Reflektor1.png, id=29, 361.788pt x 217.248pt>
 File: images/6-3-2-Reflektor1.png Graphic file (type png)
 <use images/6-3-2-Reflektor1.png>
 Package pdftex.def Info: images/6-3-2-Reflektor1.png  used on input line 226.
 (pdftex.def)             Requested size: 192.0548pt x 115.32652pt.
-<images/6-3-2-Reflektor2.png, id=28, 362.007pt x 217.467pt>
+<images/6-3-2-Reflektor2.png, id=30, 362.007pt x 217.467pt>
 File: images/6-3-2-Reflektor2.png Graphic file (type png)
 <use images/6-3-2-Reflektor2.png>
 Package pdftex.def Info: images/6-3-2-Reflektor2.png  used on input line 233.
@@ -480,11 +480,14 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<schematics/6.3.3).jpg, id=29, 1445.4pt x 813.0375pt>
+<schematics/6.3.3).jpg, id=31, 676.77844pt x 444.91219pt>
 File: schematics/6.3.3).jpg Graphic file (type jpg)
 <use schematics/6.3.3).jpg>
 Package pdftex.def Info: schematics/6.3.3).jpg  used on input line 254.
-(pdftex.def)             Requested size: 341.43437pt x 192.0563pt.
+(pdftex.def)             Requested size: 341.43437pt x 224.46503pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 12.51453pt, for example:
@@ -493,33 +496,27 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.51453pt}.
 
 [4 <./images/6-3-2-Reflektor1.png> <./images/6-3-2-Reflektor2.png>]
-<schematics/6.3.4)spektrum_schaltung.jpg, id=37, 1445.4pt x 813.0375pt>
+<schematics/6.3.4)spektrum_schaltung.jpg, id=37, 563.10374pt x 495.35063pt>
 File: schematics/6.3.4)spektrum_schaltung.jpg Graphic file (type jpg)
 <use schematics/6.3.4)spektrum_schaltung.jpg>
 Package pdftex.def Info: schematics/6.3.4)spektrum_schaltung.jpg  used on input line 308.
-(pdftex.def)             Requested size: 341.43437pt x 192.0563pt.
+(pdftex.def)             Requested size: 341.43437pt x 300.35698pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 12.51453pt, for example:
-(fancyhdr)                \setlength{\headheight}{12.51453pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-0.51453pt}.
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-[5 <./schematics/6.3.3).jpg>]
-<images/6.3.4)mit_lampe.jpg, id=41, 1445.4pt x 813.0375pt>
+<images/6.3.4)mit_lampe.jpg, id=38, 1445.4pt x 813.0375pt>
 File: images/6.3.4)mit_lampe.jpg Graphic file (type jpg)
 <use images/6.3.4)mit_lampe.jpg>
 Package pdftex.def Info: images/6.3.4)mit_lampe.jpg  used on input line 362.
 (pdftex.def)             Requested size: 341.43437pt x 192.0563pt.
 
-
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/6.3.4)ohne_lampe.jpg, id=42, 1445.4pt x 813.0375pt>
+<images/6.3.4)ohne_lampe.jpg, id=39, 1445.4pt x 813.0375pt>
 File: images/6.3.4)ohne_lampe.jpg Graphic file (type jpg)
 <use images/6.3.4)ohne_lampe.jpg>
 Package pdftex.def Info: images/6.3.4)ohne_lampe.jpg  used on input line 368.
@@ -532,11 +529,20 @@ Overfull \hbox (19.71072pt too wide) in paragraph at lines 374--386
 \T1/cmr/m/n/10 Das Simulink-Blockschaltbild wur-de wie im Skrip-tum be-schrie-ben er-wei-tert und mit ei-nem Butterworth-
  []
 
-<schematics/6.3.5)schaltung.jpg, id=43, 1445.4pt x 813.0375pt>
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.51453pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.51453pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-0.51453pt}.
+
+[5 <./schematics/6.3.3).jpg>]
+<schematics/6.3.5)schaltung.jpg, id=43, 1037.37563pt x 304.88907pt>
 File: schematics/6.3.5)schaltung.jpg Graphic file (type jpg)
 <use schematics/6.3.5)schaltung.jpg>
 Package pdftex.def Info: schematics/6.3.5)schaltung.jpg  used on input line 389.
-(pdftex.def)             Requested size: 341.43437pt x 192.0563pt.
+(pdftex.def)             Requested size: 341.43437pt x 100.34853pt.
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -887,11 +893,10 @@ Overfull \hbox (40.17578pt too wide) in paragraph at lines 402--417
  [][] 
  []
 
-[6 <./schematics/6.3.4)spektrum_schaltung.jpg>]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/6.3.5)gleichrichter_0grad+lampe_ausgang100,1hz.jpg, id=47, 1445.4pt x 813.0375pt>
+<images/6.3.5)gleichrichter_0grad+lampe_ausgang100,1hz.jpg, id=44, 1445.4pt x 813.0375pt>
 File: images/6.3.5)gleichrichter_0grad+lampe_ausgang100,1hz.jpg Graphic file (type jpg)
 <use images/6.3.5)gleichrichter_0grad+lampe_ausgang100,1hz.jpg>
 Package pdftex.def Info: images/6.3.5)gleichrichter_0grad+lampe_ausgang100,1hz.jpg  used on input line 421.
@@ -899,7 +904,7 @@ Package pdftex.def Info: images/6.3.5)gleichrichter_0grad+lampe_ausgang100,1hz.j
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/6.3.5)gleichrichter_45gradv2.jpg, id=48, 1445.4pt x 813.0375pt>
+<images/6.3.5)gleichrichter_45gradv2.jpg, id=45, 1445.4pt x 813.0375pt>
 File: images/6.3.5)gleichrichter_45gradv2.jpg Graphic file (type jpg)
 <use images/6.3.5)gleichrichter_45gradv2.jpg>
 Package pdftex.def Info: images/6.3.5)gleichrichter_45gradv2.jpg  used on input line 428.
@@ -907,111 +912,35 @@ Package pdftex.def Info: images/6.3.5)gleichrichter_45gradv2.jpg  used on input 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/6.3.5)gleichrichter_90gradv2.jpg, id=49, 1445.4pt x 813.0375pt>
+<images/6.3.5)gleichrichter_90gradv2.jpg, id=46, 1445.4pt x 813.0375pt>
 File: images/6.3.5)gleichrichter_90gradv2.jpg Graphic file (type jpg)
 <use images/6.3.5)gleichrichter_90gradv2.jpg>
-Package pdftex.def Info: images/6.3.5)gleichrichter_90gradv2.jpg  used on input line 435.
+Package pdftex.def Info: images/6.3.5)gleichrichter_90gradv2.jpg  used on input line 436.
 (pdftex.def)             Requested size: 341.43437pt x 192.0563pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<schematics/6.3.6)schaltung.jpg, id=50, 1445.4pt x 813.0375pt>
+<schematics/6.3.6)schaltung.jpg, id=47, 1028.34187pt x 262.73157pt>
 File: schematics/6.3.6)schaltung.jpg Graphic file (type jpg)
 <use schematics/6.3.6)schaltung.jpg>
-Package pdftex.def Info: schematics/6.3.6)schaltung.jpg  used on input line 448.
-(pdftex.def)             Requested size: 341.43437pt x 192.0563pt.
+Package pdftex.def Info: schematics/6.3.6)schaltung.jpg  used on input line 450.
+(pdftex.def)             Requested size: 341.43437pt x 87.23486pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
-
-./6. Laboruebung - Protokoll DINC Atilla.tex:467: Missing $ inserted.
-<inserted text> 
-                $
-l.467         20\pm
-                    1 & Nein & Ja & siehe Abb. \ref{fig:images-6-3-6-22hz-jp...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-./6. Laboruebung - Protokoll DINC Atilla.tex:467: Extra }, or forgotten $.
-<template> \unskip \hfil }
-                          \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
-l.467         20\pm 1 &
-                        Nein & Ja & siehe Abb. \ref{fig:images-6-3-6-22hz-jp...
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-./6. Laboruebung - Protokoll DINC Atilla.tex:467: Missing $ inserted.
-<inserted text> 
-                $
-l.467         20\pm 1 &
-                        Nein & Ja & siehe Abb. \ref{fig:images-6-3-6-22hz-jp...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-./6. Laboruebung - Protokoll DINC Atilla.tex:467: Missing } inserted.
-<inserted text> 
-                }
-l.467         20\pm 1 &
-                        Nein & Ja & siehe Abb. \ref{fig:images-6-3-6-22hz-jp...
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-./6. Laboruebung - Protokoll DINC Atilla.tex:468: Missing $ inserted.
-<inserted text> 
-                $
-l.468         33,33 \pm
-                        1 & Nein & Nein & Frequenzdifferenz zu hoch\\
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-./6. Laboruebung - Protokoll DINC Atilla.tex:468: Extra }, or forgotten $.
-<template> \unskip \hfil }
-                          \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
-l.468         33,33 \pm 1 &
-                            Nein & Nein & Frequenzdifferenz zu hoch\\
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-./6. Laboruebung - Protokoll DINC Atilla.tex:468: Missing $ inserted.
-<inserted text> 
-                $
-l.468         33,33 \pm 1 &
-                            Nein & Nein & Frequenzdifferenz zu hoch\\
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-./6. Laboruebung - Protokoll DINC Atilla.tex:468: Missing } inserted.
-<inserted text> 
-                }
-l.468         33,33 \pm 1 &
-                            Nein & Nein & Frequenzdifferenz zu hoch\\
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
 
 ./6. Laboruebung - Protokoll DINC Atilla.tex:469: Missing $ inserted.
 <inserted text> 
                 $
-l.469         50 \pm
-                     1 & Nein & Nein & Frequenzdiffernz zu hoch\\
+l.469         20\pm
+                    1 & Nein & Ja & siehe Abb. \ref{fig:images-6-3-6-22hz-jp...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ./6. Laboruebung - Protokoll DINC Atilla.tex:469: Extra }, or forgotten $.
 <template> \unskip \hfil }
                           \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
-l.469         50 \pm 1 &
-                         Nein & Nein & Frequenzdiffernz zu hoch\\
+l.469         20\pm 1 &
+                        Nein & Ja & siehe Abb. \ref{fig:images-6-3-6-22hz-jp...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
 you forgot something else, as in `\hbox{$x}'. In such cases
@@ -1021,15 +950,91 @@ deleted material, e.g., by typing `I$}'.
 ./6. Laboruebung - Protokoll DINC Atilla.tex:469: Missing $ inserted.
 <inserted text> 
                 $
-l.469         50 \pm 1 &
-                         Nein & Nein & Frequenzdiffernz zu hoch\\
+l.469         20\pm 1 &
+                        Nein & Ja & siehe Abb. \ref{fig:images-6-3-6-22hz-jp...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ./6. Laboruebung - Protokoll DINC Atilla.tex:469: Missing } inserted.
 <inserted text> 
                 }
-l.469         50 \pm 1 &
+l.469         20\pm 1 &
+                        Nein & Ja & siehe Abb. \ref{fig:images-6-3-6-22hz-jp...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./6. Laboruebung - Protokoll DINC Atilla.tex:470: Missing $ inserted.
+<inserted text> 
+                $
+l.470         33,33 \pm
+                        1 & Nein & Nein & Frequenzdifferenz zu hoch\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./6. Laboruebung - Protokoll DINC Atilla.tex:470: Extra }, or forgotten $.
+<template> \unskip \hfil }
+                          \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
+l.470         33,33 \pm 1 &
+                            Nein & Nein & Frequenzdifferenz zu hoch\\
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./6. Laboruebung - Protokoll DINC Atilla.tex:470: Missing $ inserted.
+<inserted text> 
+                $
+l.470         33,33 \pm 1 &
+                            Nein & Nein & Frequenzdifferenz zu hoch\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./6. Laboruebung - Protokoll DINC Atilla.tex:470: Missing } inserted.
+<inserted text> 
+                }
+l.470         33,33 \pm 1 &
+                            Nein & Nein & Frequenzdifferenz zu hoch\\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./6. Laboruebung - Protokoll DINC Atilla.tex:471: Missing $ inserted.
+<inserted text> 
+                $
+l.471         50 \pm
+                     1 & Nein & Nein & Frequenzdiffernz zu hoch\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./6. Laboruebung - Protokoll DINC Atilla.tex:471: Extra }, or forgotten $.
+<template> \unskip \hfil }
+                          \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
+l.471         50 \pm 1 &
+                         Nein & Nein & Frequenzdiffernz zu hoch\\
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./6. Laboruebung - Protokoll DINC Atilla.tex:471: Missing $ inserted.
+<inserted text> 
+                $
+l.471         50 \pm 1 &
+                         Nein & Nein & Frequenzdiffernz zu hoch\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./6. Laboruebung - Protokoll DINC Atilla.tex:471: Missing } inserted.
+<inserted text> 
+                }
+l.471         50 \pm 1 &
                          Nein & Nein & Frequenzdiffernz zu hoch\\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1037,95 +1042,19 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./6. Laboruebung - Protokoll DINC Atilla.tex:470: Missing $ inserted.
-<inserted text> 
-                $
-l.470         75 \pm
-                     1 & Nein & Nein & Frequenzdifferenz zu hoch\\
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-./6. Laboruebung - Protokoll DINC Atilla.tex:470: Extra }, or forgotten $.
-<template> \unskip \hfil }
-                          \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
-l.470         75 \pm 1 &
-                         Nein & Nein & Frequenzdifferenz zu hoch\\
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-./6. Laboruebung - Protokoll DINC Atilla.tex:470: Missing $ inserted.
-<inserted text> 
-                $
-l.470         75 \pm 1 &
-                         Nein & Nein & Frequenzdifferenz zu hoch\\
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-./6. Laboruebung - Protokoll DINC Atilla.tex:470: Missing } inserted.
-<inserted text> 
-                }
-l.470         75 \pm 1 &
-                         Nein & Nein & Frequenzdifferenz zu hoch\\
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-./6. Laboruebung - Protokoll DINC Atilla.tex:471: Missing $ inserted.
-<inserted text> 
-                $
-l.471         100 \pm
-                      2 & Ja & Ja & $\Delta f=f - f_{Netz} = 2\unit{Hz}$; si...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-./6. Laboruebung - Protokoll DINC Atilla.tex:471: Extra }, or forgotten $.
-<template> \unskip \hfil }
-                          \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
-l.471         100 \pm 2 &
-                          Ja & Ja & $\Delta f=f - f_{Netz} = 2\unit{Hz}$; si...
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-./6. Laboruebung - Protokoll DINC Atilla.tex:471: Missing $ inserted.
-<inserted text> 
-                $
-l.471         100 \pm 2 &
-                          Ja & Ja & $\Delta f=f - f_{Netz} = 2\unit{Hz}$; si...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-./6. Laboruebung - Protokoll DINC Atilla.tex:471: Missing } inserted.
-<inserted text> 
-                }
-l.471         100 \pm 2 &
-                          Ja & Ja & $\Delta f=f - f_{Netz} = 2\unit{Hz}$; si...
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
 ./6. Laboruebung - Protokoll DINC Atilla.tex:472: Missing $ inserted.
 <inserted text> 
                 $
-l.472         125 \pm
-                      1 & Nein & Nein & Frequenzdifferenz zu hoch\\
+l.472         75 \pm
+                     1 & Nein & Nein & Frequenzdifferenz zu hoch\\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ./6. Laboruebung - Protokoll DINC Atilla.tex:472: Extra }, or forgotten $.
 <template> \unskip \hfil }
                           \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
-l.472         125 \pm 1 &
-                          Nein & Nein & Frequenzdifferenz zu hoch\\
+l.472         75 \pm 1 &
+                         Nein & Nein & Frequenzdifferenz zu hoch\\
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
 you forgot something else, as in `\hbox{$x}'. In such cases
@@ -1135,16 +1064,16 @@ deleted material, e.g., by typing `I$}'.
 ./6. Laboruebung - Protokoll DINC Atilla.tex:472: Missing $ inserted.
 <inserted text> 
                 $
-l.472         125 \pm 1 &
-                          Nein & Nein & Frequenzdifferenz zu hoch\\
+l.472         75 \pm 1 &
+                         Nein & Nein & Frequenzdifferenz zu hoch\\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ./6. Laboruebung - Protokoll DINC Atilla.tex:472: Missing } inserted.
 <inserted text> 
                 }
-l.472         125 \pm 1 &
-                          Nein & Nein & Frequenzdifferenz zu hoch\\
+l.472         75 \pm 1 &
+                         Nein & Nein & Frequenzdifferenz zu hoch\\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
@@ -1154,16 +1083,16 @@ my insertion and my current dilemma will both disappear.
 ./6. Laboruebung - Protokoll DINC Atilla.tex:473: Missing $ inserted.
 <inserted text> 
                 $
-l.473         150 \pm
-                      1 & Nein & Nein & Frequenzdifferenz zu hoch\\
+l.473         100 \pm
+                      2 & Ja & Ja & $\Delta f=f - f_{Netz} = 2\unit{Hz}$; si...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ./6. Laboruebung - Protokoll DINC Atilla.tex:473: Extra }, or forgotten $.
 <template> \unskip \hfil }
                           \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
-l.473         150 \pm 1 &
-                          Nein & Nein & Frequenzdifferenz zu hoch\\
+l.473         100 \pm 2 &
+                          Ja & Ja & $\Delta f=f - f_{Netz} = 2\unit{Hz}$; si...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
 you forgot something else, as in `\hbox{$x}'. In such cases
@@ -1173,16 +1102,16 @@ deleted material, e.g., by typing `I$}'.
 ./6. Laboruebung - Protokoll DINC Atilla.tex:473: Missing $ inserted.
 <inserted text> 
                 $
-l.473         150 \pm 1 &
-                          Nein & Nein & Frequenzdifferenz zu hoch\\
+l.473         100 \pm 2 &
+                          Ja & Ja & $\Delta f=f - f_{Netz} = 2\unit{Hz}$; si...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ./6. Laboruebung - Protokoll DINC Atilla.tex:473: Missing } inserted.
 <inserted text> 
                 }
-l.473         150 \pm 1 &
-                          Nein & Nein & Frequenzdifferenz zu hoch\\
+l.473         100 \pm 2 &
+                          Ja & Ja & $\Delta f=f - f_{Netz} = 2\unit{Hz}$; si...
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
@@ -1192,7 +1121,7 @@ my insertion and my current dilemma will both disappear.
 ./6. Laboruebung - Protokoll DINC Atilla.tex:474: Missing $ inserted.
 <inserted text> 
                 $
-l.474         175 \pm
+l.474         125 \pm
                       1 & Nein & Nein & Frequenzdifferenz zu hoch\\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1200,7 +1129,7 @@ you left one out. Proceed, with fingers crossed.
 ./6. Laboruebung - Protokoll DINC Atilla.tex:474: Extra }, or forgotten $.
 <template> \unskip \hfil }
                           \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
-l.474         175 \pm 1 &
+l.474         125 \pm 1 &
                           Nein & Nein & Frequenzdifferenz zu hoch\\
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1211,7 +1140,7 @@ deleted material, e.g., by typing `I$}'.
 ./6. Laboruebung - Protokoll DINC Atilla.tex:474: Missing $ inserted.
 <inserted text> 
                 $
-l.474         175 \pm 1 &
+l.474         125 \pm 1 &
                           Nein & Nein & Frequenzdifferenz zu hoch\\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1219,7 +1148,7 @@ you left one out. Proceed, with fingers crossed.
 ./6. Laboruebung - Protokoll DINC Atilla.tex:474: Missing } inserted.
 <inserted text> 
                 }
-l.474         175 \pm 1 &
+l.474         125 \pm 1 &
                           Nein & Nein & Frequenzdifferenz zu hoch\\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1230,7 +1159,7 @@ my insertion and my current dilemma will both disappear.
 ./6. Laboruebung - Protokoll DINC Atilla.tex:475: Missing $ inserted.
 <inserted text> 
                 $
-l.475         200 \pm
+l.475         150 \pm
                       1 & Nein & Nein & Frequenzdifferenz zu hoch\\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1238,7 +1167,7 @@ you left one out. Proceed, with fingers crossed.
 ./6. Laboruebung - Protokoll DINC Atilla.tex:475: Extra }, or forgotten $.
 <template> \unskip \hfil }
                           \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
-l.475         200 \pm 1 &
+l.475         150 \pm 1 &
                           Nein & Nein & Frequenzdifferenz zu hoch\\
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1249,7 +1178,7 @@ deleted material, e.g., by typing `I$}'.
 ./6. Laboruebung - Protokoll DINC Atilla.tex:475: Missing $ inserted.
 <inserted text> 
                 $
-l.475         200 \pm 1 &
+l.475         150 \pm 1 &
                           Nein & Nein & Frequenzdifferenz zu hoch\\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1257,7 +1186,83 @@ you left one out. Proceed, with fingers crossed.
 ./6. Laboruebung - Protokoll DINC Atilla.tex:475: Missing } inserted.
 <inserted text> 
                 }
-l.475         200 \pm 1 &
+l.475         150 \pm 1 &
+                          Nein & Nein & Frequenzdifferenz zu hoch\\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./6. Laboruebung - Protokoll DINC Atilla.tex:476: Missing $ inserted.
+<inserted text> 
+                $
+l.476         175 \pm
+                      1 & Nein & Nein & Frequenzdifferenz zu hoch\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./6. Laboruebung - Protokoll DINC Atilla.tex:476: Extra }, or forgotten $.
+<template> \unskip \hfil }
+                          \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
+l.476         175 \pm 1 &
+                          Nein & Nein & Frequenzdifferenz zu hoch\\
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./6. Laboruebung - Protokoll DINC Atilla.tex:476: Missing $ inserted.
+<inserted text> 
+                $
+l.476         175 \pm 1 &
+                          Nein & Nein & Frequenzdifferenz zu hoch\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./6. Laboruebung - Protokoll DINC Atilla.tex:476: Missing } inserted.
+<inserted text> 
+                }
+l.476         175 \pm 1 &
+                          Nein & Nein & Frequenzdifferenz zu hoch\\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./6. Laboruebung - Protokoll DINC Atilla.tex:477: Missing $ inserted.
+<inserted text> 
+                $
+l.477         200 \pm
+                      1 & Nein & Nein & Frequenzdifferenz zu hoch\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./6. Laboruebung - Protokoll DINC Atilla.tex:477: Extra }, or forgotten $.
+<template> \unskip \hfil }
+                          \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
+l.477         200 \pm 1 &
+                          Nein & Nein & Frequenzdifferenz zu hoch\\
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./6. Laboruebung - Protokoll DINC Atilla.tex:477: Missing $ inserted.
+<inserted text> 
+                $
+l.477         200 \pm 1 &
+                          Nein & Nein & Frequenzdifferenz zu hoch\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./6. Laboruebung - Protokoll DINC Atilla.tex:477: Missing } inserted.
+<inserted text> 
+                }
+l.477         200 \pm 1 &
                           Nein & Nein & Frequenzdifferenz zu hoch\\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1266,31 +1271,39 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Overfull \hbox (29.90106pt too wide) in paragraph at lines 463--478
+Overfull \hbox (29.90106pt too wide) in paragraph at lines 465--480
  [][] 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/6.3.6)101hz.jpg, id=51, 1445.4pt x 813.0375pt>
+<images/6.3.6)101hz.jpg, id=48, 1445.4pt x 813.0375pt>
 File: images/6.3.6)101hz.jpg Graphic file (type jpg)
 <use images/6.3.6)101hz.jpg>
-Package pdftex.def Info: images/6.3.6)101hz.jpg  used on input line 482.
+Package pdftex.def Info: images/6.3.6)101hz.jpg  used on input line 484.
 (pdftex.def)             Requested size: 341.43437pt x 192.0563pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/6.3.6)22hz.jpg, id=52, 1445.4pt x 813.0375pt>
+<images/6.3.6)22hz.jpg, id=49, 1445.4pt x 813.0375pt>
 File: images/6.3.6)22hz.jpg Graphic file (type jpg)
 <use images/6.3.6)22hz.jpg>
-Package pdftex.def Info: images/6.3.6)22hz.jpg  used on input line 489.
+Package pdftex.def Info: images/6.3.6)22hz.jpg  used on input line 491.
 (pdftex.def)             Requested size: 341.43437pt x 192.0563pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 AED: lastpage setting LastPage
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.51453pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.51453pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-0.51453pt}.
+
+[6 <./schematics/6.3.4)spektrum_schaltung.jpg>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 12.51453pt, for example:
@@ -1306,7 +1319,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-0.51453pt}.
 
-[8 <./schematics/6.3.5)schaltung.jpg> <./images/6.3.5)gleichrichter_0grad+lampe_ausgang100,1hz.jpg>]
+[8 <./schematics/6.3.5)schaltung.jpg> <./images/6.3.5)gleichrichter_0grad+lampe_ausgang100,1hz.jpg> <./images/6.3.5)gleichrichter_45gradv2.jpg>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 12.51453pt, for example:
@@ -1314,7 +1327,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-0.51453pt}.
 
-[9 <./images/6.3.5)gleichrichter_45gradv2.jpg> <./images/6.3.5)gleichrichter_90gradv2.jpg> <./schematics/6.3.6)schaltung.jpg>]
+[9 <./images/6.3.5)gleichrichter_90gradv2.jpg> <./schematics/6.3.6)schaltung.jpg> <./images/6.3.6)101hz.jpg>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 12.51453pt, for example:
@@ -1322,17 +1335,21 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-0.51453pt}.
 
-[10 <./images/6.3.6)101hz.jpg> <./images/6.3.6)22hz.jpg>] (./6. Laboruebung - Protokoll DINC Atilla.aux) ) 
+[10 <./images/6.3.6)22hz.jpg>] (./6. Laboruebung - Protokoll DINC Atilla.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
  7827 strings out of 478287
  129361 string characters out of 5849288
- 448289 words of memory out of 5000000
+ 450289 words of memory out of 5000000
  25879 multiletter control sequences out of 15000+600000
  481812 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 70i,11n,76p,281b,382s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 70i,11n,76p,298b,382s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsl1000.pfb>
-Output written on "6. Laboruebung - Protokoll DINC Atilla.pdf" (10 pages, 2680432 bytes).
+Output written on "6. Laboruebung - Protokoll DINC Atilla.pdf" (10 pages, 1909592 bytes).
 PDF statistics:
  122 PDF objects out of 1000 (max. 8388607)
  65 compressed objects within 1 object stream
