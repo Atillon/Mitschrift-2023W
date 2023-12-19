@@ -557,7 +557,27 @@ INPUT schematics/2c_MessbereichserweiterungAM.png
 INPUT ./schematics/2c_MessbereichserweiterungAM.png
 INPUT ./schematics/2c_MessbereichserweiterungAM.png
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm
+INPUT ./schematics/3a_stromrichtigeWidMessung.png
+INPUT ./schematics/3a_stromrichtigeWidMessung.png
+INPUT schematics/3a_stromrichtigeWidMessung.png
+INPUT ./schematics/3a_stromrichtigeWidMessung.png
+INPUT ./schematics/3a_stromrichtigeWidMessung.png
+INPUT ./schematics/3b_spannungsrichtigeWidMessung.png
+INPUT ./schematics/3b_spannungsrichtigeWidMessung.png
+INPUT schematics/3b_spannungsrichtigeWidMessung.png
+INPUT ./schematics/3b_spannungsrichtigeWidMessung.png
+INPUT ./schematics/3b_spannungsrichtigeWidMessung.png
+INPUT ./images/Oszi - Sinus.jpg
+INPUT ./images/Oszi - Sinus.jpg
+INPUT images/Oszi - Sinus.jpg
+INPUT ./images/Oszi - Sinus.jpg
+INPUT ./images/Oszi - Sinus.jpg
+INPUT ./schematics/5a_ACMessung.png
+INPUT schematics/5a_ACMessung.png
+INPUT ./schematics/5a_ACMessung.png
+INPUT ./schematics/5a_ACMessung.png
 INPUT 1. Laboruebung - Protokoll DINC Atilla.aux
+INPUT /usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc
 INPUT /usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
